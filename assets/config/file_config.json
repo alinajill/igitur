@@ -1,0 +1,24 @@
+{
+	"editionUrls": [
+		"assets/data/text/igitur.xml"
+	],
+	"editionImagesSource": {
+		"manifest": {
+			"value": "https://bljd.sorbonne.fr/ark:/naan/a011429863484uCT5yl",
+			"enable": false
+		},
+		"graphics": {
+			"value": "url",
+			"enable": false
+		}
+	},
+	"imagesFolderUrls": {
+		"single": "assets/data/images/myedition/",
+		"double": "assets/data/images/double/"
+	},
+	"configurationUrls": {
+		"edition": "assets/config/edition_config_igitur.json",
+		"ui": "assets/config/ui_config_igitur.json",
+		"editorialConventions": "assets/config/editorial_conventions_config.json"
+	}
+}
