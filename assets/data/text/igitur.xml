@@ -12,7 +12,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <title type="sub">Digital Edition</title>
         <author xml:id="SM">Stéphane Mallarmé</author>
         <respStmt>
-          <resp>Critical edition by:</resp>
+          <resp>Crticial edition by:</resp>
           <name xml:id="BM">Bertrand Marchal</name>
         </respStmt>
         <respStmt>
@@ -41,112 +41,116 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </listWit>
       </sourceDesc>
     </fileDesc>
-    
+
     <encodingDesc>
       <variantEncoding location="internal" method="parallel-segmentation"/>      
     </encodingDesc>
   </teiHeader>
 
-  <text>
+  <text n="Igitur" xml:id="igitur">
 
     <front> <!--ho ripetuto la nel body perché altrimenti non viene visualizzato. togliere il front?-->      
       <titlePage>
-        <lb/>
-        <lb/>
-        <lb/>
-        <lb/>
-        <lb/>
-        <lb/>
+        <lb n="1"/>
+        <lb n="2"/>
+        <lb n="3"/>
+        <lb n="4"/>
+        <lb n="5"/>
+        <lb n="6"/>
         <docTitle>
           <titlePart rend="align-center" type="main"><lb/>Igitur. Déchet
-          <lb/> La Folie d'Elbehnon</titlePart></docTitle>  
-        <lb/>
-        <lb/>
-        <lb/>
+          <lb n="7"/> La Folie d'Elbehnon</titlePart></docTitle>  
+        <lb n="8"/>
+        <lb n="9"/>
+        <lb n="10"/>
       </titlePage>
     </front>
 
   <body>
-  <div n="0" type="titlePage">
+
+ <div n="0" type="titlePage" xml:id="titlePage">
     
-    <pb facs="01.jpg" n="01"/> 
-        <lb/>
-        <lb/>
-        <lb/>
-          <ab rend="align-center"><lb/>Igitur. Déchet
-          <lb/> _
-          <lb/> La Folie d'Elbehnon
-          <lb/> _
+    <pb facs="01.jpg" xml:id="el_01" n="01"/> 
+        <lb n="1"/>
+        <lb n="2"/>
+        <lb n="3"/>
+          <ab rend="align-center"><lb n="4"/>Igitur. Déchet
+          <lb n="5"/> _
+          <lb n="6"/> La Folie d'Elbehnon
+          <lb n="7"/> _
           </ab>
-        <lb/>
-        <lb/>
-        <lb/>
+        <lb n="8"/>
+        <lb n="9"/>
+        <lb n="10"/>
  </div>
 
-  <div n="1" type="notes" xml:id="notes_1"> 
-    <pb facs="02.jpg" n="02"/>
-      <ab rend="align-center" type="editorial" resp="BM">[Notes 1]</ab>
-      <fw place="top_right" type="pageNum"><del rend="strikethrough"><lb/>17 Août</del></fw>
-      <fw place="top_left">
-      <lb/>Ancienne étude
-      <lb/><metamark place="below" rend="line"/>
-      <lb/>Ig.
-      <lb/><metamark place="below" rend="line"/>
-      </fw>
-      <lb/>
-      <p>
-      <lb/>Quand les 
-        <mod>      <!--tolto seq e messo subst-->
+  <div n="1" type="notes" xml:id="notes_1">  
+
+  <pb facs="02.jpg" xml:id="el_02" n="02"/>
+    <ab rend="align-center" type="editorial" resp="BM">[Notes 1]</ab>
+    <fw place="top_right" type="pageNum"><del rend="strikethrough"><lb/>17 Août</del></fw>
+    <fw place="top_left">
+    <lb n="1"/>Ancienne étude
+    <lb n="2"/><metamark place="below" rend="line"/>
+    <lb n="3"/>Ig.
+    <lb n="4"/><metamark place="below" rend="line"/>
+    </fw>
+    <p xml:id="p_01" n="1">
+      <lb n="5"/>Quand les 
+        <mod instant="true">      
           <subst>
           <del rend="strikethrough">ombres</del>
           <add>souffles</add>
           </subst>
-        </mod>       
-      de ses ancêtres
-      <lb/>veulent souffler la bougie, (grâce à
-      <lb/>laquelle peut-être subsistent les Caractères
-      <lb/>du grimoire) - il dit «pas encore!»
-      <lb/>Lui-même, à la fin, quand les bruits
-      <lb/>auront disparu, tirera une preuve
-      <lb/>de quelque chose de grand (pas d'astres? le
-      <lb/>hazerd annulé?) de ce simple fait
-      <lb/>qu'il peut causer l'ombre en
-        <app>
-          <lem varSeq="2"><mod><add place="above">soufflant sur</add></mod></lem>
-          <rdg varSeq="1"><mod><del rend="strikethrough">éteignant</del></mod></rdg></app>
-      <lb/>la 
+        </mod>        
+      de ses ancêtres 
+      <lb n="6"/>veulent souffler la bougie, (grâce à
+      <lb n="7"/>laquelle peut-être subsistent les Caractères
+      <lb n="8"/>du grimoire) - il dit «pas encore!»
+      <lb n="9"/>Lui-même, à la fin, quand les bruits
+      <lb n="10"/>auront disparu, tirera une preuve
+      <lb n="11"/>de quelque chose de grand (pas d'astres? le
+      <lb n="12"/>hazerd annulé?) de ce simple fait
+      <lb n="13"/>qu'il peut causer l'ombre en
         <mod>
+          <subst>
+          <add place="above">soufflant sur</add>
+          <del rend="strikethrough">éteignant</del>
+          </subst>
+        </mod>
+      <lb n="14"/>la 
+       <mod instant="true">
           <subst>
           <del rend="strikethrough">bougie</del>
           <add>lumière</add>
           </subst>
         </mod>
         - <del rend="strikethrough">souffle et</del>  <!--rivedere-->
-      <lb/>Puis - comme il aura parlé selon
-      <lb/>l'absolu - 
-        <mod>
+      <lb n="15"/>Puis - comme il aura parlé selon
+      <lb n="16"/>l'absolu - 
+       <mod instant="true">
           <subst>
           <del rend="strikethrough">l'absolu existera hors</del>
-      <lb/><add>qui nie l'immortalité, l'absolu
-      <lb/>existera en dehors</add>
+      <lb n="17"/><add>qui nie l'immortalité, l'absolu
+      <lb n="18"/>existera en dehors</add>
       </subst>
-      </mod>    
+      </mod>     
       - lune, au dessus
-      <lb/>du temps: et il soulèvera les     
-      </p>
+      <lb n="20"/>du temps: et il soulèvera les     
+      
 
-    <pb facs="03.jpg" n="03"/>
-      <p>
-      <lb/> rideaux, en face.
-      <lb/>       _
-      <lb/>Ig. tour enfant, lit son devoir à ses
-      <lb/>ancêtres.</p>
+    <pb facs="03.jpg" xml:id="el_03" n="03"/>
+      <lb n="1"/> rideaux, en face.
+      <lb n="2"/>       _
+      <lb n="3"/>Ig. tour enfant, lit son devoir à ses
+      <lb n="4"/>ancêtres.
+    </p>
 
-    <pb facs="04.jpg" n="04"/>
+    <pb facs="04.jpg" xml:id="el_04" n="04"/>
       <fw place="top_right" type="pageNum">I-2</fw>
-      <p>
-      <lb/>
-      <mod>
+      <p xml:id="p_02" n="2">
+      <lb n="1"/>
+      <mod instant="true">        <!--cambiare con i due subst!!-->
         <subst>
         <del rend="overwritten">3</del>
         <del rend="overwritten">5</del>
@@ -154,1312 +158,1313 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </subst>   
       </mod>
       Morceaux
-      <lb/>
-      <lb/>1 - Le Minuit.
-      <lb/>2 - L'escalier
-      <lb/>3 - Le coup de dés. 
-      <lb/>4   Le sommeil sur les cendres, après la
-      <lb/>    bougie soufflée.
-      <lb/>  _
-      <lb/>
-        <app>
-          <lem varSeq="2"><mod><add place="below">À peu près ce qui suit:</add></mod></lem>  
-          <rdg varSeq="1"><mod><del rend="strikethrough">Peut-être morceau</del></mod></rdg>
-        </app>  
-      <lb/>Minuit sonne - le Minuit où
-      <lb/>doivent être jetés les dés. Ig. descend
-      <lb/>les escaliers, de l'esprit humain, va 
-      <lb/>au fond des choses: en «absolu»
-      <lb/>qu'il est. Tombeaux - cendres, 
-      <lb/>(pas sentiment, ni esprit)
-      <lb/>neutralité. 
+      <lb n="2"/>
+      <lb n="3"/>1 - Le Minuit.
+      <lb n="4"/>2 - L'escalier
+      <lb n="5"/>3 - Le coup de dés. 
+      <lb n="6"/>4   Le sommeil sur les cendres, après la
+      <lb n="7"/>    bougie soufflée.
+      <lb n="8"/>  _
+      <lb n="9"/>
+        <mod>
+        <subst>
+          <add place="below">À peu près ce qui suit:</add>
+         <del rend="strikethrough">Peut-être morceau</del>
+         </subst>
+        </mod>  
+      <lb n="10"/>Minuit sonne - le Minuit où
+      <lb n="11"/>doivent être jetés les dés. Ig. descend
+      <lb n="12"/>les escaliers, de l'esprit humain, va 
+      <lb n="13"/>au fond des choses: en «absolu»
+      <lb n="14"/>qu'il est. Tombeaux - cendres, 
+      <lb n="15"/>(pas sentiment, ni esprit)
+      <lb n="16"/>neutralité. 
       <mod>
         <del rend="strikethrough">Dès lors</del>
       </mod>
       Il 
       <mod>
-        <del seq="1" rend="strikethrough">lit</del>
-    
+        <subst>
+        <del rend="strikethrough">lit</del>
+      
+      
 
-    <pb facs="05.jpg" n="05"/>
-      <lb/>
-        <add seq="2">récite</add>  <!--come legarlo al del nella pagina precedente?-->
+    <pb facs="05.jpg" xml:id="el_05" n="05"/>
+
+      <lb n="1"/>
+        <add>récite</add>  <!--come legarlo al del nella pagina precedente?-->
+        </subst>
       </mod>
       la prédiction et fait
-      <lb/>le geste. 
-      <app>
-        <lem varSeq="2"><mod><add rend="above">Indifférence.</add></mod></lem> 
-        <rdg varSeq="3"><mod><del rend="strikethrough">Fol</del></mod></rdg>
-        <rdg varSeq="1"><mod><del rend="strikethrough">Expliqu</del></mod></rdg>
-      </app>
+      <lb n="2"/>le geste. 
+      <mod>  <!--è immediata? controllare-->
+        <add rend="above">Indifférence.</add> <!--cambiare, 2 subst?-->
+        <del rend="strikethrough">Fol</del>
+        <del rend="strikethrough">Expliqu</del>
+      </mod>
       Sifflements dans
-      <lb/>l'escalier. «Vous avez tort» nulle
-      <lb/>émotion.
-      <mod>
+      <lb n="3"/>l'escalier. «Vous avez tort» nulle
+      <lb n="4"/>émotion.
+      <mod instant="true">
         <subst>
         <del rend="strikethrough">Toujours</del>
         <add>L'infini</add>
         </subst>
       </mod>
-      <lb/>sort due hazard, que vous avez 
-      <lb/>nié. Vous, 
-      <mod>
+      <lb n="5"/>sort due hazard, que vous avez 
+      <lb n="6"/>nié. Vous, 
+     <mod>
       <subst>
       <del rend="strikethrough">absolus,</del>
-      <add>mathé-
+      <add>mathé-          <!--cambiare come ha detto il prof-->
       <lb/>maticiens</add>
       </subst> 
       </mod>
       expirates - moi pro-
-      <lb/>jeté absolu. Devais finir en
-      <lb/>Infini. Simplement parole et 
-      <lb/>geste. Quant à ce que je vous dis,
-      <lb/>pour expliquer ma vie. Rien ne 
-      <lb/>restera de nous - L'infini enfin
-      <lb/>échappé à la famille, qui en a 
-      <lb/>souffert, - vieil espace - pas de
+      <lb n="8"/>jeté absolu. Devais finir en
+      <lb n="9"/>Infini. Simplement parole et 
+      <lb n="10"/>geste. Quant à ce que je vous dis,
+      <lb n="11"/>pour expliquer ma vie. Rien ne 
+      <lb n="12"/>restera de nous - L'infini enfin
+      <lb n="13"/>échappé à la famille, qui en a 
+      <lb n="14"/>souffert, - vieil espace - pas de
       </p>
 
-    <pb facs="06.jpg" n="06"/>
+    <pb facs="06.jpg" xml:id="el_06" n="06"/>
       <fw place="top_right" type="pageNum">2</fw>
-      <p>
-      <lb/>hazard. Elle a eu raison de la
-      <lb/>nier, - sa vie - pour qu'il
-      <lb/>ait été l'absolu. Ceci devait
-      <lb/>avoir lieu dans les combinai-
-      <lb/>sons de l'Infini vis-à-vis
-      <lb/>de l'Absolu. Nécessaire - extrait
-      <lb/>l'Idee. Folie utile. Un des
-      <lb/>actes de l'univers vient
-      <lb/>d'être commis là. Plus rien, 
-      <lb/>restait le souffle, 
-      <mod>
+      <p xml:id="p_03" n="3">     <!--ricontrollare i paragrafi-->
+      <lb n="1"/>hazard. Elle a eu raison de la
+      <lb n="2"/>nier, - sa vie - pour qu'il
+      <lb n="3"/>ait été l'absolu. Ceci devait
+      <lb n="4"/>avoir lieu dans les combinai-
+      <lb n="5"/>sons de l'Infini vis-à-vis
+      <lb n="6"/>de l'Absolu. Nécessaire - extrait
+      <lb n="7"/>l'Idee. Folie utile. Un des
+      <lb n="8"/>actes de l'univers vient
+      <lb n="9"/>d'être commis là. Plus rien, 
+      <lb n="10"/>restait le souffle, 
+      <mod instant="true">
       <subst>
       <del rend="strikethrough">f</del>
       <add>fin</add>
       </subst>
       </mod>
       de
-      <lb/>parole et geste unis - souffle
-      <lb/>la bougie de l'être, par quoi
-      <lb/>tout a été. Preuve.
-      <lb/> (Creuser tout cela)
+      <lb n="11"/>parole et geste unis - souffle
+      <lb n="12"/>la bougie de l'être, par quoi
+      <lb n="13"/>tout a été. Preuve.
+      <lb n="14"/>(Creuser tout cela)
     </p>
-  
 
 
       
-  <pb facs="07.jpg" n="07"/> 
-  <metamark function="largeDeletion" rend="cross">
+  <pb facs="07.jpg" xml:id="el_07" n="07"/> 
+  <metamark function="largeDeletion">
   <mod><delSpan spanTo="#p07_1"/></mod>
-    <!--FINO A QUI-->
+  <!--FINO A QUI-->
     <p>
-    <lb/>Titre : La folie d'Elbenon. Igitur a compris cette 
-    <lb/>folie 
+    <lb n="1"/>Titre : La folie d'Elbenon. Igitur a compris cette 
+    <lb n="2"/>folie 
     <mod>
-      <subst>
-      <del rend="strikethrough">à laquelle</del>
-      <add>à laquelle</add>
-      </subst>
+      <del seq="1" rend="strikethrough">à laquelle</del>
+      <add seq="2">à laquelle</add>
     </mod> il rattache son 
-    <lb/>mal, précisément à cause de ce qu'il est esprit, 
-    <lb/>la contrepartie de son mal étant que les choses ambiantes lui semblent 
-    <lb/>provenir de lui-même, ses 
-    <lb/>facultés, etc. Car 
-    <lb/>tel est son mal: l'absence de moi, selon lui. Et sa race s'incarne en ce 
-    <lb/>corps qu'il ne sent pas mais qui lui apparaît parfois, tandis que la folie de cette race s'annule en 
-    <lb/>son esprit filial. Quant à son moi, il est 
-    <lb/>divisé entre ces deux
-    <lb/>Par cela même qu'il a compris cette 
-    <lb/>folie, il va y mettre fin, afin que le néant en 
-    <lb/>soit acte comme idée, et il compte y 
-    <lb/>plonger ce moi absent : et quant à sa famille qui, 
-    <lb/>s'étant crue pure, sortira de l'inconditionnel pour exister subitement, il 
-    <lb/>va mêler à cette existence ce qui 
-    <lb/>reste de substances, afin qu'il y ait aussi néant 
-    <lb/>de ce côté-là
+    <lb n="3"/>mal, précisément à cause de ce qu'il est esprit, <lb n="4"/>la contrepartie de son mal étant que les choses ambiantes lui semblent 
+    <lb n="5"/>provenir de lui-même, ses 
+    <lb n="6"/>facultés, etc. Car 
+    <lb n="7"/>tel est son mal: l'absence de moi, selon lui. Et sa race s'incarne en ce 
+    <lb n="8"/>corps qu'il ne sent pas mais qui lui apparaît parfois, tandis que la folie de cette race s'annule en 
+    <lb n="9"/>son esprit filial. Quant à son moi, il est 
+    <lb n="10"/>divisé entre ces deux
+    <lb n="11"/>Par cela même qu'il a compris cette 
+    <lb n="12"/>folie, il va y mettre fin, afin que le néant en <lb n="13"/>soit acte comme idée, et il compte y 
+    <lb n="14"/>plonger ce moi absent : et quant à sa famille qui, 
+    <lb n="15"/>s'étant crue pure, sortira de l'inconditionnel pour exister subitement, il 
+    <lb n="16"/>va mêler à cette existence ce qui 
+    <lb n="17"/>reste de substances, afin qu'il y ait aussi néant <lb n="18"/>de ce côté-là
     </p>
     <anchor xml:id="p07_1"/>
     </metamark>
   
-  <pb facs="08.jpg" n="08"/>
+  <pb facs="08.jpg" xml:id="el_08" n="08"/>
     <p>
-    <lb/>Ce conte s'adresse à l'Intelligence du lecteur qui met 
-    <lb/>les choses en scène, elle-même. 
-    <lb/>«Que, etc.
-    <lb/>Avant de sortir de la chambre - Oui, c'est 
-    <lb/>là qu'en sont les choses - ma personne gêne - 
-    <lb/>et le Néant est là. Je ne chercherai pas 
-    <lb/>à les changer. Je viens de voir (grâce à 
-    <lb/>ce don d'Illusoire, où en était le Rêve - 
-    <lb/>Très bien. C'est ainsi que je procéderai
-    <lb/>(Il s'administrera ce néant - reste de l'Idée,) 
-    <lb/> après avoir établi la nécessité
-    <lb/>- Pour lui, Absolu - les correspondances 
-    <lb/>sont exactes et suffisent. Il les comprend. 
-    <lb/>Corridor. On doute, qui a parlé au début: et l'on <lb/>arrive, devant le mutisme d'Igitur, à la certitude <lb/>qu'il ne parle pas. 
+    <lb n="1"/>Ce conte s'adresse à l'Intelligence du lecteur qui met 
+    <lb n="2"/>les choses en scène, elle-même. 
+    <lb n="3"/>«Que, etc.
+    <lb n="4"/>Avant de sortir de la chambre - Oui, c'est 
+    <lb n="5"/>là qu'en sont les choses - ma personne gêne - 
+    <lb n="6"/>et le Néant est là. Je ne chercherai pas 
+    <lb n="7"/>à les changer. Je viens de voir (grâce à 
+    <lb n="8"/>ce don d'Illusoire, où en était le Rêve - 
+    <lb n="9"/>Très bien. C'est ainsi que je procéderai
+    <lb n="10"/>(Il s'administrera ce néant - reste de l'Idée,) 
+    <lb n="11"/> après avoir établi la nécessité
+    <lb n="12"/>- Pour lui, Absolu - les correspondances 
+    <lb n="13"/>sont exactes et suffisent. Il les comprend. 
+    <lb n="14"/>Corridor. On doute, qui a parlé au début: et l'on <lb n="15"/>arrive, devant le mutisme d'Igitur, à la certitude <lb n="16"/>qu'il ne parle pas. 
     <!--da capire-->Il est sifflé par ce qu'il prend pour les âmes de ses ancêtres qui ne comprennent pas son action. 
     Igitur arrive devant les dés, et approche le flambeau du livre, de sorte qu'il apparaisse la phrase. 
     </p>
 
-  <pb facs="09.jpg" n="09"/>
+  <pb facs="09.jpg" xml:id="el_09" n="09"/>
     <fw place="top_center" type="head">Il quitte la chambre</fw>
     <p>
-    <lb/>L'heure a sonné pour moi de partir, la 
-    <lb/>pureté de la glace s'établira, sans ce personnage, 
-    <lb/>vision de moi - mais il emportera la lumière! 
-    <lb/>- la nuit! Sur les meubles, vacants, le Rêve 
-    <lb/>a agonisé en cette 
-    <lb/>fiole de verre, pureté, qui renferme la 
-    <lb/>substance du Néant. 
+    <lb n="1"/>L'heure a sonné pour moi de partir, la 
+    <lb n="2"/>pureté de la glace s'établira, sans ce personnage, 
+    <lb n="3"/>vision de moi - mais il emportera la lumière! 
+    <lb n="4"/>- la nuit! Sur les meubles, vacants, le Rêve 
+    <lb n="5"/>a agonisé en cette 
+    <lb n="6"/>fiole de verre, pureté, qui renferme la 
+    <lb n="7"/>substance du Néant. 
     </p>
 
-  <pb facs="10.jpg" n="10"/>
+  <pb facs="10.jpg" xml:id="el_10" n="10"/>
     <fw place="top_center" type="head">Le coup de dés</fw>
     <p>
-    <lb/>Reconnaître que c'est une chance unique contre 11 <lb/>que cela soit arrivé ainsi. 
-    <lb/>La parole - la Pensée <!--tutta cancellata, non c'era nell'interpretativa-->
-    <lb/>Bref dans un acte où le hazard est en 
-    <lb/>jeu, c'est toujours le hazard qui 
-    <lb/>accomplit sa propre Idée en s'affirmant 
-    <lb/>ou se niant. Devant son existence la négation et <lb/>l'affirmation viennent échouer. Il contient 
-    <lb/>l'Absurde - l'implique, mais à l'état 
-    <lb/>latent et l'empêche d'exister : ce qui permet 
-    <lb/>à l'Infini d'être. 
+    <lb n="1"/>Reconnaître que c'est une chance unique contre 11 <lb n="2"/>que cela soit arrivé ainsi. 
+    <lb n="3"/>La parole - la Pensée <!--tutta cancellata, non c'era nell'interpretativa-->
+    <lb n="4"/>Bref dans un acte où le hazard est en 
+    <lb n="5"/>jeu, c'est toujours le hazard qui 
+    <lb n="6"/>accomplit sa propre Idée en s'affirmant 
+    <lb n="7"/>ou se niant. Devant son existence la négation et <lb n="8"/>l'affirmation viennent échouer. Il contient 
+    <lb n="9"/>l'Absurde - l'implique, mais à l'état 
+    <lb n="10"/>latent et l'empêche d'exister : ce qui permet 
+    <lb n="11"/>à l'Infini d'être. 
 
-    <lb/>Le Cornet est la Corne de 
-    <lb/>licorne - d'unicorne
+    <lb n="12"/>Le Cornet est la Corne de 
+    <lb n="13"/>licorne - d'unicorne
      </p>
 
-  <pb facs="11.jpg" n="11"/>
+  <pb facs="11.jpg" xml:id="el_11" n="11"/>
     <p>
-    <lb/>Les deux hazards - (dans les deux cas, 
-    <lb/>l'absurde - 
-    <lb/>Intention de nier le hazard, dans la famille
-    <lb/>Qu'une parole jetée sur les dés car ce ne peut être avec certitude qu'une parole, 
-    <lb/>ne s'accomplisse pas, - comme il y avait 
-    <lb/>selon la pensée, 11 chances qu'elle ne s'accomplît pas contre une, 
-    <lb/>le hazard s'affirme, quant à la parole, en 
-    <lb/>se niant quant à la pensée - Car le hazard 
-    <lb/>eût été que la parole 
-    <lb/>s'accomplît. Toutefois si elle s'accomplit le 
-    <lb/>hazard se nie quant à la parole, en 
-    <lb/>s'affirmant quant à la pensée, car celle-ci doit
+    <lb n="1"/>Les deux hazards - (dans les deux cas, 
+    <lb n="2"/>l'absurde - 
+    <lb n="3"/>Intention de nier le hazard, dans la famille
+    <lb n="6"/>Qu'une parole jetée sur les dés car ce ne peut être avec certitude qu'une parole, 
+    <lb n="7"/>ne s'accomplisse pas, - comme il y avait 
+    <lb n="8"/>selon la pensée, 11 chances qu'elle ne s'accomplît pas contre une, 
+    <lb n="9"/>le hazard s'affirme, quant à la parole, en 
+    <lb n="10"/>se niant quant à la pensée - Car le hazard 
+    <lb n="11"/>eût été que la parole 
+    <lb n="12"/>s'accomplît. Toutefois si elle s'accomplit le 
+    <lb n="13"/>hazard se nie quant à la parole, en 
+    <lb n="14"/>s'affirmant quant à la pensée, car celle-ci doit
     </p>
 
-  <pb facs="12.jpg" n="12"/>
+  <pb facs="12.jpg" xml:id="el_12" n="12"/>
     <p>
-    <lb/>Mais l'acte s'accomplit. 
-    <lb/>Alors son moi se manifeste par ceci qu'il reprend la Folie: admet l'acte, 
-    <lb/>et, volontairement, reprend l'Idée, en tant 
-    <lb/>qu'Idée : et l'Acte (quelque soit la puissance qui <lb/>l'ait guidé) ayant nié le hazard, il en conclut <lb/>que l'Idée a été nécessaire. 
+    <lb n="1"/>Mais l'acte s'accomplit. 
+    <lb n="2"/>Alors son moi se manifeste par ceci qu'il reprend la Folie: admet l'acte, 
+    <lb n="3"/>et, volontairement, reprend l'Idée, en tant 
+    <lb n="4"/>qu'Idée : et l'Acte (quelque soit la puissance qui <lb n="5"/>l'ait guidé) ayant nié le hazard, il en conclut <lb n="6"/>que l'Idée a été nécessaire. 
     </p>
     <p>
-    <lb/>- Alors il conçoit qu'il y a, certes, folie à 
-    <lb/>l'admettre absolument: mais en même temps il 
-    <lb/>peut dire que, par le fait de cette 
-    <lb/>folie, le hazard étant nié, cette folie était 
-    <lb/>nécessaire. À quoi? (Nul ne le sait il est isolé de l'humanité)
+    <lb n="7"/>- Alors il conçoit qu'il y a, certes, folie à 
+    <lb n="8"/>l'admettre absolument: mais en même temps il 
+    <lb n="9"/>peut dire que, par le fait de cette 
+    <lb n="10"/>folie, le hazard étant nié, cette folie était 
+    <lb n="11"/>nécessaire. À quoi? (Nul ne le sait il est isolé de l'humanité)
     </p>
     <p>
-    <lb/>Tout ce qu'il en est, c'est que sa race a 
-    <lb/>été pure: qu'elle a enlevé à l'Absolu sa pureté, <lb/>pour l'être, et s'en laisser qu'une Idée elle-même aboutissant à la Nécessité: et que quant à 
-    <lb/>l'Acte, il est parfaitement absurde: mais que l'infini 
-    <lb/>est enfin fixé.
-		<lb/>				sauf que mouvement (personnel) rendu à l'Infini  
+    <lb n="12"/>Tout ce qu'il en est, c'est que sa race a 
+    <lb n="13"/>été pure: qu'elle a enlevé à l'Absolu sa pureté, <lb n="14"/>pour l'être, et s'en laisser qu'une Idée elle-même aboutissant à la Nécessité: et que quant à 
+    <lb n="15"/>l'Acte, il est parfaitement absurde: mais que l'infini 
+    <lb n="16"/>est enfin fixé.
+		<lb n="17"/>				sauf que mouvement (personnel) rendu à l'Infini  
     </p>
 
-  <pb facs="13.jpg" n="13"/>
+  <pb facs="13.jpg" xml:id="el_13" n="13"/>
     <fw place="top_center" type="head">Th | ou déchet d'Igitur
       Scène de Th. ancien Igitur.</fw>
     <p>
-    <lb/>Un coup de dés qui 
-    <lb/>accomplit une prédiction, 
-    <lb/>d'où a dépendu la vie d'une 
-    <lb/>race. «Ne sifflez pas» aux 
-    <lb/>vents, aux ombres - si 
-    <lb/>je compte, comédien 
-    <lb/>jouer le tour - les 12 - pas 
-    <lb/>de hazard dans aucun sens. 
+    <lb n="1"/>Un coup de dés qui 
+    <lb n="2"/>accomplit une prédiction, 
+    <lb n="3"/>d'où a dépendu la vie d'une 
+    <lb n="4"/>race. «Ne sifflez pas» aux 
+    <lb n="5"/>vents, aux ombres - si 
+    <lb n="6"/>je compte, comédien 
+    <lb n="7"/>jouer le tour - les 12 - pas 
+    <lb n="8"/>de hazard dans aucun sens. 
     </p>
     <p> 
-    <lb/>Il profère la prédiction, dont 
-    <lb/>il se moque au fond. Il y a eu 
-    <lb/>folie
+    <lb n="9"/>Il profère la prédiction, dont 
+    <lb n="10"/>il se moque au fond. Il y a eu 
+    <lb n="11"/>folie
     </p>
 
 
-  <pb facs="14.jpg" n="14"/>
+  <pb facs="14.jpg" xml:id="el_14" n="14"/>
     <fw place="top_center" type="head">Salle du tombeau</fw>
     <p>
-    <lb/>Igitur secoue simplement les dés - mouvement, 
-    <lb/>avant d'aller rejoindre les cendres, atomes de 
-    <lb/>ses ancêtres: le mouvement qui est 
-    <lb/>en lui est absous. On comprend ce que signifie son <lb/>ambiguïté.
-    <lb/>? Il ferme le livre - souffle la bougie, 
-    <lb/>- de son souffle qui contenait le hazard:
-    <lb/>Et, croisant les bras, 
-    <lb/>se couche sur les cendres de ses ancêtres. 
-    <lb/>Croisant les bras - l'Absolu a disparu, 
-    <lb/>en pureté de sa race, cas (il le faut bien, puisque) le bruit 
-    <lb/>cesse. Et, quant à 
+    <lb n="1"/>Igitur secoue simplement les dés - mouvement, 
+    <lb n="2"/>avant d'aller rejoindre les cendres, atomes de 
+    <lb n="3"/>ses ancêtres: le mouvement qui est 
+    <lb n="4"/>en lui est absous. On comprend ce que signifie son <lb n="5"/>ambiguïté.
+    <lb n="6"/>? Il ferme le livre - souffle la bougie, 
+    <lb n="7"/>- de son souffle qui contenait le hazard:
+    <lb n="8"/>Et, croisant les bras, 
+    <lb  n="9"/>se couche sur les cendres de ses ancêtres. 
+    <lb n="10"/>Croisant les bras - l'Absolu a disparu, 
+    <lb n="11"/>en pureté de sa race, cas (il le faut bien, puisque) le bruit 
+    <lb n="12"/>cesse. Et, quant à 
     </p>
 
-  <pb facs="15.jpg" n="15"/>
+  <pb facs="15.jpg" xml:id="el_15" n="15"/>
     <p>
-    <lb/>Race immémoriale, dont le temps 
-    <lb/>qui pesait est tombé, excessif, dans 
-    <lb/>le passé, et qui pleine de hazard, n'a 
-    <lb/>vécu, alors, que de son futur - Ce hazard nié 
-    <lb/>à l'aide d'un anachronisme, 
-    <lb/>un personnage, 
-    <lb/>suprême incarnation de cette race, - 
-    <lb/>qui sent en lui, grâce à l'absurde, 
-    <lb/>l'existence de l'Absolu, a, soli-
-    <lb/>taire, oublié la parole humaine en le 
-    <lb/>grimoire, et la pensée en un 
-    <lb/>luminaire, l'un annonçant 
-    <lb/>cette négation du hazard, l'autre 
-    <lb/>éclairant le rêve où il en est. 
+    <lb n="1"/>Race immémoriale, dont le temps 
+    <lb n="2"/>qui pesait est tombé, excessif, dans 
+    <lb n="3"/>le passé, et qui pleine de hazard, n'a 
+    <lb n="4"/>vécu, alors, que de son futur - Ce hazard nié 
+    <lb n="5"/>à l'aide d'un anachronisme, 
+    <lb n="6"/>un personnage, 
+    <lb n="7"/>suprême incarnation de cette race, - 
+    <lb n="8"/>qui sent en lui, grâce à l'absurde, 
+    <lb n="9"/>l'existence de l'Absolu, a, soli-
+    <lb n="10"/>taire, oublié la parole humaine en le 
+    <lb n="11"/>grimoire, et la pensée en un 
+    <lb n="12"/>luminaire, l'un annonçant 
+    <lb n="13"/>cette négation du hazard, l'autre 
+    <lb n="14"/>éclairant le rêve où il en est. 
     </p>
 
-  <pb facs="16.jpg" n="16"/>
+  <pb facs="16.jpg" xml:id="el_16" n="16"/>
     <p>
-    <lb/>Le personnage qui, croyant à 
-    <lb/>l'existence du seul Absolu, s'imagine 
-    <lb/>être partout dans un rêve
-    <lb/>Il agit au point de vie Absolu. 
-    <lb/>trouve l'acte inutile, car il y 
-    <lb/>a et n'y a pas de hazard 
-    <lb/>- il réduit le hazard à l'Infini - qui 
-    <lb/>dit-il, doit exister quelque part. 
+    <lb n="1"/>Le personnage qui, croyant à 
+    <lb n="2"/>l'existence du seul Absolu, s'imagine 
+    <lb n="3"/>être partout dans un rêve
+    <lb n="4"/>Il agit au point de vie Absolu. 
+    <lb n="5"/>trouve l'acte inutile, car il y 
+    <lb n="6"/>a et n'y a pas de hazard 
+    <lb n="7"/>- il réduit le hazard à l'Infini - qui 
+    <lb n="8"/>dit-il, doit exister quelque part. 
     </p>
     <p>
-    <lb/>Et quant au rêve de famille, il a 
-    <lb/>transmué son absolu en la pureté 
-    <lb/>de la race, et en l'idée de cette 
-    <lb/>pureté, qui est sa nécessité, par 
-    <lb/>rapport à l'Absolu, que lui sentit en 
-    <lb/>lui. Maintenant, il va 
-    <lb/>s'adjoindre le Néant, (substance?)
+    <lb n="9"/>Et quant au rêve de famille, il a 
+    <lb n="10"/>transmué son absolu en la pureté 
+    <lb n="11"/>de la race, et en l'idée de cette 
+    <lb n="12"/>pureté, qui est sa nécessité, par 
+    <lb n="13"/>rapport à l'Absolu, que lui sentit en 
+    <lb n="14"/>lui. Maintenant, il va 
+    <lb n="15"/>s'adjoindre le Néant, (substance?)
     </p>
 
 
-  <pb facs="17.jpg" n="17"/>
+  <pb facs="17.jpg" xml:id="el_17" n="17"/>
     <fw place="top_center" type="head">Il se couche au tombeau</fw>
     <p>
     ou les dés - hazard absorbé
-    <lb/>- Sur les cendres des as- Sur les cendres des astres, 
-    <lb/>celles indivises de la famille, était le tres, celles indivises de la famille, était le pauvre personnage, <lb/>couché, après avoir bu la goutte de néant 
-    <lb/>qui manque à la mer, (La fiole vide, folie, 
-    <lb/>tout ce qui reste du château ?) Le Néant, parti, reste le château de 
-    <lb/>la pureté. 
+    <lb n="1"/>- Sur les cendres des as- Sur les cendres des astres, 
+    <lb n="2"/>celles indivises de la famille, était le tres, celles indivises de la famille, était le pauvre personnage, <lb n="3"/>couché, après avoir bu la goutte de néant 
+    <lb n="4"/>qui manque à la mer, (La fiole vide, folie, 
+    <lb n="5"/>tout ce qui reste du château ?) Le Néant, parti, reste le château de 
+    <lb n="6"/>la pureté. 
     </p>
 
-  <pb facs="18.jpg" n="18"/>
+  <pb facs="18.jpg" xml:id="el_18" n="18"/>
     <p>
-    <lb/>Négations différentes fait l'infini, toute 
-    <lb/>une mer incohérent où 
-    <lb/>la parole remue à jamais 
-    <lb/>impuissante
-    <lb/>Tandis qu'en haut la lumière
+    <lb n="1"/>Négations différentes fait l'infini, toute 
+    <lb n="2"/>une mer incohérent où 
+    <lb n="3"/>la parole remue à jamais 
+    <lb n="4"/>impuissante
+    <lb n="5"/>Tandis qu'en haut la lumière
     </p>
 
-  <pb facs="19.jpg" n="19"/>
+  <pb facs="19.jpg" xml:id="el_19" n="19"/>
     <fw place="top_left" type="head">Ig. Déchet</fw>
     <p>
-    <lb/>Ecoutez, ma race, avant de 
-    <lb/>souffler ma bougie - le compte 
-    <lb/>que j'ai à vous rendre de 
-    <lb/>ma vie - Ici: névrose, 
-    <lb/>ennui, (ou Absolu?)
+    <lb n="1"/>Ecoutez, ma race, avant de 
+    <lb n="2"/>souffler ma bougie - le compte 
+    <lb n="3"/>que j'ai à vous rendre de 
+    <lb n="4"/>ma vie - Ici: névrose, 
+    <lb n="5"/>ennui, (ou Absolu?)
     </p>
 
   </div>
 
-  <div n="2" type="notes" xml:id="notes_2"> 
- <pb facs="20.jpg" n="20"/>
-    <ab type="editorial" resp="BM" rend="align-center">[Notes 2]</ab>
+  <div n="2" type="notes"> 
+    <head>Notes 2</head>
 
+  <pb facs="20.jpg" xml:id="el_20" n="20"/>
     <fw place="bottom_right" type="head">Touches</fw>
     <p>
-    <lb/>L'heure a sonné - certainement prédite par le livre - 
-    <lb/>ou [sic], la vision importune du personnage 
-    <lb/>qui nuisait à la pureté de la glace chimérique dans 
-    <lb/>laquelle je m'apparaissais, à la faveur de la lumière, 
-    <lb/>va disparaître, ce flambeau 
-    <lb/>emporté par moi: 
-    <lb/>disparaître comme tous les autres 
-    <lb/>personnages partis en temps des tapisseries, qui <lb/>n'étaient conservées que parce que le hazard 
-    <lb/>était nié par le grimoire, avec lequel je vais <lb/>également partir. Ô sort! la 
+    <lb n="1"/>L'heure a sonné - certainement prédite par le livre - 
+    <lb n="2"/>ou [sic], la vision importune du personnage 
+    <lb n="3"/>qui nuisait à la pureté de la glace chimérique dans 
+    <lb n="4"/>laquelle je m'apparaissais, à la faveur de la lumière, 
+    <lb n="5"/>va disparaître, ce flambeau 
+    <lb n="6"/>emporté par moi: 
+    <lb n="8"/>disparaître comme tous les autres 
+    <lb n="9"/>personnages partis en temps des tapisseries, qui <lb n="10"/>n'étaient conservées que parce que le hazard 
+    <lb n="11"/>était nié par le grimoire, avec lequel je vais <lb n="15"/>également partir. Ô sort! la 
     <lb n="16"></lb>pureté ne peut s'établir - voici 
     </p>
 
-  <pb facs="21.jpg" n="21"/>
+  <pb facs="21.jpg" xml:id="el_21" n="21"/>
     <p>
-    <lb/>que l'obscurité la remplacera - et que les 
-    <lb/>lourds rideaux tombant en temps, en feront 
-    <lb/>les ténèbres - tandis que le livre aux pages 
-    <lb/>fermées toutes les nuits, et la 
-    <lb/>lumière le jour qu'elles séparent. Cependant, 
-    <lb/>les meubles 
-    <lb/>garderont leur vacance, et agonie de 
-    <lb/>rêve chimérique et pur, une fiole 
-    <lb/>contient la substance du Néant. 
-    <lb/>Et maintenant il n'y a plus qu'ombre et silence. 
-    <lb/>Que le personnage, qui a nui à cette 
-    <lb/>pureté prenne cette fiole qui le prédisait 
-    <lb/>et se l'amalgame, plus tard: mais qu'il 
-    <lb/>la mette simplement dans son sein, en 
-    <lb/>allant se faire absoudre du mouvement
+    <lb n="1"/>que l'obscurité la remplacera - et que les 
+    <lb n="2"/>lourds rideaux tombant en temps, en feront 
+    <lb n="3"/>les ténèbres - tandis que le livre aux pages 
+    <lb n="4"/>fermées toutes les nuits, et la 
+    <lb n="5"/>lumière le jour qu'elles séparent. Cependant, 
+    <lb n="6"/>les meubles 
+    <lb n="7"/>garderont leur vacance, et agonie de 
+    <lb n="8"/>rêve chimérique et pur, une fiole 
+    <lb n="9"/>contient la substance du Néant. 
+    <lb n="10"/>Et maintenant il n'y a plus qu'ombre et silence. 
+    <lb n="11"/>Que le personnage, qui a nui à cette 
+    <lb n="12"/>pureté prenne cette fiole qui le prédisait 
+    <lb n="13"/>et se l'amalgame, plus tard: mais qu'il 
+    <lb n="14"/>la mette simplement dans son sein, en 
+    <lb n="15"/>allant se faire absoudre du mouvement
     </p>
 
-  <pb facs="22.jpg" n="22"/>
+  <pb facs="22.jpg" xml:id="el_22" n="22"/>
     <p>
-    <lb/>Malgré la défense de sa mère, allant jouer dans les tombeaux
-    <lb/>Il peut avancer, parce qu'il va 
-    <lb/>dans le mystère (Ne descend-il pas à cheval sur la rampe toute l'obscurité, - tout ce qu'il ignore des siens, corridors oubliés depuis 
-    <lb/>l'enfance)[.] Tel[le] est la marche inverse de la notion 
-    <lb/>dont il n'a pas connu l'ascension, étant, adolescent, arrivé à l'Absolu
-    <lb/> : spirale, au haut de laquelle il 
-    <lb/>demeurait en Absolu, incapable de 
-    <lb/>bouger, on éclaire et l'on plonge dans la 
-    <lb/>nuit à mesure. Il croit traverser les 
-    <lb/>destins de cette nuit fameuse: enfin il 
-    <lb/>arrive où il doit arriver, et voit 
-    <lb/>l'acte qui le sépare de la mort. 
+    <lb n="1"/>Malgré la défense de sa mère, allant jouer dans les tombeaux
+    <lb n="2"/>Il peut avancer, parce qu'il va 
+    <lb n="3"/>dans le mystère (Ne descend-il pas à cheval sur la rampe toute l'obscurité, - tout ce qu'il ignore des siens, corridors oubliés depuis 
+    <lb n="4"/>l'enfance)[.] Tel[le] est la marche inverse de la notion 
+    <lb n="5"/>dont il n'a pas connu l'ascension, étant, adolescent, arrivé à l'Absolu
+    <lb n="6"/> : spirale, au haut de laquelle il 
+    <lb n="7"/>demeurait en Absolu, incapable de 
+    <lb n="8"/>bouger, on éclaire et l'on plonge dans la 
+    <lb n="9"/>nuit à mesure. Il croit traverser les 
+    <lb n="10"/>destins de cette nuit fameuse: enfin il 
+    <lb n="11"/>arrive où il doit arriver, et voit 
+    <lb n="12"/>l'acte qui le sépare de la mort. 
   (interdiction de sa mère de descendre ainsi, - sa mère qui lui a dit ce qu'il avait à accomplir) (pour lui, il va aussi dans un souvenir d'enfance, cette nuit recommandée[ ;] s'il se tuait, il ne pourrait pas, grand, accomplir l'acte  <!--come conteggiare queste righe?-->
-    <lb/>Autre gaminerie
-    <lb/>Il dit : je ne peux 
-    <lb/>faire ceci sérieusement: mais le mal 
-    <lb/>que je souffre est affreux de vivre, au fond de <lb/>cette confusion perverse et inconsciente des choses qui 
-    <lb/>isole son absolu - il sent l'absence du moi, représentée par l'existence du Néant en substance [ ;] 
-    <lb/>il faut que je meure, et comme cette 
-    <lb/>fiole contient le néant par ma race 
-    <lb/>différé jusqu'à moi (ce vieux calmant qu'elle n'a pas pris, 
-    <lb/>les ancêtres immémoriaux l'ayant gardé seul du naufrage), 
-    <lb/>je ne veux pas connaître le Néant, 
-    <lb/>avant d'avoir rendu aux miens ce 
-    <lb/>pourquoi ils m'ont engendré - l'acte 
-    <lb/>absurde qui atteste l'inanité de 
-    <lb/>leur folie. )L'inaccomplissement me suivrait et entache 
-    <lb/>seul momentanément mon Absolu.)
+    <lb n="13"/>Autre gaminerie
+    <lb n="14"/>Il dit : je ne peux 
+    <lb n="15"/>faire ceci sérieusement: mais le mal 
+    <lb n="16"/>que je souffre est affreux de vivre, au fond de <lb n="17"/>cette confusion perverse et inconsciente des choses qui 
+    <lb n="18"/>isole son absolu - il sent l'absence du moi, représentée par l'existence du Néant en substance [ ;] 
+    <lb n="19"/>il faut que je meure, et comme cette 
+    <lb n="20"/>fiole contient le néant par ma race 
+    <lb n="21"/>différé jusqu'à moi (ce vieux calmant qu'elle n'a pas pris, 
+    <lb n="22"/>les ancêtres immémoriaux l'ayant gardé seul du naufrage), 
+    <lb n="23"/>je ne veux pas connaître le Néant, 
+    <lb n="24"/>avant d'avoir rendu aux miens ce 
+    <lb n="25"/>pourquoi ils m'ont engendré - l'acte 
+    <lb n="26"/>absurde qui atteste l'inanité de 
+    <lb n="27"/>leur folie. )L'inaccomplissement me suivrait et entache 
+    <lb n="28"/>seul momentanément mon Absolu.)
     </p>
 
-  <pb facs="23.jpg" n="23"/>
+  <pb facs="23.jpg" xml:id="el_23" n="23"/>
     <p>
-    <lb/>Cela depuis qu'ils ont abordé ce château dans 
-    <lb/>un naufrage sans doute - second 
-    <lb/>naufrage de quelque haute visée. 
-    <lb/>Ne sifflez pas parque que j'ai dit l'inanité de notre folie!
+    <lb n="1"/>Cela depuis qu'ils ont abordé ce château dans 
+    <lb n="2"/>un naufrage sans doute - second 
+    <lb n="3"/>naufrage de quelque haute visée. 
+    <lb n="4"/>Ne sifflez pas parque que j'ai dit l'inanité de notre folie!
 silence, pas de cette démence 
-    <lb/>que vous voulez montrer exprès. 
-    <lb/>Eh bien! Il vous est si facile de retourner 
-    <lb/>là-haut chercher le temps - et de devenir
-    <lb/>est-ce que les portes sont fermées ?
-    <lb/>Moi seul - moi seul - je vais 
-    <lb/>connaître le néant. Vous, vous revenez 
-    <lb/>à votre amalgame. 
-    <lb/>Je profère la parole, pour la replonger 
-    <lb/>dans son inanité. 
-    <lb/>Il jette les dés, le coup s'accomplit, 
-    <lb/>douze, (le temps (Minuit) - qui créa se retrouve la matière  , 
-    <lb/>les blocs, les dés - 
-    <lb/>Alors (de l'Absolu 
-    <lb/>son esprit se formant par le hazard 
-    <lb/>absolu de ce fait) il dit à tout ce 
-    <lb/>vacarme: certainement, il y a là 
-    <lb/>un acte - c'est mon devoir de 
-    <lb/>le proclamer: cette folie existe. 
-    <lb/>Vous avez 
-    <lb/>eu raison (bruit de folie) de 
-    <lb/>la manifester ; ne croyez pas que 
-    <lb/>je vais vous replonger dans le 
-    <lb/>néant. 
+    <lb n="5"/>que vous voulez montrer exprès. 
+    <lb n="6"/>Eh bien! Il vous est si facile de retourner 
+    <lb n="7"/>là-haut chercher le temps - et de devenir
+    <lb n="8"/>est-ce que les portes sont fermées ?
+    <lb n="9"/>Moi seul - moi seul - je vais 
+    <lb n="10"/>connaître le néant. Vous, vous revenez 
+    <lb n="11"/>à votre amalgame. 
+    <lb n="12"/>Je profère la parole, pour la replonger 
+    <lb n="13"/>dans son inanité. 
+    <lb n="14"/>Il jette les dés, le coup s'accomplit, 
+    <lb n="15"/>douze, (le temps (Minuit) - qui créa se retrouve la matière  , 
+    <lb n="16"/>les blocs, les dés - 
+    <lb n="17"/>Alors (de l'Absolu 
+    <lb n="18"/>son esprit se formant par le hazard 
+    <lb n="19"/>absolu de ce fait) il dit à tout ce 
+    <lb n="20"/>vacarme: certainement, il y a là 
+    <lb n="21"/>un acte - c'est mon devoir de 
+    <lb n="22"/>le proclamer: cette folie existe. 
+    <lb n="23"/>Vous avez 
+    <lb n="24"/>eu raison (bruit de folie) de 
+    <lb n="25"/>la manifester ; ne croyez pas que 
+    <lb n="26"/>je vais vous replonger dans le 
+    <lb n="27"/>néant. 
 
   = Il boira exprès pour se retrouver. <!--???-->
 
     </p>
-  </div> 
+  </div>
 
-  <div n="3" type="drafts" xml:id="ébauches"> 
 
-  <pb facs="24.jpg" n="24"/>
-    <head type="editorial" resp="BM">[Ébauches]</head>
+  <div n="3" type="drafts"> 
+    <head>Ébauches</head>
+
+  <pb facs="24.jpg" xml:id="el_24" n="24"/>
     <fw type="head">Le Minuit</fw>
     
-  <pb facs="25.jpg" n="25"/>
+  <pb facs="25.jpg" xml:id="el_25" n="25"/>
     <p>
-    <lb/>[-]  Certainement subsiste une présence de Minuit. 
-    <lb/>L'heure n'a pas disparu par un miroir, ne 
-    <lb/>s'est pas enfouie en tentures, évoquant un 
-    <lb/>ameublement par sa vacante sonorité. Je me rappelle 
-    <lb/>que son or allait feindre en 
-    <lb/>l'absence un joyau nul de rêverie, riche et 
-    <lb/>inutile survivance, sinon que sur la complexité <lb/>marine et stellaire d'une orfèvrerie se lisaient le hazard 
-    <lb/>infinis [sic] des conjonctions. 
+    <lb n="1"/>[-]  Certainement subsiste une présence de Minuit. 
+    <lb n="2"/>L'heure n'a pas disparu par un miroir, ne 
+    <lb n="3"/>s'est pas enfouie en tentures, évoquant un 
+    <lb n="4"/>ameublement par sa vacante sonorité. Je me rappelle 
+    <lb n="5"/>que son or allait feindre en 
+    <lb n="6"/>l'absence un joyau nul de rêverie, riche et 
+    <lb n="7"/>inutile survivance, sinon que sur la complexité <lb n="8"/>marine et stellaire d'une orfèvrerie se lisaient le hazard 
+    <lb n="9"/>infinis [sic] des conjonctions. 
     </p>
     <p>
-    <lb/>Révélateur du Minuit, il n'a jamais alors 
-    <lb/>indiqué pareille conjoncture, car voici 
-    <lb/>l'unique heure qu'il ait créée; et que de 
-    <lb/>l'Infini se séparent et les constellations et la mer, 
-    <lb/>demeurées, en l'extériorité, de réciproques 
-    <lb/>néants, pour en laisser l'essence, 
-    <lb/>à l'heure unie, faire [le] présent absolu des 
-    <lb/>choses. 
+    <lb n="10"/>Révélateur du Minuit, il n'a jamais alors 
+    <lb n="11"/>indiqué pareille conjoncture, car voici 
+    <lb n="12"/>l'unique heure qu'il ait créée; et que de 
+    <lb n="13"/>l'Infini se séparent et les constellations et la mer, 
+    <lb n="14"/>demeurées, en l'extériorité, de réciproques 
+    <lb n="15"/>néants, pour en laisser l'essence, 
+    <lb n="16"/>à l'heure unie, faire [le] présent absolu des 
+    <lb n="17"/>choses. 
     </p>
     <p>
-    <lb/>Et du Minuit demeure la présence en 
-    <lb/>la vision d'une chambre du temps où le 
-    <lb/>mystérieux ameublement arrête un vague 
-    <lb/>frémissement de pensée, lumineuse brisure [-] 
-    </p>
-
-  <pb facs="26.jpg" n="26"/>
-    <p>
-    <lb/>[-] du retour de ses ondes et de 
-    <lb/>leur élargissement premier, cependant que 
-    <lb/>s'immobilise, (dans une mouvante limite,) 
-    <lb/>la place antérieure de la chûte de l'heure 
-    <lb/>en un calme narcotique de moi pour 
-    <lb/>longtemps rêvé; mais dont le temps est 
-    <lb/>résolu en des tentures sur lesquelles 
-    <lb/>s'est arrêté, les complétant de sa splendeur, 
-    <lb/>le frémissement amorti, dans l'oubli, 
-    <lb/>comme une chevelure languissante, 
-    <lb/>autour du visage, éclairé de mystère, 
-    <lb/>aux yeux nuls pareils au miroir, de 
-    <lb/>l'hôte, dénué de 
-    <lb/>toute signification que de présence. 
-    <lb/>C'est le rêve pur d'un Minuit, en 
-    <lb/>soi disparu, et dont la clarté reconnue, qui 
-    <lb/>seule demeure au sein de son accomplissement 
-    <lb/>plongé dans l'ombre, résume sa stérilité sur 
-    <lb/>la pâleur d'un texte ouvert que présente la 
-    <lb/>table; page et décor ordinaires de la Nuit, sinon <lb/>que subsiste encore le silence d'une antique 
+    <lb n="18"/>Et du Minuit demeure la présence en 
+    <lb n="19"/>la vision d'une chambre du temps où le 
+    <lb n="20"/>mystérieux ameublement arrête un vague 
+    <lb n="21"/>frémissement de pensée, lumineuse brisure [-] 
     </p>
 
-  <pb facs="27.jpg" n="27"/>
+  <pb facs="26.jpg" xml:id="el_26" n="26"/>
+    <p>
+    <lb n="1"/>[-] du retour de ses ondes et de 
+    <lb n="2"/>leur élargissement premier, cependant que 
+    <lb n="3"/>s'immobilise, (dans une mouvante limite,) 
+    <lb n="4"/>la place antérieure de la chûte de l'heure 
+    <lb n="5"/>en un calme narcotique de moi pour 
+    <lb n="6"/>longtemps rêvé; mais dont le temps est 
+    <lb n="7"/>résolu en des tentures sur lesquelles 
+    <lb n="8"/>s'est arrêté, les complétant de sa splendeur, 
+    <lb n="9"/>le frémissement amorti, dans l'oubli, 
+    <lb n="10"/>comme une chevelure languissante, 
+    <lb n="11"/>autour du visage, éclairé de mystère, 
+    <lb n="12"/>aux yeux nuls pareils au miroir, de 
+    <lb n="13"/>l'hôte, dénué de 
+    <lb n="14"/>toute signification que de présence. 
+    <lb n="15"/>C'est le rêve pur d'un Minuit, en 
+    <lb n="16"/>soi disparu, et dont la clarté reconnue, qui 
+    <lb n="17"/>seule demeure au sein de son accomplissement 
+    <lb n="18"/>plongé dans l'ombre, résume sa stérilité sur 
+    <lb n="19"/>la pâleur d'un texte ouvert que présente la 
+    <lb n="20"/>table; page et décor ordinaires de la Nuit, sinon <lb n="21"/>que subsiste encore le silence d'une antique 
+    </p>
+
+  <pb facs="27.jpg" xml:id="el_27" n="27"/>
       <p>
-      <lb/>parole proférée par lui, en lequel, revenu, ce <lb/>Minuit évoque son ombre finie et nulle par 
-      <lb/>ces mots : J'étais l'heure qui doit me rendre <lb/>pur. 
-      <lb/>Depuis longtemps morte, une antique idée se 
-      <lb/>mire telle à [la] clarté de la chimère en laquelle a agonisé son rêve [et] 
-      <lb/>se reconnaît 
-      <lb/>à l'immémorial geste vacant avec lequel elle 
-      <lb/>s'invite, pour terminer l'antagonisme de 
-      <lb/>ce songe pôlaire, à se rendre, avec et la clarté chimérique 
-      <lb/>et le texte refermé, 
-      <lb/>au Chaos de l'ombre avorté et de la parole 
-      <lb/>qui absolut Minuit. 
-      <lb/>Inutile, de l'ameublement accompli qui se 
-      <lb/>tassera en ténèbres comme les tentures, déjà <lb/>alourdies en une forme permanente de toujours, <lb/>tandis que, lueur virtuelle, produite par 
-      <lb/>sa propre apparition en le miroitement de l'obscurité, 
-      <lb/>scintille le feu pur du diamant de l'horloge
-      <lb/>, seule survivance et joyau de 
-      <lb/>la Nuit éternelle, l'heure se formule 
-      <lb/>en cet écho, au seuil de panneaux ouverts par son acte 
+      <lb n="1"/>parole proférée par lui, en lequel, revenu, ce <lb n="2"/>Minuit évoque son ombre finie et nulle par 
+      <lb n="3"/>ces mots : J'étais l'heure qui doit me rendre <lb n="4"/>pur. 
+      <lb n="5"/>Depuis longtemps morte, une antique idée se 
+      <lb n="6"/>mire telle à [la] clarté de la chimère en laquelle a agonisé son rêve [et] 
+      <lb n="7"/>se reconnaît 
+      <lb n="8"/>à l'immémorial geste vacant avec lequel elle 
+      <lb n="9"/>s'invite, pour terminer l'antagonisme de 
+      <lb n="10"/>ce songe pôlaire, à se rendre, avec et la clarté chimérique 
+      <lb n="11"/>et le texte refermé, 
+      <lb n="12"/>au Chaos de l'ombre avorté et de la parole 
+      <lb n="13"/>qui absolut Minuit. 
+      <lb n="14"/>Inutile, de l'ameublement accompli qui se 
+      <lb n="15"/>tassera en ténèbres comme les tentures, déjà <lb n="16"/>alourdies en une forme permanente de toujours, <lb n="17"/>tandis que, lueur virtuelle, produite par 
+      <lb n="18"/>sa propre apparition en le miroitement de l'obscurité, 
+      <lb n="19"/>scintille le feu pur du diamant de l'horloge
+      <lb n="20"/>, seule survivance et joyau de 
+      <lb n="21"/>la Nuit éternelle, l'heure se formule 
+      <lb n="22"/>en cet écho, au seuil de panneaux ouverts par son acte 
       </p>
 
-    <pb facs="28.jpg" n="28"/>
+    <pb facs="28.jpg" xml:id="el_28" n="28"/>
       <p>
-      <lb/>de la Nuit: «Adieu, Nuit, que je 
-      <lb/>fus, ton propre sépulcre, mais qui, l'ombre 
-      <lb/>survivante, se métamorphosera 
-      <lb/>en Éternité.» 
+      <lb n="1"/>de la Nuit: «Adieu, Nuit, que je 
+      <lb n="2"/>fus, ton propre sépulcre, mais qui, l'ombre 
+      <lb n="3"/>survivante, se métamorphosera 
+      <lb n="4"/>en Éternité.» 
       <!--non trovo: Il quitte la chambre <et se perd dans les escaliers,> (au lieu de descendre à cheval sur la rampe)   è un titolo dato da Marchal?-->
       </p>
 
-    <pb facs="29.jpg" n="29"/>
+    <pb facs="29.jpg" xml:id="el_29" n="29"/>
       <p>
-      <lb/>L'ombre disparue en l'obscurité, la Nuit resta avec une douteuse 
-      <lb/>perception de pendule qui va s'atteindre et expirer en 
-      <lb/>lui; mais à ce qui luit et va, expirant en soi, s'éteindre, 
-      <lb/>elle se sait qui le porte encore; donc c'est d'elle! 
-      <lb/>que, nul doute, était le battement ouï, dont le bruit 
-      <lb/>total et dénué à jamais tomba en son passé.
-      <lb/>D'un côté si l'équivoque cessa, une motion, de l'autre, 
-      <lb/>dure, marquée [d'une façon] plus pressante par un 
-      <lb/>double heurt, qui n'atteint plus ou - pas encore <lb/>sa notion, et dont un frôlement actuel, tel qu'il doit 
-      <lb/>avoir lieu, remplit confusément 
-      <lb/>l'équivoque, ou sa cessation
-      <lb/>: comme si la chûte totale qui avait été 
-      <lb/>le choc unique des portes du 
-      <lb/>tombeau, n'en étouffait pas l'hôte sans retour; et dans prolongée 
-      <lb/>par la réminiscence du vide sépulcral du heurt en laquelle se confonde la clarté, se présente une 
-      <lb/>vision de la chûte interrompue 
-      <lb/>de panneaux, comme si c'était soi-même, qui, doué 
-      <lb/>du mouvement suspendu le retournât sur soi en la spirale 
-      <lb/>vertigiineuse conséquente; et elle devait être indéfiniment 
-      <lb/>fuyante, si une oppression progressive, poids graduel de 
-      <lb/>ce dont on ne se rendait pas compte, malgré que ce fût expliqué 
-      <lb/>en somme, n'en eût impliqué l'évasion certaine en un 
-      <lb/>intervalle, la cessation; où, lorsqu'expira le <lb/>heurt, et qu'elles se confondirent, rien en effet ne fut plus ouï : que le 
+      <lb n="1"/>L'ombre disparue en l'obscurité, la Nuit resta avec une douteuse 
+      <lb n="2"/>perception de pendule qui va s'atteindre et expirer en 
+      <lb n="3"/>lui; mais à ce qui luit et va, expirant en soi, s'éteindre, 
+      <lb n="4"/>elle se sait qui le porte encore; donc c'est d'elle! 
+      <lb n="5"/>que, nul doute, était le battement ouï, dont le bruit 
+      <lb n="6"/>total et dénué à jamais tomba en son passé.
+      <lb n="7"/>D'un côté si l'équivoque cessa, une motion, de l'autre, 
+      <lb n="8"/>dure, marquée [d'une façon] plus pressante par un 
+      <lb n="9"/>double heurt, qui n'atteint plus ou - pas encore <lb n="10"/>sa notion, et dont un frôlement actuel, tel qu'il doit 
+      <lb n="11"/>avoir lieu, remplit confusément 
+      <lb n="12"/>l'équivoque, ou sa cessation
+      <lb n="13"/>: comme si la chûte totale qui avait été 
+      <lb n="14"/>le choc unique des portes du 
+      <lb n="15"/>tombeau, n'en étouffait pas l'hôte sans retour; et dans prolongée 
+      <lb n="16"/>par la réminiscence du vide sépulcral du heurt en laquelle se confonde la clarté, se présente une 
+      <lb n="17"/>vision de la chûte interrompue 
+      <lb n="18"/>de panneaux, comme si c'était soi-même, qui, doué 
+      <lb n="19"/>du mouvement suspendu le retournât sur soi en la spirale 
+      <lb n="20"/>vertigiineuse conséquente; et elle devait être indéfiniment 
+      <lb n="21"/>fuyante, si une oppression progressive, poids graduel de 
+      <lb n="22"/>ce dont on ne se rendait pas compte, malgré que ce fût expliqué 
+      <lb n="23"/>en somme, n'en eût impliqué l'évasion certaine en un 
+      <lb n="24"/>intervalle, la cessation; où, lorsqu'expira le <lb n="25"/>heurt, et qu'elles se confondirent, rien en effet ne fut plus ouï : que le 
       </p>
 
-  <pb facs="30.jpg" n="30"/>
+  <pb facs="30.jpg" xml:id="el_30" n="30"/>
       <p>
-      <lb/>le battement d'ailes absurdes de quelqu'hôte 
-      <lb/>effrayé de nuit heurté dans son lourd somme 
-      <lb/>par la clarté et prolongeant sa fuite indéfinie. 
+      <lb n="1"/>le battement d'ailes absurdes de quelqu'hôte 
+      <lb n="2"/>effrayé de nuit heurté dans son lourd somme 
+      <lb n="3"/>par la clarté et prolongeant sa fuite indéfinie. 
       </p>
 
-  <pb facs="31.jpg" n="31"/>
+  <pb facs="31.jpg" xml:id="el_31" n="31"/>
     <p>
-    <lb/>Car, pour le halètement qui avait frôlé cet endroit, 
-    <lb/>ce n'était pas quelque doute dernier de soi, qui remuait 
-    <lb/>ses ailes par hazard en passant, mais le frottement familier 
-    <lb/>et continu d'un âge supérieur, dont maint et maint génie 
-    <lb/>fut soigneux de recueillir toute sa poussière séculaire en son 
-    <lb/>sépulcre pour se mirer en un soi propre, et que nul soupçon (n'est remontât) 
-    <lb/>le fil arachnéen pour que l'ombre dernière se mirât en son propre 
-    <lb/>soi, et se recconût en la folle se ses apparitions <lb/>comprises à l'étoile nacrée de leur nébuleuse science 
-    <lb/>tenu[e] 
-    <lb/>d'une main, et à l'étincelle d'or du fermoir héraldique 
-    <lb/>de leur volume, dans l'autre; du volume de leurs nuits; 
-    <lb/>telles, à présent, se voyant 
-    <lb/>pour qu'elle se voie, elle, pure, l'Ombre, 
-    <lb/>ayant sa dernière 
-    <lb/>forme qu'elle foule, derrière elle, 
-    <lb/>couchée et étendue, et puis, devant elle, en ce puits, l'étendue de 
-    <lb/>couches d'ombre, rendue à la nuit pure, de toutes <lb/>ses nuits pareilles apparies, des couches à jamais séparées 
-    <lb/>d'elles et que sans doute elles ne connurent pas <lb/>- qui n'est, je le sais, que le 
-    <lb/>prolongement absurde du bruit4 de la fermeture 
-    <lb/>de la porte sépulcrale dont l'entrée 
-    <lb/>de ce puits rappelle la porte. 
+    <lb n="1"/>Car, pour le halètement qui avait frôlé cet endroit, 
+    <lb n="2"/>ce n'était pas quelque doute dernier de soi, qui remuait 
+    <lb n="3"/>ses ailes par hazard en passant, mais le frottement familier 
+    <lb n="4"/>et continu d'un âge supérieur, dont maint et maint génie 
+    <lb n="5"/>fut soigneux de recueillir toute sa poussière séculaire en son 
+    <lb n="6"/>sépulcre pour se mirer en un soi propre, et que nul soupçon (n'est remontât) 
+    <lb n="7"/>le fil arachnéen pour que l'ombre dernière se mirât en son propre 
+    <lb n="8"/>soi, et se recconût en la folle se ses apparitions <lb n="9"/>comprises à l'étoile nacrée de leur nébuleuse science 
+    <lb n="10"/>tenu[e] 
+    <lb n="11"/>d'une main, et à l'étincelle d'or du fermoir héraldique 
+    <lb n="12"/>de leur volume, dans l'autre; du volume de leurs nuits; 
+    <lb n="13"/>telles, à présent, se voyant 
+    <lb n="14"/>pour qu'elle se voie, elle, pure, l'Ombre, 
+    <lb n="15"/>ayant sa dernière 
+    <lb n="16"/>forme qu'elle foule, derrière elle, 
+    <lb n="17"/>couchée et étendue, et puis, devant elle, en ce puits, l'étendue de 
+    <lb n="18"/>couches d'ombre, rendue à la nuit pure, de toutes <lb n="19"/>ses nuits pareilles apparies, des couches à jamais séparées 
+    <lb n="20"/>d'elles et que sans doute elles ne connurent pas <lb n="22"/>- qui n'est, je le sais, que le 
+    <lb n="23"/>prolongement absurde du bruit4 de la fermeture 
+    <lb n="24"/>de la porte sépulcrale dont l'entrée 
+    <lb n="25"/>de ce puits rappelle la porte. 
     </p>
 
-  <pb facs="32.jpg" n="32"/>
+  <pb facs="32.jpg" xml:id="el_32" n="32"/>
     <p>
-    <lb/>+ reprises, enlacement
-    <lb/>- Cette fois, plus nul doute; l'a [sic] certitude <lb/>se mirait en l'évidence: en vain, 
-    <lb/>réminiscence d0un mensonge, dont elle était 
-    <lb/>la conséquence, la vision d'un lieu apparaissait-elle 
-    <lb/>encore, tel que devait être, par exemple, l'intervalle attendu, 
-    <lb/>ayant, en effet, pour parois latérales 
-    <lb/>l'opposition double des panneaux, 
-    <lb/>et pour vis-à-vis, devant et derrière 
-    <lb/>l'ouverture de doute nul, répercutée par 
-    <lb/>le prolongement du bruit des panneaux, où s'enfuit le plumage, et dédoublée par l'équivoque exploré[e], <lb/>la symétrie parfaite des déductions prévues démentait sa réalité; 
-    <lb/>il n'y avait pas à s'y tromper c'était le conscience de soi 
-    <lb/>(à laquelle l'absurde même devait servir de lieu) <lb/>- (sa réussite). 
+    <lb n="1"/>+ reprises, enlacement
+    <lb n="2"/>- Cette fois, plus nul doute; l'a [sic] certitude <lb n="3"/>se mirait en l'évidence: en vain, 
+    <lb n="4"/>réminiscence d0un mensonge, dont elle était 
+    <lb n="5"/>la conséquence, la vision d'un lieu apparaissait-elle 
+    <lb n="6"/>encore, tel que devait être, par exemple, l'intervalle attendu, 
+    <lb n="7"/>ayant, en effet, pour parois latérales 
+    <lb n="8"/>l'opposition double des panneaux, 
+    <lb n="9"/>et pour vis-à-vis, devant et derrière 
+    <lb n="10"/>l'ouverture de doute nul, répercutée par 
+    <lb n="11"/>le prolongement du bruit des panneaux, où s'enfuit le plumage, et dédoublée par l'équivoque exploré[e], <lb n="12"/>la symétrie parfaite des déductions prévues démentait sa réalité; 
+    <lb n="13"/>il n'y avait pas à s'y tromper c'était le conscience de soi 
+    <lb n="14"/>(à laquelle l'absurde même devait servir de lieu) <lb n="15"/>- (sa réussite). 
     </p>
 
-  <pb facs="33.jpg" n="33"/>
+  <pb facs="33.jpg" xml:id="el_33" n="33"/>
     <p>
-    <lb/>se présente également dans l'une et dans 
-    <lb/>l'autre face des parois luisantes et séculaires ne gardant d'elle que 
-    <lb/>d'une main la clarté opaline de sa science 
-    <lb/>et de l'autre son volume, le volume de ses nuits <lb/>maintenant fermé: du passé et 
-    <lb/>de l'avenir que parvenue au pinacle de 
-    <lb/>moi, l'ombre pure domine parfaitement, et 
-    <lb/>finis, hors d'eux. Tandis que 
-    <lb/>devant et derrière se prolonge le mensonge exploré <lb/>de l'infini, ténèbres de toutes 
+    <lb n="1"/>se présente également dans l'une et dans 
+    <lb n="2"/>l'autre face des parois luisantes et séculaires ne gardant d'elle que 
+    <lb n="3"/>d'une main la clarté opaline de sa science 
+    <lb n="4"/>et de l'autre son volume, le volume de ses nuits <lb n="5"/>maintenant fermé: du passé et 
+    <lb n="6"/>de l'avenir que parvenue au pinacle de 
+    <lb n="7"/>moi, l'ombre pure domine parfaitement, et 
+    <lb n="8"/>finis, hors d'eux. Tandis que 
+    <lb n="9"/>devant et derrière se prolonge le mensonge exploré <lb n="10"/>de l'infini, ténèbres de toutes 
     <lb n="11"></lb>mes apparitions réunies, à présent que 
-    <lb/>le temps 
-    <lb/>a cessé et ne les divise 
-    <lb/>plus, retombées en un lourd somme, 
-    <lb/>massif, (lors du bruit 
-    <lb/>d'abord entendu) dans le vide duquel j'entends les pulsations de mon propre cœur. 
+    <lb n="12"/>le temps 
+    <lb n="13"/>a cessé et ne les divise 
+    <lb n="14"/>plus, retombées en un lourd somme, 
+    <lb n="15"/>massif, (lors du bruit 
+    <lb n="16"/>d'abord entendu) dans le vide duquel j'entends les pulsations de mon propre cœur. 
     </p>
     <p>
-    <lb/>Je n'aime pas ce bruit: 
-    <lb/>cette perfection de 
-    <lb/>ma certitude me gêne: tour est trop 
-    <lb/>clair, la clarté montre le désir d'une 
-    <lb/>évasion; tout est trop luisant, j'aimerais 
-    <lb/>rentrer en mon Ombre incréée et 
-    <lb/>antérieure, 
-    <lb/>et dépouiller par la pensée le travestissement 
+    <lb n="17"/>Je n'aime pas ce bruit: 
+    <lb n="18"/>cette perfection de 
+    <lb n="19"/>ma certitude me gêne: tour est trop 
+    <lb n="20"/>clair, la clarté montre le désir d'une 
+    <lb n="21"/>évasion; tout est trop luisant, j'aimerais 
+    <lb n="22"/>rentrer en mon Ombre incréée et 
+    <lb n="23"/>antérieure, 
+    <lb n="24"/>et dépouiller par la pensée le travestissement 
     </p>
   
-  <pb facs="34.jpg" n="34"/>
+  <pb facs="34.jpg" xml:id="el_34" n="34"/>
     <p>
-    <lb/>que m'a imposé la nécessité, d'habiter le cœur 
-    <lb/>de cette race (que j'entends battre ici) seul 
-    <lb/>reste d'ambiguïté. 
-    <lb/>À vrai dire, dans cette inquiétante et belle 
-    <lb/>symétrie de la construction de mon rêve, la
-    <lb/>quelle des deux ouvertures prendre, puisqu'il 
-    <lb/>n'y a plus de futur représentée [sic] par l'une d'elles? Ne sont-elles pas toutes 
-    <lb/>deux, à jamais équivalentes, ma réflexion ? dois-je encore 
-    <lb/>craindre le hazard, cet antique ennemi qui me 
-    <lb/>divisa en ténèbres et en temps créés, pacifiés là <lb/>tous deux en un même somme? Et n'est-il pas par la 
-    <lb/>fin du temps, qui amena 
-    <lb/>celle des ténèbres, lui-même annulé?
-    <lb/>- 
-    <lb/>(chuchotement)
+    <lb n="1"/>que m'a imposé la nécessité, d'habiter le cœur 
+    <lb n="2"/>de cette race (que j'entends battre ici) seul 
+    <lb n="3"/>reste d'ambiguïté. 
+    <lb n="4"/>À vrai dire, dans cette inquiétante et belle 
+    <lb n="5"/>symétrie de la construction de mon rêve, la
+    <lb n="6"/>quelle des deux ouvertures prendre, puisqu'il 
+    <lb n="7"/>n'y a plus de futur représentée [sic] par l'une d'elles? Ne sont-elles pas toutes 
+    <lb n="8"/>deux, à jamais équivalentes, ma réflexion ? dois-je encore 
+    <lb n="9"/>craindre le hazard, cet antique ennemi qui me 
+    <lb n="10"/>divisa en ténèbres et en temps créés, pacifiés là <lb n="11"/>tous deux en un même somme? Et n'est-il pas par la 
+    <lb n="12"/>fin du temps, qui amena 
+    <lb n="13"/>celle des ténèbres, lui-même annulé?
+    <lb n="14"/>- 
+    <lb n="15"/>(chuchotement)
     </p>
     <p>
-    <lb/>En effet, la première venue ressemble à 
-    <lb/>la spirale précédente: même bruit scandé, - 
-    <lb/>et même frôlement: mais comme tout a abouti, 
-    <lb/>rien ne peut plus m'effrayer : mon effroi qui avait 
-    <lb/>pris les devants sous la forme d'un oiseau 
-    <lb/>est bien loin: n'a-t-il pas été remplacé par
-    <lb/>l'apparition de ce que j'avais été? et que j'[aime] 
-    <lb/>à réfléchir maintenant, afin de dégager 
-    <lb/>mon rêve de ce costume. 
+    <lb n="16"/>En effet, la première venue ressemble à 
+    <lb n="17"/>la spirale précédente: même bruit scandé, - 
+    <lb n="18"/>et même frôlement: mais comme tout a abouti, 
+    <lb n="19"/>rien ne peut plus m'effrayer : mon effroi qui avait 
+    <lb n="20"/>pris les devants sous la forme d'un oiseau 
+    <lb n="21"/>est bien loin: n'a-t-il pas été remplacé par
+    <lb n="22"/>l'apparition de ce que j'avais été? et que j'[aime] 
+    <lb n="23"/>à réfléchir maintenant, afin de dégager 
+    <lb n="24"/>mon rêve de ce costume. 
     </p>
 
-  <pb facs="35.jpg" n="35"/>
+  <pb facs="35.jpg" xml:id="el_35" n="35"/>
     <p>
-    <lb/>Ce scandement n'était-il pas le bruit du progrès <lb/>de mon personnage qui maintenant le continue dans <lb/>la spirale, et ce frôlement, le frôlement 
-    <lb/>incertain de sa dualité? 
-    <lb/>Enfin ce n'est pas le ventre velu 
-    <lb/>d'un hôte inférieur de moi, 
-    <lb/>dont la lueur a heurté le doute, et qui 
-    <lb/>s'est sauvé avec un volètement, mais le 
-    <lb/>buste de velours d'une race supérieure que la lumière 
-    <lb/>froisse, et qui respire dans un air étouffant, <lb/>d'un personnage, dont la pensée n'a 
-    <lb/>pas conscience de lui-même, 
-    <lb/>de ma dernière figure, séparée 
-    <lb/>de son personnage par une fraise arachnéenne 
-    <lb/>et qui ne se connaît pas: aussi, maintenant 
-    <lb/>que sa dualité est [à] jamais séparée, 
-    <lb/>et que je n'ouïs même plus à travers lui 
-    <lb/>le bruit de son progrès, je vais m'oublier 
-    <lb/>à travers lui, et me dissoudre en moi. 
+    <lb n="1"/>Ce scandement n'était-il pas le bruit du progrès <lb n="2"/>de mon personnage qui maintenant le continue dans <lb n="3"/>la spirale, et ce frôlement, le frôlement 
+    <lb n="4"/>incertain de sa dualité? 
+    <lb n="5"/>Enfin ce n'est pas le ventre velu 
+    <lb n="6"/>d'un hôte inférieur de moi, 
+    <lb n="7"/>dont la lueur a heurté le doute, et qui 
+    <lb n="8"/>s'est sauvé avec un volètement, mais le 
+    <lb n="9"/>buste de velours d'une race supérieure que la lumière 
+    <lb n="10"/>froisse, et qui respire dans un air étouffant, <lb n="11"/>d'un personnage, dont la pensée n'a 
+    <lb n="12"/>pas conscience de lui-même, 
+    <lb n="13"/>de ma dernière figure, séparée 
+    <lb n="14"/>de son personnage par une fraise arachnéenne 
+    <lb n="15"/>et qui ne se connaît pas: aussi, maintenant 
+    <lb n="16"/>que sa dualité est [à] jamais séparée, 
+    <lb n="17"/>et que je n'ouïs même plus à travers lui 
+    <lb n="18"/>le bruit de son progrès, je vais m'oublier 
+    <lb n="19"/>à travers lui, et me dissoudre en moi. 
     </p>
     <p>
-    <lb/>Son heurt redevient chancelant comme 
-    <lb/>avant d'avoir la perception de soi: c'était le <lb/>scandement de ma mesure dont la 
-    <lb/>réminiscence me revint prolongée par le bruit 
+    <lb n="20"/>Son heurt redevient chancelant comme 
+    <lb n="21"/>avant d'avoir la perception de soi: c'était le <lb n="22"/>scandement de ma mesure dont la 
+    <lb n="23"/>réminiscence me revint prolongée par le bruit 
     </p>
     
-  <pb facs="36.jpg" n="36"/>   
+  <pb facs="36.jpg" xml:id="el_36" n="36"/>   
     <p>
-    <lb/>dans le corridor du temps 
-    <lb/>de la porte de mon sépulcre, et par l'hallucination: et, 
-    <lb/>de même qu'elle a été réellement fermée, de même <lb/>elle doit s'ouvrir maintenant pour que mon rêve 
-    <lb/>se soit expliqué. 
+    <lb n="1"/>dans le corridor du temps 
+    <lb n="2"/>de la porte de mon sépulcre, et par l'hallucination: et, 
+    <lb n="3"/>de même qu'elle a été réellement fermée, de même <lb n="4"/>elle doit s'ouvrir maintenant pour que mon rêve 
+    <lb n="5"/>se soit expliqué. 
     </p>
   </div>
 
-  <div n="4" type="drafts" xml:id="sortie_chambre"> 
-    <pb facs="37.jpg" n="37"/>
+  <div n="4" type="drafts"> 
+    <pb facs="37.jpg" xml:id="el_37" n="37"/>
     <head>Plusieurs ébauches de la sortie de la chambre</head> <!--chi ha scritto questo titolo?-->
 
-  <pb facs="38.jpg" n="38"/>
-    <fw type="head">[A]</fw>
+  <pb facs="38.jpg" xml:id="el_38" n="38"/>
+    <fw type="head">A</fw>
     <fw place="top_left" type="head">α</fw>
     <fw place="top_right" type="head">(retrouver l'horloge) épuiser le doute et se retrouver. (Nuit pure)</fw>
     <p>
-    <lb/>Les portes de la Nuit se refermèrent, muettes, 
-    <lb/>sur l'ombre qui, 
-    <lb/>laissée à elle-même, ne perçut 
-    <lb/>plus rien d'elle qu'un intervalle égal et séparé, par 
-    <lb/>un bruit répété et sourd semblable à l'oubli d'un balancier secret qui 
-    <lb/>va s'arrêter; 
-    <lb/>maintenant 
-    <lb/>distincte et comme scandant à l'aide, cependant <lb/>d'un progrès, que dénonçait la clarté ascensionnelle 
-    <lb/>et tournant sur elle en spirale, la mesure intuitive de ce qui 
-    <lb/>resterait encore d'elle; puis revenant, toujours selon 
-    <lb/>la clarté, à un prolongement plane, ne 
-    <lb/>gardant de la montée que la sensation d'un avancement 
-    <lb/>somnolent, - pour recommencer ce bruit dont la régularité 
-    <lb/>ne pouvait être celle d'un volètement hagard des hôtes habituels 
-    <lb/>de la nuit troublés dans leur lourd sommeil, 
-    <lb/>et qui d'ailleurs, tant se resserraient 
-    <lb/>les parois de leur Nuit sépulcrale, se fut divisée en la tombée 
-    <lb/>d'une cendre; 
-    <lb/>mais il n'y en avait pas, à vrai 
-    <lb/>dire, tant les plumes de génies supérieurs 
-    <lb/>à ces hôtes, avaient soigneusement dû fourbir 
-    <lb/>pour 
-    <lb/>recueillir les cendres quelque part, ces parois 
+    <lb n="1"/>Les portes de la Nuit se refermèrent, muettes, 
+    <lb n="2"/>sur l'ombre qui, 
+    <lb n="3"/>laissée à elle-même, ne perçut 
+    <lb n="4"/>plus rien d'elle qu'un intervalle égal et séparé, par 
+    <lb n="6"/>un bruit répété et sourd semblable à l'oubli d'un balancier secret qui 
+    <lb n="8"/>va s'arrêter; 
+    <lb n="9"/>maintenant 
+    <lb n="10"/>distincte et comme scandant à l'aide, cependant <lb n="11"/>d'un progrès, que dénonçait la clarté ascensionnelle 
+    <lb n="12"/>et tournant sur elle en spirale, la mesure intuitive de ce qui 
+    <lb n="13"/>resterait encore d'elle; puis revenant, toujours selon 
+    <lb n="14"/>la clarté, à un prolongement plane, ne 
+    <lb n="15"/>gardant de la montée que la sensation d'un avancement 
+    <lb n="16"/>somnolent, - pour recommencer ce bruit dont la régularité 
+    <lb n="17"/>ne pouvait être celle d'un volètement hagard des hôtes habituels 
+    <lb n="18"/>de la nuit troublés dans leur lourd sommeil, 
+    <lb n="19"/>et qui d'ailleurs, tant se resserraient 
+    <lb n="20"/>les parois de leur Nuit sépulcrale, se fut divisée en la tombée 
+    <lb n="21"/>d'une cendre; 
+    <lb n="22"/>mais il n'y en avait pas, à vrai 
+    <lb n="23"/>dire, tant les plumes de génies supérieurs 
+    <lb n="24"/>à ces hôtes, avaient soigneusement dû fourbir 
+    <lb n="25"/>pour 
+    <lb n="26"/>recueillir les cendres quelque part, ces parois 
     </p>
   
-  <pb facs="39.jpg" n="39"/>  
+  <pb facs="39.jpg" xml:id="el_39" n="39"/>  
     <p>
-    <lb/>de nuit solide, et dont la pure lumière 
-    <lb/>qui en éclairait la propreté 
-    <lb/>se fût du reste mal accommodée de cendres, [et] 
-    <lb/>ne revenait causer dans l'ombre 
-    <lb/>non le ventre velouté 
-    <lb/>de monstruosités nocturnes, mais un velours 
-    <lb/>véritable ; d'autre 
-    <lb/>toile arachnéenne que des dentelles jaunies par la lumière sur ces velours, 
-    <lb/>d'un personnage, de sa propre apparition sans doute 
-    <lb/>qu'elle évoquait de soi: cela jusqu'à ce ù
-    <lb/>qu'enfin, la Nuit reconnue par elle-même, 
-    <lb/>et n'ayant pu concevoir d'effroi d'elle, 
-    <lb/>mais, conjecturale, s'étant retrouvée, 
-    <lb/>et l'intervalle de sa mesure étant donc fini, le bruit 
-    <lb/>de porte inverse du premier recommença, 
-    <lb/>afin qu'elle restât à elle-même, mais 
-    <lb/>cette fois elle s'apparut hors d'elle, tout ce qu'elle avait 
-    <lb/>oublié d'elle-même, ce qui restait avec 
-    <lb/>horreur pure qu'elle n'avait pas eu[e] d'elle
+    <lb n="1"/>de nuit solide, et dont la pure lumière 
+    <lb n="2"/>qui en éclairait la propreté 
+    <lb n="4"/>se fût du reste mal accommodée de cendres, [et] 
+    <lb n="6"/>ne revenait causer dans l'ombre 
+    <lb n="8"/>non le ventre velouté 
+    <lb n="9"/>de monstruosités nocturnes, mais un velours 
+    <lb n="10"/>véritable ; d'autre 
+    <lb n="11"/>toile arachnéenne que des dentelles jaunies par la lumière sur ces velours, 
+    <lb n="12"/>d'un personnage, de sa propre apparition sans doute 
+    <lb n="13"/>qu'elle évoquait de soi: cela jusqu'à ce ù
+    <lb n="14"/>qu'enfin, la Nuit reconnue par elle-même, 
+    <lb n="15"/>et n'ayant pu concevoir d'effroi d'elle, 
+    <lb n="16"/>mais, conjecturale, s'étant retrouvée, 
+    <lb n="17"/>et l'intervalle de sa mesure étant donc fini, le bruit 
+    <lb n="18"/>de porte inverse du premier recommença, 
+    <lb n="19"/>afin qu'elle restât à elle-même, mais 
+    <lb n="20"/>cette fois elle s'apparut hors d'elle, tout ce qu'elle avait 
+    <lb n="21"/>oublié d'elle-même, ce qui restait avec 
+    <lb n="29"/>horreur pure qu'elle n'avait pas eu[e] d'elle
     </p>
 
- <pb facs="40.jpg" n="40"/>  
+ <pb facs="40.jpg" xml:id="el_40" n="40"/>  
     <fw type="head">B</fw>
     <p>
-    <lb/>Une pause se fit, le bruit cessa : dans 
-    <lb/>les deux parois luisantes 
-    <lb/>de la nuit qui, n'étant plus opprimé par le bruit, semblait comme 
-    <lb/>s'être dilatée, la clarté 
-    <lb/>réfléchissait deux premières ombres qui semblaient <lb/>se prolonger innombrablement, et, en face 
-    <lb/>et derrière, 
-    <lb/>à leurs 
-    <lb/>pieds, un puits d'ombre enfonçant 
-    <lb/>infiniment sa spirale, et au-dessus de 
-    <lb/>la tête un puits identique enfonçant 
-    <lb/>indéfiniment sa spirale; et dégagée 
-    <lb/>de vains fantômes, 
-    <lb/>la Nuit entendit le bruit de 
-    <lb/>son propre cœur dont battaient les 
-    <lb/>pulsations: sa seule terreur, dans un site si fourbi, si parfait, sut de n'en 
-    <lb/>pas avoir (et comme un secret avertissement 
-    <lb/>de ne pas se prendre au piège de sa propre 
-    <lb/>contemplation). Elle se rappela qu'elle 
-    <lb/>était sans doute arrivée à l'intervalle 
-    <lb/>différé du bruit devenu différent et 
-    <lb/>qui 
+    <lb n="1"/>Une pause se fit, le bruit cessa : dans 
+    <lb n="2"/>les deux parois luisantes 
+    <lb n="3"/>de la nuit qui, n'étant plus opprimé par le bruit, semblait comme 
+    <lb n="4"/>s'être dilatée, la clarté 
+    <lb n="5"/>réfléchissait deux premières ombres qui semblaient <lb n="6"/>se prolonger innombrablement, et, en face 
+    <lb n="7"/>et derrière, 
+    <lb n="8"/>à leurs 
+    <lb n="9"/>pieds, un puits d'ombre enfonçant 
+    <lb n="10"/>infiniment sa spirale, et au-dessus de 
+    <lb n="11"/>la tête un puits identique enfonçant 
+    <lb n="12"/>indéfiniment sa spirale; et dégagée 
+    <lb n="13"/>de vains fantômes, 
+    <lb n="14"/>la Nuit entendit le bruit de 
+    <lb n="15"/>son propre cœur dont battaient les 
+    <lb n="16"/>pulsations: sa seule terreur, dans un site si fourbi, si parfait, sut de n'en 
+    <lb n="17"/>pas avoir (et comme un secret avertissement 
+    <lb n="18"/>de ne pas se prendre au piège de sa propre 
+    <lb n="19"/>contemplation). Elle se rappela qu'elle 
+    <lb n="20"/>était sans doute arrivée à l'intervalle 
+    <lb n="21"/>différé du bruit devenu différent et 
+    <lb n="22"/>qui 
     </p>
 
-   <pb facs="41.jpg" n="41"/>  
+   <pb facs="41.jpg" xml:id="el_41" n="41"/>  
     <p>
-    <lb/>conjecturalement devait se présenter, et qu'elle <lb/>avait à continuer l'autre moitié. Mais lequel de ces puits 
-    <lb/>prendre? exactement le même. Ici elle se rappela que la lueur 
-    <lb/>lui était apparue, en faisant halte, 
-    <lb/>comme un feu, et regardant à ses pieds la vit enfoncée, 
-    <lb/>tenue par son personnage, miré en sa sécurité, tandis qu'en haut il n'y avait rien que son évasion: 
-    <lb/>elle se décida à la suivre, 
-    <lb/>ayant, pensa-t-elle, pour compenser l'effet 
-    <lb/>ascensionnel et l'annuler, le retour fait sur 
-    <lb/>soi à analyser curieusement ? 
+    <lb n="1"/>conjecturalement devait se présenter, et qu'elle <lb n="2"/>avait à continuer l'autre moitié. Mais lequel de ces puits 
+    <lb n="3"/>prendre? exactement le même. Ici elle se rappela que la lueur 
+    <lb n="4"/>lui était apparue, en faisant halte, 
+    <lb n="5"/>comme un feu, et regardant à ses pieds la vit enfoncée, 
+    <lb n="6"/>tenue par son personnage, miré en sa sécurité, tandis qu'en haut il n'y avait rien que son évasion: 
+    <lb n="7"/>elle se décida à la suivre, 
+    <lb n="8"/>ayant, pensa-t-elle, pour compenser l'effet 
+    <lb n="9"/>ascensionnel et l'annuler, le retour fait sur 
+    <lb n="10"/>soi à analyser curieusement ? 
     </p>
     <p>
-    <lb/>Elle recommença le bruit qui fut exactement le même : 
-    <lb/>je me suis reconnue : 
-    <lb/>non l'hôte monstrueux de moi-même, mais moi; 
-    <lb/>en effet ce froissement que j'entends, mêlé à la montée distincte de la marche, ne vient pas du ventre velu de quelque 
-    <lb/>monstre, effarouché, mais est celui du velours 
-    <lb/>de mon buste qui se réfléchit avec amour, 
-    <lb/>sur les parois du
-    <lb/>quel il n'y a pas de toile arachnéenne, mais 
-    <lb/>une collerette de guipure qui tombe: et 
-    <lb/>c'est bien par des génies supérieurs, qu'ont été soigneusement 
-    <lb/>déposées dans le sépulchre les cendres de tous mes fantômes 
+    <lb n="11"/>Elle recommença le bruit qui fut exactement le même : 
+    <lb n="12"/>je me suis reconnue : 
+    <lb n="13"/>non l'hôte monstrueux de moi-même, mais moi; 
+    <lb n="15"/>en effet ce froissement que j'entends, mêlé à la montée distincte de la marche, ne vient pas du ventre velu de quelque 
+    <lb n="16"/>monstre, effarouché, mais est celui du velours 
+    <lb n="17"/>de mon buste qui se réfléchit avec amour, 
+    <lb n="19"/>sur les parois du
+    <lb n="20"/>quel il n'y a pas de toile arachnéenne, mais 
+    <lb n="21"/>une collerette de guipure qui tombe: et 
+    <lb n="22"/>c'est bien par des génies supérieurs, qu'ont été soigneusement 
+    <lb n="23"/>déposées dans le sépulchre les cendres de tous mes fantômes 
     </p>
 
-  <pb facs="42.jpg" n="42"/>   
+  <pb facs="42.jpg" xml:id="el_42" n="42"/>   
     <p>
-    <lb/>innombrables qui me sont apparus, 
-    <lb/>d'aspect pareils mais sombrés 
-    <lb/>[en] l'infini, 
-    <lb/>dont je suis l'unité, et la fin 
-    <lb/>- supérieurs et inférieurs, ce qui est tout 
-    <lb/>un. En effet, me voici, par la spirale 
-    <lb/>supérieure, arrivé à un 
-    <lb/>prolongement de moi 
-    <lb/>identique au premier, sauf que je n'entends 
-    <lb/>pas les pas: c'était tout simplement 
-    <lb/>la mesure de moi-même qui se scandait 
-    <lb/>avant de finir, ma propre division qui 
-    <lb/>cessait, avant que je ne m'engouffrasse en 
-    <lb/>moi-même; 
-    <lb/>ne suis-je 
-    <lb/>pas le commencement et la fin - et cette 
-    <lb/>solidité du sol où je suis revenu, 
-    <lb/>ne dit-elle pas que je suis l'assise 
-    <lb/>éternelle des choses, nécessaire à toute 
-    <lb/>marche 
+    <lb n="1"/>innombrables qui me sont apparus, 
+    <lb n="2"/>d'aspect pareils mais sombrés 
+    <lb n="3"/>[en] l'infini, 
+    <lb n="4"/>dont je suis l'unité, et la fin 
+    <lb n="5"/>- supérieurs et inférieurs, ce qui est tout 
+    <lb n="6"/>un. En effet, me voici, par la spirale 
+    <lb n="7"/>supérieure, arrivé à un 
+    <lb n="8"/>prolongement de moi 
+    <lb n="9"/>identique au premier, sauf que je n'entends 
+    <lb n="10"/>pas les pas: c'était tout simplement 
+    <lb n="11"/>la mesure de moi-même qui se scandait 
+    <lb n="12"/>avant de finir, ma propre division qui 
+    <lb n="13"/>cessait, avant que je ne m'engouffrasse en 
+    <lb n="14"/>moi-même; 
+    <lb n="15"/>ne suis-je 
+    <lb n="16"/>pas le commencement et la fin - et cette 
+    <lb n="17"/>solidité du sol où je suis revenu, 
+    <lb n="18"/>ne dit-elle pas que je suis l'assise 
+    <lb n="19"/>éternelle des choses, nécessaire à toute 
+    <lb n="20"/>marche 
     </p>
   
-  <pb facs="43.jpg" n="43"/> 
+  <pb facs="43.jpg" xml:id="el_43" n="43"/> 
     <p>
-    <lb/>et c'est de mon sein, foyer de toutes 
-    <lb/>mes parties, 
-    <lb/>et que ne souille 
-    <lb/>aucune centre, que naît la lumière 
-    <lb/>que je suis. Je suis 
-    <lb/>ma 
-    <lb/>perfection, mon propre sépulcre, où, maintenant mon ombre 
-    <lb/>accomplie, je suis éternelle. 
+    <lb n="1"/>et c'est de mon sein, foyer de toutes 
+    <lb n="2"/>mes parties, 
+    <lb n="3"/>et que ne souille 
+    <lb n="4"/>aucune centre, que naît la lumière 
+    <lb n="5"/>que je suis. Je suis 
+    <lb n="6"/>ma 
+    <lb n="7"/>perfection, mon propre sépulcre, où, maintenant mon ombre 
+    <lb n="8"/>accomplie, je suis éternelle. 
     </p>
     <p>
-    <lb/>[Ces mots] trouvent par où j'ai passé comme un écho 
-    <lb/>prolongé de corridor 
-    <lb/>derrière moi, de façon à me causer une inquiétude, 
-    <lb/>si je n'étais sûre de ma totalité.
-    <lb/>Me voici arrivée après la longue spirale 
-    <lb/>et le long corridor du temps, mon attente, à l'Éternité: 
-    <lb/>et le mouvement qui se fait, inverse du 
-    <lb/>premier, ou pareil, alors que j'entrais dans le <lb/>tombeau de mon éternité de bonheur, 
-    <lb/>est celui de la porte qui se referme: 
-    <lb/>cela devait arriver après le songe que 
-    <lb/>je viens d'avoir de moi: plus de doute. 
-    <lb/>Tout à jamais est fini: ces paroles 
-    <lb/>qui retombent en moi n'engendrent que 
-    <lb/>certitude : je reconnais leur écho ancien
-		<lb/>        	je rentre dans mon propre sépulchre. 
+    <lb n="9"/>[Ces mots] trouvent par où j'ai passé comme un écho 
+    <lb n="10"/>prolongé de corridor 
+    <lb n="12"/>derrière moi, de façon à me causer une inquiétude, 
+    <lb n="13"/>si je n'étais sûre de ma totalité.
+    <lb n="15"/>Me voici arrivée après la longue spirale 
+    <lb n="16"/>et le long corridor du temps, mon attente, à l'Éternité: 
+    <lb n="17"/>et le mouvement qui se fait, inverse du 
+    <lb n="18"/>premier, ou pareil, alors que j'entrais dans le <lb n="19"/>tombeau de mon éternité de bonheur, 
+    <lb n="20"/>est celui de la porte qui se referme: 
+    <lb n="21"/>cela devait arriver après le songe que 
+    <lb n="22"/>je viens d'avoir de moi: plus de doute. 
+    <lb n="23"/>Tout à jamais est fini: ces paroles 
+    <lb n="24"/>qui retombent en moi n'engendrent que 
+    <lb n="25"/>certitude : je reconnais leur écho ancien
+		<lb n="26"/>        	je rentre dans mon propre sépulchre. 
     </p>
 
-  <pb facs="44.jpg" n="44"/> 
+  <pb facs="44.jpg" xml:id="el_44" n="44"/> 
     <fw type="head">Γ</fw>
     <fw place="top_left" type="head">γ </fw>
     <p>
-    <lb/>Les panneaux de la Nuit ébénéenne ne se refermèrent pas encore 
-    <lb/>sur l'ombre 
-    <lb/>qui ne perçut plus rien que  l'oscillation hésitante 
-    <lb/>et prête à s'arrêter d'un balancier caché qui 
-    <lb/>commence à avoir la perception de lui-même. Mais elle s'aperçut 
-    <lb/>bientôt que c'était en elle, 
-    <lb/>en qui la lueur de sa perception s'enfonçait, comme étouffée, 
-    <lb/>- et elle rentrait en elle-même. 
-    <lb/>Le bruit, bientôt se scanda d'une 
-    <lb/>façon plus définitive. Mais, à mesure qu'il devenait 
-    <lb/>plus certain d'un côté, et plus pressé, son hésitation augmentait 
-    <lb/>d'une sorte de frôlement, qui remplaçait 
-    <lb/>l'intervalle disparu; et, prise de doute, l'ombre se sentait opprimée 
-    <lb/>par une netteté fuyante, comme par 
-    <lb/>la continuation de l'idée apparue des panneaux qui 
-    <lb/>bien que fermés, ouverts encore cependant, 
-    <lb/>auraient, 
-    <lb/>pour arrivé [sic] à cela, dans une vertigineuse immobilité tourné longuement 
-    <lb/>sur eux-mêmes. 
-    <lb/>Enfin un bruit 
-    <lb/>qui semblait l'échappement de la condensation absurde 
-    <lb/>des précédents s'exhala, mais doué d'une certaine animation reconnue, et l'ombre 
-    <lb/>n'entendit plus rien 
+    <lb n="2"/>Les panneaux de la Nuit ébénéenne ne se refermèrent pas encore 
+    <lb n="3"/>sur l'ombre 
+    <lb n="4"/>qui ne perçut plus rien que  l'oscillation hésitante 
+    <lb n="5"/>et prête à s'arrêter d'un balancier caché qui 
+    <lb n="6"/>commence à avoir la perception de lui-même. Mais elle s'aperçut 
+    <lb n="7"/>bientôt que c'était en elle, 
+    <lb n="8"/>en qui la lueur de sa perception s'enfonçait, comme étouffée, 
+    <lb n="9"/>- et elle rentrait en elle-même. 
+    <lb n="10"/>Le bruit, bientôt se scanda d'une 
+    <lb n="11"/>façon plus définitive. Mais, à mesure qu'il devenait 
+    <lb n="12"/>plus certain d'un côté, et plus pressé, son hésitation augmentait 
+    <lb n="13"/>d'une sorte de frôlement, qui remplaçait 
+    <lb n="14"/>l'intervalle disparu; et, prise de doute, l'ombre se sentait opprimée 
+    <lb n="15"/>par une netteté fuyante, comme par 
+    <lb n="16"/>la continuation de l'idée apparue des panneaux qui 
+    <lb n="17"/>bien que fermés, ouverts encore cependant, 
+    <lb n="18"/>auraient, 
+    <lb n="19"/>pour arrivé [sic] à cela, dans une vertigineuse immobilité tourné longuement 
+    <lb n="20"/>sur eux-mêmes. 
+    <lb n="21"/>Enfin un bruit 
+    <lb n="22"/>qui semblait l'échappement de la condensation absurde 
+    <lb n="23"/>des précédents s'exhala, mais doué d'une certaine animation reconnue, et l'ombre 
+    <lb n="24"/>n'entendit plus rien 
     </p>
 
   <pb facs="45.jpg" n="45"/> 
     <p>
-    <lb/>q'un régulier battement qui semblait fuir à jamais comme 
-    <lb/>le volètement prolongé de 
-    <lb/>quelqu'hôte de la nuit réveillé de son lourd sommeil : 
-    <lb/>mais ce n'était pas cela [,] il n'y avait sur les parois luisantes aucun[e] trame, 
-    <lb/>à laquelle 
-    <lb/>pussent s'attacher même les pattes
-    <lb/>arachnéennes du soupçon:
-    <lb/>tout était luisant et propre ; et si quelque plumage 
-    <lb/>avait jamais frotté ces parois, ce 
-    <lb/>ne pouvait être que les plumes de génies d'une <lb/>espèce intermédiaire soucieuse de réunir 
-    <lb/>toute poussière dans un lieu spécial, afin que ces 
-    <lb/>ombres, des deux côtés 
-    <lb/>multipliées à l'infini 
-    <lb/>apparussent comme de pures ombres 
-    <lb/>portant chacune le volume de leurs destinées, 
-    <lb/>et la pure clarté de leur conscience. Ce 
-    <lb/>qu'il y avait de clair c'est que ce séjour 
-    <lb/>concordait parfaitement avec lui-même : des 
-    <lb/>deux côtés les myriades d'ombres pareilles, et de 
-    <lb/>leurs deux côtés, dans les parois opposées, qui se réfléchissaient, deux trouées 
-    <lb/>d'ombre massive qui devait être nécessairement 
-    <lb/>à l'inverse de ces ombres, non leur apparition, mais leur disparition, ombre 
-    <lb/>négative d'eux-mêmes : c'était le lieu de 
-    <lb/>la certitude parfaite. 
+    <lb n="1"/>q'un régulier battement qui semblait fuir à jamais comme 
+    <lb n="4"/>le volètement prolongé de 
+    <lb n="5"/>quelqu'hôte de la nuit réveillé de son lourd sommeil : 
+    <lb n="6"/>mais ce n'était pas cela [,] il n'y avait sur les parois luisantes aucun[e] trame, 
+    <lb n="7"/>à laquelle 
+    <lb n="8"/>pussent s'attacher même les pattes
+    <lb n="9"/>arachnéennes du soupçon:
+    <lb n="10"/>tout était luisant et propre ; et si quelque plumage 
+    <lb n="11"/>avait jamais frotté ces parois, ce 
+    <lb n="12"/>ne pouvait être que les plumes de génies d'une <lb n="13"/>espèce intermédiaire soucieuse de réunir 
+    <lb n="14"/>toute poussière dans un lieu spécial, afin que ces 
+    <lb n="15"/>ombres, des deux côtés 
+    <lb n="16"/>multipliées à l'infini 
+    <lb n="17"/>apparussent comme de pures ombres 
+    <lb n="18"/>portant chacune le volume de leurs destinées, 
+    <lb n="19"/>et la pure clarté de leur conscience. Ce 
+    <lb n="20"/>qu'il y avait de clair c'est que ce séjour 
+    <lb n="21"/>concordait parfaitement avec lui-même : des 
+    <lb n="22"/>deux côtés les myriades d'ombres pareilles, et de 
+    <lb n="23"/>leurs deux côtés, dans les parois opposées, qui se réfléchissaient, deux trouées 
+    <lb n="24"/>d'ombre massive qui devait être nécessairement 
+    <lb n="25"/>à l'inverse de ces ombres, non leur apparition, mais leur disparition, ombre 
+    <lb n="26"/>négative d'eux-mêmes : c'était le lieu de 
+    <lb n="27"/>la certitude parfaite. 
     </p>
 
-  <pb facs="46.jpg" n="46"/> 
+  <pb facs="46.jpg" xml:id="el_46" n="46"/> 
     <p>
-    <lb/>L'ombre n'entendit dans ce lieu d'autre bruit qu'un 
-    <lb/>battement régulier qu'elle reconnut être celui de <lb/>son propre cœur: elle le reconnut, et, gênée de <lb/>la certitude parfaite de soi, elle tenta d'y échapper, 
-    <lb/>et de rentrer en elle, en son opacité: mais 
-    <lb/>par laquelle des deux trouées passer? dans les deux 
-    <lb/>s'enfonçaient des divisions correspondantes à 
-    <lb/>l'infini des apparitions, bien que différentes: elle 
-    <lb/>jeta encore une fois les yeux sur la salle 
-    <lb/>qui, elle, lui paraissait identique à soi, sauf <lb/>que de la clarté la lueur se mirait dans la 
-    <lb/>surface polie inférieure, dépourvue de 
-    <lb/>poussière, tandis que dans l'autre 
-    <lb/>apparue plus vaguement il y avait une 
-    <lb/>évasion de lumière. L'ombre se décida pour 
-    <lb/>celle-là et fut satisfaite car le bruit qu'elle <lb/>entendait était de nouveau distinct et le même <lb/>exactement que précédemment, indiquant la 
-    <lb/>même progression.
+    <lb n="3"/>L'ombre n'entendit dans ce lieu d'autre bruit qu'un 
+    <lb n="4"/>battement régulier qu'elle reconnut être celui de <lb n="5"/>son propre cœur: elle le reconnut, et, gênée de <lb n="6"/>la certitude parfaite de soi, elle tenta d'y échapper, 
+    <lb n="7"/>et de rentrer en elle, en son opacité: mais 
+    <lb n="8"/>par laquelle des deux trouées passer? dans les deux 
+    <lb n="9"/>s'enfonçaient des divisions correspondantes à 
+    <lb n="10"/>l'infini des apparitions, bien que différentes: elle 
+    <lb n="11"/>jeta encore une fois les yeux sur la salle 
+    <lb n="12"/>qui, elle, lui paraissait identique à soi, sauf <lb n="13"/>que de la clarté la lueur se mirait dans la 
+    <lb n="14"/>surface polie inférieure, dépourvue de 
+    <lb n="15"/>poussière, tandis que dans l'autre 
+    <lb n="16"/>apparue plus vaguement il y avait une 
+    <lb n="17"/>évasion de lumière. L'ombre se décida pour 
+    <lb n="18"/>celle-là et fut satisfaite car le bruit qu'elle <lb n="19"/>entendait était de nouveau distinct et le même <lb n="20"/>exactement que précédemment, indiquant la 
+    <lb n="21"/>même progression.
     </p>
     <p>
-    <lb/>Toutes les choses étaient rentrées dans leur ordre 
-    <lb/>premier : il n'y avait plus 
-    <lb/>de doute à avoir : cette halte n'avait-elle pas été 
-    <lb/>l'intervalle disparu et remplacé par les 
+    <lb n="22"/>Toutes les choses étaient rentrées dans leur ordre 
+    <lb n="23"/>premier : il n'y avait plus 
+    <lb n="24"/>de doute à avoir : cette halte n'avait-elle pas été 
+    <lb n="25"/>l'intervalle disparu et remplacé par les 
     </p>
 
-  <pb facs="47.jpg" n="47"/> 
+  <pb facs="47.jpg" xml:id="el_47" n="47"/> 
     <p>
-    <lb/>froissement [sic]: elle y avait 
-    <lb/>entendu le bruit de son propre cœur, explication <lb/>du bruit devenu distinct; c'était elle
-    <lb/>même qui scandait sa mesure, et qui 
-    <lb/>s'était apparue en ombres innombrables de 
-    <lb/>nuits, entre les ombres des 
-    <lb/>nuits passées et des nuits futures, devenues 
-    <lb/>pareilles et extérieures, évoquées pour montrer <lb/>qu'elles étaient également finies : cela 
-    <lb/>avec une forme qui était le strict résumé 
-    <lb/>d'elles : et ce froissement quel était-il? non <lb/>celui de quelqu'oiseau échappé sous le ventre <lb/>velu duquel avait donné la lumière, mais 
-    <lb/>le buste d'un génie supérieur, vêtu de 
-    <lb/>velours, 
-    <lb/>et dont l'unique frisson était 
-    <lb/>le travail arachnéen d'une 
-    <lb/>dentelle qui retombait sur le velours: le 
-    <lb/>personnage parfait de la nuit telle qu'elle 
-    <lb/>s'était apparue. En effet, maintenant qu'il 
-    <lb/>avait la notion de lui-même, le bruit de 
-    <lb/>mesure cessa 
-    <lb/>et redevint ce qu'il était, chancelant, 
+    <lb n="1"/>froissement [sic]: elle y avait 
+    <lb n="2"/>entendu le bruit de son propre cœur, explication <lb n="3"/>du bruit devenu distinct; c'était elle
+    <lb n="4"/>même qui scandait sa mesure, et qui 
+    <lb n="5"/>s'était apparue en ombres innombrables de 
+    <lb n="6"/>nuits, entre les ombres des 
+    <lb n="7"/>nuits passées et des nuits futures, devenues 
+    <lb n="8"/>pareilles et extérieures, évoquées pour montrer <lb n="9"/>qu'elles étaient également finies : cela 
+    <lb n="10"/>avec une forme qui était le strict résumé 
+    <lb n="11"/>d'elles : et ce froissement quel était-il? non <lb n="12"/>celui de quelqu'oiseau échappé sous le ventre <lb n="13"/>velu duquel avait donné la lumière, mais 
+    <lb n="14"/>le buste d'un génie supérieur, vêtu de 
+    <lb n="15"/>velours, 
+    <lb n="16"/>et dont l'unique frisson était 
+    <lb n="17"/>le travail arachnéen d'une 
+    <lb n="18"/>dentelle qui retombait sur le velours: le 
+    <lb n="19"/>personnage parfait de la nuit telle qu'elle 
+    <lb n="20"/>s'était apparue. En effet, maintenant qu'il 
+    <lb n="21"/>avait la notion de lui-même, le bruit de 
+    <lb n="22"/>mesure cessa 
+    <lb n="23"/>et redevint ce qu'il était, chancelant, 
     </p>
     
-  <pb facs="48.jpg" n="48"/> 
+  <pb facs="48.jpg" xml:id="el_48" n="48"/> 
     <p>
-    <lb/>la nuit divisée de ses ombres accomplie, 
-    <lb/>la lueur qui s'était apparue dans son 
-    <lb/>mirage dénué de cendres était la pure 
-    <lb/>lumière et elle allait cette fois disparaître en <lb/>le sein de l'ombre qui, accomplie, revenue 
-    <lb/>du corridor du temps, était enfin parfaite 
-    <lb/>et éternelle, - elle-même, devenue 
-    <lb/>son propre sépulchre, dont les panneaux 
-    <lb/>se retrouvaient ouverts sans bruit.
+    <lb n="1"/>la nuit divisée de ses ombres accomplie, 
+    <lb n="2"/>la lueur qui s'était apparue dans son 
+    <lb n="3"/>mirage dénué de cendres était la pure 
+    <lb n="4"/>lumière et elle allait cette fois disparaître en <lb n="5"/>le sein de l'ombre qui, accomplie, revenue 
+    <lb n="6"/>du corridor du temps, était enfin parfaite 
+    <lb n="7"/>et éternelle, - elle-même, devenue 
+    <lb n="8"/>son propre sépulchre, dont les panneaux 
+    <lb n="9"/>se retrouvaient ouverts sans bruit.
     </p>
 
-  <pb facs="49.jpg" n="49"/> 
+  <pb facs="49.jpg" xml:id="el_49" n="49"/> 
     <fw type="head">Δ</fw>
     <fw place="top_left" type="head">σ </fw>
     <p>
-    <lb/>L'ombre disparut dans les ténèbres 
-    <lb/>futures, 
-    <lb/>y demeura avec une perception de 
-    <lb/>balancier expirant alors qu'il commence à avoir la sensation 
-    <lb/>de lui: mais elle s'aperçoit à 
-    <lb/>l'étouffement expirant de ce qui luit encore qui s'enfonce en elle 
-    <lb/>qu'elle rentre en soi, 
-    <lb/>d'où provenait par conséquent l'idée de ce bruit, retombant maintenant en une seule fois inutilement <lb/>sur lui-même dans le passé.
-    <lb/>Si d'un côté le doute disparaissait, 
-    <lb/>scandé nettement par le mouvement qui restait seul du bruit, 
-    <lb/>de l'autre la réminiscence du bruit se manifestait 
-    <lb/>par un vague frôlement inaccoutumé, et cet état d'angoisse consciente 
-    <lb/>était comprimée [sic] vers le mirage par 
-    <lb/>la permanence constatée des panneaux encore ouverts 
-    <lb/>parallèlement et à la fois se fermant sur eux, comme 
-    <lb/>dans une spirale vertigineuse, et 
-    <lb/>à jamais fuyante si la compression prolongée 
-    <lb/>n'eût dû impliquer la halte d'une expansion 
-    <lb/>retenue, qui eut lieu en effet, et ne fut troublée 
-    <lb/>que par le semblant de volètement évasif d'un hôte 
-    <lb/>de la nuit effrayé dans son lourd sommeil, lequel 
-    <lb/>disparut dans ce lointain indéfini.
+    <lb n="1"/>L'ombre disparut dans les ténèbres 
+    <lb n="2"/>futures, 
+    <lb n="4"/>y demeura avec une perception de 
+    <lb n="5"/>balancier expirant alors qu'il commence à avoir la sensation 
+    <lb n="6"/>de lui: mais elle s'aperçoit à 
+    <lb n="7"/>l'étouffement expirant de ce qui luit encore qui s'enfonce en elle 
+    <lb n="8"/>qu'elle rentre en soi, 
+    <lb n="12"/>d'où provenait par conséquent l'idée de ce bruit, retombant maintenant en une seule fois inutilement <lb n="13"/>sur lui-même dans le passé.
+    <lb n="14"/>Si d'un côté le doute disparaissait, 
+    <lb n="15"/>scandé nettement par le mouvement qui restait seul du bruit, 
+    <lb n="17"/>de l'autre la réminiscence du bruit se manifestait 
+    <lb n="18"/>par un vague frôlement inaccoutumé, et cet état d'angoisse consciente 
+    <lb n="19"/>était comprimée [sic] vers le mirage par 
+    <lb n="20"/>la permanence constatée des panneaux encore ouverts 
+    <lb n="21"/>parallèlement et à la fois se fermant sur eux, comme 
+    <lb n="22"/>dans une spirale vertigineuse, et 
+    <lb n="23"/>à jamais fuyante si la compression prolongée 
+    <lb n="24"/>n'eût dû impliquer la halte d'une expansion 
+    <lb n="25"/>retenue, qui eut lieu en effet, et ne fut troublée 
+    <lb n="26"/>que par le semblant de volètement évasif d'un hôte 
+    <lb n="27"/>de la nuit effrayé dans son lourd sommeil, lequel 
+    <lb n="28"/>disparut dans ce lointain indéfini.
     </p>
 
-  <pb facs="50.jpg" n="50"/> 
+  <pb facs="50.jpg" xml:id="el_50" n="50"/> 
     <p>
-    <lb/>La Nuit était bien en soi cette fois et sûre [que] 
-    <lb/>ce qui était étranger à elle avait disparu. 
-    <lb/>Elle était arrivée à sa 
-    <lb/>certitude et se réfléchissait de toutes parts
-    <lb/>La Nuit était bien en soi cette fois et sûre que tout 
-    <lb/>ce qui était étranger à elle n'était que 
-    <lb/>chimère. Elle se mira dans 
-    <lb/>les panneaux luisants de sa certitude, où nul soupçon 
-    <lb/>n'eût pu s'attacher de ses pattes arachnéennes, et 
-    <lb/>si jamais quelqu'hôte étranger à elle les avait <lb/>frôlés de ses plumes, c'étaient des génies d'une espèce 
-    <lb/>supérieure aux hôtes qu'elle avait imaginés, 
-    <lb/>pareille peut-être à celle de ses ombres apparues dans les panneaux, 
-    <lb/>soucieux de recueillir 
-    <lb/>toute poussière d'elle pour que, parvenue 
-    <lb/>au point de jonction de son futur et de son 
-    <lb/>passé devenus identiques, elle se mirât 
-    <lb/>en toutes ces ombres apparues pures avec le volume 
-    <lb/>de leur destinée et la lueur épurée 
-    <lb/>leur conscience. 
-    <lb/>Tout était parfait, en face et derrière ces deux épaisseurs obscures identiques 
-    <lb/>étaient bien les ténèbres 
-    <lb/>vécues par ces ombres 
-    <lb/>revenues à leur état de ténèbres, et, divisées seulement par les marches 
-    <lb/>à l'infini, par les marches faites des pierres funéraires de 
-    <lb/>      toutes ces ombres 
+    <lb n="1"/>La Nuit était bien en soi cette fois et sûre [que] 
+    <lb n="2"/>ce qui était étranger à elle avait disparu. 
+    <lb n="3"/>Elle était arrivée à sa 
+    <lb n="4"/>certitude et se réfléchissait de toutes parts
+    <lb n="5"/>La Nuit était bien en soi cette fois et sûre que tout 
+    <lb n="6"/>ce qui était étranger à elle n'était que 
+    <lb n="7"/>chimère. Elle se mira dans 
+    <lb n="8"/>les panneaux luisants de sa certitude, où nul soupçon 
+    <lb n="9"/>n'eût pu s'attacher de ses pattes arachnéennes, et 
+    <lb n="10"/>si jamais quelqu'hôte étranger à elle les avait <lb n="11"/>frôlés de ses plumes, c'étaient des génies d'une espèce 
+    <lb n="12"/>supérieure aux hôtes qu'elle avait imaginés, 
+    <lb n="13"/>pareille peut-être à celle de ses ombres apparues dans les panneaux, 
+    <lb n="14"/>soucieux de recueillir 
+    <lb n="15"/>toute poussière d'elle pour que, parvenue 
+    <lb n="16"/>au point de jonction de son futur et de son 
+    <lb n="17"/>passé devenus identiques, elle se mirât 
+    <lb n="18"/>en toutes ces ombres apparues pures avec le volume 
+    <lb n="19"/>de leur destinée et la lueur épurée 
+    <lb n="20"/>leur conscience. 
+    <lb n="21"/>Tout était parfait, en face et derrière ces deux épaisseurs obscures identiques 
+    <lb n="23"/>étaient bien les ténèbres 
+    <lb n="25"/>vécues par ces ombres 
+    <lb n="26"/>revenues à leur état de ténèbres, et, divisées seulement par les marches 
+    <lb n="27"/>à l'infini, par les marches faites des pierres funéraires de 
+    <lb n="28"/>      toutes ces ombres 
     </p>
 
-  <pb facs="51.jpg" n="51"/> 
+  <pb facs="51.jpg" xml:id="el_51" n="51"/> 
     <p>
-    <lb/>toutes deux semblaient identiquement 
-    <lb/>pareilles, sauf que, de même qu'elles étaient l'opposé 
-    <lb/>des ombres, de même elles devaient s'opposer l'une 
-    <lb/>à l'autre, et, les divisions tournant 
-    <lb/>également sur elles-mêmes, elles allaient différemment. 
-    <lb/>Tout était parfait; elle était la Nuit pure, et elle 
-    <lb/>entendit son propre cœur qui battit. Toutefois il <lb/>lui donna une inquiétude, celle de trop de certitude, 
-    <lb/>celle d'une constatation trop sûre 
-    <lb/>d'elle-même: elle voulut se replonger à son tour <lb/>dans les ténèbres vers son sépulchre unique 
-    <lb/>et abjurer l'idée de sa forme telle qu'elle 
-    <lb/>s'était apparue par son souvenir 
-    <lb/>des génies supérieurs chargés de réunir ces cendres 
-    <lb/>passées. Elle fut troublée un moment par sa 
-    <lb/>propre symétrie; mais, comprenant à 
-    <lb/>l'évasion trop grande de la clarté, atténuée 
-    <lb/>jadis, que 
-    <lb/>cette évasion avait été le bruit de l'oiseau 
-    <lb/>dont le vol propagé lui avait semblé continu, <lb/>elle songea qu'en suivant cette lumière, lors
-    <lb/>qu'elle recréerait un vertige pareil au premier, <lb/>elle retournerait à son évanouissement. Elle 
-    <lb/>reconnut en appliquant la 
+    <lb n="2"/>toutes deux semblaient identiquement 
+    <lb n="3"/>pareilles, sauf que, de même qu'elles étaient l'opposé 
+    <lb n="4"/>des ombres, de même elles devaient s'opposer l'une 
+    <lb n="5"/>à l'autre, et, les divisions tournant 
+    <lb n="6"/>également sur elles-mêmes, elles allaient différemment. 
+    <lb n="7"/>Tout était parfait; elle était la Nuit pure, et elle 
+    <lb n="8"/>entendit son propre cœur qui battit. Toutefois il <lb n="9"/>lui donna une inquiétude, celle de trop de certitude, 
+    <lb n="10"/>celle d'une constatation trop sûre 
+    <lb n="11"/>d'elle-même: elle voulut se replonger à son tour <lb n="12"/>dans les ténèbres vers son sépulchre unique 
+    <lb n="13"/>et abjurer l'idée de sa forme telle qu'elle 
+    <lb n="14"/>s'était apparue par son souvenir 
+    <lb n="15"/>des génies supérieurs chargés de réunir ces cendres 
+    <lb n="16"/>passées. Elle fut troublée un moment par sa 
+    <lb n="17"/>propre symétrie; mais, comprenant à 
+    <lb n="18"/>l'évasion trop grande de la clarté, atténuée 
+    <lb n="19"/>jadis, que 
+    <lb n="20"/>cette évasion avait été le bruit de l'oiseau 
+    <lb n="21"/>dont le vol propagé lui avait semblé continu, <lb n="22"/>elle songea qu'en suivant cette lumière, lors
+    <lb n="23"/>qu'elle recréerait un vertige pareil au premier, <lb n="24"/>elle retournerait à son évanouissement. Elle 
+    <lb n="25"/>reconnut en appliquant la 
     </p>
 
-  <pb facs="52.jpg" n="52"/> 
+  <pb facs="52.jpg" xml:id="el_52" n="52"/> 
     <p>
-    <lb/>lueur devant les ténèbres 
-    <lb/>laquelle des deux portes il fallait 
-    <lb/>prendre, à l'effet identique de la 
-    <lb/>lueur et, instruite maintenant 
-    <lb/>de l'architecture des ténèbres, elle fut heureuse <lb/>de percevoir le même mouvement, et le même 
-    <lb/>froissement. Ce froissement était dans ce corridor 
-    <lb/>où s'était enfui le bruit, pour disparaître à 
-    <lb/>jamais, non celui d'un hôte ailé de la nuit, 
-    <lb/>dont la lumière avait froissé le ventre 
-    <lb/>velu, mais le propre miroitement du 
-    <lb/>velours sur le buste d'un génie supérieur 
-    <lb/>et il n'y avait d'autre toile arachnéenne que 
-    <lb/>la dentelle sur ce buste, et quant au 
-    <lb/>mouvement qui avait produit ce frôlement, 
-    <lb/>c'était non la marche circulaire d'une telle bête, 
-    <lb/>mais la marche régulière debout sur les 
-    <lb/>deux pieds de la race qui était apparue tenant <lb/>dans deux mains un volume et une lueur. 
-    <lb/>Elle reconnaissait son personnage ancien qui 
-    <lb/>lui apparaissait chaque nuit, mais enfin, 
-    <lb/>maintenant qu'elle l'avait réduit à l'état de <lb/>ténèbres, après qu'il lui fut 
-    <lb/>apparu comme des ombres, elle était 
+    <lb n="1"/>lueur devant les ténèbres 
+    <lb n="2"/>laquelle des deux portes il fallait 
+    <lb n="3"/>prendre, à l'effet identique de la 
+    <lb n="4"/>lueur et, instruite maintenant 
+    <lb n="5"/>de l'architecture des ténèbres, elle fut heureuse <lb n="6"/>de percevoir le même mouvement, et le même 
+    <lb n="7"/>froissement. Ce froissement était dans ce corridor 
+    <lb n="8"/>où s'était enfui le bruit, pour disparaître à 
+    <lb n="9"/>jamais, non celui d'un hôte ailé de la nuit, 
+    <lb n="10"/>dont la lumière avait froissé le ventre 
+    <lb n="11"/>velu, mais le propre miroitement du 
+    <lb n="12"/>velours sur le buste d'un génie supérieur 
+    <lb n="13"/>et il n'y avait d'autre toile arachnéenne que 
+    <lb n="14"/>la dentelle sur ce buste, et quant au 
+    <lb n="15"/>mouvement qui avait produit ce frôlement, 
+    <lb n="16"/>c'était non la marche circulaire d'une telle bête, 
+    <lb n="17"/>mais la marche régulière debout sur les 
+    <lb n="18"/>deux pieds de la race qui était apparue tenant <lb n="19"/>dans deux mains un volume et une lueur. 
+    <lb n="20"/>Elle reconnaissait son personnage ancien qui 
+    <lb n="21"/>lui apparaissait chaque nuit, mais enfin, 
+    <lb n="22"/>maintenant qu'elle l'avait réduit à l'état de <lb n="23"/>ténèbres, après qu'il lui fut 
+    <lb n="24"/>apparu comme des ombres, elle était 
     </p>
 
- <pb facs="53.jpg" n="53"/> 
+ <pb facs="53.jpg" xml:id="el_53" n="53"/> 
     <p>
-    <lb/>libre enfin, sûre d'elle-même et débarrassée <lb/>de tout ce qui était étranger à elle. En 
-    <lb/>effet, le bruit cessa, en la 
-    <lb/>lumière qui demeura seule et pure
+    <lb n="1"/>libre enfin, sûre d'elle-même et débarrassée <lb n="2"/>de tout ce qui était étranger à elle. En 
+    <lb n="3"/>effet, le bruit cessa, en la 
+    <lb n="4"/>lumière qui demeura seule et pure
     </p>
 
-  <pb facs="54.jpg" n="54"/> 
+  <pb facs="54.jpg" xml:id="el_54" n="54"/> 
     <fw type="head">E</fw>
     <p>
-    <lb/>L'ombre disparue dans les ténèbres, 
-    <lb/>la Nuit demeura avec une perception oscillatoire <lb/>de balancier qui va expirer alors qu'il 
-    <lb/>a la sensation de lui; mais 
-    <lb/>s'aperçut à l'hésitation expirante de ce qui luisait 
-    <lb/>d'elle et qui allait s'éteindre, étouffé, qu'elle <lb/>était une, et que d'elle par conséquent 
-    <lb/>provenait le battement, dont tout le bruit retombe 
-    <lb/>maintenant en une seule fois lourdement 
-    <lb/>dans le passé.
+    <lb n="1"/>L'ombre disparue dans les ténèbres, 
+    <lb n="2"/>la Nuit demeura avec une perception oscillatoire <lb n="3"/>de balancier qui va expirer alors qu'il 
+    <lb n="4"/>a la sensation de lui; mais 
+    <lb n="5"/>s'aperçut à l'hésitation expirante de ce qui luisait 
+    <lb n="6"/>d'elle et qui allait s'éteindre, étouffé, qu'elle <lb n="7"/>était une, et que d'elle par conséquent 
+    <lb n="8"/>provenait le battement, dont tout le bruit retombe 
+    <lb n="9"/>maintenant en une seule fois lourdement 
+    <lb n="10"/>dans le passé.
     </p>
     <p>
-    <lb/>Si d'un côté tout doute disparut, de 
-    <lb/>l'autre l'idée du mouvement persista, 
-    <lb/>régulièrement scandé par le double heurt, que n'atteignait 
-    <lb/>plus le balancier abandonné, 
-    <lb/>et 
-    <lb/>dont le frôlement actuel qui devait avoir lieu <lb/>revenait perceptiblement, 
-    <lb/>comme si tout le bruit massif n'avait pas été celui des panneaux 
-    <lb/>dont la chute expliquait tout : elle fut alors captivée par un mirage 
-    <lb/>des panneaux à la fois ouverts et fermés, et la sensation 
-    <lb/>qu'elle retournait sur 
-    <lb/>elle-même en cette spirale vertigineuse, 
+    <lb n="11"/>Si d'un côté tout doute disparut, de 
+    <lb n="12"/>l'autre l'idée du mouvement persista, 
+    <lb n="13"/>régulièrement scandé par le double heurt, que n'atteignait 
+    <lb n="14"/>plus le balancier abandonné, 
+    <lb n="15"/>et 
+    <lb n="16"/>dont le frôlement actuel qui devait avoir lieu <lb n="17"/>revenait perceptiblement, 
+    <lb n="21"/>comme si tout le bruit massif n'avait pas été celui des panneaux 
+    <lb n="23"/>dont la chute expliquait tout : elle fut alors captivée par un mirage 
+    <lb n="25"/>des panneaux à la fois ouverts et fermés, et la sensation 
+    <lb n="26"/>qu'elle retournait sur 
+    <lb n="27"/>elle-même en cette spirale vertigineuse, 
     </p>
 
-  <pb facs="55.jpg" n="55"/> 
+  <pb facs="55.jpg" xml:id="el_55" n="55"/> 
     <p>
-    <lb/>et indéfiniment fuyante si une oppression 
-    <lb/>causée par le poids progressif de ce dont elle ne <lb/>se rendait pas compte n'eût impliqué l'expansion certaine d'un 
-    <lb/>intervalle, qui arriva, en effet, comme 
-    <lb/>le bruit d'un battement d'ailes [de] 
-    <lb/>quelqu'un de ses hôtes absurdes heurté par 
-    <lb/>la lueur dans son lourd somme et se prolongeant <lb/>dans une fuite indéfinie.
+    <lb n="1"/>et indéfiniment fuyante si une oppression 
+    <lb n="2"/>causée par le poids progressif de ce dont elle ne <lb n="4"/>se rendait pas compte n'eût impliqué l'expansion certaine d'un 
+    <lb n="5"/>intervalle, qui arriva, en effet, comme 
+    <lb n="6"/>le bruit d'un battement d'ailes [de] 
+    <lb n="7"/>quelqu'un de ses hôtes absurdes heurté par 
+    <lb n="8"/>la lueur dans son lourd somme et se prolongeant <lb n="9"/>dans une fuite indéfinie.
     </p>
 
-  <pb facs="56.jpg" n="56"/> <!--verificare nella trascrizione diplomatica-->
+  <pb facs="56.jpg" xml:id="el_56" n="56"/> <!--verificare nella trascrizione diplomatica-->
     <fw place="top_left" type="head">ε</fw>
     <p>
-    <lb/>L'ombre disparue en son obscurité, la Nuit demeura 
-    <lb/>avec une perception oscillatoire de pendule qui va expirer, 
-    <lb/>ayant la perception de lui; mais à ce qui luit et va, 
-    <lb/>étouffé, s'éteindre en soi, ou d'elle-même, elle se reconnut, et vit que 
-    <lb/>d'elle par conséquent venait le battement entendu, dont le bruit 
-    <lb/>total retomba alors lourdement en un seul coup dans le 
-    <lb/>passé.
+    <lb n="1"/>L'ombre disparue en son obscurité, la Nuit demeura 
+    <lb n="2"/>avec une perception oscillatoire de pendule qui va expirer, 
+    <lb n="3"/>ayant la perception de lui; mais à ce qui luit et va, 
+    <lb n="4"/>étouffé, s'éteindre en soi, ou d'elle-même, elle se reconnut, et vit que 
+    <lb n="5"/>d'elle par conséquent venait le battement entendu, dont le bruit 
+    <lb n="6"/>total retomba alors lourdement en un seul coup dans le 
+    <lb n="7"/>passé.
     </p>
     <p>
-    <lb/>Si, d'un côté, tout doute disparut de soi, de l'autre, l'idée 
-    <lb/>de mouvement persista, régulièrement scandée par <lb/>le double heurt impossible du balancier qui ne s'atteignait 
-    <lb/>plus, mais dont le frôlement actuel, tel qu'il eût dû avoir 
-    <lb/>lieu, revenait dans le possible, comme si tout le bruit 
-    <lb/>massif et sépulchral n'avait pas été la chûte des panneaux 
-    <lb/>ouverts du tombeau qui se fermaient à ton retour <lb/>et elle eut un mirage de panneaux à la fois ouverts et 
-    <lb/>fermés, comme s'ils ne retombaient pas, et que ce fût 
-    <lb/>elle qui, douée de leur mouvement, retournât sur soi 
-    <lb/>en cette spirale vertigineuse conséquente, 
-    <lb/>indéfiniment fuyante si une oppression progressive, 
-    <lb/>le poids de ce [dont] elle ne se rendait pas compte, malgré 
-    <lb/>sa certitude inverse qui croissait à mesure, n'eût, 
-    <lb/>en somme, impliqué l'expansion certaine d'un intervalle 
-    <lb/>futur, dans lequel, lorsqu'il se présenta 
-    <lb/>en effet, rien ne s'entendit plus que le bruit d'un 
-    <lb/>battement d'ailes effaré de quelqu'un de ses hôtes absurdes 
-    <lb/>heurté dans son lourd somme par la clarté 
-    <lb/>prolongeant sa fuite indéfinie.
+    <lb n="8"/>Si, d'un côté, tout doute disparut de soi, de l'autre, l'idée 
+    <lb n="9"/>de mouvement persista, régulièrement scandée par <lb n="10"/>le double heurt impossible du balancier qui ne s'atteignait 
+    <lb n="11"/>plus, mais dont le frôlement actuel, tel qu'il eût dû avoir 
+    <lb n="12"/>lieu, revenait dans le possible, comme si tout le bruit 
+    <lb n="13"/>massif et sépulchral n'avait pas été la chûte des panneaux 
+    <lb n="14"/>ouverts du tombeau qui se fermaient à ton retour <lb n="16"/>et elle eut un mirage de panneaux à la fois ouverts et 
+    <lb n="17"/>fermés, comme s'ils ne retombaient pas, et que ce fût 
+    <lb n="18"/>elle qui, douée de leur mouvement, retournât sur soi 
+    <lb n="19"/>en cette spirale vertigineuse conséquente, 
+    <lb n="20"/>indéfiniment fuyante si une oppression progressive, 
+    <lb n="21"/>le poids de ce [dont] elle ne se rendait pas compte, malgré 
+    <lb n="22"/>sa certitude inverse qui croissait à mesure, n'eût, 
+    <lb n="23"/>en somme, impliqué l'expansion certaine d'un intervalle 
+    <lb n="24"/>futur, dans lequel, lorsqu'il se présenta 
+    <lb n="25"/>en effet, rien ne s'entendit plus que le bruit d'un 
+    <lb n="26"/>battement d'ailes effaré de quelqu'un de ses hôtes absurdes 
+    <lb n="27"/>heurté dans son lourd somme par la clarté 
+    <lb n="28"/>prolongeant sa fuite indéfinie.
     </p>
 
-  <pb facs="57.jpg" n="57"/> 
+  <pb facs="57.jpg" xml:id="el_57" n="57"/> 
     <fw type="head">AUTRE ÉBAUCHE</fw>
     <p>
-    <lb/>L'ombre redevenue obscurité, la Nuit demeura <lb/>avec une perception douteuse de pendule qui va expirer en 
-    <lb/>la perception de lui; mais à ce qui luit et va <lb/>probablement expirer en soi, elle se voit encore, qui le porte et c'est donc 
-    <lb/>d'elle que venait le battement ouï, dont le bruit 
-    <lb/>total tombe à jamais dans le 
-    <lb/>passé. (sur l'oubli).
+    <lb n="1"/>L'ombre redevenue obscurité, la Nuit demeura <lb n="2"/>avec une perception douteuse de pendule qui va expirer en 
+    <lb n="3"/>la perception de lui; mais à ce qui luit et va <lb n="4"/>probablement expirer en soi, elle se voit encore, qui le porte et c'est donc 
+    <lb n="5"/>d'elle que venait le battement ouï, dont le bruit 
+    <lb n="6"/>total tombe à jamais dans le 
+    <lb n="7"/>passé. (sur l'oubli).
     </p>
     <p>
-    <lb/>D'un côté, si toute ambiguïté cessa, l'idée 
-    <lb/>de motion dure de l'autre, régulièrement marquée par 
-    <lb/>le double heurt impossible du pendule qui n'atteint plus que sa notion, 
-    <lb/>mais dont le frôlement actuel revient dans le possible, tel qu'il doit avoir 
-    <lb/>lieu, pour combler l'intervalle, comme si tout choc 
-    <lb/>n'avait pas été la chûte unique des portes 
-    <lb/>du tombeau sur lui-même et sans retour; mais dans 
-    <lb/>le doute né de la certitude même de leur perception, se présente 
-    <lb/>une vision de panneaux à la fois ouverts et <lb/>fermés, dans leur chûte en suspens, comme si c'était 
-    <lb/>soi qui, douée de leur mouvement, retournât sur 
-    <lb/>soi-même en la spirale vertigineuse conséquente; qui devait être 
-    <lb/>indéfiniment fluyante si une oppression progressive, 
-    <lb/>poids de ce dont on ne se rendait pas compte, malgré que l'on 
-    <lb/>se l'expliquait 
-    <lb/>en somme, n'eût impliqué l'expansion certaine d'un intervalle 
-    <lb/>futur, sa cessation, dans laquelle, lorsqu'elles se retrouvèrent, 
-    <lb/>rien en effet ne s'entendit plus que le bruit d'un 
-    <lb/>battement d'ailes effaré de quelqu'un de ses hôtes absurdes 
-    <lb/>heurté dans son lourd somme par la clarté et <lb/>prolongeant sa fuite indéfinie.
-    </p>
-
-  <pb facs="58.jpg" n="58"/> 
-    <p>
-    <lb/>Cette fois plus nul doute; 
-    <lb/>c'était sa propre certitude de soi; 
-    <lb/>contemplée intérieurement, son évidence 
-    <lb/>qui reluisait évidée : non ce n'est même 
-    <lb/>pas quelqu'hôte oublié de moi, mais le souvenir <lb/>d'autres plumes, détachées et groupées par 
-    <lb/>maint et maint génie d'une race supérieure et successive 
-    <lb/>en laquelle je me suis apparue 
-    <lb/>et avec lesquelles, en effet, elle m'a frôle[e] <lb/>soigneusement recueillant les cendres de mes 
-    <lb/>apparitions pour qu'elles fussent 
-    <lb/>réunies autre part, 
-    <lb/>dans mon sépulcre, et qu'en mon propre moi, mon moi très-propre, je m'apparusse, 
-    <lb/>multiple, d'un côté et de l'autre, comme la 
-    <lb/>série indéfinie de mes ombres, portant 
-    <lb/>d'un côté, 
-    <lb/>leur volume, de l'autre, 
-    <lb/>la lueur de leur conscience, et 
-    <lb/>pures.
-    </p>
-    <p>
-    <lb/>Et la nuit entendit le battement qu'elle reconnut 
-    <lb/>être les pulsations de son propre cœur.
-    <lb/>Arrivée au sommet de moi, ayant mes ombres 
-    <lb/>réunies des deux côtés, les ombres futures et 
+    <lb n="8"/>D'un côté, si toute ambiguïté cessa, l'idée 
+    <lb n="9"/>de motion dure de l'autre, régulièrement marquée par 
+    <lb n="10"/>le double heurt impossible du pendule qui n'atteint plus que sa notion, 
+    <lb n="11"/>mais dont le frôlement actuel revient dans le possible, tel qu'il doit avoir 
+    <lb n="12"/>lieu, pour combler l'intervalle, comme si tout choc 
+    <lb n="13"/>n'avait pas été la chûte unique des portes 
+    <lb n="14"/>du tombeau sur lui-même et sans retour; mais dans 
+    <lb n="15"/>le doute né de la certitude même de leur perception, se présente 
+    <lb n="16"/>une vision de panneaux à la fois ouverts et <lb n="17"/>fermés, dans leur chûte en suspens, comme si c'était 
+    <lb n="18"/>soi qui, douée de leur mouvement, retournât sur 
+    <lb n="19"/>soi-même en la spirale vertigineuse conséquente; qui devait être 
+    <lb n="20"/>indéfiniment fluyante si une oppression progressive, 
+    <lb n="21"/>poids de ce dont on ne se rendait pas compte, malgré que l'on 
+    <lb n="22"/>se l'expliquait 
+    <lb n="23"/>en somme, n'eût impliqué l'expansion certaine d'un intervalle 
+    <lb n="24"/>futur, sa cessation, dans laquelle, lorsqu'elles se retrouvèrent, 
+    <lb n="25"/>rien en effet ne s'entendit plus que le bruit d'un 
+    <lb n="26"/>battement d'ailes effaré de quelqu'un de ses hôtes absurdes 
+    <lb n="27"/>heurté dans son lourd somme par la clarté et <lb n="28"/>prolongeant sa fuite indéfinie.
     </p>
 
-  <pb facs="59.jpg" n="59"/> 
+  <pb facs="58.jpg" xml:id="el_58" n="58"/> 
     <p>
-    <lb/>celles passées, il ne me reste plus qu'à me dégager 
-    <lb/>de l'obsession de cette race, et à revenir 
-    <lb/>en moi: du  reste cette certitude ne laisse pas que d'être 
-    <lb/>inquiétante; voici
+    <lb n="1"/>Cette fois plus nul doute; 
+    <lb n="3"/>c'était sa propre certitude de soi; 
+    <lb n="4"/>contemplée intérieurement, son évidence 
+    <lb n="5"/>qui reluisait évidée : non ce n'est même 
+    <lb n="6"/>pas quelqu'hôte oublié de moi, mais le souvenir <lb n="7"/>d'autres plumes, détachées et groupées par 
+    <lb n="8"/>maint et maint génie d'une race supérieure et successive 
+    <lb n="9"/>en laquelle je me suis apparue 
+    <lb n="10"/>et avec lesquelles, en effet, elle m'a frôle[e] <lb n="11"/>soigneusement recueillant les cendres de mes 
+    <lb n="12"/>apparitions pour qu'elles fussent 
+    <lb n="13"/>réunies autre part, 
+    <lb n="14"/>dans mon sépulcre, et qu'en mon propre moi, mon moi très-propre, je m'apparusse, 
+    <lb n="15"/>multiple, d'un côté et de l'autre, comme la 
+    <lb n="16"/>série indéfinie de mes ombres, portant 
+    <lb n="17"/>d'un côté, 
+    <lb n="18"/>leur volume, de l'autre, 
+    <lb n="19"/>la lueur de leur conscience, et 
+    <lb n="20"/>pures.
     </p>
     <p>
-    <lb/>Et en effet, si elles se présentent à moi de deux côtés, des 
-    <lb/>deux autres se présentent à mon songe massées et maintenant mêlées au temps de façon à produire une lourde obscurité des choses 
-    <lb/>les ténèbres qu'elles furent, se prolongeant sans doute jusqu'à 
-    <lb/>la réalité du sépulcre, qui sont les 
-    <lb/>ténèbres pures, dans lesquelles je dois rentrer quittant le costume de mes nuits, pour 
-    <lb/>devenir l'Ombre pure antérieure deux ouvertures de songe.
+    <lb n="21"/>Et la nuit entendit le battement qu'elle reconnut 
+    <lb n="22"/>être les pulsations de son propre cœur.
+    <lb n="23"/>Arrivée au sommet de moi, ayant mes ombres 
+    <lb n="24"/>réunies des deux côtés, les ombres futures et 
+    </p>
+
+  <pb facs="59.jpg" xml:id="el_59" n="59"/> 
+    <p>
+    <lb n="1"/>celles passées, il ne me reste plus qu'à me dégager 
+    <lb n="2"/>de l'obsession de cette race, et à revenir 
+    <lb n="3"/>en moi: du  reste cette certitude ne laisse pas que d'être 
+    <lb n="4"/>inquiétante; voici
     </p>
     <p>
-    <lb/>Que tout se correspond bien en moi, quelle admirable 
-    <lb/>symétrie, trop parfaite et qui 
-    <lb/>ne laisse pas par son évidence que d'être inquiétante: ce 
-    <lb/>battement que j'entends, je le sais, ce sont les pulsations 
-    <lb/>de mon cœur; alors que je m'étais incarnée en <lb/>cette race supérieure, dont je dois rejeter le costume.
+    <lb n="5"/>Et en effet, si elles se présentent à moi de deux côtés, des 
+    <lb n="6"/>deux autres se présentent à mon songe massées et maintenant mêlées au temps de façon à produire une lourde obscurité des choses 
+    <lb n="7"/>les ténèbres qu'elles furent, se prolongeant sans doute jusqu'à 
+    <lb n="8"/>la réalité du sépulcre, qui sont les 
+    <lb n="9"/>ténèbres pures, dans lesquelles je dois rentrer quittant le costume de mes nuits, pour 
+    <lb n="10"/>devenir l'Ombre pure antérieure deux ouvertures de songe.
     </p>
     <p>
-    <lb/>Toutefois mon inquiétude s'accroît: ces deux ouvertures 
-    <lb/>de portes, qui se mirent aussi parfaitement que les deux 
-    <lb/>panneaux opposés se répètent, engendrent une 
-    <lb/>certaine ambiguïté nouvelle et le doute: serais-je 
-    <lb/>prise dans les panneaux de mon propre songe ? <lb/>Mais ne sont-ils pas le mirage l'un de l'autre, à travers 
-    <lb/>ma réflexion, un reste de doute causé par le prolongement 
-    <lb/>absurde de mon hôte antérieur, qui sembla fuir <lb/>indéfiniment. Je prends au hazard: l'un est l'autre. 
+    <lb n="11"/>Que tout se correspond bien en moi, quelle admirable 
+    <lb n="12"/>symétrie, trop parfaite et qui 
+    <lb n="13"/>ne laisse pas par son évidence que d'être inquiétante: ce 
+    <lb n="14"/>battement que j'entends, je le sais, ce sont les pulsations 
+    <lb n="15"/>de mon cœur; alors que je m'étais incarnée en <lb n="16"/>cette race supérieure, dont je dois rejeter le costume.
+    </p>
+    <p>
+    <lb n="17"/>Toutefois mon inquiétude s'accroît: ces deux ouvertures 
+    <lb n="18"/>de portes, qui se mirent aussi parfaitement que les deux 
+    <lb n="19"/>panneaux opposés se répètent, engendrent une 
+    <lb n="20"/>certaine ambiguïté nouvelle et le doute: serais-je 
+    <lb n="21"/>prise dans les panneaux de mon propre songe ? <lb n="22"/>Mais ne sont-ils pas le mirage l'un de l'autre, à travers 
+    <lb n="23"/>ma réflexion, un reste de doute causé par le prolongement 
+    <lb n="24"/>absurde de mon hôte antérieur, qui sembla fuir <lb n="15"/>indéfiniment. Je prends au hazard: l'un est l'autre. 
     En effet je reconnais le même bruit dédoublé, 
     </p>
 
-  <pb facs="60.jpg" n="60"/> 
+  <pb facs="60.jpg" xml:id="el_60" n="60"/> 
     <p>
-    <lb/>le même frôlement.)
-    <lb/>et, avec la notion que j'ai conçue de moi 
-    <lb/>d'après mon apparition, me sachant l'ombre unique, 
-    <lb/>formée en nuit, mais rentrant en ses ténèbres pures, je 
-    <lb/>reconnais tout, et bannis tout reste d'inquiétude. 
-    <lb/>Non, le froissement n'a pas été 
-    <lb/>le doute de quelqu'hôte absurde de moi, dont 
-    <lb/>la lueur heurtait le ventre velu, mais c'est le froissement 
-    <lb/>de la lueur de ma conscience sur le buste 
-    <lb/>revêtu de velours qui veut redevenir 
-    <lb/>obscurité pure d'un hôte supérieur 
-    <lb/>dont j'ai pris la forme
+    <lb n="1"/>le même frôlement.)
+    <lb n="2"/>et, avec la notion que j'ai conçue de moi 
+    <lb n="3"/>d'après mon apparition, me sachant l'ombre unique, 
+    <lb n="4"/>formée en nuit, mais rentrant en ses ténèbres pures, je 
+    <lb n="5"/>reconnais tout, et bannis tout reste d'inquiétude. 
+    <lb n="6"/>Non, le froissement n'a pas été 
+    <lb n="8"/>le doute de quelqu'hôte absurde de moi, dont 
+    <lb n="9"/>la lueur heurtait le ventre velu, mais c'est le froissement 
+    <lb n="10"/>de la lueur de ma conscience sur le buste 
+    <lb n="11"/>revêtu de velours qui veut redevenir 
+    <lb n="12"/>obscurité pure d'un hôte supérieur 
+    <lb n="13"/>dont j'ai pris la forme
     </p>
 </div>
 
 <div n="5" type="drafts">
 <head>Fragments d'ébauches</head>
 
-  <pb facs="61.jpg" n="61"/>
+  <pb facs="61.jpg" xml:id="el_61" n="61"/>
     <p>
-    <lb/>L'ombre redevenue l'obscurité, la Nuit resta 
-    <lb/>avec une perception confuse de pendule qui va expirer 
-    <lb/>en la perception de lui; mais à ce qui luit 
-    <lb/>et va, expirant en soi, s'éteindre, elle se voit encore 
-    <lb/>qui le porte; et sait que c'est donc d'elle que venait, nul doute, le battement 
-    <lb/>ouï, dont le bruit total à jamais tomba dans le 
-    <lb/>passé.
+    <lb n="1"/>L'ombre redevenue l'obscurité, la Nuit resta 
+    <lb n="2"/>avec une perception confuse de pendule qui va expirer 
+    <lb n="3"/>en la perception de lui; mais à ce qui luit 
+    <lb n="4"/>et va, expirant en soi, s'éteindre, elle se voit encore 
+    <lb n="5"/>qui le porte; et sait que c'est donc d'elle que venait, nul doute, le battement 
+    <lb n="6"/>ouï, dont le bruit total à jamais tomba dans le 
+    <lb n="7"/>passé.
     </p>
     <p>
-    <lb/>D'un côté, si l'ambiguïté cessait, l'idée de 
-    <lb/>motion dura de l'autre, marquée d'une façon plus pressante par le 
-    <lb/>double heurt impossible du pendule qui n'atteint plus que 
-    <lb/>sa notion; mais dont un frôlement actuel, 
-    <lb/>tel qu'il doit avoir lieu, remplit confusément <lb/>la cessation de l'ambiguïté, son intervalle, 
-    <lb/>comme si [le] bruit total qui avait été la
-    </p>
-
-  <pb facs="62.jpg" n="62"/>
-    <p>
-    <lb/>Seulement que pouvait être ce bruit, dont le 
-    <lb/>scandement était devenu beaucoup plus net, mais plus 
-    <lb/>pressé, de façon que l'intervalle disparu était remplacé 
-    <lb/>par un frottement incertain, comme si toute 
-    <lb/>la certitude de l'intervalle devait se retrouver en une seule fois, 
-    <lb/>et les parois, du reste, dans lesquel[le]s se 
-    <lb/>mirait la lueur avec cette netteté détestable, se resserraient 
-    <lb/>d'une façon qui opprimait. Enfin
+    <lb n="8"/>D'un côté, si l'ambiguïté cessait, l'idée de 
+    <lb n="9"/>motion dura de l'autre, marquée d'une façon plus pressante par le 
+    <lb n="10"/>double heurt impossible du pendule qui n'atteint plus que 
+    <lb n="11"/>sa notion; mais dont un frôlement actuel, 
+    <lb n="12"/>tel qu'il doit avoir lieu, remplit confusément <lb n="13"/>la cessation de l'ambiguïté, son intervalle, 
+    <lb n="14"/>comme si [le] bruit total qui avait été la
     </p>
 
-  <pb facs="63.jpg" n="63"/>
+  <pb facs="62.jpg" xml:id="el_62" n="62"/>
+    <p>
+    <lb n="1"/>Seulement que pouvait être ce bruit, dont le 
+    <lb n="2"/>scandement était devenu beaucoup plus net, mais plus 
+    <lb n="3"/>pressé, de façon que l'intervalle disparu était remplacé 
+    <lb n="4"/>par un frottement incertain, comme si toute 
+    <lb n="5"/>la certitude de l'intervalle devait se retrouver en une seule fois, 
+    <lb n="6"/>et les parois, du reste, dans lesquel[le]s se 
+    <lb n="7"/>mirait la lueur avec cette netteté détestable, se resserraient 
+    <lb n="8"/>d'une façon qui opprimait. Enfin
+    </p>
+
+  <pb facs="63.jpg" xml:id="el_63" n="63"/>
     <p>[À l'envers :]
      ß Ire et 2e feuilles manquent
      voir Y 3 (verso).</p>  <!--note di Marchal-->
     
     <p>
-    <lb/>L'horreur est qu'on n'y pouvait douter, tant tout <lb/>était luisant et fourbi. La nuit 
-    <lb/>entendit le bruit de son propre cœur dont battaient, 
-    <lb/>maintenant que tout frôlement étranger s'était tû, 
-    <lb/>les pulsations. 
-    <lb/>Elle s'apparut, satisfaite, mais 
-    <lb/>terrifiée de ce bruit qu'elle ne voulait pas entendre, et, songea, 
-    <lb/>que pour oublier ce bruit, et redevenir pure, il lui 
-    <lb/>fallait revenir dans un des puits d'ombre: que ce site, 
-    <lb/>étant sans doute l'attente de tous les intervalles 
-    <lb/>qui avaient été différés, elle différait d'elle-même 
-    <lb/>par quelque chose encore, et qu'il était bon d'oublier 
-    <lb/>le bruit premier par sa continuation, qui 
-    <lb/>annulerait jusqu'aux battements de son cœur.
+    <lb n="1"/>L'horreur est qu'on n'y pouvait douter, tant tout <lb n="2"/>était luisant et fourbi. La nuit 
+    <lb n="3"/>entendit le bruit de son propre cœur dont battaient, 
+    <lb n="4"/>maintenant que tout frôlement étranger s'était tû, 
+    <lb n="5"/>les pulsations. 
+    <lb n="7"/>Elle s'apparut, satisfaite, mais 
+    <lb n="8"/>terrifiée de ce bruit qu'elle ne voulait pas entendre, et, songea, 
+    <lb n="9"/>que pour oublier ce bruit, et redevenir pure, il lui 
+    <lb n="10"/>fallait revenir dans un des puits d'ombre: que ce site, 
+    <lb n="11"/>étant sans doute l'attente de tous les intervalles 
+    <lb n="12"/>qui avaient été différés, elle différait d'elle-même 
+    <lb n="13"/>par quelque chose encore, et qu'il était bon d'oublier 
+    <lb n="14"/>le bruit premier par sa continuation, qui 
+    <lb n="15"/>annulerait jusqu'aux battements de son cœur.
     </p>
 
-  <pb facs="64.jpg" n="64"/>  <!--esempio di foglio scritto a penna con correzioni a matita-->
+  <pb facs="64.jpg" xml:id="el_64" n="64"/>  <!--esempio di foglio scritto a penna con correzioni a matita-->
     <fw place="top_left" type="head">Vie d'Igitur</fw>
     <fw place="left">Heures
                     Vides,
@@ -1467,65 +1472,65 @@ silence, pas de cette démence
                     négatives
     </fw>
     <p>
-    <lb/>J'ai toujours vécu mon âme fixée sur l'horloge. <lb/>Certes, j'ai tout fait pour que le temps qu'elle sonna 
-    <lb/>restât présent dans la chambre, et + devînt pour moi la pâture 
-    <lb/>et la vie - j'ai épaissi les rideaux, et comme <lb/>j'étais obligé pour ne pas douter de moi de m'asseoir 
-    <lb/>en face de cette glace, j'ai recueilli précieusement 
-    <lb/>les moindres atômes du temps dans des étoffes sans 
-    <lb/>cesse épaissies - L'horloge m'a fait souvent grand bien, 
-    <lb/>(cela avant que son Idée n'ait été complétée?) <lb/>(En effet, Igitur a été projeté hors du 
-    <lb/>temps par sa race.)
+    <lb n="1"/>J'ai toujours vécu mon âme fixée sur l'horloge. <lb n="2"/>Certes, j'ai tout fait pour que le temps qu'elle sonna 
+    <lb n="3"/>restât présent dans la chambre, et + devînt pour moi la pâture 
+    <lb n="4"/>et la vie - j'ai épaissi les rideaux, et comme <lb n="5"/>j'étais obligé pour ne pas douter de moi de m'asseoir 
+    <lb n="6"/>en face de cette glace, j'ai recueilli précieusement 
+    <lb n="7"/>les moindres atômes du temps dans des étoffes sans 
+    <lb n="8"/>cesse épaissies - L'horloge m'a fait souvent grand bien, 
+    <lb n="10"/>(cela avant que son Idée n'ait été complétée?) <lb n="11"/>(En effet, Igitur a été projeté hors du 
+    <lb n="12"/>temps par sa race.)
     </p>
 
-  <pb facs="65.jpg" n="65"/>
+  <pb facs="65.jpg" xml:id="el_65" n="65"/>
     <p>
-    <lb/>Voici en somme Igitur, depuis que son Idée a été <lb/>complétée: - Le passé compris de sa race qui pèse sur lui en la sensation de fini +, et 
-    <lb/>son attente de l'accomplissement, du futur forment du temps pur, ou de l'ennui, 
-    <lb/>rendu instable par la maladie d'idéalité : cet ennui, ne pouvant être, redevient ses 
-    <lb/>éléments, tantôt tous les meubles fermés, et pleins de 
-    <lb/>leur secret, + l'heure de la pendule précipitant cet ennui en temps lourd, étouffant, et Igitur, 
-    <lb/>comme 
-    <lb/>menacé par le supplice d'être éternel qu'il pressent vaguement, se cherchant 
-    <lb/>dans la glace devenue ennui et se voyant vague et près de disparaître 
-    <lb/>comme s'il allait s'évanouir en le temps, puis s'évoquant : puis lorsque de tout cet ennui, temps, 
-    <lb/>il s'est refait (revu), voyant la glace horriblement nulle, s'y 
-    <lb/>voyant entouré d'une raréfaction, absence d'atmosphère, et 
-    <lb/>les meubles tordre leurs chimères dans le vide, et les 
-    <lb/>rideaux frissonner invisiblement, inquiets ; 
-    <lb/>alors, 
-    <lb/>il ouvre les meubles
-    <lb/>pour qu'ils versent leur mystère, l'inconnu, 
-    <lb/>leur mémoire, leur silence, facultés et impressions 
-    <lb/>humaines, - et quand il croit être redevenu lui, il fixe 
-    <lb/>de son âme l'horloge, dont l'heure 
-    <lb/>disparaît par la glace, ou va 
-    <lb/>s'enfouir dans les rideaux, 
-    <lb/>en trop plein, ne le laissant même pas à l'ennui qu'il 
-    <lb/>implore et rêve. Impuissant de l'ennui.
+    <lb n="1"/>Voici en somme Igitur, depuis que son Idée a été <lb n="2"/>complétée: - Le passé compris de sa race qui pèse sur lui en la sensation de fini +, et 
+    <lb n="3"/>son attente de l'accomplissement, du futur forment du temps pur, ou de l'ennui, 
+    <lb n="4"/>rendu instable par la maladie d'idéalité : cet ennui, ne pouvant être, redevient ses 
+    <lb n="5"/>éléments, tantôt tous les meubles fermés, et pleins de 
+    <lb n="6"/>leur secret, + l'heure de la pendule précipitant cet ennui en temps lourd, étouffant, et Igitur, 
+    <lb n="7"/>comme 
+    <lb n="8"/>menacé par le supplice d'être éternel qu'il pressent vaguement, se cherchant 
+    <lb n="9"/>dans la glace devenue ennui et se voyant vague et près de disparaître 
+    <lb n="10"/>comme s'il allait s'évanouir en le temps, puis s'évoquant : puis lorsque de tout cet ennui, temps, 
+    <lb n="11"/>il s'est refait (revu), voyant la glace horriblement nulle, s'y 
+    <lb n="12"/>voyant entouré d'une raréfaction, absence d'atmosphère, et 
+    <lb n="13"/>les meubles tordre leurs chimères dans le vide, et les 
+    <lb n="14"/>rideaux frissonner invisiblement, inquiets ; 
+    <lb n="15"/>alors, 
+    <lb n="16"/>il ouvre les meubles
+    <lb n="17"/>pour qu'ils versent leur mystère, l'inconnu, 
+    <lb n="18"/>leur mémoire, leur silence, facultés et impressions 
+    <lb n="19"/>humaines, - et quand il croit être redevenu lui, il fixe 
+    <lb n="20"/>de son âme l'horloge, dont l'heure 
+    <lb n="21"/>disparaît par la glace, ou va 
+    <lb n="22"/>s'enfouir dans les rideaux, 
+    <lb n="23"/>en trop plein, ne le laissant même pas à l'ennui qu'il 
+    <lb n="24"/>implore et rêve. Impuissant de l'ennui.
     </p>
 
-  <pb facs="66.jpg" n="66"/>
+  <pb facs="66.jpg" xml:id="el_66" n="66"/>
     <fw place="top_left" type="head">Ig. raconte sa vie</fw>
     <p>
-    <lb/>Il se sépare du temps indéfini et il est! Et 
-    <lb/>ce temps ne va pas comme jadis s'arrêter en un <lb/>frémissement gris sur les ébènes massifs dont les <lb/>chimères fermaient les lèvres avec une accablante <lb/>sensation de fini, et, ne trouvant plus à se mêler aux 
-    <lb/>tentures saturées et alourdies, remplir une glace d'ennui 
-    <lb/>où, suffoquant et étouffé, je suppliais de rester une 
-    <lb/>vague figure qui disparaissait complètement dans <lb/>la glace confondue; jusqu'à ce qu'enfin, mes mains 
-    <lb/>ôtées un moment de mes yeux où je les avais mises 
-    <lb/>pour ne pas la voir disparaître, dans une épouvantable 
-    <lb/>sensation d'éternité, en laquelle semblait expirer la 
-    <lb/>chambre, elle m'apparût comme l'horreur de cette éternité. 
-    <lb/>Et quand je rouvrais les yeux au fond du miroir, je 
-    <lb/>voyais le personnage d'horreur, le fantôme de <lb/>l'horreur absorber peu à peu ce qui restait de <lb/>sentiment et de douleur dans la glace, nourrir <lb/>son horreur des suprêmes frissons des chimères <lb/>et de l'instabilité des tentures, et se former en 
-    <lb/>raréfiant la glace jusqu'à 
-    <lb/>une pureté inouïe, - jusqu'à ce qu'il se détachât, 
-    <lb/>permanent, de la glace absolument pure, comme <lb/>pris dans son froid, - jusqu'à ce qu'enfin les <lb/>meubles, leurs monstres ayant succombé avec 
-    <lb/>leurs anneaux convulsifs, fussent morts dans 
-    <lb/>une attitude isolée et sévère, projetant leurs <lb/>lignes dures dans l'absence d'atmosphère, 
-    <lb/>les monstres figés dans leur effort dernier, 
-    <lb/>et que les rideaux cessant d'être inquiets 
-    <lb/>tombassent avec une attitude qu'ils devaient 
+    <lb n="1"/>Il se sépare du temps indéfini et il est! Et 
+    <lb n="2"/>ce temps ne va pas comme jadis s'arrêter en un <lb n="3"/>frémissement gris sur les ébènes massifs dont les <lb n="4"/>chimères fermaient les lèvres avec une accablante <lb n="5"/>sensation de fini, et, ne trouvant plus à se mêler aux 
+    <lb n="6"/>tentures saturées et alourdies, remplir une glace d'ennui 
+    <lb n="7"/>où, suffoquant et étouffé, je suppliais de rester une 
+    <lb n="8"/>vague figure qui disparaissait complètement dans <lb n="9"/>la glace confondue; jusqu'à ce qu'enfin, mes mains 
+    <lb n="10"/>ôtées un moment de mes yeux où je les avais mises 
+    <lb n="11"/>pour ne pas la voir disparaître, dans une épouvantable 
+    <lb n="12"/>sensation d'éternité, en laquelle semblait expirer la 
+    <lb n="13"/>chambre, elle m'apparût comme l'horreur de cette éternité. 
+    <lb n="14"/>Et quand je rouvrais les yeux au fond du miroir, je 
+    <lb n="15"/>voyais le personnage d'horreur, le fantôme de <lb n="16"/>l'horreur absorber peu à peu ce qui restait de <lb n="17"/>sentiment et de douleur dans la glace, nourrir <lb n="18"/>son horreur des suprêmes frissons des chimères <lb n="19"/>et de l'instabilité des tentures, et se former en 
+    <lb n="20"/>raréfiant la glace jusqu'à 
+    <lb n="21"/>une pureté inouïe, - jusqu'à ce qu'il se détachât, 
+    <lb n="22"/>permanent, de la glace absolument pure, comme <lb n="23"/>pris dans son froid, - jusqu'à ce qu'enfin les <lb n="24"/>meubles, leurs monstres ayant succombé avec 
+    <lb n="25"/>leurs anneaux convulsifs, fussent morts dans 
+    <lb n="26"/>une attitude isolée et sévère, projetant leurs <lb n="27"/>lignes dures dans l'absence d'atmosphère, 
+    <lb n="28"/>les monstres figés dans leur effort dernier, 
+    <lb n="29"/>et que les rideaux cessant d'être inquiets 
+    <lb n="30"/>tombassent avec une attitude qu'ils devaient 
     <lb n="40"/>conserver à jamais.
     </p>
 </div>
@@ -1534,37 +1539,37 @@ silence, pas de cette démence
   <head>Brouillon du «Minuit»</head>
 
 
-  <pb facs="67.jpg" n="67"/>
+  <pb facs="67.jpg" xml:id="el_67" n="67"/>
     <p>
-    <lb/>Cette fois l'heure ne tombe plus hors de moi, pour <lb/>alourdir le temps enfoui dans les rideaux, ni, 
-    <lb/>quand je l'implore, fuir par la glace, c'est 
-    <lb/>en moi qu'elle tombe éveillant cette conscience 
-    <lb/>de moi par le souvenir, - elle recrée mon 
-    <lb/>être et me redonne la sensation de ce que 
-    <lb/>je dois faire.
+    <lb n="1"/>Cette fois l'heure ne tombe plus hors de moi, pour <lb n="2"/>alourdir le temps enfoui dans les rideaux, ni, 
+    <lb n="3"/>quand je l'implore, fuir par la glace, c'est 
+    <lb n="4"/>en moi qu'elle tombe éveillant cette conscience 
+    <lb n="5"/>de moi par le souvenir, - elle recrée mon 
+    <lb n="6"/>être et me redonne la sensation de ce que 
+    <lb n="7"/>je dois faire.
     </p>
     <p>
-    <lb/>Il m'a semblé entendre le son spécial d'un Minuit. <lb/>L'heure est-[elle ?] Ce que jette l'horloge n'est pas allé, 
-    <lb/>indéfini, remplir des rideaux 
-    <lb/>ou se perdre par la fuite d'une glace, 
-    <lb/>me laissant toujours extérieur [à elle.] 
-    <lb/>Non, au son très certain d'un Minuit, j'ai reconnu <lb/>d'abord que l'instant était ici, et, comme un seul instant peut être [ ... ], 
-    <lb/>et je me souviens de moi-même. Longtemps, oh longtemps, quand tu 
-    <lb/>sonnais en vain, maintenant une atmosphère d'absence, ton son d'or revenait à toi dans ma rêverie et 
-    <lb/>t'y créait, joyau d'or, et je te savais indiquant sur ta complication 
-    <lb/>stellaire et marine les occurrences externes du jeu des mondes, mais je 
-    <lb/>puis dire, faisant allusion aux souvenirs d'une race que tu évoques, que 
-    <lb/>jamais sur ces surfaces qui marquent les 
-    <lb/>jeux multiples et combinés de la multiplicité 
-    <lb/>de la pensée universelle, jamais, résumé de l'univers que 
-    <lb/>tu es, joyau des choses, tu n'as fait une minute <lb/>d'une aussi magnifique concordance et, 
-    <lb/>je doute que cet instant ait 
-    <lb/>dans le présent son pareil parmi l'indicible multiplicité 
-    <lb/>des mondes. Ma pensée est donc recréée, mais moi, <lb/>le suis-je ? Oui, je sens que ce temps versé en moi 
-    <lb/>me rend ce moi, et je me vois 
-    <lb/>semblable à l'onde d'un narcotique tranquille 
-    <lb/>dont les cercles vibratoires 
-    <lb/>venant et s'en allant font une limite infinie qui n'atteint pas le calme du milieu.
+    <lb n="8"/>Il m'a semblé entendre le son spécial d'un Minuit. <lb n="9"/>L'heure est-[elle ?] Ce que jette l'horloge n'est pas allé, 
+    <lb n="10"/>indéfini, remplir des rideaux 
+    <lb n="11"/>ou se perdre par la fuite d'une glace, 
+    <lb n="12"/>me laissant toujours extérieur [à elle.] 
+    <lb n="13"/>Non, au son très certain d'un Minuit, j'ai reconnu <lb n="14"/>d'abord que l'instant était ici, et, comme un seul instant peut être [ ... ], 
+    <lb n="15"/>et je me souviens de moi-même. Longtemps, oh longtemps, quand tu 
+    <lb n="16"/>sonnais en vain, maintenant une atmosphère d'absence, ton son d'or revenait à toi dans ma rêverie et 
+    <lb n="17"/>t'y créait, joyau d'or, et je te savais indiquant sur ta complication 
+    <lb n="18"/>stellaire et marine les occurrences externes du jeu des mondes, mais je 
+    <lb n="19"/>puis dire, faisant allusion aux souvenirs d'une race que tu évoques, que 
+    <lb n="20"/>jamais sur ces surfaces qui marquent les 
+    <lb n="21"/>jeux multiples et combinés de la multiplicité 
+    <lb n="22"/>de la pensée universelle, jamais, résumé de l'univers que 
+    <lb n="23"/>tu es, joyau des choses, tu n'as fait une minute <lb n="24"/>d'une aussi magnifique concordance et, 
+    <lb n="25"/>je doute que cet instant ait 
+    <lb n="26"/>dans le présent son pareil parmi l'indicible multiplicité 
+    <lb n="27"/>des mondes. Ma pensée est donc recréée, mais moi, <lb n="28"/>le suis-je ? Oui, je sens que ce temps versé en moi 
+    <lb n="29"/>me rend ce moi, et je me vois 
+    <lb n="30"/>semblable à l'onde d'un narcotique tranquille 
+    <lb n="31"/>dont les cercles vibratoires 
+    <lb n="32"/>venant et s'en allant font une limite infinie qui n'atteint pas le calme du milieu.
     </p>
 
 </div>
