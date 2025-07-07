@@ -222,8 +222,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
      <mod>
       <subst>
       <del rend="strikethrough">absolus,</del>
-      <add><w>mathé-          <!--cambiare come ha detto il prof-->
-      <lb/>maticiens</w></add>
+      <add><w>mathé-<lb n="7"/>maticiens</w></add>
       </subst> 
       </mod>
       expirates - moi pro-
