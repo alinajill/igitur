@@ -102,48 +102,32 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <del rend="strikethrough">ombres</del>
           <add>souffles</add>
           </subst>
-        </mod>        
-      de ses ancêtres 
-      <lb n="6"/>veulent souffler la bougie, (grâce à
-      <lb n="7"/>laquelle peut-être subsistent les Caractères
-      <lb n="8"/>du grimoire) - il dit <said>« pas encore ! »</said>
-      <lb n="9"/>Lui-même, à la fin, quand les bruits
-      <lb n="10"/>auront disparu, tirera une preuve
-      <lb n="11"/>de quelque chose de grand (pas d'astres ? le
-      <lb n="12"/>hazerd annulé ?) de ce simple fait
-      <lb n="13"/>qu'il peut causer l'ombre en
+        </mod>de ses ancêtres<lb n="6"/>veulent souffler la bougie, (grâce à<lb n="7"/>laquelle peut-être subsistent les Caractères<lb n="8"/>du grimoire) - il dit <said>« pas encore ! »</said><lb n="9"/>Lui-même, à la fin, quand les bruits<lb n="10"/>auront disparu, tirera une preuve<lb n="11"/>de quelque chose de grand (pas d'astres ? le<lb n="12"/>hazard annulé ?) de ce simple fait<lb n="13"/>qu'il peut causer l'ombre en
         <mod>
           <subst>
           <add place="above">soufflant sur</add>
           <del rend="strikethrough">éteignant</del>
           </subst>
-        </mod>
-      <lb n="14"/>la 
+        </mod><lb n="14"/>la 
        <mod instant="true">
           <subst>
           <del rend="strikethrough">bougie</del>
           <add>lumière</add>
           </subst>
-        </mod>
-        - <del rend="strikethrough">souffle et</del>  <!--rivedere-->
-      <lb n="15"/>Puis - comme il aura parlé selon
-      <lb n="16"/>l'absolu - 
+        </mod>- <del rend="strikethrough">souffle et</del><!--rivedere--><lb n="15"/>Puis - comme il aura parlé selon<lb n="16"/>l'absolu - 
        <mod instant="true">
           <subst>
           <del rend="strikethrough">l'absolu existera hors</del>
       <lb n="17"/><add>qui nie l'immortalité, l'absolu
       <lb n="18"/>existera en dehors</add>
       </subst>
-      </mod>     
-      - lune, au dessus
-      <lb n="20"/>du temps : et il soulèvera les     
+      </mod>- lune, au dessus<lb n="20"/>du temps : et il soulèvera les     
       
 
     <pb facs="03.jpg" xml:id="el_03" n="03"/>
       <lb n="1"/> rideaux, en face.
       <lb n="2"/>       _
-      <lb n="3"/>Ig. tour enfant, lit son devoir à ses
-      <lb n="4"/>ancêtres.
+      <lb n="3"/>Ig. tour enfant, lit son devoir à ses<lb n="4"/>ancêtres.
     </p>
 
     <pb facs="04.jpg" xml:id="el_04" n="04"/>
@@ -155,7 +139,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <del rend="overwritten">3</del>
         <add place="superscript">5</add>
         </subst>
-        <subst seq="2">
+        <subst seq="3">
         <del rend="overwritten">5</del>
         <add place="superscript">4</add>
         </subst>   
@@ -174,18 +158,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <add place="below">À peu près ce qui suit :</add>
          <del rend="strikethrough">Peut-être morceau</del>
          </subst>
-        </mod>  
-      <lb n="10"/>Minuit sonne - le Minuit où
-      <lb n="11"/>doivent être jetés les dés. Ig. descend
-      <lb n="12"/>les escaliers, de l'esprit humain, va 
-      <lb n="13"/>au fond des choses : en <q>« absolu »</q>
-      <lb n="14"/>qu'il est. Tombeaux - cendres, 
-      <lb n="15"/>(pas sentiment, ni esprit)
-      <lb n="16"/>neutralité. 
+        </mod><lb n="10"/>Minuit sonne - le Minuit où<lb n="11"/>doivent être jetés les dés. Ig. descend<lb n="12"/>les escaliers, de l'esprit humain, va<lb n="13"/>au fond des choses : en <q>« absolu »</q><lb n="14"/>qu'il est. Tombeaux - cendres,<lb n="15"/>(pas sentiment, ni esprit)<lb n="16"/>neutralité. 
       <mod>
         <del rend="strikethrough">Dès lors</del>
-      </mod>
-      Il 
+      </mod>Il 
       <mod>
         <subst>
         <del rend="strikethrough">lit</del>
@@ -197,148 +173,183 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <lb n="1"/>
         <add place="opposite">récite</add> 
         </subst>
-      </mod>
-      la prédiction et fait
-      <lb n="2"/>le geste. 
+      </mod>la prédiction et fait<lb n="2"/>le geste. 
       <mod>                                                      <!--rivedere-->
         <del seq="1" rend="strikethrough">Expliqu</del></mod>
         <mod>
         <subst>
-        <del seq="3" rend="strikethrough">Fol</del>
         <add seq="2" place="above">Indifférence.</add>
+        <del seq="3" rend="strikethrough">Fol</del>
         </subst>  
       </mod>
-      Sifflements dans
-      <lb n="3"/>l'escalier. <said>« Vous avez tort »</said> nulle
-      <lb n="4"/>émotion.
+      Sifflements dans<lb n="3"/>l'escalier. <said>« Vous avez tort »</said> nulle<lb n="4"/>émotion.
       <mod instant="true">
         <subst>
         <del rend="strikethrough">Toujours</del>
         <add>L'infini</add>
         </subst>
-      </mod>
-      <lb n="5"/>sort due hazard, que vous avez 
-      <lb n="6"/>nié. Vous, 
+      </mod><lb n="5"/>sort du hazard, que vous avez<lb n="6"/>nié. Vous, 
      <mod>
       <subst>
       <del rend="strikethrough">absolus,</del>
       <add><w>mathé-<lb n="7"/>maticiens</w></add>
       </subst> 
-      </mod>
-      expirates - moi pro-
-      <lb n="8"/>jeté absolu. Devais finir en
-      <lb n="9"/>Infini. Simplement parole et 
-      <lb n="10"/>geste. Quant à ce que je vous dis,
-      <lb n="11"/>pour expliquer ma vie. Rien ne 
-      <lb n="12"/>restera de nous - L'infini enfin
-      <lb n="13"/>échappé à la famille, qui en a 
-      <lb n="14"/>souffert, - vieil espace - pas de
+      </mod>expirates - moi <w>pro-<lb n="8"/>jeté</w> absolu.Devais finir en<lb n="9"/>Infini. Simplement parole et<lb n="10"/>geste. Quant à ce que je vous dis,<lb n="11"/>pour expliquer ma vie. Rien ne<lb n="12"/>restera de nous - L'infini enfin<lb n="13"/>échappé à la famille, qui en a<lb n="14"/>souffert, - vieil espace - pas de
       </p>
 
     <pb facs="06.jpg" xml:id="el_06" n="06"/>
       <fw place="top_right" type="pageNum">2</fw>
       <p xml:id="p_03" n="3">     <!--ricontrollare i paragrafi-->
-      <lb n="1"/>hazard. Elle a eu raison de la
-      <lb n="2"/>nier, - sa vie - pour qu'il
-      <lb n="3"/>ait été l'absolu. Ceci devait
-      <lb n="4"/>avoir lieu dans les combinai-
-      <lb n="5"/>sons de l'Infini vis-à-vis
-      <lb n="6"/>de l'Absolu. Nécessaire - extrait
-      <lb n="7"/>l'Idee. Folie utile. Un des
-      <lb n="8"/>actes de l'univers vient
-      <lb n="9"/>d'être commis là. Plus rien, 
-      <lb n="10"/>restait le souffle, 
+      <lb n="1"/>hazard. Elle a eu raison de la<lb n="2"/>nier, - sa vie - pour qu'il<lb n="3"/>ait été l'absolu. Ceci devait<lb n="4"/>avoir lieu dans les <w>combinai-<lb n="5"/>sons</w> de l'Infini vis-à-vis<lb n="6"/>de l'Absolu. Nécessaire - extrait<lb n="7"/>l'Idee. Folie utile. Un des<lb n="8"/>actes de l'univers vient<lb n="9"/>d'être commis là. Plus rien,<lb n="10"/>restait le souffle, 
       <mod instant="true">
       <subst>
       <del rend="strikethrough">f</del>
       <add>fin</add>
       </subst>
-      </mod>
-      de
-      <lb n="11"/>parole et geste unis - souffle
-      <lb n="12"/>la bougie de l'être, par quoi
-      <lb n="13"/>tout a été. Preuve.
-      <lb n="14"/>(Creuser tout cela)
+      </mod>de<lb n="11"/>parole et geste unis - souffle<lb n="12"/>la bougie de l'être, par quoi<lb n="13"/>tout a été. Preuve.<lb n="14"/>(Creuser tout cela)
     </p>
 
 
       
-  <pb facs="07.jpg" xml:id="el_07" n="07"/> 
+  <pb facs="07.jpg" xml:id="el_07" n="07"/>
   <metamark function="largeDeletion">
-  <mod><delSpan spanTo="#p07_1"/></mod>
-  <!--FINO A QUI-->
-    <p xml:id="p_04" n="4">
-    <lb n="1"/>Titre : La folie d'Elbenon. Igitur a compris cette 
-    <lb n="2"/>folie 
+  <p xml:id="p_04" n="4">
+  <mod>
+  <delSpan spanTo="#p07_1"/>
+    <lb n="1"/>Titre : La folie d'Elbenon. Igitur a compris cette<lb n="2"/>folie 
+    <mod instant="true">
+    <subst>
+      <del rend="strikethrough">à laquelle</del>
+      <add>à laquelle</add>
+      </subst>
+    </mod> il rattache son<lb n="3"/>mal, précisément à cause de ce qu'il est
+    <mod><del>,</del></mod>esprit, 
     <mod>
-      <del seq="1" rend="strikethrough">à laquelle</del>
-      <add seq="2">à laquelle</add>
-    </mod> il rattache son 
-    <lb n="3"/>mal, précisément à cause de ce qu'il est esprit, <lb n="4"/>la contrepartie de son mal étant que les choses ambiantes lui semblent 
-    <lb n="5"/>provenir de lui-même, ses 
-    <lb n="6"/>facultés, etc. Car 
-    <lb n="7"/>tel est son mal : l'absence de moi, selon lui. Et sa race s'incarne en ce 
-    <lb n="8"/>corps qu'il ne sent pas mais qui lui apparaît parfois, tandis que la folie de cette race s'annule en 
-    <lb n="9"/>son esprit filial. Quant à son moi, il est 
-    <lb n="10"/>divisé entre ces deux
-    <lb n="11"/>Par cela même qu'il a compris cette 
-    <lb n="12"/>folie, il va y mettre fin, afin que le néant en <lb n="13"/>soit acte comme idée, et il compte y 
-    <lb n="14"/>plonger ce moi absent : et quant à sa famille qui, 
-    <lb n="15"/>s'étant crue pure, sortira de l'inconditionnel pour exister subitement, il 
-    <lb n="16"/>va mêler à cette existence ce qui 
-    <lb n="17"/>reste de substances, afin qu'il y ait aussi néant <lb n="18"/>de ce côté-là
-    </p>
+    <del rend="strikethrough">futile<lb n="4"/>subtil,</del></mod>
+    <mod>
+    <del rend="below">car tel est son mal. Ainsi</del>
+    <add>
+    la contrepartie<mod><del rend="strikethrough">,</del></mod> de son mal étant que les choses ambiantes lui semblent
+    <lb n="5"/>
+    <mod>
+      <subst>
+      <del rend="overwritten">une partie</del>
+      <add rend="superscript">provenir</add>
+        </subst>
+        </mod>de lui-même, ses<lb n="6"/>facultés, etc. Car</add></mod><lb n="7"/>tel est son mal : <mod><add place="above">l'absence de moi,</add></mod><mod><add place="below">selon lui.</add></mod>[Et sa race s'incarne en ce<lb n="8"/>corps<mod><add place="above">qu'il ne sent pas mais qui lui apparaît parfois,</add></mod>tandis que la folie de cette race s'annule en<lb n="9"/>son esprit filial. Quant à son moi, <mod><del rend="strikethrough"></del></mod>il est<lb n="10"/>divisé entre ces deux]<lb n="11"/>Par cela même qu'il a compris <w>ce<mod><add>tte</add></mod></w> <mod instant="true"><subst><del rend="strikethrough">néant de la</del><add><lb n="12"/>folie</add></subst></mod>, il va
+        <mod>
+          <subst seq="1">
+          <del rend="strikethrough">l'</del>
+          <add rend="superscript">y</add>
+          </subst>
+          <subst seq="2"> 
+            <del rend="strikethrough">accomplir définitivement</del>
+            <add place="above">mettre fin</add>
+          </subst>
+        </mod>, 
+        <mod>
+          <subst>
+            <add>afin que le néant en</add>
+            <lb n="13"/><del rend="strikethrough">qu'il</del>
+        </subst></mod>soit acte comme idée, et il compte 
+        <mod instant="true">
+        <del rend="strikethrough">s'</del>
+        <add>y</add>
+        </mod><lb n="14"/>plonger ce <hi rend="underline"> moi</hi>
+        <mod>
+        <add seq="1" place="above">absent</add>
+        <del seq="2" place="above" rend="strikethrough">et divisé</del>
+        </mod> : et quant à sa famille qui,<lb n="15"/>s'étant crue pure,
+        <mod><add place="above">sortira de l'inconditionnel pour</add></mod>exister subitement, il<lb n="16"/>
+        <mod instant="true">
+          <subst>
+            <del rend="strikethrough">sera en <gap reason="illegible" extent="5" unit="characters"/></del>
+          <add>va</add></subst></mod>
+          <mod><del rend="strikethrough">y</del></mod> mêler à cette existence ce qui<lb n="17"/>reste de substances, afin qu'il y ait aussi néant<lb n="18"/>de ce côté-là
     <anchor xml:id="p07_1"/>
+    </mod>
+    </p>
     </metamark>
+    
   
   <pb facs="08.jpg" xml:id="el_08" n="08"/>
+    <metamark function="largeDeletion">
     <p xml:id="p_05" n="5">
-    <lb n="1"/>Ce conte s'adresse à l'Intelligence du lecteur qui met 
-    <lb n="2"/>les choses en scène, elle-même. 
-    <lb n="3"/><q>« Que, etc.
-    <lb n="4"/>Avant de sortir de la chambre - Oui, c'est 
-    <lb n="5"/>là qu'en sont les choses - ma personne gêne - 
-    <lb n="6"/>et le Néant est là. Je ne chercherai pas 
-    <lb n="7"/>à les changer. Je viens de voir (grâce à 
-    <lb n="8"/>ce don d'Illusoire, où en était le Rêve - 
-    <lb n="9"/>Très bien. C'est ainsi que je procéderai
-    <lb n="10"/>(Il s'administrera ce néant - reste de l'Idée,) 
-    <lb n="11"/> après avoir établi la nécessité 
-    <lb n="12"/>-</q> Pour lui, Absolu - les correspondances 
-    <lb n="13"/>sont exactes et suffisent. Il les comprend. 
-    <lb n="14"/>Corridor. On doute, qui a parlé au début : et l'on <lb n="15"/>arrive, devant le mutisme d'Igitur, à la certitude <lb n="16"/>qu'il ne parle pas. 
-    <!--da capire-->Il est sifflé par ce qu'il prend pour les âmes de ses ancêtres qui ne comprennent pas son action. 
-    Igitur arrive devant les dés, et approche le flambeau du livre, de sorte qu'il apparaisse la phrase. 
+    <mod>
+    <delSpan spanTo="#p08_1"/>
+
+    <lb n="1"/>Ce conte s'adresse à l'Intelligence du lecteur qui met<lb n="2"/>les choses en scène, elle-même.<lb n="3"/><q>« Que, etc.<lb n="4"/>Avant de sortir de la chambre - Oui, c'est<lb n="5"/>là qu'en sont les choses - ma personne gêne - <lb n="6"/>et le Néant est là. Je ne chercherai pas<lb n="7"/>à les changer. Je viens de voir (
+      <mod instant="true">
+        <subst>
+        <del rend="strikethrough">pas</del>
+        <add>grâce</add>
+        </subst>
+      </mod>à<lb n="8"/>ce don d'Illusoire, où en était le Rêve - <lb n="9"/>Très bien. C'est ainsi que je procéderai<lb n="10"/>(Il s'administrera ce néant - reste de l'Idée,)<lb n="11"/> après avoir établi la nécessité<lb n="12"/>- Pour lui, Absolu - les correspondances<lb n="13"/>sont exactes et suffisent.</q> Il les comprend.<lb n="14"/>Corridor. On doute, qui a parlé au début : et l'on<lb n="15"/>arrive, devant le mutisme d'Igitur, à la certitude<lb n="16"/>qu'il ne parle pas. 
+      Il est sifflé par ce qu'il prend pour les âmes de ses ancêtres qui ne comprennent pas son action. 
+    Igitur arrive devant les dés, et approche le flambeau du livre, de sorte qu'il apparaisse 
+    <mod instant="true">
+      <subst>
+        <del rend="strikethrough">phr</del>
+        <add>la phrase</add>
+      </subst>
+    </mod>.      <!-- nel manoscritto queste due frasi sono invertite e con una freccia M. indica l'inversione. come fare?-->
+    <anchor xml:id="p08_1"/>
+    </mod>
     </p>
+    </metamark>
 
   <pb facs="09.jpg" xml:id="el_09" n="09"/>
-    <fw place="top_center" type="head">Il quitte la chambre</fw>
+    <ab rend="align-center"><lb n="1"/>Il quitte la chambre</ab>
+    <lb n="2"/>
+    <lb n="3"/><metamark place="below" rend="line"/>
     <p xml:id="p_06" n="6">
-    <lb n="1"/>L'heure a sonné pour moi de partir, la 
-    <lb n="2"/>pureté de la glace s'établira, sans ce personnage, 
-    <lb n="3"/>vision de moi - mais il emportera la lumière ! 
-    <lb n="4"/>- la nuit ! Sur les meubles, vacants, le Rêve 
-    <lb n="5"/>a agonisé en cette 
-    <lb n="6"/>fiole de verre, pureté, qui renferme la 
-    <lb n="7"/>substance du Néant. 
+    <lb n="4"/>L'heure a sonné 
+    <mod><add place="above">pour moi</add></mod>de partir,
+    <mod instant="true">
+      <subst>
+        <del rend="strikethrough">glace va</del>
+        <add>la<lb n="5"/>pureté de la glace</add>
+      </subst>
+    </mod>s'établira, sans ce personnage,<lb n="6"/>vision de moi - mais il emportera la lumière !
+    <lb n="7"/><mod><del seq="1" rend="strikethrough">les tap</del> <del seq="2">ombre</del><add place="above">- la nuit !</add></mod> 
+    <mod>Sur les meubles, vacants, le Rêve</mod> <!--rivedere--><lb n="8"/>a agonisé en cette<lb n="9"/>fiole
+    <mod instant="true">
+    <subst>
+      <del rend="strikethrough">vi</del>
+      <add>de verre</add>
+    </subst>
+    </mod>, pureté, qui renferme la<lb n="10"/>substance du Néant.
+    <mod><del rend="strikethrough">Ce rêve existe</del></mod>
     </p>
 
   <pb facs="10.jpg" xml:id="el_10" n="10"/>
-    <fw place="top_center" type="head">Le coup de dés</fw>
-    <p xml:id="p_07" n="7">
-    <lb n="1"/>Reconnaître que c'est une chance unique contre 11 <lb n="2"/>que cela soit arrivé ainsi. 
-    <lb n="3"/>La parole - la Pensée <!--tutta cancellata, non c'era nell'interpretativa-->
-    <lb n="4"/>Bref dans un acte où le hazard est en 
-    <lb n="5"/>jeu, c'est toujours le hazard qui 
-    <lb n="6"/>accomplit sa propre Idée en s'affirmant 
-    <lb n="7"/>ou se niant. Devant son existence la négation et <lb n="8"/>l'affirmation viennent échouer. Il contient 
-    <lb n="9"/>l'Absurde - l'implique, mais à l'état 
-    <lb n="10"/>latent et l'empêche d'exister : ce qui permet 
-    <lb n="11"/>à l'Infini d'être. 
+    <ab rend="align-center">Le coup de dés</ab>
+   <metamark function="largeDeletion">
+    <ab>
+    <mod>
+    <delSpan spanTo="#p10_1"/>
+    <lb n="1"/>Reconnaître que c'est une chance unique <mod><add>contre 11</add></mod><lb n="2"/>que cela soit arrivé ainsi. 
+    <anchor xml:id="p10_1"/>
+    </mod>
+    </ab>
+    </metamark>
+    <ab><lb n="3"/><mod><del rend="strikethrough">La parole - la Pensée</del></mod></ab>
 
-    <lb n="12"/>Le Cornet est la Corne de 
-    <lb n="13"/>licorne - d'unicorne
-     </p>
+     <p xml:id="p_07" n="7">
+    <lb n="4"/>Bref dans un acte où le hazard est en<lb n="5"/>jeu, c'est toujours le hazard qui<lb n="6"/>accomplit sa propre Idée en s'affirmant<lb n="7"/>ou se niant. Devant 
+    <mod><subst><del rend="strikethrough">lui la</del>
+    <add place="above">son existence</add></subst></mod>la négation et<lb n="8"/>l'affirmation viennent échouer. Il contient<lb n="9"/>l'Absurde - l'implique, <mod instant="true"><del rend="strikethrough">et l'empê</del><add place="above">mais</add></mod>à l'état<lb n="10"/>latent et l'empêche d'exister : ce qui permet<lb n="11"/>à l'Infini <mod instant="true"><subst><del rend="strikethrough">d'exister</del><add>d'être</add></subst></mod>.
+    </p> 
+    <lb n="12"/><metamark place="below" rend="line"/>
+    <lb n="13"/>
+    <lb n="14"/>
+    <ab>
+    <lb n="15"/>Le Cornet est la Corne de<lb n="13"/>licorne - d'unicorne</ab>
+    <lb n="16"/>
+    <lb n="17"/>
+    <lb n="18"/><metamark place="below" rend="line"/>  <!--da sistemare-->
+
+    
 
   <pb facs="11.jpg" xml:id="el_11" n="11"/>
     <p xml:id="p_08" n="8">
