@@ -609,73 +609,113 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
   <pb facs="20.jpg" xml:id="el_20" n="20"/>
     <ab rend="align-center" type="editorial" resp="BM">[Notes 2]</ab>
-    <fw place="bottom_right" type="head">Touches</fw><!--cambiare-->
+    <ab rend="align-center" type="head">Touches</ab><!--nel foglio è in basso a destra-->
     <p xml:id="p_26" n="26">
-    <lb n="1"/>L'heure a sonné - <mod><add place="above">certainement</add></mod> prédite par le livre - <lb n="2"/>ou [sic]<!--come renderlo?-->, <w><mod>l<subst><del rend="overwritten">e</del><add place="superscript">a</add></subst></mod></w> <mod><add place="above">vision importune du</add></mod> personnage 
-    <lb n="3"/>qui nuisait à la pureté de la glace chimérique dans 
-    <lb n="4"/>laquelle je m'apparaissais, à la faveur de la lumière, 
-    <lb n="5"/>va disparaître, ce flambeau 
-    <lb n="6"/>emporté par moi : 
-    <lb n="8"/>disparaître comme tous les autres 
-    <lb n="9"/>personnages partis en temps des tapisseries, qui <lb n="10"/>n'étaient conservées que parce que le hazard 
-    <lb n="11"/>était nié par le grimoire, avec lequel je vais <lb n="15"/>également partir. Ô sort ! la 
-    <lb n="16"></lb>pureté ne peut s'établir - voici 
+    <lb n="1"/>L'heure a sonné - <mod>
+      <add place="above">certainement</add>
+    </mod> prédite par le livre - <lb n="2"/>ou [sic]<!--come renderlo?-->, <w><mod>l<subst><del rend="overwritten">e</del><add place="superscript">a</add></subst></mod></w> <mod>
+      <add place="above">vision importune du</add>
+      personnage</mod> 
+      <mod><del rend="strikethrough">importun de la glace va<lb n="3"/>disparaître</del></mod> <!--rivedere queste due correzioni. la cancellazione è avvenuta in due fasi? una parte in matita e una a penna-->qui nuisait à la pureté<mod><add seq="1" place="above">de la glace</add>
+      <add seq="2" place="above">chimérique</add></mod> dans<lb n="4"/>laquelle <mod>
+        <subst>
+          <del rend="overwritten">il s'apparissait</del>
+          <add place="superscript">je m'apparaissais</add>
+        </subst></mod>, <mod>
+          <subst>
+            <del rend="strikethrough">la glace va ne<lb n="5"/>plus exister</del>
+            <add place="above"><del rend="strikethrough" place="above">revenant</del> à la faveur de la lumière</add>
+          </subst>
+        </mod>, va disparaître, <mod>
+          <subst>
+            <del rend="strikethrough">à la faveur de la <lb n="6"/>lumière</del>
+            <add place="above"><w>ce<del rend="strokethrough">tte</del></w> flambeau</add>
+          </subst>
+        </mod>emporté<mod>
+         
+            <del seq="1" rend="strikethrough">mais que l'ombre des<lb n="8"/>meubles, contenue par la lumière tandis que tous<lb n="9"/>les autres autres</del>
+            <del seq="3" rend="strikethrough"><add seq="2" place="above">mais ô sort ! les meubles versant rentrant</add></del>
+      <add seq="4" place="below">par moi :</add>
+        </mod> disparaître comme tous les autres<lb n="10"/> personnages partis en temps des tapisseries, <mod instant="true">
+          <subst>
+            <del rend="strikethrough">qui</del>
+            <add place="above"><del rend="strikethrough">prêtes à</del> qui</add>
+          </subst>
+        </mod><lb n="11"/>n'étaient conservées que par <mod><del seq="1" rend="strikethrough">le frémissement<lb n="12"/>de la lumière. Au moment où la glace devenait<lb n="13"/>pureté (de la glace s'installait) celle-ci disparaît dans<lb n="14"/>l'ombre. Et quant aux rideaux le temps et<lb n="15"/>qui vont s'écouler en temps.</del>
+        <del rend="strikethrough" seq="3"><add seq="2">dorure</add></del>
+      <add seq="4" place="above">ce que le hazard étaint nié par le grimoire, <del seq="5" rend="strikethrough">ou livre</del></add></mod><!--rivedere tutto--> avec lequel <mod>
+        <subst>
+          <del rend="overwritten">il va</del>
+          <add rend="superscript">je vais</add>
+        </subst></mod><lb n="16"/>également partir. Ô <mod instant="true">
+          <subst>
+          <del rend="strikethrough">tristesse ! la gl</del>
+          <add>sort !</add>
+        </subst></mod>
+        <mod instant="true">
+          <subst>
+            <del rend="strikethroug">la</del>
+          </subst>
+          <add place="above">la</add>
+        </mod>
+    <lb n="17"></lb>pureté ne peut s'établir - <mod instant="true">
+      <subst>
+        <del rend="strikethrough">et consé</del>
+        <add>voici</add>
+      </subst>
+    </mod>
     
 
   <pb facs="21.jpg" xml:id="el_21" n="21"/>
-    <lb n="1"/>que l'obscurité la remplacera - et que les 
-    <lb n="2"/>lourds rideaux tombant en temps, en feront 
-    <lb n="3"/>les ténèbres - tandis que le livre aux pages 
-    <lb n="4"/>fermées toutes les nuits, et la 
-    <lb n="5"/>lumière le jour qu'elles séparent. Cependant, 
-    <lb n="6"/>les meubles 
-    <lb n="7"/>garderont leur vacance, et agonie de 
-    <lb n="8"/>rêve chimérique et pur, une fiole 
-    <lb n="9"/>contient la substance du Néant. 
-    <lb n="10"/>Et maintenant il n'y a plus qu'ombre et silence.
+    <lb n="1"/>que l'obscurité la remplacera - et que les<lb n="2"/>lourds rideaux tombant en temps, en feront<lb n="3"/>les ténèbres - tandis que le livre<mod><subst>
+      <del rend="strikethrough"><lb n="4"/>représentera les jours et</del>
+      <add place="above">aux pages 
+    fermées toutes</add>
+    </subst></mod> les nuits, et la<lb n="5"/>lumière le jour qu'elles séparent. Cependant,<lb n="6"/><mod instant="true">
+      <subst>
+      <del rend="strikethrough">l'ombre sera sortie des meubles</del>
+      <add>les meubles<lb n="7"/>garderont leur vacance</add>
+    </subst></mod>, et agonie de<lb n="8"/>rêve chimérique et pur, une fiole <mod instant="true"><del rend="strikethrough">existe, qui qui</del></mod><lb n="9"/>contient la substance du Néant.<mod>
+      <add place="below">Et maintenant il n'y a plus qu'ombre et silence.</add>
+    </mod>
     </p> 
 
     <p xml:id="p_27" n="27">
-    <lb n="11"/>Que le personnage, qui a nui à cette 
-    <lb n="12"/>pureté prenne cette fiole qui le prédisait 
-    <lb n="13"/>et se l'amalgame, plus tard : mais qu'il 
-    <lb n="14"/>la mette simplement dans son sein, en 
-    <lb n="15"/>allant se faire absoudre du mouvement
+    <lb n="10"/>Que le personnage, qui a nui à cette<lb n="11"/>pureté prenne cette fiole qui le prédisait<lb n="12"/>et se l'amalgame, plus tard : mais qu'il<lb n="13"/>la mette simplement dans son sein, en<lb n="14"/>allant se faire absoudre du mouvement
     </p>
 
   <pb facs="22.jpg" xml:id="el_22" n="22"/>
     <p xml:id="p_28" n="28">
-    <lb n="1"/>Malgré la défense de sa mère, allant jouer dans les tombeaux
-    <lb n="2"/>Il peut avancer, parce qu'il va 
-    <lb n="3"/>dans le mystère (Ne descend-il pas à cheval sur la rampe toute l'obscurité, - tout ce qu'il ignore des siens, corridors oubliés depuis 
-    <lb n="4"/>l'enfance)[.] Tel[le] est la marche inverse de la notion 
-    <lb n="5"/>dont il n'a pas connu l'ascension, étant, adolescent, arrivé à l'Absolu
-    <lb n="6"/> : spirale, au haut de laquelle il 
-    <lb n="7"/>demeurait en Absolu, incapable de 
-    <lb n="8"/>bouger, on éclaire et l'on plonge dans la 
-    <lb n="9"/>nuit à mesure. Il croit traverser les 
-    <lb n="10"/>destins de cette nuit fameuse : enfin il 
-    <lb n="11"/>arrive où il doit arriver, et voit 
-    <lb n="12"/>l'acte qui le sépare de la mort. 
+    <lb n="1"/><mod><add>Malgré la défense de sa mère, allant jouer dans les tombeaux</add></mod>
+    <lb n="2"/>Il peut avancer, parce qu'il <mod>
+      <subst><del rend="strikethrough">entre</del>
+    <add place="above">va</add></subst></mod><lb n="3"/>dans le mystère (<mod><add place="above">Ne descend-il pas à cheval sur la rampe toute l'obscurité, - tout ce qu'il ignore des siens</add></mod>, corridors oubliés depuis<lb n="4"/>l'enfance)<!--da segnalare-->[.] Tel[le]<!--da segnalare--> est <mod instant="true">
+      <subst>
+        <del rend="strikethrough">le pou</del>
+        <add>la marche</add>
+      </subst>
+    </mod> <mod><add place="above">inverse</add></mod>de la<lb n="5"/><mod><subst><del rend="strikethrough">science</del>
+    <add place="above"><hi rend="underline">notion</hi> dont il n'a pas connu l'ascension, étant, adolescent, arrivé à l'Absolu</add></subst></mod> : spirale, au haut de laquelle il<lb n="6"/>demeurait en Absolu, incapable de<lb n="7"/>bouger, on éclaire et l'on plonge dans la<lb n="8"/>nuit à mesure. Il croit traverser les<lb n="9"/>destins de cette nuit fameuse : enfin il<lb n="10"/>arrive où il doit arriver, et voit<lb n="11"/>l'acte qui le sépare de la mort.
+    <!--DA QUI-->
   (interdiction de sa mère de descendre ainsi, - sa mère qui lui a dit ce qu'il avait à accomplir) (pour lui, il va aussi dans un souvenir d'enfance, cette nuit recommandée[ ;] s'il se tuait, il ne pourrait pas, grand, accomplir l'acte  <!--come conteggiare queste righe?-->
     </p>
 
     <p xml:id="p_29" n="29">
-    <lb n="13"/>Autre gaminerie
-    <lb n="14"/>Il dit : je ne peux 
-    <lb n="15"/>faire ceci sérieusement : mais le mal 
-    <lb n="16"/>que je souffre est affreux de vivre, au fond de <lb n="17"/>cette confusion perverse et inconsciente des choses qui 
-    <lb n="18"/>isole son absolu - il sent l'absence du moi, représentée par l'existence du Néant en substance [ ;] 
-    <lb n="19"/>il faut que je meure, et comme cette 
-    <lb n="20"/>fiole contient le néant par ma race 
-    <lb n="21"/>différé jusqu'à moi (ce vieux calmant qu'elle n'a pas pris, 
-    <lb n="22"/>les ancêtres immémoriaux l'ayant gardé seul du naufrage), 
-    <lb n="23"/>je ne veux pas connaître le Néant, 
-    <lb n="24"/>avant d'avoir rendu aux miens ce 
-    <lb n="25"/>pourquoi ils m'ont engendré - l'acte 
-    <lb n="26"/>absurde qui atteste l'inanité de 
-    <lb n="27"/>leur folie. )L'inaccomplissement me suivrait et entache 
-    <lb n="28"/>seul momentanément mon Absolu.)
+    <lb n="12"/>Autre gaminerie
+    Il dit : je ne peux 
+    <lb n="13"/>faire ceci sérieusement : mais le mal 
+    <lb n="14"/>que je souffre est affreux de vivre, au fond de <lb n="15"/>cette confusion perverse et inconsciente des choses qui 
+    <lb n="16"/>isole son absolu - il sent l'absence du moi, représentée par l'existence du Néant en substance [ ;] 
+    <lb n="17"/>il faut que je meure, et comme cette 
+    <lb n="18"/>fiole contient le néant par ma race 
+    <lb n="19"/>différé jusqu'à moi (ce vieux calmant qu'elle n'a pas pris, 
+    <lb n="20"/>les ancêtres immémoriaux l'ayant gardé seul du naufrage), 
+    <lb n="21"/>je ne veux pas connaître le Néant, 
+    <lb n="22"/>avant d'avoir rendu aux miens ce 
+    <lb n="23"/>pourquoi ils m'ont engendré - l'acte 
+    <lb n="24"/>absurde qui atteste l'inanité de 
+    <lb n="25"/>leur folie. )L'inaccomplissement me suivrait et entache 
+    <lb n="26"/>seul momentanément mon Absolu.)
     </p>
 
   <pb facs="23.jpg" xml:id="el_23" n="23"/>
