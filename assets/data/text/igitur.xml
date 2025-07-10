@@ -120,6 +120,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           </subst>
         </mod>- <del rend="strikethrough">souffle et</del><!--rivedere-->
       </p>
+
+
         <p xml:id="p_03" n="3">
         <lb n="15"/>Puis - comme il aura parlé selon<lb n="16"/>l'absolu - 
        <mod instant="true">
@@ -129,13 +131,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <lb n="18"/>existera en dehors</add>
       </subst>
       </mod>- lune, au dessus<lb n="20"/>du temps : et il soulèvera les     
-      
+        </p>
 
-    <pb facs="03.jpg" xml:id="el_03" n="03"/>
+        <pb facs="03.jpg" xml:id="el_03" n="03"/>
+
+      <p xml:id="p_04" n="4">
       <lb n="1"/> rideaux, en face.
       <lb n="2"/>       _
       <lb n="3"/>Ig. tour enfant, lit son devoir à ses<lb n="4"/>ancêtres.
-    </p>
+        </p>
 
     <pb facs="04.jpg" xml:id="el_04" n="04"/>
       <fw place="top_right" type="pageNum">I-2</fw>
@@ -160,7 +164,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <lb n="7"/>    bougie soufflée.
       <lb n="8"/>  _
       </ab>
-    <p xml:id="p_04" n="4">
+    <p xml:id="p_05" n="5">
       <lb n="9"/>
         <mod>
         <subst>
@@ -174,7 +178,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <mod>
         <subst>
         <del rend="strikethrough">lit</del>
-      
+        
       
 
     <pb facs="05.jpg" xml:id="el_05" n="05"/>
@@ -204,9 +208,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <add><w>mathé-<lb n="7"/>maticiens</w></add>
       </subst> 
       </mod>expirates - moi <w>pro-<lb n="8"/>jeté</w> absolu.Devais finir en<lb n="9"/>Infini. Simplement parole et<lb n="10"/>geste. Quant à ce que je vous dis,<lb n="11"/>pour expliquer ma vie. Rien ne<lb n="12"/>restera de nous - L'infini enfin<lb n="13"/>échappé à la famille, qui en a<lb n="14"/>souffert, - vieil espace - pas de
+    </p>
 
     <pb facs="06.jpg" xml:id="el_06" n="06"/>
       <fw place="top_right" type="pageNum">2</fw>
+         <p xml:id="p_06" n="6">
       <lb n="1"/>hazard. Elle a eu raison de la<lb n="2"/>nier, - sa vie - pour qu'il<lb n="3"/>ait été l'absolu. Ceci devait<lb n="4"/>avoir lieu dans les <w>combinai-<lb n="5"/>sons</w> de l'Infini vis-à-vis<lb n="6"/>de l'Absolu. Nécessaire - extrait<lb n="7"/>l'Idee. Folie utile. Un des<lb n="8"/>actes de l'univers vient<lb n="9"/>d'être commis là. Plus rien,<lb n="10"/>restait le souffle, 
       <mod instant="true">
       <subst>
@@ -220,7 +226,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       
   <pb facs="07.jpg" xml:id="el_07" n="07"/>
   <metamark function="largeDeletion">
-  <p xml:id="p_05" n="5">
+  <p xml:id="p_07" n="7">
   <mod>
   <delSpan spanTo="#p07_1"/>
     <lb n="1"/>Titre : La folie d'Elbenon. Igitur a compris cette<lb n="2"/>folie 
@@ -244,13 +250,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <add rend="superscript">provenir</add>
         </subst>
         </mod>de lui-même, ses<lb n="6"/>facultés, etc. Car</add></mod><lb n="7"/>tel est son mal : <mod><add place="above">l'absence de moi,</add></mod><mod><add place="below">selon lui.</add></mod>[Et sa race s'incarne en ce<lb n="8"/>corps<mod><add place="above">qu'il ne sent pas mais qui lui apparaît parfois,</add></mod>tandis que la folie de cette race s'annule en<lb n="9"/>son esprit filial. Quant à son moi, <mod><del rend="strikethrough"></del></mod>il est<lb n="10"/>divisé entre ces deux]
-        <anchor xml:id="p07_1"/>
-        </mod>
-      </p>
 
-        <p xml:id="p_06" n="6">
-        <mod>
-        <delSpan spanTo="#p07_2"/>
         <lb n="11"/>Par cela même qu'il a compris <w>ce<mod><add>tte</add></mod></w> <mod instant="true"><subst><del rend="strikethrough">néant de la</del><add><lb n="12"/>folie</add></subst></mod>, il va
         <mod>
           <subst seq="1">
@@ -281,7 +281,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <del rend="strikethrough">sera en <gap reason="illegible" extent="5" unit="characters"/></del>
           <add>va</add></subst></mod>
           <mod><del rend="strikethrough">y</del></mod> mêler à cette existence ce qui<lb n="17"/>reste de substances, afin qu'il y ait aussi néant<lb n="18"/>de ce côté-là
-    <anchor xml:id="p07_2"/>
+    <anchor xml:id="p07_1"/>
     </mod>
     </p>
     </metamark>
@@ -289,7 +289,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   
   <pb facs="08.jpg" xml:id="el_08" n="08"/>
     <metamark function="largeDeletion">
-    <p xml:id="p_07" n="7">
+    <p xml:id="p_08" n="8">
     <mod>
     <delSpan spanTo="#p08_1"/>
 
@@ -300,15 +300,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <add>grâce</add>
         </subst>
       </mod>à<lb n="8"/>ce don d'Illusoire, où en était le Rêve - <lb n="9"/>Très bien. C'est ainsi que je procéderai<lb n="10"/>(Il s'administrera ce néant - reste de l'Idée,)<lb n="11"/> après avoir établi la nécessité</q>
-    <anchor xml:id="p08_1"/>
-    </mod>
-    </p>
-    </metamark>
-    
-    <metamark function="largeDeletion">
-    <p xml:id="p_8" n="8">
-    <mod>
-    <delSpan spanTo="#p08_2"/>
+
       <lb n="12"/>- Pour lui, Absolu - les correspondances<lb n="13"/>sont exactes et suffisent. Il les comprend.<lb n="14"/>Corridor. On doute, qui a parlé au début : et l'on<lb n="15"/>arrive, devant le mutisme d'Igitur, à la certitude<lb n="16"/>qu'il ne parle pas. 
       Il est sifflé par ce qu'il prend pour les âmes de ses ancêtres qui ne comprennent pas son action. 
     Igitur arrive devant les dés, et approche le flambeau du livre, de sorte qu'il apparaisse 
@@ -318,7 +310,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <add>la phrase</add>
       </subst>
     </mod>.      <!-- nel manoscritto queste due frasi sono invertite e con una freccia M. indica l'inversione. come fare?-->
-    <anchor xml:id="p08_2"/>
+    <anchor xml:id="p08_1"/>
     </mod>
     </p>
     </metamark>
@@ -467,7 +459,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <subst>
           <del rend="overwritten">assez</del>
           <add place="superscript">mais</add>
-      </subst></mod> que l'infini<lb n="16"/>est enfin <hi rend="underline">fixé.</hi><mod><add>sauf que mouvement (personnel)<lb n="16"/>rendu à l'Infini </add></mod> 
+      </subst></mod> que l'infini<lb n="16"/>est enfin <hi rend="underline">fixé.</hi><mod><add>sauf que movimento (personnel)<lb n="16"/>rendu à l'Infini </add></mod> 
     </p>
 
 <pb facs="13.jpg" xml:id="el_13" n="13"/>
@@ -514,7 +506,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </mod> le livre - souffle la bougie,<lb n="8"/>- de son souffle qui contenait le hazard : <mod><del seq="3" rend="strikethrough"><add seq="1" place="below">il boit le poison</add> <add seq="2" place="below">idée du Néant qui reste de soi</add></del></mod>
     </p><!--da rivedere. su evt non mostra nella correction sequence che è stato aggiunto e poi cancellato-->
     <p xml:id="p_19" n="19">
-    <lb n="9"/><mod instant="true"><del rend="strikethrough">Et se couche sur les cendres de ses ance</del><lb n="10"/><add place="below">Et, croisant les bras,<lb  n="11"/>se couche sur les cendres de ses ancêtres. </add></mod><lb n="11"/>Croisant les bras - l'Absolu a disparu,<lb n="12"/>en pureté de sa race, car<mod><add place="above"></add>(il le faut bien, puisque)</mod> le bruit<lb n="13"/>cesse. Et,<mod instant="true"><del rend="strikethrough">l'Inf</del></mod> quant à 
+    <lb n="9"/><mod instant="true"><del rend="strikethrough">Et se couche sur les cendres de ses ance</del><lb n="10"/><add place="below">Et, croisant les bras,<lb  n="11"/>se couche sur les cendres de ses ancêtres. </add></mod><lb n="11"/>Croisant les bras - l'Absolu ha disparu,<lb n="12"/>en pureté de sa race, car<mod><add place="above"></add>(il le faut bien, puisque)</mod> le bruit<lb n="13"/>cesse. Et,<mod instant="true"><del rend="strikethrough">l'Inf</del></mod> quant à 
     </p>
 
 <pb facs="15.jpg" xml:id="el_15" n="15"/>
@@ -566,7 +558,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <metamark function="largeDeletion">
     <p xml:id="p_22" n="22">
     <mod>
-    <delSpan spanTo="#p22_1"/>
+    <delSpan spanTo="#p16_1"/>
     <lb n="9"/>Et quant au rêve de famille, il a<lb n="10"/>transmué son absolu en la pureté<lb n="11"/>de la race, et en l'idée de cette<lb n="12"/>pureté, qui est sa nécessité, par<lb n="13"/>rapport à l'Absolu, que lui*<!--come trattarlo?--> sentit en<lb n="14"/>lui. Maintenant, <mod instant="true">
       <subst>
         <del rend="strikethrough">l'am</del>
@@ -585,12 +577,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <add place="margin">ou les dés - hazard absorbé</add>  <!--cambiare-->
     <lb n="1"/>- Sur les cendres des as- Sur les cendres des astres, <mod instant="true">
         <del rend="strikethrough">était le pauvre</del>
-    </mod><lb n="2"/>celles <mod><add place="above">indivises</add></mod> de la famille, était le tres, celles indivises de la famille, était le pauvre personnage, <lb n="3"/>couché, après avoir bu la goutte de néant<lb n="4"/>qui manque à la mer, (La fiole vide, folie, <lb n="5"/>tout ce qui reste du château ?) Le Néant parti, reste le château de<lb n="6"/>la pureté. 
+    </mod><lb n="2"/>celles <mod><add place="above">indivises</add></mod> de la famille, était le tres, celles indivises de la famille, était le pauvre personnage, <lb n="3"/>couché, après avoir bu la goutte de néant<lb n="4"/>qui manque à la mer, (La fiole vuide, folie, <lb n="5"/>tout ce qui reste du château ?) Le Néant parti, reste le château de<lb n="6"/>la pureté. 
     </p>
 
   <pb facs="18.jpg" xml:id="el_18" n="18"/>
   <metamark function="largeDeletion">
-  <p xml:id="p_24" n="24">
+    <p xml:id="p_24" n="24">
     <mod>
     <delSpan spanTo="#p18_1"/>
     <lb n="1"/>négations différentes fait l'infini, toute<lb n="2"/>une <mod instant="true">
@@ -613,7 +605,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
   </div>
 
-  <div n="2" type="notes"> 
+  <div n="2" type="notes" xml:id="notes_2"> 
 
   <pb facs="20.jpg" xml:id="el_20" n="20"/>
     <ab rend="align-center" type="editorial" resp="BM">[Notes 2]</ab>
@@ -735,7 +727,7 @@ silence, pas de cette démence
   </div>
 
 
-  <div n="3" type="drafts"> 
+  <div n="3" type="drafts" xml:id="drafts_1"> 
     <head>Ébauches</head>
 
   <pb facs="24.jpg" xml:id="el_24" n="24"/>
@@ -888,10 +880,10 @@ silence, pas de cette démence
     <lb n="16"/>forme qu'elle foule, derrière elle, 
     <lb n="17"/>couchée et étendue, et puis, devant elle, en ce puits, l'étendue de 
     <lb n="18"/>couches d'ombre, rendue à la nuit pure, de toutes <lb n="19"/>ses nuits pareilles apparies, des couches à jamais séparées 
-    <lb n="20"/>d'elles et que sans doute elles ne connurent pas <lb n="22"/>- qui n'est, je le sais, que le 
-    <lb n="23"/>prolongement absurde du bruit4 de la fermeture 
-    <lb n="24"/>de la porte sépulcrale dont l'entrée 
-    <lb n="25"/>de ce puits rappelle la porte. 
+    <lb n="20"/>d'elles et que sans doute elles ne connurent pas <lb n="21"/>- qui n'est, je le sais, que le 
+    <lb n="22"/>prolongement absurde du bruit4 de la fermeture 
+    <lb n="23"/>de la porte sépulcrale dont l'entrée 
+    <lb n="24"/>de ce puits rappelle la porte. 
     </p>
 
   <pb facs="32.jpg" xml:id="el_32" n="32"/>
@@ -1005,7 +997,7 @@ silence, pas de cette démence
     </p>
   </div>
 
-  <div n="4" type="drafts"> 
+  <div n="4" type="drafts" xml:id="drafts_2"> 
     <pb facs="37.jpg" xml:id="el_37" n="37"/>
     <head>Plusieurs ébauches de la sortie de la chambre</head> <!--chi ha scritto questo titolo?-->
 
@@ -1163,7 +1155,7 @@ silence, pas de cette démence
     <lb n="23"/>Tout à jamais est fini : ces paroles 
     <lb n="24"/>qui retombent en moi n'engendrent que 
     <lb n="25"/>certitude : je reconnais leur écho ancien
-		<lb n="26"/>        	je rentre dans mon propre sépulchre. 
+    <lb n="26"/>        	je rentre dans mon propre sépulchre. 
     </p>
 
   <pb facs="44.jpg" xml:id="el_44" n="44"/> 
@@ -1195,7 +1187,7 @@ silence, pas de cette démence
     <lb n="24"/>n'entendit plus rien 
     
 
-  <pb facs="45.jpg" n="45"/> 
+  <pb facs="45.jpg" xml:id="el_45" n="45"/> 
     <lb n="1"/>q'un régulier battement qui semblait fuir à jamais comme 
     <lb n="4"/>le volètement prolongé de 
     <lb n="5"/>quelqu'hôte de la nuit réveillé de son lourd sommeil : 
@@ -1279,7 +1271,7 @@ silence, pas de cette démence
     <lb n="4"/>lumière et elle allait cette fois disparaître en <lb n="5"/>le sein de l'ombre qui, accomplie, revenue 
     <lb n="6"/>du corridor du temps, était enfin parfaite 
     <lb n="7"/>et éternelle, - elle-même, devenue 
-    <lb n="8"/>son propre sépulchre, dont les panneaux 
+    <lb n="8"/>son propre sépulcre, dont les panneaux 
     <lb n="9"/>se retrouvaient ouverts sans bruit.
     </p>
 
@@ -1355,7 +1347,7 @@ silence, pas de cette démence
     <lb n="7"/>Tout était parfait ; elle était la Nuit pure, et elle 
     <lb n="8"/>entendit son propre cœur qui battit. Toutefois il <lb n="9"/>lui donna une inquiétude, celle de trop de certitude, 
     <lb n="10"/>celle d'une constatation trop sûre 
-    <lb n="11"/>d'elle-même : elle voulut se replonger à son tour <lb n="12"/>dans les ténèbres vers son sépulchre unique 
+    <lb n="11"/>d'elle-même : elle voulut se replonger à son tour <lb n="12"/>dans les ténèbres vers son sépulcre unique 
     <lb n="13"/>et abjurer l'idée de sa forme telle qu'elle 
     <lb n="14"/>s'était apparue par son souvenir 
     <lb n="15"/>des génies supérieurs chargés de réunir ces cendres 
@@ -1413,7 +1405,7 @@ silence, pas de cette démence
     </p>
 
     <p xml:id="p_64" n="64">
-    <lb n="11"/>Si d'un côté tout doute disparut, de 
+    <lb n="11"/>Si, d'un côté, tout doute disparut, de 
     <lb n="12"/>l'autre l'idée du mouvement persista, 
     <lb n="13"/>régulièrement scandé par le double heurt, que n'atteignait 
     <lb n="14"/>plus le balancier abandonné, 
@@ -1451,7 +1443,7 @@ silence, pas de cette démence
     <lb n="9"/>de mouvement persista, régulièrement scandée par <lb n="10"/>le double heurt impossible du balancier qui ne s'atteignait 
     <lb n="11"/>plus, mais dont le frôlement actuel, tel qu'il eût dû avoir 
     <lb n="12"/>lieu, revenait dans le possible, comme si tout le bruit 
-    <lb n="13"/>massif et sépulchral n'avait pas été la chûte des panneaux 
+    <lb n="13"/>massif et sépulcral n'avait pas été la chûte des panneaux 
     <lb n="14"/>ouverts du tombeau qui se fermaient à ton retour <lb n="16"/>et elle eut un mirage de panneaux à la fois ouverts et 
     <lb n="17"/>fermés, comme s'ils ne retombaient pas, et que ce fût 
     <lb n="18"/>elle qui, douée de leur mouvement, retournât sur soi 
@@ -1473,32 +1465,33 @@ silence, pas de cette démence
     <lb n="1"/>L'ombre redevenue obscurité, la Nuit demeura 
     <lb n="2"/>avec une perception douteuse de pendule qui va expirer en 
     <lb n="3"/>la perception de lui ; mais à ce qui luit et va 
-    <lb n="4"/>probablement expirer en soi, elle se voit encore, qui le porte et c'est donc 
-    <lb n="5"/>d'elle que venait le battement ouï, dont le bruit 
-    <lb n="6"/>total tombe à jamais dans le 
-    <lb n="7"/>passé. (sur l'oubli).
+    <lb n="4"/>probablement expirer en soi, elle se voit encore 
+    <lb n="5"/>qui le porte et c'est donc 
+    <lb n="6"/>d'elle que venait le battement ouï, dont le bruit 
+    <lb n="7"/>total tombe à jamais dans le 
+    <lb n="8"/>passé. (sur l'oubli).
     </p>
 
     <p xml:id="p_68" n="68">
-    <lb n="8"/>D'un côté, si toute ambiguïté cessa, l'idée 
-    <lb n="9"/>de motion dure de l'autre, régulièrement marquée par 
-    <lb n="10"/>le double heurt impossible du pendule qui n'atteint plus que sa notion, 
-    <lb n="11"/>mais dont le frôlement actuel revient dans le possible, tel qu'il doit avoir 
-    <lb n="12"/>lieu, pour combler l'intervalle, comme si tout choc 
-    <lb n="13"/>n'avait pas été la chûte unique des portes 
-    <lb n="14"/>du tombeau sur lui-même et sans retour ; mais dans 
-    <lb n="15"/>le doute né de la certitude même de leur perception, se présente 
-    <lb n="16"/>une vision de panneaux à la fois ouverts et <lb n="17"/>fermés, dans leur chûte en suspens, comme si c'était 
-    <lb n="18"/>soi qui, douée de leur mouvement, retournât sur 
-    <lb n="19"/>soi-même en la spirale vertigineuse conséquente ; qui devait être 
-    <lb n="20"/>indéfiniment fluyante si une oppression progressive, 
-    <lb n="21"/>poids de ce dont on ne se rendait pas compte, malgré que l'on 
-    <lb n="22"/>se l'expliquait 
-    <lb n="23"/>en somme, n'eût impliqué l'expansion certaine d'un intervalle 
-    <lb n="24"/>futur, sa cessation, dans laquelle, lorsqu'elles se retrouvèrent, 
-    <lb n="25"/>rien en effet ne s'entendit plus que le bruit d'un 
-    <lb n="26"/>battement d'ailes effaré de quelqu'un de ses hôtes absurdes 
-    <lb n="27"/>heurté dans son lourd somme par la clarté et <lb n="28"/>prolongeant sa fuite indéfinie.
+    <lb n="9"/>D'un côté, si toute ambiguïté cessa, l'idée 
+    <lb n="10"/>de motion dura de l'autre, régulièrement marquée par 
+    <lb n="11"/>le double heurt impossible du pendule qui n'atteint plus que sa notion, 
+    <lb n="12"/>mais dont le frôlement actuel revient dans le possible, tel qu'il doit avoir 
+    <lb n="13"/>lieu, pour combler l'intervalle, comme si tout choc 
+    <lb n="14"/>n'avait pas été la chûte unique des portes 
+    <lb n="15"/>du tombeau sur lui-même et sans retour ; mais dans 
+    <lb n="16"/>le doute né de la certitude même de leur perception, se présente 
+    <lb n="17"/>une vision de panneaux à la fois ouverts et <lb n="18"/>fermés, dans leur chûte en suspens, comme si c'était 
+    <lb n="19"/>soi qui, douée de leur mouvement, retournât sur 
+    <lb n="20"/>soi-même en la spirale vertigineuse conséquente ; qui devait être 
+    <lb n="21"/>indéfiniment fluyante si une oppression progressive, 
+    <lb n="22"/>poids de ce dont on ne se rendait pas compte, malgré que l'on 
+    <lb n="23"/>se l'expliquait 
+    <lb n="24"/>en somme, n'eût impliqué l'expansion certaine d'un intervalle 
+    <lb n="25"/>futur, sa cessation, dans laquelle, lorsqu'elles se retrouvèrent, 
+    <lb n="26"/>rien en effet ne s'entendit plus que le bruit d'un 
+    <lb n="27"/>battement d'ailes effaré de quelqu'un de ses hôtes absurdes 
+    <lb n="28"/>heurté dans son lourd somme par la clarté et <lb n="29"/>prolongeant sa fuite indéfinie.
     </p>
 
   <pb facs="58.jpg" xml:id="el_58" n="58"/> 
@@ -1537,7 +1530,7 @@ silence, pas de cette démence
   <pb facs="59.jpg" xml:id="el_59" n="59"/> 
     <lb n="1"/>celles passées, il ne me reste plus qu'à me dégager 
     <lb n="2"/>de l'obsession de cette race, et à revenir 
-    <lb n="3"/>en moi : du  reste cette certitude ne laisse pas que d'être 
+    <lb n="3"/>en moi : du  reste cette certitude ne laisse pas d'être 
     <lb n="4"/>inquiétante ; voici
   </p>
 
@@ -1567,7 +1560,7 @@ silence, pas de cette démence
     <lb n="22"/>Mais ne sont-ils pas le mirage l'un de l'autre, à travers 
     <lb n="23"/>ma réflexion, un reste de doute causé par le prolongement 
     <lb n="24"/>absurde de mon hôte antérieur, qui sembla fuir 
-    <lb n="15"/>indéfiniment. Je prends au hazard : l'un est l'autre. 
+    <lb n="25"/>indéfiniment. Je prends au hazard : l'un est l'autre. 
     En effet je reconnais le même bruit dédoublé, 
 
   <pb facs="60.jpg" xml:id="el_60" n="60"/> 
@@ -1589,7 +1582,7 @@ silence, pas de cette démence
     </p>
 </div>
 
-<div n="5" type="drafts">
+<div n="5" type="drafts" xml:id="drafts_3">
 <head>Fragments d'ébauches</head>
 
   <pb facs="61.jpg" xml:id="el_61" n="61"/>
@@ -1729,7 +1722,7 @@ silence, pas de cette démence
     </p>
 </div>
 
-<div n="6" type="drafts">
+<div n="6" type="drafts" xml:id="drafts_4">
   <head>Brouillon du <q>« Minuit »</q></head>
 
 
