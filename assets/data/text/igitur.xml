@@ -646,7 +646,7 @@ spanTo="#p17_1"/><mod><add place="margin-left">ou les dés - hazard absorbé</ad
         </mod>, va disparaître, <mod>
           <subst>
             <del rend="strikethrough">à la faveur de la <lb n="6"/>lumière</del>
-            <add place="above"><w>ce<del rend="strokethrough">tte</del></w> flambeau</add>
+            <add place="above"><w>ce<del rend="strikethrough">tte</del></w> flambeau</add>
           </subst>
         </mod>emporté<mod>
          
@@ -1153,125 +1153,294 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
       </p>
       
     <p xml:id="p_40" n="40">
-      <lb n="14"/><mod><del rend="strikethrough">Et,</del></mod> <w><mod><subst><del rend="overwritten">i</del><add place="superscript">I</add></subst></mod>nutile</w>, <!--DA QUI-->de l'ameublement accompli qui se 
-      <lb n="15"/>tassera en ténèbres comme les tentures, déjà <lb n="16"/>alourdies en une forme permanente de toujours, <lb n="17"/>tandis que, lueur virtuelle, produite par 
-      <lb n="18"/>sa propre apparition en le miroitement de l'obscurité, 
-      <lb n="19"/>scintille le feu pur du diamant de l'horloge
-      <lb n="20"/>, seule survivance et joyau de 
-      <lb n="21"/>la Nuit éternelle, l'heure se formule 
-      <lb n="22"/>en cet écho, au seuil de panneaux ouverts par son acte 
+      <lb n="14"/><mod><del rend="strikethrough">Et,</del></mod> <w><mod><subst><del rend="overwritten">i</del><add place="superscript">I</add></subst></mod>nutile</w>, <mod instant="true">
+        <subst>
+          <del seq="1" rend="overwritten">les</del>
+          <del seq="3" rend="strikethrough"> <add seq="2" place="superscript">des</add></del>
+        <add seq="4" place="superscript">de</add></subst></mod><!--rivedere--> <mod instant="true">
+          <subst>
+            <del rend="strikethrough">meubles</del>
+            <add place="above">l'ameublement</add>
+          </subst></mod> <w>accompli<mod><del rend="strikethrough">s</del></mod></w> qui<!--rivedere--> se<lb n="15"/><w>tasser<mod><subst><del rend="strikethrough">ont</del><add place="superscript">a</add></subst></mod>a</w> en ténèbres comme les tentures, déjà<lb n="16"/><mod>
+            <subst>
+              <del rend="strikethrough">enfouies</del>
+              <add place="above">alourdies</add>
+            </subst>
+          </mod> en <mod>
+            <subst>
+              <del rend="strikethrough">la</del>
+              <add place="above">une</add>
+            </subst>
+          </mod> forme permanente de toujours,<lb n="17"/>tandis que, lueur virtuelle, produite par<lb n="18"/><w>s<mod>
+            <subst>
+              <del rend="overwritten">on</del>
+              <add place="superscript">a</add>
+            </subst>
+          </mod></w> propre <metamark rend="arrow"/><mod><add place="above">apparition en le</add></mod> miroitement <mod>
+            <subst>
+              <del seq="1" rend="strikethrough">en la disparition<lb n="19"/>de la glace</del>
+              <del seq="3" rend="strikethrough"><add seq="2" place="above">l'apparition future</add></del>
+              <add seq="4" place="below">de l'obscurité</add>
+              </subst>
+          </mod><!--rivedere-->, scintille le feu pur <w>d<mod><subst><del rend="overwritten">e</del><add place="superscript">u</add></subst></mod></w> <mod><subst>
+            <del rend="strikethrough">l'horloge de<lb n="20"/>diamant</del>
+            <add place="below">diamant de l'horloge</add>
+          </subst></mod>, seule survivance et <mod><del rend="strikethrough">le</del></mod> joyau de<lb n="21"/>la Nuit éternelle, <mod>
+            <subst>
+              <del seq="1" rend="strikethrough">l'acte se</del>
+              <del seq="3" rend="overwritten"><add seq="2" place="above">l'acte demeure du minuit de</add></del>
+              <add seq="4" place="superscript">l'heure se</add>
+              </subst>
+          </mod> formule <mod><del rend="strikethrough">uniquement</del></mod><lb n="22"/>en cet écho, au seuil <mod>
+            <subst>
+              <del seq="1" rend="strikethrough">des panneaux</del>
+              <del seq="3" rend="overwritten"><add seq="2" place="below"> ses des portes</add></del>
+              <add seq="4" place="superscript">de panneaux</add>
+            </subst>
+          </mod> ouverts <mod><add place="below">par son acte</add></mod> 
 
 
     <pb facs="28.jpg" xml:id="el_28" n="28"/>
-      <lb n="1"/>de la Nuit : <said>« Adieu, Nuit, que je 
-      <lb n="2"/>fus, ton propre sépulcre, mais qui, l'ombre 
-      <lb n="3"/>survivante, se métamorphosera 
-      <lb n="4"/>en Éternité. »</said>
+      <lb n="1"/>de la Nuit : <said>« Adieu, <w><mod><subst><del rend="strikethrough">Mi</del><add place="superscript">N</add></subst></mod>uit</w>, que je<lb n="2"/>fus, <mod><add place="above">ton propre</add></mod> <w>sépulc<mod><del rend="strikethrough">h</del></mod>re</w> <mod><del rend="strikethrough">de toi-même</del></mod>, mais qui, <mod>
+        <subst>
+          <del seq="1" rend="strikethrough">la<lb n="3"/>Nuit qu'il</del>
+          <del seq="3" rend="strikethrough"><add seq="2">qui contient</add></del>
+          <add seq="4" place="above">l'ombre survivante</add>
+        </subst>
+      </mod> <mod>
+        <subst>
+          <del seq="1" rend="overwritten">dissoute</del>
+          <del seq="3" place="superscript"><add seq="2" place="superscript">accomplie</add></del>
+          <del seq="5" rend="strikethrough"><add seq="4" place="above">demeure</add></del>
+        </subst>
+      </mod>, <w><mod><subst><del rend="overwritten">t</del><add place="superscript">s</add></subst></mod>e</w> métamorphosera<lb n="4"/>en Éternité. »</said>
       <!--non trovo: Il quitte la chambre <et se perd dans les escaliers,> (au lieu de descendre à cheval sur la rampe)   è un titolo dato da Marchal?-->
       </p>
 
     <pb facs="29.jpg" xml:id="el_29" n="29"/>
       <p xml:id="p_41" n="41">
-      <lb n="1"/>L'ombre disparue en l'obscurité, la Nuit resta avec une douteuse 
-      <lb n="2"/>perception de pendule qui va s'atteindre et expirer en 
-      <lb n="3"/>lui ; mais à ce qui luit et va, expirant en soi, s'éteindre, 
-      <lb n="4"/>elle se sait qui le porte encore ; donc c'est d'elle ! 
-      <lb n="5"/>que, nul doute, était le battement ouï, dont le bruit 
-      <lb n="6"/>total et dénué à jamais tomba en son passé.
+      <lb n="1"/>L'ombre <mod>
+        <subst>
+          <del seq="1" rend="strikethrough">redevenue</del>
+          <del seq="3" rend="overwritten"><add seq="2" place="above">disparue</add></del>
+          <del seq="5" rend="strikethrough"><add seq="4" place="superscript">retournée en</add></del>
+          <del seq="7" rend="strikethrough"><add seq="6" place="below">à son l'</add></del>
+          <del seq="9" rend="strikethrough"><add seq="8" place="below">vers l'</add></del>
+          <add seq="10" place="above">disparue en l'</add>
+          </subst>
+      </mod><!--RIVEDERE TUTTO-->obscurité, la Nuit resta <mod><del rend="strikethrough">encore</del></mod>avec une<lb n="2"/><mod>
+        <subst>
+          <del rend="strikethrough">perception confuse</del>
+          <add place="above">douteuse perception <del rend="strikethrough">douteuse</del></add>
+        </subst>
+      </mod> de pendule qui va <mod><add place="above">s'atteindre et</add></mod> expirer en <mod><del rend="strikethrough">la notion<lb n="3"/>de</del></mod> lui ; mais à ce qui luit et va, expirant en soi, s'éteindre,<lb n="4"/>elle se <mod>
+        <subst>
+          <del rend="strikethrough">voit encore</del>
+          <add place="above">sait</add>
+          </subst>
+      </mod> qui le porte <mod><add place="above">encore</add></mod> ; <mod>
+        <subst>
+          <del seq="1" rend="strikethrough">et sait que c'est donc</del>
+          <del seq="3" rend="strikethrough"><add seq="2" place="above">conclut</add></del>
+          <del seq="5" rend="strikethrough"><add seq="4" place="above">donc c'est</add></del>
+          <add seq="6" place="above">donc c'est <del seq="7" rend="strikethrough">donc encore</del>d'elle !</add>
+        </subst>
+      </mod><mod><del rend="strikethrough">donc aussi oui encore</del></mod><lb n="5"/>que <mod>
+        <subst>
+          <del seq="1" rend="overwritten">venait</del>
+          <del seq="3" rend="strikethrough"><add seq="2" place="superscript">fut</add></del>
+          <del seq="5" rend="strikethrough"><add seq="4" place="above">vint</add></del>
+        </subst>
+      </mod>, <mod><del seq="2" rend="strikethrough"><add seq="1" place="above">égale</add></del></mod>nul doute, <mod><subst>
+        <del rend="strikethrough">fut</del>
+        <add place="above">était</add>
+      </subst></mod> le battement ouï, dont le bruit<lb n="6"/>total <mod>
+        <subst>
+          <del rend="strikethrough">à</del>
+          <add place="above">et<del rend="strikethrough">vide</del>dénué à</add>
+        </subst></mod><metamark rend="arrow"/> jamais <w><del rend="strikethrough">re</del>tomba</w> <mod>
+          <subst>
+            <del rend="strikethrough">dans le</del>
+            <add place="above">en son</add></subst></mod> passé.
       </p>
   
     <p xml:id="p_42" n="42">
-      <lb n="7"/>D'un côté si l'équivoque cessa, une motion, de l'autre, 
-      <lb n="8"/>dure, marquée [d'une façon] plus pressante par un 
-      <lb n="9"/>double heurt, qui n'atteint plus ou - pas encore <lb n="10"/>sa notion, et dont un frôlement actuel, tel qu'il doit 
-      <lb n="11"/>avoir lieu, remplit confusément 
-      <lb n="12"/>l'équivoque, ou sa cessation
-      <lb n="13"/>: comme si la chûte totale qui avait été 
-      <lb n="14"/>le choc unique des portes du 
-      <lb n="15"/>tombeau, n'en étouffait pas l'hôte sans retour ; et dans prolongée 
-      <lb n="16"/>par la réminiscence du vide sépulcral du heurt en laquelle se confonde la clarté, se présente une 
-      <lb n="17"/>vision de la chûte interrompue 
-      <lb n="18"/>de panneaux, comme si c'était soi-même, qui, doué 
-      <lb n="19"/>du mouvement suspendu le retournât sur soi en la spirale 
-      <lb n="20"/>vertigiineuse conséquente ; et elle devait être indéfiniment 
-      <lb n="21"/>fuyante, si une oppression progressive, poids graduel de 
-      <lb n="22"/>ce dont on ne se rendait pas compte, malgré que ce fût expliqué 
-      <lb n="23"/>en somme, n'en eût impliqué l'évasion certaine en un 
-      <lb n="24"/>intervalle, la cessation ; où, lorsqu'expira le 
-      <lb n="25"/>heurt, et qu'elles se confondirent, rien en effet ne fut plus ouï : que le 
+      <lb n="7"/>D'un côté si <mod>
+        <subst>
+          <del seq="1" rend="strikethrough">l'ambiguïté</del>
+          <del seq="3" rend="strikethrough"><add seq="2" place="above">le doute</add></del>
+          <add seq="4" place="above">l'équivoque</add>
+        </subst>
+      </mod> <w>cessa<mod><del rend="strikethrough">it</del></mod></w>, <mod><del rend="strikethrough">(l'idée de)</del></mod> <mod>
+        <subst>
+          <del rend="strikethrough">la</del>
+          <add place="above">une</add>
+        </subst>
+      </mod> motion, <mod><add>de l'autre,</add></mod><lb n="8"/><w>dur<mod><subst><del rend="overwritten">ait</del><add place="superscript">e</add></subst></mod></w> <mod><del rend="strikethrough">de l'autre</del></mod>, <mod>
+        <subst>
+          <del seq="1" rend="strikethrough">marquée</del>
+          <del seq="3" rend="strikethrough"><add seq="2" place="above">indiquée, encore</add></del>
+          <add seq="4" place="below">marquée</add>
+        </subst>
+      </mod> <choice>
+        <sic><mod><del rend="strikethrough">d'une façon</del></mod></sic>
+        <corr>d'une façon</corr>
+      </choice><!--rivedere--> <mod>
+        <subst>
+          <del seq="1" rend="strikethrough">encore</del>
+          <del seq="3" rend="strikethrough"><add seq="2" place="below">encore</add></del>
+        </subst>
+      </mod><!--rivedere-->plus <mod>
+        <subst>
+          <del seq="1" rend="strikethrough">pressante</del>
+          <del seq="3" rend="strikethrough"><add seq="2" place="above">nette encore</add></del>
+          <del seq="5" rend="strikethrough"><add seq="4" place="below">certaine vite</add></del>
+          <del seq="7" rend="strikethrough"><add seq="5" place="above">sûre nette certaine</add></del>
+          <add seq="8" place="above">pressante</add>
+        </subst>
+      </mod> par <mod>
+        <subst>
+          <del rend="overwritten">le</del>
+          <add place="superscript">un</add>
+        </subst>
+      </mod><lb n="9"/><mod>
+        <subst>
+          <del rend="strikethrough">(double)</del>
+          <add place="above">double</add>
+        </subst>
+      </mod> heurt <mod>
+        <subst>
+          <del seq="1" rend="strikethrough">impassible</del>
+          <del seq="3" rend="strikethrough"><add seq="2" place="above">détaché</add></del>
+          <del seq="5" rend="strikethrough"><add seq="4" place="above">imoassible</add></del>
+        </subst>
+      </mod><mod><del rend="strikethrough">du pendule</del></mod>, qui <mod>
+        <subst>
+          <del rend="strikethrough">n'atteint plus que<lb n="10"/>sa notion ; mais et </del>
+          <add place="above">ne <del rend="strikethrough">S'</del>atteint plus ou - <del rend="strikethrough">ou</del> pas encore <del rend="strikethrough">, et n'atteint que et a sa propre notion</del></add>
+        </subst>
+      </mod><!--rivedere--><mod><add place="above">sa notion, et</add></mod> dont <mod><subst>
+        <del rend="strikethrough">le</del>
+        <add place="above">un</add>
+      </subst></mod> <w>frô<mod><subst><del rend="overwritten">tt</del><add place="superscript">l</add></subst></mod>ement</w> actuel, tel qu'il doit<lb n="11"/>avoir lieu, remplit confusément <mod>
+        <subst><del seq="1" rend="strikethrough">la cessation de sa dualité,<lb n="12"/>son intervalle</del>
+      <del seq="3" rend="strikethrough"><add seq="2" place="above">son l'ambiguïté ou l'</add></del>
+    <add seq="4" place="above">l'équivoque, ou sa cessation, <del seq="5" rend="strikethrough">de l'équ</del></add></subst></mod><lb n="13"/>: comme si <mod>
+      <subst>
+        <del seq="1" rend="strikethrough">la chûte unique des portes du</del>
+        <add seq="2" place="below">la chûte totale <del seq="3" rend="strikethrough">et étouffé,</del>qui avait été le</add>
+      </subst></mod><lb n="14"/><mod><subst>
+        <del seq="1" rend="strikethrough">bruit</del>
+        <del seq="3" rend="strikethrough"><add seq="2" place="below">heurt</add></del>
+        <del seq="5" rend="strikethrough"><add seq="4" place="below">bruit total et étouffé, qui avait été la</add></del>
+        </subst>
+      </mod><!--rivedere--><w>ch<mod>
+        <subst>
+          <del rend="overwritten">ûte</del><add place="superscript">oc</add></subst></mod></w> unique des portes du<lb n="15"/>tombeau, <mod>
+            <subst>
+              <del seq="1" rend="strikethrough">ne séparaient pas son hôte</del>
+              <del seq="3" rend="strikethrough"><add seq="2" place="above">bruyant sans</add></del>
+              <del seq="5" rend="strikethrough"><add seq="4" place="above">n'en étouffaient</add></del>
+              <del seq="7" rend="strikethrough"><add seq="6" place="above">ne séparait</add></del>
+              <del seq="9" rend="strikethrough"><add seq="8" place="above">n'isolait</add></del>
+              <del seq="11" rend="strikethrough"><add seq="10" place="above">n'étouffait</add></del>
+              <add seq="12" place="above">n'en étouffait pas l'hôte sans</add>
+            </subst>
+          </mod> <!--rivedere-->retour ; et dans <mod>
+            <subst>
+              <del rend="strikethrough">le doute</del>
+              <add place="above">l'incertitude</add>
+            </subst></mod> issue <mod>
+              <del seq="1" rend="strikethrough">de la certitude de cette explication</del>
+              <add seq="2" place="above"> probablement de la tournure <del seq="3" rend="strikethrough">affirmative positive</del> affirmative</add>
+            </mod>, prolongée<lb n="16"/>par <mod>
+              <subst>
+                <del rend="strikethrough">la réminiscence du bruit, étouffé, s'ape</del>
+                <add place="above">la réminiscence du vide sépulcral du heurt en laquelle</add>
+                </subst>
+            </mod> <mod>
+              <subst>
+                <del seq="1" rend="strikethrough">disparaît sa clarté,</del>
+                <add seq="2" place="above">se confonde la clarté</add>
+                <del seq="4" rend="strikethrough"><add seq="3" place="above">mirage</add></del>
+              </subst></mod>, se présente <mod><subst><del rend="strikethrough">un<lb n="17"/>mirage</del>
+              <add place="above">une vision</add></subst></mod> de <mod><subst><del rend="strikethrough">panneaux à la fois ouverts et fermés, en suspens<lb n="18"/>dans leur chûte</del>
+                <add place="above">la chûte interrompue <del rend="strikethrough">et suspendue</del>de panneaux <del rend="strikethrough">en suspens</del></add>
+              </subst></mod>, <mod>
+                <subst>
+                  <del seq="1" rend="strikethrough">comme si c'était</del>
+                <del seq="3" rend="strikethrough"><add seq="2" place="above">où ce serait</add></del>
+              <add seq="4" place="above"><del rend="strikethrough">et</del>comme si c'était</add></subst></mod><!--rivedere--> soi-même, qui, doué<lb n="19"/><mod><subst><del rend="overwritten">de leur</del><add place="superscript">du</add></subst></mod> mouvement<mod><del rend="strikethrough">,</del></mod> <mod>
+                <subst>
+                  <del seq="1" rend="strikethrough">arrêté,</del>
+                  <del seq="3" rend="overwritten"><add seq="2" place="above">en suspens</add></del>
+                  <add seq="4" place="superscript">suspendu le</add>
+                  </subst></mod> retournât sur soi en <mod>
+                    <subst>
+                      <del rend="strikethrough">une</del>
+                      <add place="above">la</add></subst></mod> spirale<lb n="20"/>vertigiineuse conséquente ; et elle devait être indéfiniment<lb n="21"/>fuyante, si une oppression progressive, poids graduel de<lb n="22"/>ce dont on ne se rendait pas compte, <mod>
+                        <subst>
+                          <del seq="1" rend="strikethrough">malgré qu'on se l'expliqât</del>
+                          <del seq="3" rend="strikethrough"><add seq="2" place="above">quoiqu'</add></del>
+                          <add seq="4" place="above">malgré que ce fût expliqué</add>
+                        </subst></mod><!--rivedere--><lb n="23"/>en somme, <mod><subst><del rend="strikethrough">n'</del><add place="above">n'en</add></subst></mod> eût impliqué <mod>
+                          <subst>
+                            <del seq="1" rend="strikethrough">son expansion</del>
+                            <del seq="3" rend="overwritten"><add seq="2" place="above">la halte l'expansion</add></del>
+                            <add seq="4" place="superscript">l'évasion</add>
+                          </subst></mod> certaine en un<lb n="24"/>intervalle, <w><mod><subst><del rend="overwritten">s</del><add place="superscript">l</add></subst></mod>a</w> cessation ; <mod><subst>
+                            <del rend="strikethrough">dans laquelle</del>
+                            <add place="above">où</add>
+                          </subst></mod>, lorsqu'<mod>
+                            <subst>
+                              <del rend="strikethrough">elles se<lb n="25"/>confondirent</del>
+                              <add place="above">expira le heurt, et qu'elles se confondirent</add>
+                            </subst>
+                          </mod>, rien en effet ne fut plus ouï : que le 
 
   <pb facs="30.jpg" xml:id="el_30" n="30"/>
-      <lb n="1"/>le battement d'ailes absurdes de quelqu'hôte 
-      <lb n="2"/>effrayé de nuit heurté dans son lourd somme 
-      <lb n="3"/>par la clarté et prolongeant sa fuite indéfinie. 
+      <lb n="1"/><mod>
+        <subst>
+          <del rend="strikethrough">bruit d'un</del>
+          <add place="above">le</add>
+          </subst>
+      </mod> battement d'ailes <mod>
+        <subst>
+          <del seq="1" rend="overwritten">effaré</del>
+          <del seq="3" rend="strikethrough"><add seq="2" place="superscript">effrayé</add></del>
+          <del seq="5" rend="strikethrough"><add seq="4" place="above">bruya</add></del>
+          <add seq="6" place="below">absurdes</add>
+        </subst></mod><!--rivedere--> de quelqu'<mod><subst>
+          <del seq="1" rend="strikethrough">un de<lb n="2"/>ses hôtes absurdes</del>
+          <add seq="2" place="above">hôte <del seq="3" rend="strikethrough">absurde</del></add>
+          <add seq="4" place="above"><del seq="5" rend="strikethrough">bruyant</del> absurde effrayé de <del rend="strikethrough">la</del> nuit</add>
+        </subst></mod><!--rivedere--> heurté dans <mod>
+          <subst>
+            <del seq="1" rend="strikethrough">son</del>
+            <del seq="3" rend="strikethrough"><add seq="2" place="above">un</add></del>
+            <add seq="4" place="above">son</add>
+            <del seq="5" rend="strikethrough">un</del>
+          </subst>
+        </mod><!--rivedere-->son lourd somme<lb n="3"/>par la clarté et prolongeant sa fuite indéfinie. 
       </p>
-
+<!--DA QUI-->
   <pb facs="31.jpg" xml:id="el_31" n="31"/>
     <p xml:id="p_43" n="43">
-    <lb n="1"/>Car, pour le halètement qui avait frôlé cet endroit, 
-    <lb n="2"/>ce n'était pas quelque doute dernier de soi, qui remuait 
-    <lb n="3"/>ses ailes par hazard en passant, mais le frottement familier 
-    <lb n="4"/>et continu d'un âge supérieur, dont maint et maint génie 
-    <lb n="5"/>fut soigneux de recueillir toute sa poussière séculaire en son 
-    <lb n="6"/>sépulcre pour se mirer en un soi propre, et que nul soupçon (n'est remontât) 
-    <lb n="7"/>le fil arachnéen pour que l'ombre dernière se mirât en son propre 
-    <lb n="8"/>soi, et se recconût en la folle se ses apparitions <lb n="9"/>comprises à l'étoile nacrée de leur nébuleuse science 
-    <lb n="10"/>tenu[e] 
-    <lb n="11"/>d'une main, et à l'étincelle d'or du fermoir héraldique 
-    <lb n="12"/>de leur volume, dans l'autre ; du volume de leurs nuits ; 
-    <lb n="13"/>telles, à présent, se voyant 
-    <lb n="14"/>pour qu'elle se voie, elle, pure, l'Ombre, 
-    <lb n="15"/>ayant sa dernière 
-    <lb n="16"/>forme qu'elle foule, derrière elle, 
-    <lb n="17"/>couchée et étendue, et puis, devant elle, en ce puits, l'étendue de 
-    <lb n="18"/>couches d'ombre, rendue à la nuit pure, de toutes <lb n="19"/>ses nuits pareilles apparies, des couches à jamais séparées 
-    <lb n="20"/>d'elles et que sans doute elles ne connurent pas <lb n="21"/>- qui n'est, je le sais, que le 
-    <lb n="22"/>prolongement absurde du bruit4 de la fermeture 
-    <lb n="23"/>de la porte sépulcrale dont l'entrée 
-    <lb n="24"/>de ce puits rappelle la porte. 
+    <lb n="1"/>Car, pour le halètement qui avait frôlé cet endroit,<lb n="2"/>ce n'était pas quelque doute dernier de soi, qui remuait<lb n="3"/>ses ailes par hazard en passant, mais le frottement familier<lb n="4"/>et continu d'un âge supérieur, dont maint et maint génie<lb n="5"/>fut soigneux de recueillir toute sa poussière séculaire en son<lb n="6"/>sépulcre pour se mirer en un soi propre, et que nul soupçon (n'est remontât)<lb n="7"/>le fil arachnéen pour que l'ombre dernière se mirât en son propre<lb n="8"/>soi, et se recconût en la folle se ses apparitions<lb n="9"/>comprises à l'étoile nacrée de leur nébuleuse science<lb n="10"/>tenu[e]<lb n="11"/>d'une main, et à l'étincelle d'or du fermoir héraldique<lb n="12"/>de leur volume, dans l'autre ; du volume de leurs nuits ;<lb n="13"/>telles, à présent, se voyant<lb n="14"/>pour qu'elle se voie, elle, pure, l'Ombre<lb n="15"/>ayant sa dernière<lb n="16"/>forme qu'elle foule, derrière elle,<lb n="17"/>couchée et étendue, et puis, devant elle, en ce puits, l'étendue de<lb n="18"/>couches d'ombre, rendue à la nuit pure, de toutes<lb n="19"/>ses nuits pareilles apparies, des couches à jamais séparées<lb n="20"/>d'elles et que sans doute elles ne connurent pas <lb n="21"/>- qui n'est, je le sais, que le<lb n="22"/>prolongement absurde du bruit4 de la fermeture<lb n="23"/>de la porte sépulcrale dont l'entrée<lb n="24"/>de ce puits rappelle la porte. 
     </p>
 
   <pb facs="32.jpg" xml:id="el_32" n="32"/>
     <p xml:id="p_44" n="44">
-    <lb n="1"/>+ reprises, enlacement
-    <lb n="2"/>- Cette fois, plus nul doute ; <sic>l'a</sic> certitude 
-    <lb n="3"/>se mirait en l'évidence : en vain, 
-    <lb n="4"/>réminiscence d'un mensonge, dont elle était 
-    <lb n="5"/>la conséquence, la vision d'un lieu apparaissait-elle 
-    <lb n="6"/>encore, tel que devait être, par exemple, l'intervalle attendu, 
-    <lb n="7"/>ayant, en effet, pour parois latérales 
-    <lb n="8"/>l'opposition double des panneaux, 
-    <lb n="9"/>et pour vis-à-vis, devant et derrière 
-    <lb n="10"/>l'ouverture de doute nul, répercutée par 
-    <lb n="11"/>le prolongement du bruit des panneaux, où s'enfuit le plumage, et dédoublée par l'équivoque exploré[e], <lb n="12"/>la symétrie parfaite des déductions prévues démentait sa réalité ; 
-    <lb n="13"/>il n'y avait pas à s'y tromper c'était le conscience de soi 
-    <lb n="14"/>(à laquelle l'absurde même devait servir de lieu) 
-    <lb n="15"/>- (sa réussite). 
+    <lb n="1"/>+ reprises, enlacement<lb n="2"/>- Cette fois, plus nul doute ; <sic>l'a</sic> certitude<lb n="3"/>se mirait en l'évidence : en vain,<lb n="4"/>réminiscence d'un mensonge, dont elle était<lb n="5"/>la conséquence, la vision d'un lieu apparaissait-elle<lb n="6"/>encore, tel que devait être, par exemple, l'intervalle attendu,<lb n="7"/>ayant, en effet, pour parois latérales<lb n="8"/>l'opposition double des panneaux,<lb n="9"/>et pour vis-à-vis, devant et derrière<lb n="10"/>l'ouverture de doute nul, répercutée par<lb n="11"/>le prolongement du bruit des panneaux, où s'enfuit le plumage, et dédoublée par l'équivoque exploré[e],<lb n="12"/>la symétrie parfaite des déductions prévues démentait sa réalité ;<lb n="13"/>il n'y avait pas à s'y tromper c'était le conscience de soi<lb n="14"/>(à laquelle l'absurde même devait servir de lieu)<lb n="15"/>- (sa réussite). 
     </p>
 
   <pb facs="33.jpg" xml:id="el_33" n="33"/>
     <p xml:id="p_45" n="45">
-    <lb n="1"/>se présente également dans l'une et dans 
-    <lb n="2"/>l'autre face des parois luisantes et séculaires ne gardant d'elle que 
-    <lb n="3"/>d'une main la clarté opaline de sa science 
-    <lb n="4"/>et de l'autre son volume, le volume de ses nuits <lb n="5"/>maintenant fermé : du passé et 
-    <lb n="6"/>de l'avenir que parvenue au pinacle de 
-    <lb n="7"/>moi, l'ombre pure domine parfaitement, et 
-    <lb n="8"/>finis, hors d'eux. Tandis que 
-    <lb n="9"/>devant et derrière se prolonge le mensonge exploré <lb n="10"/>de l'infini, ténèbres de toutes 
-    <lb n="11"></lb>mes apparitions réunies, à présent que 
-    <lb n="12"/>le temps 
-    <lb n="13"/>a cessé et ne les divise 
-    <lb n="14"/>plus, retombées en un lourd somme, 
-    <lb n="15"/>massif, (lors du bruit 
-    <lb n="16"/>d'abord entendu) dans le vide duquel j'entends les pulsations de mon propre cœur. 
+    <lb n="1"/>se présente également dans l'une et dans<lb n="2"/>l'autre face des parois luisantes et séculaires ne gardant d'elle que<lb n="3"/>d'une main la clarté opaline de sa science<lb n="4"/>et de l'autre son volume, le volume de ses nuits<lb n="5"/>maintenant fermé : du passé et<lb n="6"/>de l'avenir que parvenue au pinacle de<lb n="7"/>moi, l'ombre pure domine parfaitement, et<lb n="8"/>finis, hors d'eux. Tandis que<lb n="9"/>devant et derrière se prolonge le mensonge exploré<lb n="10"/>de l'infini, ténèbres de toutes <lb n="11"></lb>mes apparitions réunies, à présent que<lb n="12"/>le temps<lb n="13"/>a cessé et ne les divise<lb n="14"/>plus, retombées en un lourd somme,<lb n="15"/>massif, (lors du bruit<lb n="16"/>d'abord entendu) dans le vide duquel j'entends les pulsations de mon propre cœur. 
     </p>
 
     <p xml:id="p_46" n="46">
-    <lb n="17"/>Je n'aime pas ce bruit : 
-    <lb n="18"/>cette perfection de 
-    <lb n="19"/>ma certitude me gêne : tour est trop 
-    <lb n="20"/>clair, la clarté montre le désir d'une 
+    <lb n="17"/>Je n'aime pas ce bruit :<lb n="18"/>cette perfection de<lb n="19"/>ma certitude me gêne : tour est trop<lb n="20"/>clair, la clarté montre le désir d'une 
     <lb n="21"/>évasion ; tout est trop luisant, j'aimerais 
     <lb n="22"/>rentrer en mon Ombre incréée et 
     <lb n="23"/>antérieure, 
