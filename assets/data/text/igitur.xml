@@ -12,7 +12,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <title type="sub">Digital Edition</title>
         <author xml:id="SM">Stéphane Mallarmé</author>
         <respStmt>
-          <resp>Crticial edition by:</resp>
+          <resp>Critical edition by:</resp>
           <name xml:id="BM">Bertrand Marchal</name>
         </respStmt>
         <respStmt>
@@ -126,7 +126,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <del rend="strikethrough">ombres</del>
           <add>souffles</add>
           </subst>
-        </mod>de ses ancêtres<lb n="6"/>veulent souffler la bougie, (grâce à<lb n="7"/>laquelle peut-être subsistent les Caractères<lb n="8"/>du grimoire) - il dit <said>« pas encore ! »</said>
+        </mod>de ses ancêtres<lb n="6"/>veulent souffler la bougie, (grâce à<lb n="7"/>laquelle peut-être subsistent les Caractères<lb n="8"/>du grimoire) - il dit <said rend="pre(«) post(»)"> pas encore ! </said>
         </p>
 
         <p xml:id="p_02" n="2">
@@ -222,15 +222,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
      <mod>
       <subst>
       <del rend="strikethrough">absolus,</del>
-      <add><w>mathé-<lb n="7"/>maticiens</w></add>
+      <add><w>mathé<lb break="no" n="7"/>maticiens</w></add>
       </subst> 
-      </mod>expirates - moi <w>pro-<lb n="8"/>jeté</w> absolu.Devais finir en<lb n="9"/>Infini. Simplement parole et<lb n="10"/>geste. Quant à ce que je vous dis,<lb n="11"/>pour expliquer ma vie. Rien ne<lb n="12"/>restera de nous - L'infini enfin<lb n="13"/>échappé à la famille, qui en a<lb n="14"/>souffert, - vieil espace - pas de
+      </mod>expirates - moi <w>pro<lb break="no" n="8"/>jeté</w> absolu.Devais finir en<lb n="9"/>Infini. Simplement parole et<lb n="10"/>geste. Quant à ce que je vous dis,<lb n="11"/>pour expliquer ma vie. Rien ne<lb n="12"/>restera de nous - L'infini enfin<lb n="13"/>échappé à la famille, qui en a<lb n="14"/>souffert, - vieil espace - pas de
     </p>
 
     <pb facs="06.jpg" xml:id="el_06" n="06"/>
       <fw place="top_right" type="pageNum">2</fw>
          <p xml:id="p_06" n="6">
-      <lb n="1"/>hazard. Elle a eu raison de la<lb n="2"/>nier, - sa vie - pour qu'il<lb n="3"/>ait été l'absolu. Ceci devait<lb n="4"/>avoir lieu dans les <w>combinai-<lb n="5"/>sons</w> de l'Infini vis-à-vis<lb n="6"/>de l'Absolu. Nécessaire - extrait<lb n="7"/>l'Idee. Folie utile. Un des<lb n="8"/>actes de l'univers vient<lb n="9"/>d'être commis là. Plus rien,<lb n="10"/>restait le souffle, 
+      <lb n="1"/>hazard. Elle a eu raison de la<lb n="2"/>nier, - sa vie - pour qu'il<lb n="3"/>ait été l'absolu. Ceci devait<lb n="4"/>avoir lieu dans les <w>combinai<lb break="no" n="5"/>sons</w> de l'Infini vis-à-vis<lb n="6"/>de l'Absolu. Nécessaire - extrait<lb n="7"/>l'Idee. Folie utile. Un des<lb n="8"/>actes de l'univers vient<lb n="9"/>d'être commis là. Plus rien,<lb n="10"/>restait le souffle, 
       <mod instant="true">
       <subst>
       <del rend="strikethrough">f</del>
@@ -289,7 +289,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </mod><lb n="14"/>plonger ce <metamark rend="underline">moi</metamark>
         <mod>
         <add seq="1" place="above">absent</add>
-        <del seq="2" place="above" rend="strikethrough">et divisé</del>
+        <del seq="2" rend="strikethrough">et divisé</del>
         </mod> : et quant à sa famille qui,<lb n="15"/>s'étant crue pure,
         <mod><add place="above">sortira de l'inconditionnel pour</add></mod>exister subitement, il<lb n="16"/>
         <mod instant="true">
@@ -542,7 +542,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <del rend="strikethrough">l'Ab</del>
         <add>l'existence de l'<metamark rend="underline">Absolu</metamark></add>
       </subst>
-    </mod>, a, <w>soli-<lb n="11"/>taire</w>, oublié la parole humaine en <w><mod>le<del rend="strikethrough">s</del></mod></w><lb n="12"/><w> <mod>grimoire<del rend="strikethrough">s</del></mod></w>, et la pensée en un<lb n="13"/>luminaire, <mod instant="true"><del rend="strikethrough">qui</del></mod> <w><mod>l
+    </mod>, a, <w>soli<lb break="no" n="11"/>taire</w>, oublié la parole humaine en <w><mod>le<del rend="strikethrough">s</del></mod></w><lb n="12"/><w> <mod>grimoire<del rend="strikethrough">s</del></mod></w>, et la pensée en un<lb n="13"/>luminaire, <mod instant="true"><del rend="strikethrough">qui</del></mod> <w><mod>l
       <subst>
         <del rend="strikethrough">es</del>
         <add>'</add>
@@ -641,7 +641,7 @@ spanTo="#p17_1"/><mod><add place="margin-left">ou les dés - hazard absorbé</ad
         </subst></mod>, <mod>
           <subst>
             <del rend="strikethrough">la glace va ne<lb n="5"/>plus exister</del>
-            <add place="above"><del rend="strikethrough" place="above">revenant</del> à la faveur de la lumière</add>
+            <add place="above"><del rend="strikethrough">revenant</del> à la faveur de la lumière</add>
           </subst>
         </mod>, va disparaître, <mod>
           <subst>
@@ -672,8 +672,8 @@ spanTo="#p17_1"/><mod><add place="margin-left">ou les dés - hazard absorbé</ad
         <mod instant="true">
           <subst>
             <del rend="strikethroug">la</del>
-          </subst>
           <add place="above">la</add>
+          </subst>
         </mod>
     <lb n="17"></lb>pureté ne peut s'établir - <mod instant="true">
       <subst>
@@ -1110,25 +1110,50 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
           <del seq="1" rend="strikethrough">l'évidence de son rêve qui agonisa <lb n="7"/>en la chimère réelle de la lampe</del>
           <add seq="2" place="above"><choice><sic>là</sic><corr>la</corr></choice> clarté de 
           <subst>
-          <del seq="3" rend="strikethrough">son rêve en</del>
-          <add seq="4" place="above">de la</add>
+          <del seq="1" rend="strikethrough">son rêve en</del>
+          <add seq="2" place="above">de la</add>
           </subst> la chimère
           <subst>
-          <del seq="5" rend="strikethrough">de la</del>
-          <add seq="6" place="above">en la</add></subst> quelle <del rend="strikethrough">il</del> a agonisé son rêve</add>
+          <del seq="1" rend="strikethrough">de la</del>
+          <add seq="2" place="above">en la</add></subst> quelle <del rend="strikethrough">il</del> a agonisé son rêve <del rend="strikethrough">en la réelle</del> <del rend="strikethrough">chimère réelle de sa clarté, et elle</del></add>
         </subst>
-      </mod> <!--DA QUI, EN LA REELEE ETC-->  [et] 
-      se reconnaît 
-      <lb n="8"/>à l'immémorial geste vacant avec lequel elle 
-      <lb n="9"/>s'invite, pour terminer l'antagonisme de 
-      <lb n="10"/>ce songe pôlaire, à se rendre, avec et la clarté chimérique 
-      <lb n="11"/>et le texte refermé, 
-      <lb n="12"/>au Chaos de l'ombre avorté et de la parole 
-      <lb n="13"/>qui absolut Minuit.
+      </mod><!--rivedere-->  <mod><del rend="strikethrough">, et</del></mod> <sic>et</sic> se reconnaît<lb n="8"/>à l'immémorial geste vacant avec lequel elle<lb n="9"/>s'invite, pour terminer l'antagonisme <mod><del rend="strikethrough">polaire</del></mod>de<lb n="10"/>ce <mod>
+        <subst>
+          <del rend="overwritten">rêve extrême</del>
+          <add place="superscript">songe pôlaire</add>
+        </subst>
+      </mod>, à <mod>
+        <subst>
+          <del rend="strikethrough">prendre la lampe</del>
+          <add place="above">se rendre, <del rend="strikethrough">avec la chimère prenant</del> avec et la clarté</add></subst>
+      </mod> <mod>
+        <subst>
+          <del rend="overwritten">reconnue</del>
+          <add place="superscript">chimérique</add>
+        </subst></mod><lb n="11"/>et le <mod>
+          <subst>
+            <del seq="1" rend="superscript">livre</del>
+            <del seq="3" rend="strikethrough"><add place="superscript">volume</add></del>
+            <add seq="4" place="above">texte</add>
+          </subst>
+        </mod> <mod>
+          <subst>
+            <del rend="strikethrough">maintenant fermé</del>
+            <add place="above">refermé <del rend="strikethrough">sur lui-même</del></add>
+            </subst>
+        </mod>, <mod><del rend="strikethrough">et à se rendre</del></mod><lb n="12"/>au Chaos de l'ombre <mod>
+          <subst>
+            <del rend="strikethrough">avortée dans son mirage,<lb n="13"/>avec le texte de la prédiction</del>
+            <add place="below">avorté <del rend="strikethrough">avec</del> et de la parole</add>
+          </subst>
+        </mod><metamark rend="arrow"/> qui <mod><subst>
+          <del rend="overwritten">absout</del>
+          <add rend="superscript">absolut</add>
+        </subst></mod> Minuit.
       </p>
       
     <p xml:id="p_40" n="40">
-      <lb n="14"/>Inutile, de l'ameublement accompli qui se 
+      <lb n="14"/><mod><del rend="strikethrough">Et,</del></mod> <w><mod><subst><del rend="overwritten">i</del><add place="superscript">I</add></subst></mod>nutile</w>, <!--DA QUI-->de l'ameublement accompli qui se 
       <lb n="15"/>tassera en ténèbres comme les tentures, déjà <lb n="16"/>alourdies en une forme permanente de toujours, <lb n="17"/>tandis que, lueur virtuelle, produite par 
       <lb n="18"/>sa propre apparition en le miroitement de l'obscurité, 
       <lb n="19"/>scintille le feu pur du diamant de l'horloge
