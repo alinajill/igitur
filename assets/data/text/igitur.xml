@@ -431,11 +431,11 @@
     </mod>, en<lb n="10"/>se niant
     <mod>
       <subst seq="2">
-        <del rend="strikethough">par l'idée</del>
+        <del rend="strikethrough">par l'idée</del>
         <add place="above">quant à la pensée</add>
       </subst>
     </mod> - Car le hazard<mod><del rend="strikethrough">dans <lb n="11"/>ce cas</del></mod> eût été que la<mod>
-    <subst><del rend="strikethorugh">chose prédiction</del>
+    <subst><del rend="strikethrough">chose prédiction</del>
     <add place="above">parole</add></subst>
     </mod> <lb n="12"/>s'accomplît.<mod><subst><del rend="strikethrough">Si</del><add place="above">Toutefois</add></subst></mod> si elle s'accomplit le<lb n="13"/>hazard se nie<mod><subst seq="3"><del rend="strikethrough">par l'acte</del>
       <add place="above">quant à la parole</add></subst></mod>, en<lb n="14"/>s'affirmant<mod>
@@ -698,7 +698,7 @@ spanTo="#p17_1"/><mod><add place="margin-left">ou les dés - hazard absorbé</ad
         </subst></mod>
         <mod instant="true">
           <subst>
-            <del rend="strikethroug">la</del>
+            <del rend="strikethrough">la</del>
           <add place="above">la</add>
           </subst>
         </mod>
@@ -761,7 +761,7 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
         <add seq="2" place="below">l'existence du Néant en substance<choice><sic/><corr> ;</corr></choice></add></subst> <!--rivedere-->
     </mod><lb n="17"/>il faut que je meure, et comme cette<lb n="18"/>fiole contient le néant <mod>
       <subst>
-        <del rend="strikethough">de</del>
+        <del rend="strikethrough">de</del>
         <add place="above">par</add>
       </subst>
     </mod> ma race<lb n="19"/><mod>
@@ -1825,7 +1825,7 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
       <add seq="3" place="superscript">dans l'autre;</add>
     </subst></mod><!--rivedere--> du volume de leurs nuits ;<mod>
       <subst>
-        <del seq="1" rend="strikethorugh">qu'Elle <lb n="13"/>ferme</del>
+        <del seq="1" rend="strikethrough">qu'Elle <lb n="13"/>ferme</del>
     <add seq="2" place="superscript">fermé</add></subst>
 
     <subst>
@@ -3007,14 +3007,7 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
       <del seq="3" rend="strikethrough">et mon propre s</del>
       <add seq="4">accomplie,</add>
     </subst>
-  </mod> je suis éternelle. 
-    <anchor xml:id="p43_1"/>
-    </mod>
-    </p>
-    </metamark>
-
-    <p xml:id="p_56" n="56">
-    <lb n="9"/><mod>
+  </mod> je suis éternelle.<lb n="9"/><mod>
       <subst>
         <del seq="1" rend="strikethrough">En effet les portes se rouvrirent</del>
         <add seq="2"><lb n="10"/>retombèrent sur le</add>
@@ -3036,11 +3029,7 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
         <del rend="overwritten">moi</del>
         <add place="superscript">ma</add>
       </subst>
-    </mod> totalité.
-    </p>
-
-    <p xml:id="p_57" n="57">
-    <lb n="15"/>Me voici arrivée après la longue spirale<lb n="16"/>et le long corridor du temps, <mod><add plce="above">mon attente,</add></mod> à l'Éternité :<lb n="17"/>et le <mod>
+    </mod> totalité.<lb n="15"/>Me voici arrivée après la longue spirale<lb n="16"/>et le long corridor du temps, <mod><add plce="above">mon attente,</add></mod> à l'Éternité :<lb n="17"/>et le <mod>
       <subst>
         <del rend="strikethrough">bruit</del>
         <add place="above">mouvement</add>
@@ -3061,108 +3050,1180 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
         <add>à jamais est fini</add>
       </subst>
     </mod> : ces paroles<lb n="24"/>qui retombent en <metamaerk rend="underline">moi</metamaerk> n'engendrent que<lb n="25"/>certitude : je reconnais leur écho ancien<lb n="26"/>__________ je rentre dans mon propre sépulchre. 
+      <anchor xml:id="p43_1"/>
+    </mod>
     </p>
+    </metamark>
 
-  <!--DA QUI-->
   <pb facs="44.jpg" xml:id="el_44" n="44"/> 
-    <fw type="head">Γ</fw>
-    <fw place="top_left" type="head">γ </fw>
-    <p xml:id="p_58" n="58">
-    <lb n="2"/>Les panneaux de la Nuit ébénéenne ne se refermèrent pas encore<lb n="3"/>sur l'ombre<lb n="4"/>qui ne perçut plus rien que  l'oscillation hésitante<lb n="5"/>et prête à s'arrêter d'un balancier caché qui<lb n="6"/>commence à avoir la perception de lui-même. Mais elle s'aperçut<lb n="7"/>bientôt que c'était en elle,<lb n="8"/>en qui la lueur de sa perception s'enfonçait, comme étouffée,<lb n="9"/>- et elle rentrait en elle-même.<lb n="10"/>Le bruit, bientôt se scanda d'une<lb n="11"/>façon plus définitive. Mais, à mesure qu'il devenait<lb n="12"/>plus certain d'un côté, et plus pressé, son hésitation augmentait<lb n="13"/>d'une sorte de frôlement, qui remplaçait<lb n="14"/>l'intervalle disparu ; et, prise de doute, l'ombre se sentait opprimée<lb n="15"/>par une netteté fuyante, comme par<lb n="16"/>la continuation de l'idée apparue des panneaux qui<lb n="17"/>bien que fermés, ouverts encore cependant,<lb n="18"/>auraient,<lb n="19"/>pour <sic>arrivé</sic> à cela, dans une vertigineuse immobilité tourné longuement <lb n="20"/>sur eux-mêmes.<lb n="21"/>Enfin un bruit<lb n="22"/>qui semblait l'échappement de la condensation absurde<lb n="23"/>des précédents s'exhala, mais doué d'une certaine animation reconnue, et l'ombre<lb n="24"/>n'entendit plus rien 
+    <ab rend="align-center" type="head">Γ</ab>
+    <fw place="top_left" type="head">γ I-5</fw>
+
+    <p xml:id="p_56" n="56">
+    <lb n="1"/><mod instant="true">
+      <subst>
+        <del seq="1" rend="strikethrough">Et les panneaux de la Nuit</del>
+        <add seq="2">ébenéns de la<lb n="2"/>Nuit</add>
+      </subst>
+
+      <subst>
+        <del seq="3" rend="strikethrough">ébenéns de la Nuit</del>
+        <add seq="4" place="above">Les panneaux de la</add>
+      </subst>
+    </mod> Nuit ébénéenne <mod>
+      <subst>
+        <del seq="1" rend="strikethrough">referma<lb n="3"/>les panneaux</del>
+        <add seq="2" place="above">se referma sur elle-même soi</add>
+      </subst>
+
+      <subst>
+        <del seq="3" rend="strikethrough">se referma sur elle-même soi</del>
+        <add seq="4" place="below">se refermèrent avec un bruit étouffé</add>
+      </subst>
+
+      <subst>
+        <del seq="5" rend="strikethrough">se refermèrent avec un bruit étouffé</del>
+        <add seq="6" place="above">ne se refermèrent pas encore</add>
+      </subst>
+    </mod> <mod><del rend="strikethrough">et elle demeura</del></mod> sur <mod>
+      <subst>
+        <del rend="strikethrough">son</del>
+        <add place="above">l'</add>
+      </subst>
+    </mod>ombre <mod><del rend="strikethrough">et</del></mod><lb n="4"/>qui ne perçut plus rien <mod>
+      <subst>
+        <del seq="1" rend="strikethrough">que</del>
+        <add seq="2" place="above">de soi</add>
+      </subst>
+
+      <subst>
+        <del seq="3" rend="strikethrough">de soi</del>
+        <add seq="4" place="below">qu'une</add>
+      </subst>
+
+      <subst>
+        <del seq="5" rend="strikethrough">qu'une</del>
+        <add seq="6" place="above">que</add>
+      </subst>
+    </mod> l'oscillation hésitante<lb n="5"/>et prête à s'arrêter <mod>
+      <add place="above">come celle d'</add>
+      <del rend="strikethrough">come celle</del>
+    </mod><!--rivedere-->un balancier caché qui<lb n="6"/>commence <mod>
+      <subst>
+        <del seq="1" rend="strikethrough">à sentir son poids</del>
+        <add seq="2">à se sentir</add>
+      </subst>
+
+      <subst>
+        <del seq="3" rend="strikethrough">à se sentir</del>
+        <add seq="4" place="above">à avoir <del rend="strikethrough">conscience de</del> la perception de lui-même</add>
+      </subst>
+    </mod>. Mais elle s'aperçut<lb n="7"/>bientôt que <mod instant="true">
+      <subst>
+        <del seq="1" rend="strikethrough">cela se passait dans son son souvenir</del>
+        <add seq="2" place="above"><del rend="strikethrough">tout</del> c'était en elle</add>
+      </subst>
+    </mod>,<lb n="8"/><mod>
+      <subst>
+        <del rend="strikethrough">dernière</del>
+        <add place="above">en qui<del rend="strikethrough">la</del> la</add>
+      </subst>
+    </mod> lueur <mod>
+      <subst>
+        <del rend="strikethrough">qui</del>
+        <add place="above">de sa perception</add>
+      </subst>
+    </mod> s'enfonçait<mod>
+      <subst>
+        <del rend="strikethrough">, comee étouffée, au fond d'elle</del>
+        <add place="above"><del rend="strikethrough">en elle,</del> comme étouffée</add>
+      </subst>
+    </mod>,<lb n="9"/>- et <mod><del rend="strikethrough">qu'</del></mod>elle rentrait en elle-même.<lb n="10"/><mod>
+      <del rend="strikethrough">En effet</del>
+    </mod> <w><mod><subst><del rend="overwritten">l</del><add plece="superscript">L</add></subst></mod>e</w> bruit <mod>
+      <subst>
+        <del seq="1" rend="strikethrough">devint plus</del>
+        <add seq="2" place="above">, en effet</add>
+      </subst>
+
+      <subst>
+        <del seq="3" rend="strikethrough">, en effet</del>
+        <add seq="4" place="above">bientôt</add>
+        </subst>
+    </mod> se scanda d'une<lb n="11"/>façon plus définitive<mod><subst><del>;</del><add>.</add></subst></mod> <w><mod><subst><del rend="overwritten">m</del><add place="superscript">M</add></subst></mod>ais</w>, <mod>
+      <subst>
+        <del rend="strikethrough">ce qui causa<lb n="12"/>son doute, fut que</del>
+        <add place="above">à mesure qu'il devenait plus certain <del rend="strikethrough">, distinct</del> d'un côté, et plus pressé,</add>
+      </subst>
+    </mod> son hésitation augmentait<lb n="13"/>d'une sorte de <w>fr<mod><subst><del rend="overwritten">ott</del><add place="superscript">ôl</add></subst>ement</mod></w>, qui remplaçait<lb n="14"/>l'intervalle disparu ; et <mod>
+      <subst>
+        <del rend="strikethrough">elle se</del>
+        <add place="above">, prise de doute, <del rend="strikethrough">elle</del> l'ombre se <metamark place="above" rend="line"/></add>
+      </subst>
+    </mod> sentait opprimée<mod><subst>
+      <del seq="1" rend="strikethrough">,<lb n="15"/>par</del>
+      <add seq="2" place="above">néanmoins,</add>
+    </subst>
+  
+    <subst>
+      <del seq="3" rend="strikethrough">néanmoins,</del>
+      <add seq="4" place="above">par <del rend="strikethrough">une</del>netteté fuyante, comme par</add>
+    </subst>
+  </mod> la continuation de l'idée <mod><add place="below">apparue</add></mod> des panneaux <mod instant="true"><subst>
+    <del rend="strikethrough">qui</del>
+    <add>qui</add>
+  </subst></mod><mod>
+    <subst>
+      <del rend="strikethrough">,<lb n="16"/>ouverts des deux côtés et fermés à la fois</del>
+      <add place="above">bien que fermés, ouverts encore cependant,</add>
+    </subst>
+  </mod><lb n="17"/>auraient,<lb n="18"/><mod>
+    <subst>
+      <del rend="strikethrough">tourné vertigineusement</del>
+      <add place="above">pour <sic>arrivé</sic> à cela, dans une vertigineuse <del rend="strikethrough">et asce</del>immobilité tourné longuement</add>
+    </subst>
+  </mod> <lb n="19"/>sur eux-mêmes<choice><sic>,</sic><corr></corr></choice><mod>
+    <subst>
+      <del seq="1" rend="strikethrough">apparaissant</del>
+      <add seq="2" place="above">idée qui apparaissait</add>
+    </subst>
+
+      <del seq="3" rend="strikethrough">idée qui apparaissait</del>
+  </mod><lb n="20"/><mod>
+    <subst>
+      <del seq="1" rend="strikethrough">avec une grande netteté fuyante</del>
+      <add seq="2" place="above">C'était absurde</add>
+    </subst>
+  </mod>. Enfin un bruit<lb n="21"/>qui semblait <mod>
+    <subst>
+      <del seq="1" rend="strikethrough">la</del>
+      <add seq="2" place="above">l'ech</add>
+    </subst>
+    
+    <subst>
+      <del seq="3" rend="strikethrough">l'ech</del>
+      <add seq="4" place="above">la délivrance</add>
+    </subst>
+    
+    <subst>
+      <del seq="5" rend="strikethrough">la délivrance</del>
+      <add seq="6" place="above">l'échappement de la</add>
+    </subst></mod> condensation absurde <mod>
+      <add seq="1" place="above">trop forte</add>
+      <subst>
+      <del seq="2" rend="overwritten">trop forte</del>
+      <add seq="3" place="superscript">absurde</add>
+        </subst>
+    </mod> <mod>
+      <subst>
+        <del seq="1" rend="strikethrough">du précédent mélange</del>
+        <add seq="2" place="above">, trop fort</add>
+      </subst>
+      <del seq="3" rend="strikethrough">, trop fort</del>
+    </mod><lb n="22"/>des précédents <mod>
+      <add place="below">trop for</add>
+      <del rend="strikethrough">trop for</del>
+    </mod> <w>s'<mod><subst><del rend="overwritte">échappa</del><add place="superscript">exhala</add></subst></mod>exhala</w> <mod>
+      <add place="above"><metamark place="above" rend="line"/>dans l'intervelle opprimé</add>
+      <del rend="strikethrough">dans l'intervelle opprimé</del>
+    </mod>, <mod>
+      <subst>
+        <del rend="strikethrough">et plus rien</del>
+        <add place="above">mais doué d'une certaine <del rend="strikethrough">conscience,</del> animation reconnue,</add>
+      </subst>
+    </mod> et l'ombre<lb n="23"/>n'entendit plus rien <mod rend="strikethrough">. Que pouvait-il être?</mod> 
     
 
   <pb facs="45.jpg" xml:id="el_45" n="45"/> 
-    <lb n="1"/>q'un régulier battement qui semblait fuir à jamais comme<lb n="4"/>le volètement prolongé de<lb n="5"/>quelqu'hôte de la nuit réveillé de son lourd sommeil :<lb n="6"/>mais ce n'était pas cela [,] il n'y avait sur les parois luisantes aucun[e] trame,<lb n="7"/>à laquelle<lb n="8"/>pussent s'attacher même les pattes<lb n="9"/>arachnéennes du soupçon :<lb n="10"/>tout était luisant et propre ; et si quelque plumage<lb n="11"/>avait jamais frotté ces parois, ce<lb n="12"/>ne pouvait être que les plumes de génies d'une<lb n="13"/>espèce intermédiaire soucieuse de réunir<lb n="14"/>toute poussière dans un lieu spécial, afin que ces<lb n="15"/>ombres, des deux côtés<lb n="16"/>multipliées à l'infini<lb n="17"/>apparussent comme de pures ombres<lb n="18"/>portant chacune le volume de leurs destinées,<lb n="19"/>et la pure clarté de leur conscience. Ce<lb n="20"/>qu'il y avait de clair c'est que ce séjour<lb n="21"/>concordait parfaitement avec lui-même : des<lb n="22"/>deux côtés les myriades d'ombres pareilles, et de<lb n="23"/>leurs deux côtés, dans les parois opposées, qui se réfléchissaient, deux trouées<lb n="24"/>d'ombre massive qui devait être nécessairement<lb n="25"/>à l'inverse de ces ombres, non leur apparition, mais leur disparition, ombre<lb n="26"/>négative d'eux-mêmes : c'était le lieu de<lb n="27"/>la certitude parfaite. 
+    <lb n="1"/>q'un régulier battement <mod>
+      <subst>
+        <del rend="strikethrough">: elle se rappela un</del>
+        <add place="above">qui semblait fuir à jamais comme</add>
+      </subst>
+    </mod><lb n="2"/><mod>
+      <del rend="strikethrough">les hôtes</del>
+    </mod> <mod>
+      <del rend="strikethrough">songea à des</del>
+    </mod> <mod><del rend="strikethrough">eut la réminiscence d'hôtes<lb n="3"/>de la nuit qui n'étaient pas sur les murailles</del></mod><lb n="4"/><mod instant="true">
+      <del rend="strikethrough">Quel avait pu être</del>
+    </mod> <mod>
+      <subst><del rend="stirkethrough">Ce nétait pas le</del>
+      <add place="above">le</add></subst>
+    </mod> volètement prolongé de<lb n="5"/><w>quelqu<mod><del rend="strikethrough">e</del></mod></w>'hôte de la nuit réveillé de son lourd sommeil :<lb n="6"/><mod>
+      <add place="above">mais ce n'était pas cela</add>
+    </mod><choice><sic></sic><corr>,</corr></choice> il n'y avait<mod><del rend="strikethrough">,</del></mod> sur les parois luisantes <choice><sic>aucun</sic><corr>aucune</corr></choice> trame,<lb n="7"/><mod>
+      <del rend="strikethrough">ni déchirure,</del>
+    </mod> à laquelle <mod>
+      <subst>
+        <del rend="overwritten">pût</del>
+        <add place="superscript">pussent</add>
+      </subst>
+    </mod> s'attacher <mod><add place="above">même</add></mod> les pattes<lb n="8"/><mod instant="true">
+      <del rend="strikethrough">d'un noir soup</del>
+    </mod> arachnéennes <mod>
+      <subst>
+        <del seq="1" rend="strikethrough">d'un noir</del>
+        <add seq="2" place="above">du moindre</add>
+      </subst>
+      <del seq="3" rend="strikethrough">moindre</del>
+    </mod> <metamaerk rend="underline">soupçon</metamaerk> : <mod><del rend="strikethrough">mais</del></mod><lb n="9"/>tout était luisant et propre ; et si quelque plumage<lb n="10"/>avait <mod><del rend="strikethrough">battu ces</del></mod> jamais frotté ces parois, ce<lb n="11"/>ne pouvait être que les plumes de génies d'une<lb n="12"/>espèce <mod>
+      <subst>
+        <del rend="strikethrough">supérieure</del>
+        <add place="above">intermédiaire</add>
+      </subst>
+    </mod> <mod>
+      <subst>
+        <del rend="strikethrough"> - qui avaient eu soin</del>
+        <add place="above">soucieuse</add>
+      </subst>
+    </mod> de réunir<lb n="13"/>toute <mod>
+      <add place="above">la</add>
+      <del rend="strikethrough">la</del>
+    </mod> poussière dans un lieu spécial, <mod>
+      <add place="above">comme celle dont</add>
+      <del rend="strikethrough">comme celle dont</del>
+    </mod> afin que <mod>
+      <subst>
+        <del seq="1" rend="strikethrough">leurs</del>
+        <add seq="2" place="above">ses</add>
+      </subst>
+
+      <subst>
+        <del seq="3" rend="overwritten">ses</del>
+        <add seq="4" place="superscript">ces</add>
+      </subst>
+    </mod><lb n="14"/><mod><!--rivedere-->
+      <subst>
+        <del seq="1" rend="strikethrough">d'apparaître comme des vraies ombres indefinies</del>
+        <add seq="2" place="above">ombres <del rend="strikethrough">pures, des</del> des deux côtés <del rend="strikethrough">pures</del> multipliées à l'infini apparussent comme des ombres pures</add>
+      </subst>
+
+      <subst>
+        <del seq="3" rend="strikethrough">des ombres pures</del>
+        <add seq="4" place="above">de pures ombres</add>
+      </subst>
+    </mod> <lb n="15"/>portant chacune le <mod>
+      <subst>
+        <del rend="overwritten">livre</del>
+        <add place="superscript">volume</add>
+      </subst>
+    </mod> de leurs destinées,<lb n="16"/>et la pure <mod>
+      <subst>
+        <del seq="1" rend="overwritten">lumière</del>
+        <add seq="2" place="superscript">lueur</add>
+      </subst>
+
+      <subst>
+        <del seq="3" rend="strikethrough">lueur</del>
+        <add seq="4" place="above">clarté</add>
+      </subst>
+    </mod> de leur conscience. Ce<lb n="17"/>qu'il y avait <mod>
+      <subst>
+        <del rend="strikethrough">d'effroyablement</del>
+        <add place="above">de</add>
+      </subst>
+    </mod> clair c'est que ce <mod>
+      <subst>
+        <del rend="overwritten">lieu</del>
+        <add place="superscript">séjour</add>
+      </subst>
+    </mod><lb n="18"/><mod>
+      <subst>
+        <del rend="strikethrough">était parfaitement semblable</del>
+        <add place="above"><del rend="strikethrough">qui</del> concordait parfaitement avec</add>
+      </subst>
+    </mod> <choice><sic>à</sic><corr></corr></choice> lui-même : des<lb n="19"/><w>de<mod><add>ux</add></mod></w> <mod><add>trouées</add></mod><lb n="20"/><mod>
+      <subst>
+        <del rend="overwritten">l'</del>
+        <add place="superscript">d'</add>
+      </subst>
+    </mod>ombre <mod>
+      <subst>
+        <del seq="1" rend="overwritten">opaque</del>
+        <add seq="2" place="superscript">probable</add>
+      </subst>
+
+      <subst>
+        <del seq="3" rend="strikethrough">probable</del>
+        <add seq="4" place="above">massive</add>
+      </subst>
+    </mod> qui devait être <mod>
+      <subst>
+        <del rend="strikethrough">divisée</del>
+        <add place="above">nécessairement</add>
+      </subst>
+    </mod><lb n="21"/>à l'inverse de <mod>
+      <subst>
+        <del rend="overwritten">ses</del>
+        <add place="superscript">ces</add>
+      </subst>
+    </mod> ombres, <mod>
+      <subst>
+        <del rend="strikethrough">devait être leur</del>
+        <add place="above">non leur apparition, mais leur disparition,</add>
+        </subst>
+    </mod> ombre<lb n="22"/>négative, <mod>
+      <subst>
+        <del rend="strikethrough">leur explication</del>
+        <add place="above"><del rend="strikethrough">peut-être</del> d'eux-mêmes <del rend="strikethrough">et sem</del></add>
+        </subst>
+    </mod> : c'était le lieu de<lb n="23"/>la certitude parfaite. 
     </p>
 
   <pb facs="46.jpg" xml:id="el_46" n="46"/> 
-    <p xml:id="p_59" n="59">
-    <lb n="3"/>L'ombre n'entendit dans ce lieu d'autre bruit qu'un<lb n="4"/>battement régulier qu'elle reconnut être celui de<lb n="5"/>son propre cœur : elle le reconnut, et, gênée de<lb n="6"/>la certitude parfaite de soi, elle tenta d'y échapper,<lb n="7"/>et de rentrer en elle, en son opacité : mais<lb n="8"/>par laquelle des deux trouées passer ? dans les deux<lb n="9"/>s'enfonçaient des divisions correspondantes à<lb n="10"/>l'infini des apparitions, bien que différentes : elle<lb n="11"/>jeta encore une fois les yeux sur la salle<lb n="12"/>qui, elle, lui paraissait identique à soi, sauf<lb n="13"/>que de la clarté la lueur se mirait dans la<lb n="14"/>surface polie inférieure, dépourvue de<lb n="15"/>poussière, tandis que dans l'autre<lb n="16"/>apparue plus vaguement il y avait une<lb n="17"/>évasion de lumière. L'ombre se décida pour<lb n="18"/>celle-là et fut satisfaite car le bruit qu'elle<lb n="19"/>entendait était de nouveau distinct et le même<lb n="20"/>exactement que précédemment, indiquant la<lb n="21"/>même progression.
+    <p xml:id="p_57" n="57">
+    <lb n="1"/><mod instant="true"><del rend="strikethrough">Ce lieu était pour l'ombre une certitude parfaite à <w>la<lb break="no" n="2"/>quelle,</w></del></mod><lb n="3"/>L'ombre n'entendit dans ce lieu d'autre bruit qu'un<lb n="4"/>battement régulier qu'elle reconnut être celui de<lb n="5"/>son propre cœur : elle le reconnut, et, gênée de<lb n="6"/>la certitude parfaite de soi, elle tenta d'y échapper,<lb n="7"/><mod instant="true"><del rend="strikethrough">mais par</del></mod>et de rentrer en elle, en son opacité : mais<lb n="8"/>par laquelle des deux trouées passer ? dans les deux<lb n="9"/>s'enfonçaient des divisions correspondantes à<lb n="10"/>l'infini des apparitions, bien que différentes : elle<lb n="11"/><mod instant="true">
+      <subst><del rend="strikethrough">essaya de</del>
+      <add>jeta</add>
+      </subst>
+      </mod> encore une fois les yeux sur la salle<lb n="12"/>qui, elle, lui paraissait identique à soi, sauf<lb n="13"/>que de la clarté la lueur se mirait dans la<lb n="14"/>surface <mod instant="true"><del rend="strikethrough">que</del></mod> polie inférieure, dépourvue de<lb n="15"/><mod instant="true">
+        <subst>
+          <del rend="strikethrough">cendre</del>
+          <add>poussière</add>
+        </subst>
+      </mod>, tandis que dans l'autre <mod instant="true"><del rend="strikethrough">semplait</del></mod><lb n="16"/>apparue plus vaguement <mod instant="true"><del rend="strikethrough">semblait</del></mod>il y avait une<lb n="17"/>évasion de lumière. L'ombre se décida pour<lb n="18"/><choice><sic>celle la</sic><corr>celle-là</corr></choice> et fut satisfaite car le bruit qu'elle<lb n="19"/>entendait était de nouveau distinct et le même<lb n="20"/>exactement que précédemment, indiquant la<lb n="21"/>même progression.
     </p>
 
-    <p xml:id="p_60" n="60">
-    <lb n="22"/>Toutes les choses étaient rentrées dans leur ordre<lb n="23"/>premier : il n'y avait plus<lb n="24"/>de doute à avoir : cette halte n'avait-elle pas été<lb n="25"/>l'intervalle disparu et remplacé par les 
+    <p xml:id="p_58" n="58">
+    <lb n="22"/>Toutes les choses étaient rentrées dans leur ordre<lb n="23"/>premier : <mod instant="true">
+      <subst>
+        <del rend="strikethrough">celle halte n'avait p</del>
+        <add>il n'y avait plus</add>
+      </subst>
+    </mod><lb n="24"/>de doute à avoir : cette halte <w>n'avait<mod><add place="above">-elle</add></mod></w> pas été<lb n="25"/>l'intervalle disparu et remplacé par les
+  </p> 
     
-
-  <pb facs="47.jpg" xml:id="el_47" n="47"/><lb n="1"/><sic>froissement</sic> : elle y avait<lb n="2"/>entendu le bruit de son propre cœur, explication<lb n="3"/>du bruit devenu distinct ; c'était elle<lb n="4"/>même qui scandait sa mesure, et qui<lb n="5"/>s'était apparue en ombres innombrables de<lb n="6"/>nuits, entre les ombres des<lb n="7"/>nuits passées et des nuits futures, devenues<lb n="8"/>pareilles et extérieures, évoquées pour montrer<lb n="9"/>qu'elles étaient également finies : cela<lb n="10"/>avec une forme qui était le strict résumé<lb n="11"/>d'elles : et ce froissement quel était-il ? non<lb n="12"/>celui de quelqu'oiseau échappé sous le ventre<lb n="13"/>velu duquel avait donné la lumière, mais<lb n="14"/>le buste d'un génie supérieur, vêtu de<lb n="15"/>velours,<lb n="16"/>et dont l'unique frisson était<lb n="17"/>le travail arachnéen d'une<lb n="18"/>dentelle qui retombait sur le velours : le<lb n="19"/>personnage parfait de la nuit telle qu'elle <lb n="20"/>s'était apparue. En effet, maintenant qu'il<lb n="21"/>avait la notion de lui-même, le bruit de<lb n="22"/>mesure cessa<lb n="23"/>et redevint ce qu'il était, chancelant, 
+  <pb facs="47.jpg" xml:id="el_47" n="47"/>
+  <p xml:id="p_59" n="59">
+  <lb n="1"/><sic>froissement</sic> : <mod instant="true"><del rend="strikethrough">et le froissement quel</del></mod> elle y avait<lb n="2"/>entendu le bruit de son propre cœur, <mod instant="true"><del rend="strikethrough">vesti</del></mod>explication<lb n="3"/>du bruit <mod instant="true">
+    <subst>
+      <del rend="strikethrough">distinct</del>
+      <add>devenu distinct</add>
+    </subst>
+  </mod> ; c'était elle<lb n="4"/>même<mod><del rend="strikethrough">,</del></mod> qui scandait sa mesure, et qui<lb n="5"/>s'était apparue en ombres innombrables de<lb n="6"/>nuits, <mod instant="true"><del rend="strikethrough">futures ou passées,</del></mod> entre les ombres des<lb n="7"/>nuits passées et des nuits futures, devenues<lb n="8"/>pareilles et extérieures, évoquées pour montrer<lb n="9"/>qu'elles étaient également finies : <w>ce<mod><subst><del rend="strikethrough">s ombre</del><add place="above">la</add></subst></mod></w><lb n="10"/>avec une forme qui était le strict résumé<lb n="11"/>d'elles : et ce froissement quel était-il ? <mod>
+    <subst>
+      <del rend="overwritten">sinon</del>
+      <add place="above">non</add>
+    </subst>
+  </mod><lb n="12"/>celui de quelqu'oiseau échappé sous le ventre<lb n="13"/>velu duquel avait donné la lumière, mais<lb n="14"/>le buste d'un génie supérieur, vêtu de<lb n="15"/>velours, <mod instant="true">
+    <subst>
+      <del seq="1" rend="strikethrough">comme les apparitions</del>
+      <add seq="2">les plus distinctes<lb n="16"/>des apparitions</add>
+    </subst>
+    <del seq="3" rend="strikethrough">les plus distinctes des apparitions</del>
+  </mod>et dont l'unique frisson était<lb n="17"/><mod instant="true">
+    <subst>
+      <del rend="strikethrough">le travail a</del>
+      <add>le travail arachnéen</add>
+    </subst>
+  </mod> d'une<lb n="18"/>dentelle qui retombait sur le velours : le<lb n="19"/>personnage parfait de la nuit telle qu'elle <lb n="20"/>s'était apparue. En effet, maintenant qu'il<lb n="21"/>avait la notion de lui-même, le bruit de<lb n="22"/>mesure <mod instant="true">
+    <subst>
+      <del seq="1" rend="strikethrough">cessa complèt</del>
+      <add seq="2">cessa complètement,</add>
+    </subst>
+    <del seq="3" rend="strikethrough">complètement,</del>
+  </mod><lb n="23"/>et redevint ce qu'il était, chancelant, <mod><del rend="strikethrough">tandis</del></mod>
+</p>
     
   <pb facs="48.jpg" xml:id="el_48" n="48"/> 
-    <lb n="1"/>la nuit divisée de ses ombres accomplie,<lb n="2"/>la lueur qui s'était apparue dans son<lb n="3"/>mirage dénué de cendres était la pure<lb n="4"/>lumière et elle allait cette fois disparaître en<lb n="5"/>le sein de l'ombre qui, accomplie, revenue<lb n="6"/>du corridor du temps, était enfin parfaite<lb n="7"/>et éternelle, - elle-même, devenue<lb n="8"/>son propre sépulcre, dont les panneaux<lb n="9"/>se retrouvaient ouverts sans bruit.
+  <p xml:id="p_60" n="60">
+    <lb n="1"/><mod instant="true">
+      <subst>
+        <del rend="strikethrough">que la lumièere</del>
+        <add>la nuit</add>
+      </subst>
+    </mod> <mod>
+      <add place="above">divisée</add>
+    </mod> de ses ombres accomplie,<lb n="2"/>la <mod>
+      <subst>
+        <del rend="overwritten">lum</del>
+        <add place="superscript">lueur</add>
+      </subst></mod> qui s'était apparue dans <w>s<mod instant="true"><del rend="overwritten">a</del><add place="superscript">on</add></mod></w> <mod instant="true"><del rend="strikethrough">profondeu</del></mod><lb n="3"/>mirage dénué de cendres était la pure<lb n="4"/>lumière et elle allait cette fois disparaître en<lb n="5"/>le sein de l'ombre qui, accomplie, <mod>
+        <subst>
+          <del rend="strikethrough">sortant</del>
+          <add place="above">revenue</add>
+        </subst></mod><lb n="6"/>du corridor du temps, était enfin parfaite<lb n="7"/>et éternelle, - elle-même, <mod>
+          <subst>
+            <del seq="1" rend="strikethrough">dans son sépulchre</del>
+            <add seq="2" place="above">revenue</add>
+          </subst>
+
+          <subst>
+            <del seq="3" place="overwritten">revenue</del>
+            <add seq="4" place="above">devenue</add>
+          </subst>
+        </mod><lb n="8"/>son propre sépulcre, dont <mod>
+          <subst>
+            <del seq="1" rend="strikethrough">la porte</del>
+            <add seq="2">les panneaux</add>
+          </subst>
+
+          <del seq="3" rend="strikethrough">les panneaux,</del>
+          <add place="above">les panneaux</add>
+        </mod><lb n="9"/><mod instant="true">
+          <subst>
+            <del rend="strikethrough">retrouvés</del>
+            <add>se retrouvaient</add>
+          </subst>
+        </mod> ouverts sans bruit.
     </p>
 
   <pb facs="49.jpg" xml:id="el_49" n="49"/> 
-    <fw type="head">Δ</fw>
-    <fw place="top_left" type="head">σ </fw>
+    <ab rend="align-center" type="head">Δ</ab>
+    <fw place="top_left" type="head">σ I-5</fw>
+    <metamark function="largeDeletion">
     <p xml:id="p_61" n="61">
-    <lb n="1"/>L'ombre disparut dans les ténèbres<lb n="2"/>futures,<lb n="4"/>y demeura avec une perception de<lb n="5"/>balancier expirant alors qu'il commence à avoir la sensation<lb n="6"/>de lui : mais elle s'aperçoit à<lb n="7"/>l'étouffement expirant de ce qui luit encore qui s'enfonce en elle<lb n="8"/>qu'elle rentre en soi,<lb n="12"/>d'où provenait par conséquent l'idée de ce bruit, retombant maintenant en une seule fois inutilement<lb n="13"/>sur lui-même dans le passé.
-    </p>
+    <mod>
+    <delSpan spanTo="#p49_1"/>
+    <lb n="1"/><mod instant="true">
+      <subst>
+        <del seq="1" rend="strikethrough">Et l'ombre disparut en elle-même</del>
+        <add seq="2" place="above">et sa clarté disparuent, et la Nuit</add>
+      </subst>
+      <del seq="3" rend="strikethrough">et sa clarté disparuent, et la Nuit</del>
+    </mod> <mod instant="true">
+      <add seq="1" place="above">L'ombre disparut dans</add>
+      <subst>
+    <del seq="2" rend="strikethrough">sa clarté, et dans les tenèbres et la Nuit</del>
+  <add seq="3">les tenèbres, futures,</add>
+</subst></mod><mod instant="true">
+      <del rend="strikethrough">se plongea en la<lb n="2"/>disparition, et y</del>
+    </mod> <mod instant="true"><del rend="strikethrough">l'obscurité, et</del></mod> <mod instant="true"></mod>
+    <lb n="3"/><mod instant="true">
+      <del rend="strikethrough">Et</del>
+    </mod> <mod instant="true">
+    <del rend="strikethrough">Les panneaux du sépulchre</del></mod> <mod instant="true">
+      <subst>
+      <del seq="1" rend="strikethrough">la Nuit sépulchrale<lb n="2"/>engloutirent</del>
+      <add seq="2" place="above">s'ouvrirent devant</add>
+      </subst>
 
-    <p xml:id="p_62" n="62">
-    <lb n="14"/>Si d'un côté le doute disparaissait,<lb n="15"/>scandé nettement par le mouvement qui restait seul du bruit,<lb n="17"/>de l'autre la réminiscence du bruit se manifestait<lb n="18"/>par un vague frôlement inaccoutumé, et cet état d'angoisse consciente<lb n="19"/>était <sic>comprimée</sic> vers le mirage par<lb n="20"/>la permanence constatée des panneaux encore ouverts<lb n="21"/>parallèlement et à la fois se fermant sur eux, comme<lb n="22"/>dans une spirale vertigineuse, et<lb n="23"/>à jamais fuyante si la compression prolongée<lb n="24"/>n'eût dû impliquer la halte d'une expansion<lb n="25"/>retenue, qui eut lieu en effet, et ne fut troublée<lb n="26"/>que par le semblant de volètement évasif d'un hôte<lb n="27"/>de la nuit effrayé dans son lourd sommeil, lequel<lb n="28"/>disparut dans ce lointain indéfini.
+      <subst>
+        <del seq="3" rend="strikethrough">s'ouvrirent devant</del>
+        <add seq="4" place="above">livrèrent passage à</add>
+      </subst>
+      <del seq="5" rend="strikethrough">livrèrent passage à</del>
+    </mod> <mod instant="true">
+      <subst>
+      <del seq="1" rend="strikethrough">l'ombre qui perçut le bruit</del>
+      <add seq="2" place="above">comme<gap reason="illegible" extent="1" unit="characters"/></add>
+      </subst>
+
+      <subst>
+        <del seq="3" rend="strikethrough">comme<gap reason="illegible" extent="1" unit="characters"/></del>
+        <add seq="4" place="above">la not l'idée</add>
+      </subst>
+      
+      <subst>
+        <del seq="5" rend="strikethrough">la not l'idée</del>
+        <add seq="6" place="below">y demeura avec la notion</add>
+      </subst>
+
+      <subst>
+        <del seq="7" rend="strikethrough">la notion</del>
+        <add seq="8" place="below">une perception de notre</add>
+      </subst>
+      <del seq="9" rend="strikethrough">notre</del>
+    </mod> <mod instant="true"><del rend="strikethrough">d'un</del></mod><lb n="4"/>balancier expirant <mod instant="true">
+      <subst>
+        <del seq="1" rend="strikethrough">et</del>
+        <add seq="2">et qui</add>
+      </subst>
+
+      <subst>
+        <del seq="3" rend="strikethrough">et qui</del>
+        <add seq="4" place="above">alors qu'il</add>
+      </subst>
+    </mod> commence <mod instant="true">
+      <subst>
+        <del seq="1" rend="strikethrough">à avoir une la</del>
+        <add seq="2" place="above">à douter ou</add>
+        </subst>
+
+      <subst>
+        <del seq="3" rend="strikethrough">à douter ou</del>
+        <add seq="4" place="below">à avoir la</add>
+      </subst>
+    </mod><lb n="5"/><mod>
+      <subst>
+        <del seq="1" rend="strikethrough">perception</del>
+        <add seq="2" place="above">no notion</add>
+      </subst>
+
+      <subst>
+        <del seq="3" rend="strikethrough">la not</del>
+        <add seq="4" place="below">sensation</add>
+      </subst>
+    </mod> de lui <mod>
+      <subst>
+        <del rend="overwritten">. Mais</del>
+        <add place="superscript"> : mais</add>
+      </subst>
+    </mod> <mod>
+      <subst>
+        <del rend="strikethrough">l'ombre</del>
+        <add place="above">elle</add>
+      </subst>
+    </mod> <w>s'aperç<mod><subst><del rend="overwritten">ut</del><add place="above">oit</add></subst></mod></w> à<lb n="6"/><mod>
+      <subst>
+        <del rend="strikethrough">l'expiration étouffée</del>
+        <add place="above">l'étouffement expirant</add>
+        </subst>
+    </mod> de <mod>
+      <subst>
+        <del seq="1" rend="strikethrough">la lueur qu'elle gardait</del>
+        <add seq="2"><lb n="7"/>que c'est en soi que luit</add>
+      </subst>
+
+      <subst>
+        <del seq="3" rend="strikethrough">que c'est en soi que luit qu'elle</del>
+        <add seq="4">s'enfonce</add>
+      </subst>
+
+      <subst>
+        <del seq="5" rend="strikethrough">s'enfonce</del>
+        <add seq="6" place="above">retourne</add>
+      </subst>
+
+      <subst>
+        <del seq="7" rend="strikethrough">retourne</del>
+        <add seq="8" place="above">s'enfonce en même temps que et à la fois</add>
+        </subst>
+
+        <subst>
+        <del seq="9" rend="strikethrough">s'enfonce en même temps que et à la fois</del>
+          <add seq="10" place="above">ce qui luit encore d'elle</add>
+        </subst>
+
+        <subst>
+          <del seq="11" rend="strikethrough">encore d'elle</del>
+          <add seq="12" place="above">encore qui s'enfonce en elle</add>
+        </subst>
+    </mod> <mod><add place="below">qu'elle rentre en soi,</add></mod><lb n="8"/><mod>
+      <subst>
+        <del seq="1" rend="strikethrough">et de soi que provint le bruit</del>
+        <add seq="2" place="above">qu'était provenu tout</add>
+      </subst>
+
+      <subst>
+        <del seq="3" rend="strikethrough">qu'était provenu tout</del>
+        <add seq="4" place="below">d'où provenait par conséquent l'idée de ce bruit,</add>
+      </subst>
+    </mod> <mod>
+      <subst>
+        <del rend="strikethrough">qui retomba inutilement</del>
+        <add place="above">retombant maintenant en une seule fois inutilement</add>
+      </subst>
+    </mod><lb n="9"/>sur lui-même dans le passé.<lb n="10"/><mod instant="true">
+      <subst>
+        <del seq="1" rend="strikethrough">Avec</del>
+        <add seq="2">Cette certitude, qui devenait beaucoup<lb n="11"/>plus distincte</add>
+      </subst>
+
+      <subst>
+        <del seq="3" rend="strikethrough">Cette certitude, qui devenait beaucoup plus distincte</del>
+        <add seq="4" place="above">Si d'un côté la certitude</add>
+      </subst>
+
+      <subst>
+        <del seq="5" rend="strikethrough">la certitude</del>
+        <add seq="6" place="above">la perception</add>
+      </subst>
+
+      <subst>
+        <del seq="7" rend="strikethrough">la perception</del>
+        <add seq="8">le doute disparaissait</add>
+        </subst>
+    </mod>, <w>scandé<mod><del rend="strikethrough">e</del></mod></w> <mod><add place="above">nettement</add>
+    </mod> par <mod>
+      <subst>
+        <del seq="1" rend="strikethrough">un</del>
+        <add seq="2" place="above">la réminiscence du</add>
+      </subst>
+
+      <subst>
+        <del seq="3" rend="strikethrough">la réminiscence du</del>
+        <add seq="4" place="below">le</add>
+      </subst>
+    </mod> mouvement <mod>
+      <subst>
+        <del rend="strikethrough">beaucoup<lb n="12"/>plus régulier</del>
+        <add place="above">qui restait seul du bruit,</add>
+      </subst>
+    </mod> <mod>
+      <add seq="1" place="above">qui restait du bruit</add>
+      <subst>
+      <del seq="2" rend="strikethrough">qui restait du bruit</del>
+      <add seq="3" place="above">de la réminiscence du bruit</add>
+      </subst>
+      <del seq="4" rend="strikethrough">de la réminiscence du bruit</del>
+    </mod> <mod>
+      <subst>
+        <del seq="1" rend="strikethrough">de l'autre le souvenir sans</del>
+        <add seq="2">du bruit</add>
+        </subst>
+
+        <subst>
+          <del seq="3" rend="strikethrough">du bruit</del>
+          <add seq="4" place="above">passé reconnu,</add>
+        </subst>
+
+        <del seq="5" rend="strikethrough">passé reconnu,</del>
+      </mod><lb n="13"/>de l'autre <mod>
+        <subst>
+          <del seq="1" rend="strikethrough">la</del>
+          <add seq="2" place="above">cette</add>
+        </subst>
+
+        <subst>
+          <del seq="3" rend="strikethrough">cette</del>
+          <add seq="4" place="above">la</add>
+        </subst>
+      </mod> réminiscence <mod>
+        <subst>
+          <del rend="strikethrough">du bruit</del>
+          <add place="above">du bruit</add>
+        </subst>
+      </mod> se manifestait<lb n="14"/><mod>
+        <add place="above">toutefois</add>
+        <del rend="strikethrough">toutefois</del>
+      </mod> par un <mod>
+        <add place="above">vague</add>
+      </mod> frôlement inaccoutumé, et cet état <mod>
+        <subst>
+          <del rend="strikethrough">de doute</del>
+          <add place="above">d'angoisse consciente</add>
+        </subst>
+      </mod><lb n="15"/><mod>
+        <subst>
+          <del seq="1" rend="strikethrough">d'angoisse calme</del>
+          <add seq="2" place="above">anxieux</add>
+        </subst>
+
+        <subst>
+          <del seq="3" rend="strikethrough">anxieux</del>
+          <add seq="4" place="above">comprimée</add>
+        </subst>
+        <del seq="5" rend="strikethrough">comprimée</del>
+      </mod> <mod>
+        <subst>
+          <del rend="strikethrough">semblait bien se manifester</del>
+          <add place="above">était <sic>comprimée</sic> vers le mirage</add>
+        </subst>
+      </mod> par<lb n="16"/><mod>
+        <subst>
+          <del rend="strikethrough">l'apparition</del>
+          <add place="above">la permanence</add>
+        </subst>
+      </mod> <mod>
+        <subst>
+          <del seq="1" rend="strikethrough">vertigineuse</del>
+          <add seq="2" place="above">solide</add>
+        </subst>
+
+        <subst>
+          <del seq="3" rend="strikethrough">solide</del>
+          <add seq="4" place="above">constatée</add>
+        </subst>
+      </mod> des panneaux encore ouverts<lb n="17"/>parallèlement et à la fois se fermant sur eux, comme<lb n="18"/>dans une spirale <mod instant="true"><del rend="strikethrough">à jamais fuyante et</del></mod> vertigineuse, et<lb n="19"/>à jamais fuyante<mod><del rend="strikethrough">,</del></mod> si la compression prolongée<lb n="20"/>n'eût <mod>
+        <subst>
+          <del rend="strikethrough">annoncé</del>
+          <add place="above">dû</add>
+        </subst>
+      </mod> <mod>
+        <subst>
+          <del rend="overwritten">indiqué</del>
+          <add place="superscript">impliquer</add>
+        </subst>
+      </mod> la halte d'une expansion<lb n="21"/>retenue, qui <mod>
+        <subst>
+          <del rend="strikethrough">arriva</del>
+          <add place="above">eut lieu</add>
+        </subst>
+      </mod> en effet, et ne fut troublée<lb n="22"/>que par <mod instant="true">
+        <subst>
+          <del seq="1" rend="strikethrough">le v</del>
+          <add seq="2">l'apparence</add>
+        </subst>
+
+        <subst>
+          <del seq="3" rend="strikethrough">l'apparence</del>
+          <add seq="4" place="above">le semblant</add>
+        </subst>
+      </mod> de volètement <mod><add place="above">évasif</add></mod> d'un hôte<lb n="23"/>de la nuit effrayé dans son lourd sommeil, lequel<lb n="24"/>disparut dans <mod>
+        <subst>
+          <del rend="strikethrough">un</del>
+          <add place="above">ce</add>
+        </subst>
+      </mod> lointain indéfini.
+    <anchor xml:id="p49_1"/>
+    </mod>
     </p>
+    </metamark>
 
   <pb facs="50.jpg" xml:id="el_50" n="50"/> 
-    <p xml:id="p_63" n="63">
-    <lb n="1"/>La Nuit était bien en soi cette fois et sûre [que]<lb n="2"/>ce qui était étranger à elle avait disparu.<lb n="3"/>Elle était arrivée à sa<lb n="4"/>certitude et se réfléchissait de toutes parts
+  <metamark function="largeDeletion">
+    <p xml:id="p_62" n="62">
+    <mod>
+    <delSpan spanTo="#p50_1"/>
+    <lb n="1"/>La Nuit était bien en soi cette fois et <mod>
+      <subst>
+        <del rend="strikethrough">tout bruit<lb n="2"/>avait disparu</del>
+        <add place="above">sûre</add>
+      </subst>
+    </mod> <choice><sic></sic><corr>que</corr></choice> ce qui était étranger à elle avait disparu.<lb n="3"/>Elle était arrivée à <mod instant="true"><del rend="strikethrough">la salle de sa conscience</del></mod> sa<lb n="4"/>certitude et se réfléchissait de toutes parts
+    <anchor xml:id="p50_1"/>
+    </mod>
     </p>
+    </metamark>
 
-    <p xml:id="p_64" n="64">
-    <lb n="5"/>La Nuit était bien en soi cette fois et sûre que tout<lb n="6"/>ce qui était étranger à elle n'était que<lb n="7"/>chimère. Elle se mira dans<lb n="8"/>les panneaux luisants de sa certitude, où nul soupçon<lb n="9"/>n'eût pu s'attacher de ses pattes arachnéennes, et<lb n="10"/>si jamais quelqu'hôte étranger à elle les avait<lb n="11"/>frôlés de ses plumes, c'étaient des génies d'une espèce<lb n="12"/>supérieure aux hôtes qu'elle avait imaginés,<lb n="13"/>pareille peut-être à celle de ses ombres apparues dans les panneaux,<lb n="14"/>soucieux de recueillir<lb n="15"/>toute poussière d'elle pour que, parvenue<lb n="16"/>au point de jonction de son futur et de son<lb n="17"/>passé devenus identiques, elle se mirât <lb n="18"/>en toutes ces ombres apparues pures avec le volume<lb n="19"/>de leur destinée et la lueur épurée<lb n="20"/>leur conscience.<lb n="21"/>Tout était parfait, en face et derrière ces deux épaisseurs obscures identiques<lb n="23"/>étaient bien les ténèbres<lb n="25"/>vécues par ces ombres<lb n="26"/>revenues à leur état de ténèbres, et, divisées seulement par les marches<lb n="27"/>à l'infini, par les marches faites des pierres funéraires de<lb n="28"/>      toutes ces ombres 
+    <p xml:id="p_63" n="63">
+    <lb n="5"/>La Nuit était bien en soi cette fois et sûre que tout<lb n="6"/>ce qui était étranger à elle <mod instant="true"><del rend="strikethrough">avait disparu</del></mod> n'était que<lb n="7"/>chimère. <mod instant="true"><del rend="strikethrough">Si quelqu'hôte avait</del></mod> Elle se mira dans<lb n="8"/>les panneaux <mod instant="true"><del rend="strikethrough">de sa</del></mod> luisants de sa certitude, <mod>
+      <subst>
+        <del rend="strikethrough">et</del>
+        <add place="above">où nul soupçon n'eût pu s'attacher de ses pattes arachnéennes, et</add>
+      </subst>
+    </mod><lb n="9"/>si jamais quelqu'hôte étranger à elle les avait<lb n="10"/>frôlés de ses plumes, c'étaient des <mod>
+      <subst>
+        <del rend="overwritten">hôtes</del>
+        <add place="superscript">génies</add>
+      </subst>
+    </mod> d'une espèce<lb n="11"/><mod instant="true">
+      <subst>
+        <del rend="strikethrough">ancienne</del>
+        <add>supérieure</add>
+      </subst>
+    </mod> <mod>
+      <add place="above">, telle que s</add>
+      <del rend="strikethrough">, telle que s</del>
+    </mod> aux hôtes qu'elle avait imaginés,<lb n="12"/><mod>
+      <subst>
+        <del rend="strikethrough">telle</del>
+        <add place="above">pareille</add>
+      </subst>
+    </mod> peut-être <mod>
+      <subst>
+        <del rend="strikethrough">que des</del>
+        <add place="above">à celle de ses</add>
+      </subst></mod> ombres apparues dans les panneaux,<lb n="13"/>soucieux <mod>
+        <subst>
+          <del rend="strikethrough">que toute poussière d'elle disparût</del>
+          <add place="above">de</add>
+        </subst></mod> recueillir<lb n="14"/>toute poussière d'elle pour <w>qu<mod instant="true"><subst><del rend="overwritten">'elle</del><add place="superscript">e</add></subst></mod></w> <mod instant="true"><del rend="strikethrough">mirât ses</del></mod>, parvenue<lb n="15"/><mod instant="true"><del rend="strikethrough">innomb</del></mod> au point de jonction de son futur et de son<lb n="16"/>passé devenus identiques, elle <mod instant="true">
+          <subst>
+            <del rend="strikethrough">mirât</del>
+            <add>se mirât</add>
+            </subst>
+        </mod><lb n="17"/>en toutes <w><mod><subst><del rend="overwritten">s</del><add place="superscript">c</add></subst></mod>es</w> ombres apparues pures avec <w>l<mod><subst><del rend="overwritten">a</del><add place="superscript">e</add></subst></mod></w><lb n="18"/><mod>
+          <subst>
+            <del rend="overwritten">livre</del>
+            <add place="superscript">volume</add>
+          </subst>
+        </mod> de leur destinée et la <mod instant="true">
+          <del rend="strikethrough">flamme</del>
+          <add>lueur</add>
+        </mod> <mod>
+          <subst>
+            <del seq="1" rend="strikethrough"><gap reason="illegible" extent="7" unit="characters"/></del>
+            <add seq="2" place="above">pure</add>
+          </subst>
+
+          <subst>
+            <del seq="3" rend="strikethrough">pure</del>
+            <add seq="4" place="below">épurée</add>
+          </subst>
+        </mod><lb n="19"/>leur conscience. <mod>
+          <subst>
+            <del seq="1" rend="strikethrough">Mais elle amait mieux bannir ces<lb n="20"/>souvenirs et regarder dans les deux trouées</del>
+            <add seq="2" place="above">Elle entendit, certaine, son propre cœur qui battit.</add>
+          </subst>
+
+          <subst>
+            <del seq="3" rend="strikethrough">Elle entendit, certaine, son propre cœur qui battit.</del>
+            <add seq="4" place="above">Tout était parfait, en face et derrière ces deux épaisseurs obscures</add>
+          </subst>
+        </mod> identiques<lb n="21"/><mod>
+          <subst>
+            <del rend="strikethrough">de Nuit qui semblait elles aussi, contenant toute<lb n="22"/> la nuit</del>
+            <add place="above"><metamark place="above" rend="line"/>étaient bien les ténèbres</add>
+          </subst>
+        </mod> vécues par ces ombres <mod>
+          <subst>
+            <del rend="strikethrough">et les marches de<lb n="23"/>leurs pierres funéraires</del>
+            <add place="above">revenues <del rend="strikethrough">seulement</del>à leur état de ténèbres, et, <del rend="strikethrough">seulement</del></add>
+          </subst>
+        </mod> divisées <mod><add place="below">seulement</add></mod> par les marches<lb n="24"/><mod>
+          <subst>
+            <del rend="strikethrough">de leur pierres funéraires à l'infini, se mirer</del>
+            <add place="above">à l'infini, par les marches faites</add>
+          </subst></mod> <mod><add place="below">des pierres funéraires de toutes ces ombres</add></mod>
+        </p>
     
 
-  <pb facs="51.jpg" xml:id="el_51" n="51"/> 
-    <lb n="2"/>toutes deux semblaient identiquement<lb n="3"/>pareilles, sauf que, de même qu'elles étaient l'opposé<lb n="4"/>des ombres, de même elles devaient s'opposer l'une<lb n="5"/>à l'autre, et, les divisions tournant<lb n="6"/>également sur elles-mêmes, elles allaient différemment.<lb n="7"/>Tout était parfait ; elle était la Nuit pure, et elle<lb n="8"/>entendit son propre cœur qui battit. Toutefois il<lb n="9"/>lui donna une inquiétude, celle de trop de certitude,<lb n="10"/>celle d'une constatation trop sûre<lb n="11"/>d'elle-même : elle voulut se replonger à son to<lb n="12"/>dans les ténèbres vers son sépulcre unique<lb n="13"/>et abjurer l'idée de sa forme telle qu'elle<lb n="14"/>s'était apparue par son souvenir<lb n="15"/>des génies supérieurs chargés de réunir ces cendres<lb n="16"/>passées. Elle fut troublée un moment par sa<lb n="17"/>propre symétrie ; mais, comprenant à<lb n="18"/>l'évasion trop grande de la clarté, atténuée<lb n="19"/>jadis, que<lb n="20"/>cette évasion avait été le bruit de l'oiseau<lb n="21"/>dont le vol propagé lui avait semblé continu,<lb n="22"/>elle songea qu'en suivant cette lumière, lors<lb n="23"/>qu'elle recréerait un vertige pareil au premier,<lb n="24"/>elle retournerait à son évanouissement. Elle<lb n="25"/>reconnut en appliquant la 
+  <pb facs="51.jpg" xml:id="el_51" n="51"/>
+  <p xml:id="p_64" n="64">
+    <lb n="1"/><mod instant="true"><del rend="strikethrough">elles leurs ténèbres lui apparaissaient comme un<lb n="2"/>velours</del></mod>toutes deux semblaient identiquement<lb n="3"/>pareilles, sauf que, de même qu'elles étaient l'opposé<lb n="4"/>des ombres, de même elles devaient s'opposer l'une<lb n="5"/>à l'autre, et, <mod instant="true"><del rend="strikethrough">f</del></mod> les <mod instant="true">
+      <subst>
+        <del rend="strikethrough">tombes</del>
+        <add>divisions</add>
+      </subst>
+    </mod> tournant<lb n="6"/>également sur elles-mêmes, elles allaient différemment.<lb n="7"/>Tout était parfait ; elle était la Nuit pure, et elle<lb n="8"/>entendit son propre cœur qui battit. Toutefois il<lb n="9"/>lui donna une inquiétude, celle de trop de certitude,<lb n="10"/>celle d'une constatation trop <mod instant="true">
+      <subst>
+        <del rend="strikethrough">nette certai</del>
+        <add>sûre</add></subst></mod><lb n="11"/>d'elle-même : elle voulut se replonger à son tour<lb n="12"/>dans les ténèbres vers son sépulcre unique<lb n="13"/><mod><del rend="strikethrough">belles</del></mod> et abjurer l'idée de sa forme telle qu'elle<lb n="14"/>s'était apparue <mod instant="true">
+          <subst>
+            <del seq="1" rend="strikethrough">à l'aide des</del>
+            <add seq="2">dans</add>
+            </subst>
+
+            <subst>
+              <del seq="3">dans</del>
+              <add seq="4" place="above">par</add>
+            </subst>
+        </mod> son souvenir<lb n="15"/>des génies supérieurs chargés de réunir ces cendres<lb n="16"/>passées. Elle fut troublée un moment par sa<lb n="17"/>propre symétrie ; mais, comprenant <mod instant="true"><del rend="strikethrough">que</del></mod> à<lb n="18"/>l'évasion <mod><add place="above">trop grande</add></mod> de la <mod>
+          <subst>
+            <del seq="1" rend="strikethrough">lumière</del>
+            <add seq="2" place="above">lueur</add>
+            </subst>
+
+            <subst>
+              <del seq="3" rend="strikethrough">lueur</del>
+              <add seq="4" place="above">clarté</add>
+            </subst>
+        </mod>, <mod instant="true">
+          <subst>
+            <del rend="strikethrough">attenuée</del>
+            <add>atténuée</add>
+            </subst>
+        </mod><lb n="19"/>jadis, <mod>
+          <subst>
+            <del seq="1" rend="strikethrough">que telle avait été le bruit de</del>
+            <add seq="2" place="above">c'é</add>
+            </subst>
+            <del seq="3" rend="strikethrough">c'é</del>
+        </mod> <w>qu<mod><subst><del rend="overwritten">'elle</del><add place="superscript">e</add></subst></mod></w><lb n="20"/>cette évasion avait été le <metamark rend="underline">bruit</metamark> de l'oiseau<lb n="21"/>dont le vol propagé lui avait semblé continu,<lb n="22"/>elle songea qu'en suivant cette lumière, lors<lb n="23"/>qu'elle recréerait un vertige pareil au premier,<lb n="24"/>elle <mod>
+          <subst>
+            <del rend="strikethrough">irait</del>
+            <add place="above">retournerait</add>
+            </subst>
+            </mod> à son évanouissement. Elle<lb n="25"/>reconnut <mod instant="true"><del rend="strikethrough">dans le velo</del></mod>en appliquant la 
+          </p>
 
   <pb facs="52.jpg" xml:id="el_52" n="52"/> 
-    <lb n="1"/>lueur devant les ténèbres<lb n="2"/>laquelle des deux portes il fallait<lb n="3"/>prendre, à l'effet identique de la<lb n="4"/>lueur et, instruite maintenant<lb n="5"/>de l'architecture des ténèbres, elle fut heureuse<lb n="6"/>de percevoir le même mouvement, et le même<lb n="7"/>froissement. Ce froissement était dans ce corridor<lb n="8"/>où s'était enfui le bruit, pour disparaître à<lb n="9"/>jamais, non celui d'un hôte ailé de la nuit,<lb n="10"/>dont la lumière avait froissé le ventre<lb n="11"/>velu, mais le propre miroitement du<lb n="12"/>velours sur le buste d'un génie supérieur<lb n="13"/>et il n'y avait d'autre toile arachnéenne que<lb n="14"/>la dentelle sur ce buste, et quant au<lb n="15"/>mouvement qui avait produit ce frôlement,<lb n="16"/>c'était non la marche circulaire d'une telle bête,<lb n="17"/>mais la marche régulière debout sur les<lb n="18"/>deux pieds de la race qui était apparue tenant<lb n="19"/>dans deux mains un volume et une lueur.<lb n="20"/>Elle reconnaissait son personnage ancien qui<lb n="21"/>lui apparaissait chaque nuit, mais enfin,<lb n="22"/>maintenant qu'elle l'avait réduit à l'état de<lb n="23"/>ténèbres, après qu'il lui fut<lb n="24"/>apparu comme des ombres, elle était 
+  <p xml:id="p_65" n="65">
+    <lb n="1"/><mod instant="true">
+      <subst>
+        <del rend="overwritten">lumière</del>
+        <add place="superscript">lueur</add>
+      </subst>
+    </mod> devant <w>le<mod><add>s</add></mod></w> <mod instant="true"><del rend="strikethrough">velours aimé des</del></mod> ténèbres<lb n="2"/>laquelle des deux <mod instant="true">
+      <subst>
+        <del rend="strikethrough">portières de</del>
+        <add>portes</add>
+      </subst>
+    </mod> il fallait<lb n="3"/><mod instant="true">
+      <subst>
+        <del rend="strikethrough">suivre</del>
+        <add>prendre</add>
+      </subst>
+    </mod>, à l'effet identique de la<lb n="4"/><mod>
+      <subst>
+        <del rend="strikethrough">lumière</del>
+        <add place="above">lueur</add>
+      </subst>
+    </mod> et, <mod instant="true"><del rend="strikethrough">sachant main</del></mod> instruite maintenant<lb n="5"/>de <mod>
+      <subst>
+        <del rend="strikethrough">cette</del>
+        <add place="above">l'</add>
+      </subst></mod>architecture des ténèbres, elle fut heureuse<lb n="6"/><w>d<mod><subst><del rend="strikethrough">'ente</del><add place="superscript">e</add></subst></mod></w>  percevoir le même mouvement, et le même<lb n="7"/>froissement. Ce froissement était dans ce corridor<lb n="8"/>où s'était enfui le <metamark rend="underline">bruit</metamark>, <mod>
+        <subst>
+          <del rend="overwritten">non</del>
+          <add place="superscript">pour</add>
+          </subst>
+      </mod> disparaître à<lb n="9"/>jamais, non celui d'un hôte ailé de la nuit,<lb n="10"/><mod instant="true"><del rend="strikethrough">mais</del></mod> dont la lumière avait froissé le ventre<lb n="11"/>velu, mais le propre miroitement du <mod instant="true"><del rend="strikethrough">buste de</del></mod><lb n="12"/>velours sur le buste d'un <mod instant="true"><del rend="strikethrough">per</del></mod> génie supérieur<lb n="13"/>et il n'y avait d'autre toile arachnéenne que<lb n="14"/>la <mod instant="true"><del rend="strikethrough">viei</del></mod> dentelle sur ce buste, et quant au<lb n="15"/>mouvement qui avait produit ce <w>fr<mod><subst><del rend="overwritten">oissement</del><add place="superscript">ôlement</add></subst></mod></w>,<lb n="16"/>c'était non la marche circulaire d'une telle bête,<lb n="17"/>mais la marche régulière debout sur les<lb n="18"/>deux pieds de la race qui était apparue tenant<lb n="19"/>dans deux mains un volume et une lueur.<lb n="20"/>Elle reconnaissait son personnage ancien qui<lb n="21"/>lui apparaissait chaque nuit, mais enfin,<lb n="22"/>maintenant qu'elle <metamark rend="unverline">l'avait réduit à l'état de</metamark><lb n="23"/>ténèbres, l<mod instant="true"><del rend="strikethrough">elle était deb</del></mod> après qu'il lui fut<lb n="24"/>apparu comme des ombres, elle était 
+    </p>
 
  <pb facs="53.jpg" xml:id="el_53" n="53"/> 
-    <lb n="1"/>libre enfin, sûre d'elle-même et débarrassée<lb n="2"/>de tout ce qui était étranger à elle. En<lb n="3"/>effet, le bruit cessa, en la<lb n="4"/>lumière qui demeura seule et pure
+ <p xml:id="p_66" n="66">
+    <lb n="1"/>libre enfin, sûre d'elle-même et débarrassée<lb n="2"/>de <w>tout<mod><del rend="strikethrough">e</del></mod></w> ce qui était étranger à elle. En<lb n="3"/>effet, le <metamark rend="underline">bruit</metamark> cessa, <mod instant="true"><del rend="strikethrough">elle resta avec</del></mod> en la<lb n="4"/>lumière qui demeura seule et pure
     </p>
 
   <pb facs="54.jpg" xml:id="el_54" n="54"/> 
-    <fw type="head">E</fw>
-    <p xml:id="p_65" n="65">
-    <lb n="1"/>L'ombre disparue dans les ténèbres,<lb n="2"/>la Nuit demeura avec une perception oscillatoire<lb n="3"/>de balancier qui va expirer alors qu'il<lb n="4"/>a la sensation de lui ; mais<lb n="5"/>s'aperçut à l'hésitation expirante de ce qui luisait<lb n="6"/>d'elle et qui allait s'éteindre, étouffé, qu'elle<lb n="7"/>était une, et que d'elle par conséquent<lb n="8"/>provenait le battement, dont tout le bruit retombe<lb n="9"/>maintenant en une seule fois lourdement<lb n="10"/>dans le passé.
-    </p>
+<ab rend="align-center" type="head">Ε</ab>    
+<metamark function="largeDeletion">
+    <p xml:id="p_67" n="67">
+    <mod>
+    <delSpan spanTo="#p54_1"/>
+    <lb n="1"/>L'ombre <w>disparu<mod><subst><del rend="overwritten">t</del><add place="superscript">e</add></subst></mod></w> dans les ténèbres <mod><del rend="strikethrough">futures</del></mod><lb n="2"/><mod><del rend="strikethrough">et</del></mod> la Nuit demeura avec une perception <mod>
+      <subst>
+        <del rend="strikethrough">de</del>
+        <add place="above">oscillatoire</add>
+      </subst>
+    </mod><lb n="3"/>de balancier qui va expirer alors qu'il <mod><del rend="strikethrough">commence</del></mod><lb n="4"/><mod><subst><del rend="overwritten">à</del><add place="superscript">à</add></subst></mod> <mod><del rend="strikethrough">avoir</del></mod> la <mod>
+      <subst>
+        <del rend="overwritten">perception</del>
+        <add place="superscript">sensation</add>
+      </subst>
+    </mod> de lui <mod><subst>
+      <del rend="overwritten">.</del>
+      <add place="superscript">;</add>
+    </subst></mod> <w><mod><subst><del rend="overwritten">M</del><add place="superscript">m</add></subst></mod>ais</w>  <mod><del rend="strikethrough">elle</del></mod><lb n="5"/> s'aperçut à <mod>
+      <subst>
+        <del seq="1" rend="strikethrough">l'étouffement</del>
+        <add seq="2" place="above">la palpitation</add>
+      </subst>
+      
+      <subst>
+        <del seq="3" rend="strikethrough">la palpitation</del>
+        <add seq="4" place="below">l'hésitation</add>
+      </subst>
+    </mod> expirante de ce qui luisait<lb n="6"/><mod>
+      <subst>
+        <del rend="strikethrough">encore</del>
+        <add place="above">d'elle</add>
+      </subst>
+    </mod> <mod>
+      <subst>
+        <del seq="1" rend="strikethrough">qui va disparaître en elle</del>
+        <add seq="2" place="above">prêt</add>
+      </subst>
 
-    <p xml:id="p_66" n="66">
-    <lb n="11"/>Si, d'un côté, tout doute disparut, de<lb n="12"/>l'autre l'idée du mouvement persista,<lb n="13"/>régulièrement scandé par le double heurt, que n'atteignait<lb n="14"/>plus le balancier abandonné,<lb n="15"/>et<lb n="16"/>dont le frôlement actuel qui devait avoir lieu <lb n="17"/>revenait perceptiblement,<lb n="21"/>comme si tout le bruit massif n'avait pas été celui des panneaux<lb n="23"/>dont la chute expliquait tout : elle fut alors captivée par un mirage<lb n="25"/>des panneaux à la fois ouverts et fermés, et la sensation<lb n="26"/>qu'elle retournait sur<lb n="27"/>elle-même en cette spirale vertigineuse, 
+      <subst>
+        <del seq="3" rend="strikethrough">prêt</del>
+        <add seq="4" place="above">et qui allait s'éteindre, étouffé,</add>
+      </subst>
+    </mod> qu'elle<lb n="7"/><mod>
+      <subst>
+        <del rend="overwritten">est</del>
+        <add place="superscript">était</add>
+      </subst>
+    </mod> <mod>
+      <subst>
+        <del rend="strikethrough">en elle</del>
+        <add place="above">une</add>
+        </subst>
+    </mod>, et que <mod instant="true"><del rend="strikethrough">c'est</del></mod> d'elle par conséquent<lb n="8"/><mod><del rend="strikethrough">que</del></mod> provenait <mod>
+      <subst>
+        <del rend="strikethrough">ce bruit perçu</del>
+        <add place="above">le battement</add>
+      </subst>
+    </mod>, <mod>
+      <subst>
+        <del seq="1" rend="strikethrough">qui</del>
+        <add seq="2" place="above">lequel</add>
+      </subst>
+
+      <subst>
+        <del seq="3" rend="strikethrough">lequel</del>
+        <add seq="4" place="above">dont tout le bruit</add>
+      </subst>
+    </mod> retombe<lb n="9"/>maintenant en une <mod>
+      <add place="above">d'une</add>
+      <del place="above">d'une</del>
+    </mod> seule fois <mod>
+      <subst>
+        <del rend="strikethrough">inutilement</del>
+        <add place="above">lourdement</add>
+      </subst>
+    </mod><lb n="10"/>dans le passé.
+    <anchor xml:id="p54_1"/>
+    </mod>
+    </p>
+    </metamark>
+
+    <metamark function="largeDeletion">
+    <p xml:id="p_68" n="68">
+    <mod>
+    <delSpan spanTo="#p54_2"/>
+    <lb n="11"/><mod instant="true"><del rend="strikethrough">Toutef</del></mod>
+    <lb n="12"/>Si<choice><sic></sic><corr>,</corr></choice> d'un côté<choice><sic></sic><corr>,</corr></choice> toute <mod>
+      <subst>
+        <del rend="strikethrough">hésitation</del>
+        <add place="above">doute</add>
+        </subst>
+    </mod> disparut, de<lb n="13"/>l'autre l'idée du mouvement persista, <mod instant="true"><del rend="strikethrough">et l'absence</del></mod><lb n="14"/>régulièrement scandé<mod>
+      <subst>
+      <del seq="1" rend="strikethrough">, et l'absence de bruit<lb n="15"/>demeura comme une inquietude</del>
+      <add seq="2" place="above">par le battement étranger</add>
+      </subst>
+
+      <subst>
+        <del seq="3" rend="strikethrough">battement étranger</del>
+        <add seq="4" place="above">double heurt abandonné</add>
+      </subst>
+
+      <subst>
+      <del seq="5" rend="strikethrough">abandonné</del>
+      <add seq="6" place="above">séparé,</add>
+      </subst>
+
+      <subst>
+        <del seq="7" rend="strikethrough">séparé,</del>
+        <add seq="8" place="above">que n'atteignait plus le balancier ancien d'autrefois, oublié étranger, separé, rejeté,</add>
+      </subst>
+
+      <subst>
+        <del seq="9" rend="strikethrough">ancien d'autrefois, oublié étranger, separé, rejeté,</del>
+        <add>abandonné,</add>
+      </subst>
+    </mod><lb n="16"/><mod>
+      <subst>
+        <del seq="1" rend="strikethrough">et l'idée de bruit ne put disparaît être bannie<lb n="17"/>et revint</del>
+        <add seq="2" place="above"><del rend="strikethrough">celle</del> et <del rend="strikethrough">tandis que son</del> dont le frôlement actuel <del rend="strikethrough">et probable</del> qui devait avoir lieu revenait perceptiblement,</add>
+      </subst>
+    </mod> <mod>
+      <subst>
+        <del seq="1" rend="strikethrough">avec</del>
+        <add seq="2" place="above">avec une</add>
+      </subst>
+      <del seq="3" rend="strikethrough">avec une</del>
+    </mod> <mod>
+      <subst>
+        <del seq="1" rend="strikethrough">inquiétude comme un frôlement,</del>
+      <add seq="2" place="above">absurde de l'absurde</add>
+    </subst>
+    <del seq="3" rend="strikethrough">absurde de l'absurde</del>
+  </mod><lb n="18"/><mod>
+    <subst>
+    <del seq="1" rend="strikethrough">sans doute du <add place="above">même</add> balancier fini</del>
+    <add seq="2" place="above">comme si les panneaux étaient fermés <add>retombés sur eux-mêmes</add> et ne l'était <sic>pas</sic>, et que leur chûte n'eût pas tour terminé.</add>
+    </subst>
+    <del seq="3" rend="strikethrough">comme si les panneaux étaient fermés retombés sur eux-mêmes et ne l'était pas, et que leur chûte n'eût pas tour terminé.</del>
+  </mod> <mod>
+    <del seq="1" rend="strikethrough">Et alors il<lb n="19"/>lui sembla que ses panneaux n'étaient pas</del>
+    <add seq="2" place="above">elle eut la vision du mirage</add>
+
+    <subst>
+    <del seq="3" rend="strikethrough">elle eut la vision du mirage</del>
+    <add seq="4" place="below">comme si tout le bruit massif n'avait pas été celui des panneaux</add>
+    </subst>
+    </mod><lb n="20"/><mod>
+        <del seq="1" rend="strikethrough">retombés sur eux-mêmes et qu'ils étaient,<lb n="21"/><add place="above">à la fois</add> et, dans le doute de son à la fois</del></mod> <mod instant="true"><del rend="strikethrough">et comme si</del></mod> dont la chute <mod>
+    <subst>
+      <del rend="strikethrough">terminait</del>
+      <add place="above">expliquait</add>
+    </subst>
+  </mod> <mod>
+      <add seq="1" place="above"> : et elle vit le un fut éblouie par</add>
+      <subst>
+        <del seq="2" rend="strikethrough">vit le un fut éblouie par</del>
+        <add seq="3" place="above">fut alors captivée par un mirage des panneaux à la fois ouverts et fermés, et la sensation</add>
+        </subst>
+  </mod>  tout : elle fut alors captivée par un mirage<lb n="22"/>des panneaux à la fois ouverts et fermés, et la sensation<lb n="23"/><lb n="24"/><mod><del rend="strikethrough">ouverts et fermés</del></mod> et qu'elle retournait sur<lb n="25"/>elle-même en <mod>
+    <subst>
+      <del rend="strikethrough">une</del>
+      <add place="above">cette</add></subst></mod> spirale vertigineuse, 
+    <anchor xml:id="p54_2"/>
+    </mod>
+    </p>
+    </metamark>
 
   <pb facs="55.jpg" xml:id="el_55" n="55"/> 
-    <lb n="1"/>et indéfiniment fuyante si une oppression<lb n="2"/>causée par le poids progressif de ce dont elle ne<lb n="4"/>se rendait pas compte n'eût impliqué l'expansion certaine d'un<lb n="5"/>intervalle, qui arriva, en effet, comme<lb n="6"/>le bruit d'un battement d'ailes [de]<lb n="7"/>quelqu'un de ses hôtes absurdes heurté par<lb n="8"/>la lueur dans son lourd somme et se prolongeant<lb n="9"/>dans une fuite indéfinie.
-    </p>
+   <metamark function="largeDeletion">
+    <p xml:id="p_69" n="69">
+    <mod>
+    <delSpan spanTo="#p55_1"/>
+    <lb n="1"/>et <mod>
+      <subst>
+        <del rend="strikethrough">interminables</del>
+        <add place="above">indéfiniment fuyante</add>
+      </subst>
+    </mod> si <mod>
+      <subst>
+      <del seq="1" rend="strikethrough">la sensation d'</del>
+      <add seq="2" place="above">une</add>
+      </subst>
 
+      <subst>
+        <del seq="3" rend="strikethrough">une</del>
+        <add seq="4" place="above"><del rend="strikethrough">l'</del>une</add>
+      </subst>
+    </mod> oppression<lb n="2"/><mod>
+      <subst>
+      <del seq="1" rend="strikethrough">qu'elle ressentait faite de la certitude de soi<lb n="3"/>et du doute qui restait n'eût dû s'échapper</del>
+      <add seq="2" place="above">causée <del rend="strikethrough">d'un</del> par <del rend="strikethrough">un</del> le poids <metamaerk place="below" rend="line"/> progressif inconnu et qui</add>
+      </subst>
+
+        <subst>
+          <del seq="3" rend="strikethrough">inconnu et qui</del>
+          <add seq="4" place="above">dont elle</add>
+        </subst>
+
+        <subst>
+          <del seq="5" rend="strikethrough">dont elle</del>
+          <add seq="6" place="below">de ce dont elle ne se rendait pas <del rend="strikethrough">compte</del> n'eût</add>
+        </subst>
+    </mod><lb n="4"/>impliqué<mod>
+      <subst>
+        <del rend="strikethrough">, dans le vide de cette haleine retenue,<lb n="5"/>une expansion indefinie</del>
+        <add place="above">l'expansion <del rend="strikethrough">prochaine</del> certaine d'un intervalle</add>
+      </subst>
+    </mod>, qui arriva<mod><add place="above">, en effet,</add></mod> comme<lb n="6"/>le bruit d'un battement d'ailes <mod>
+      <subst>
+        <del seq="1" rend="strikethrough">de quelqu'hôte<lb n="7"/>froissé par</del>
+        <add seq="2" place="above">absurdes</add>
+      </subst>
+      <del seq="3" rend="strikethrough">absurdes</del></mod> <choice><sic></sic><corr>de</corr></choice> quelqu'un de ses hôtes <mod><add place="above">absurdes</add></mod> heurté par<lb n="8"/>la lueur <mod><add place="above">dans son lourd somme</add></mod> et se prolongeant<lb n="9"/>dans une fuite indéfinie.
+    <anchor xml:id="p55_1"/>
+    </mod>
+    </p>
+    </metamark>
+
+    <!--DA QUI-->
   <pb facs="56.jpg" xml:id="el_56" n="56"/> <!--verificare nella trascrizione diplomatica-->
     <fw place="top_left" type="head">ε</fw>
-    <p xml:id="p_67" n="67">
+    <metamark function="largeDeletion">
+    <p xml:id="p_70" n="70">
+    <mod>
+    <delSpan spanTo="#p56_1"/>
     <lb n="1"/>L'ombre disparue en son obscurité, la Nuit demeura<lb n="2"/>avec une perception oscillatoire de pendule qui va expirer,<lb n="3"/>ayant la perception de lui ; mais à ce qui luit et va,<lb n="4"/>étouffé, s'éteindre en soi, ou d'elle-même, elle se reconnut, et vit que<lb n="5"/>d'elle par conséquent venait le battement entendu, dont le bruit<lb n="6"/>total retomba alors lourdement en un seul coup dans le<lb n="7"/>passé.
+    <anchor xml:id="p56_1"/>
+    </mod>
     </p>
+    </metamark>
 
-    <p xml:id="p_68" n="68">
+    <metamark function="largeDeletion">
+    <p xml:id="p_71" n="71">
+    <mod>
+    <delSpan spanTo="#p56_2"/>
     <lb n="8"/>Si, d'un côté, tout doute disparut de soi, de l'autre, l'idée<lb n="9"/>de mouvement persista, régulièrement scandée par<lb n="10"/>le double heurt impossible du balancier qui ne s'atteignait<lb n="11"/>plus, mais dont le frôlement actuel, tel qu'il eût dû avoir<lb n="12"/>lieu, revenait dans le possible, comme si tout le bruit<lb n="13"/>massif et sépulcral n'avait pas été la chûte des panneaux<lb n="14"/>ouverts du tombeau qui se fermaient à ton retour<lb n="16"/>et elle eut un mirage de panneaux à la fois ouverts et<lb n="17"/>fermés, comme s'ils ne retombaient pas, et que ce fût<lb n="18"/>elle qui, douée de leur mouvement, retournât sur soi<lb n="19"/>en cette spirale vertigineuse conséquente,<lb n="20"/>indéfiniment fuyante si une oppression progressive,<lb n="21"/>le poids de ce [dont] elle ne se rendait pas compte, malgré<lb n="22"/>sa certitude inverse qui croissait à mesure, n'eût,<lb n="23"/>en somme, impliqué l'expansion certaine d'un intervalle<lb n="24"/>futur, dans lequel, lorsqu'il se présenta<lb n="25"/>en effet, rien ne s'entendit plus que le bruit d'un<lb n="26"/>battement d'ailes effaré de quelqu'un de ses hôtes absurdes<lb n="27"/>heurté dans son lourd somme par la clarté<lb n="28"/>prolongeant sa fuite indéfinie.
+    <anchor xml:id="p56_2"/>
+    </mod>
     </p>
+    </metamark>
 
   <pb facs="57.jpg" xml:id="el_57" n="57"/> 
     <fw type="head">AUTRE ÉBAUCHE</fw>
-    <p xml:id="p_69" n="69">
+    <metamark function="largeDeletion">
+    <p xml:id="p_72" n="72">
+    <mod>
+    <delSpan spanTo="#p57_1"/>
     <lb n="1"/>L'ombre redevenue obscurité, la Nuit demeura<lb n="2"/>avec une perception douteuse de pendule qui va expirer en<lb n="3"/>la perception de lui ; mais à ce qui luit et va<lb n="4"/>probablement expirer en soi, elle se voit encore<lb n="5"/>qui le porte et c'est donc<lb n="6"/>d'elle que venait le battement ouï, dont le bruit<lb n="7"/>total tombe à jamais dans le<lb n="8"/>passé. (sur l'oubli).
+    <anchor xml:id="p57_1"/>
+    </mod>
     </p>
+    </metamark>
 
-    <p xml:id="p_70" n="70">
+    <metamark function="largeDeletion">
+    <p xml:id="p_73" n="73">
+    <mod>
+    <delSpan spanTo="#p57_2"/>
     <lb n="9"/>D'un côté, si toute ambiguïté cessa, l'idée<lb n="10"/>de motion dura de l'autre, régulièrement marquée par<lb n="11"/>le double heurt impossible du pendule qui n'atteint plus que sa notion,<lb n="12"/>mais dont le frôlement actuel revient dans le possible, tel qu'il doit avoir<lb n="13"/>lieu, pour combler l'intervalle, comme si tout choc<lb n="14"/>n'avait pas été la chûte unique des portes<lb n="15"/>du tombeau sur lui-même et sans retour ; mais dans<lb n="16"/>le doute né de la certitude même de leur perception, se présente<lb n="17"/>une vision de panneaux à la fois ouverts et<lb n="18"/>fermés, dans leur chûte en suspens, comme si c'était<lb n="19"/>soi qui, douée de leur mouvement, retournât sur<lb n="20"/>soi-même en la spirale vertigineuse conséquente ; qui devait être<lb n="21"/>indéfiniment fluyante si une oppression progressive,<lb n="22"/>poids de ce dont on ne se rendait pas compte, malgré que l'on<lb n="23"/>se l'expliquait<lb n="24"/>en somme, n'eût impliqué l'expansion certaine d'un intervalle<lb n="25"/>futur, sa cessation, dans laquelle, lorsqu'elles se retrouvèrent,<lb n="26"/>rien en effet ne s'entendit plus que le bruit d'un<lb n="27"/>battement d'ailes effaré de quelqu'un de ses hôtes absurdes<lb n="28"/>heurté dans son lourd somme par la clarté et<lb n="29"/>prolongeant sa fuite indéfinie.
+    <anchor xml:id="p57_2"/>
+    </mod>
     </p>
+    </metamark>
 
   <pb facs="58.jpg" xml:id="el_58" n="58"/> 
-    <p xml:id="p_71" n="71">
+    <p xml:id="p_73" n="73">
     <lb n="1"/>Cette fois plus nul doute ;<lb n="3"/>c'était sa propre certitude de soi ;<lb n="4"/>contemplée intérieurement, son évidence<lb n="5"/>qui reluisait évidée : non ce n'est même<lb n="6"/>pas quelqu'hôte oublié de moi, mais le souvenir<lb n="7"/>d'autres plumes, détachées et groupées par<lb n="8"/>maint et maint génie d'une race supérieure et successive<lb n="9"/>en laquelle je me suis apparue<lb n="10"/>et avec lesquelles, en effet, elle m'a frôle[e]<lb n="11"/>soigneusement recueillant les cendres de mes<lb n="12"/>apparitions pour qu'elles fussent<lb n="13"/>réunies autre part,<lb n="14"/>dans mon sépulcre, et qu'en mon propre moi, mon moi très-propre, je m'apparusse,<lb n="15"/>multiple, d'un côté et de l'autre, comme la<lb n="16"/>série indéfinie de mes ombres, portant<lb n="17"/>d'un côté,<lb n="18"/>leur volume, de l'autre,<lb n="19"/>la lueur de leur conscience, et<lb n="20"/>pures.
     </p>
 
-    <p xml:id="p_72" n="72">
+    <p xml:id="p_74" n="74">
     <lb n="21"/>Et la nuit entendit le battement qu'elle reconnut<lb n="22"/>être les pulsations de son propre cœur.
     </p>
 
-    <p xml:id="p_73" n="73">
+    <p xml:id="p_75" n="75">
     <lb n="23"/>Arrivée au sommet de moi, ayant mes ombres<lb n="24"/>réunies des deux côtés, les ombres futures et 
     
 
@@ -3170,15 +4231,15 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
     <lb n="1"/>celles passées, il ne me reste plus qu'à me dégager<lb n="2"/>de l'obsession de cette race, et à revenir<lb n="3"/>en moi : du  reste cette certitude ne laisse pas d'être<lb n="4"/>inquiétante ; voici
   </p>
 
-    <p xml:id="p_74" n="74">
+    <p xml:id="p_76" n="76">
     <lb n="5"/>Et en effet, si elles se présentent à moi de deux côtés, des<lb n="6"/>deux autres se présentent à mon songe massées et maintenant mêlées au temps de façon à produire une lourde obscurité des choses<lb n="7"/>les ténèbres qu'elles furent, se prolongeant sans doute jusqu'à<lb n="8"/>la réalité du sépulcre, qui sont les<lb n="9"/>ténèbres pures, dans lesquelles je dois rentrer quittant le costume de mes nuits, pour<lb n="10"/>devenir l'Ombre pure antérieure deux ouvertures de songe.
     </p>
 
-    <p xml:id="p_75" n="75">
+    <p xml:id="p_77" n="77">
     <lb n="11"/>Que tout se correspond bien en moi, quelle admirable<lb n="12"/>symétrie, trop parfaite et qui<lb n="13"/>ne laisse pas par son évidence que d'être inquiétante : ce<lb n="14"/>battement que j'entends, je le sais, ce sont les pulsations<lb n="15"/>de mon cœur ; alors que je m'étais incarnée en<lb n="16"/>cette race supérieure, dont je dois rejeter le costume.
     </p>
 
-    <p xml:id="p_76" n="76">
+    <p xml:id="p_78" n="78">
     <lb n="17"/>Toutefois mon inquiétude s'accroît : ces deux ouvertures<lb n="18"/>de portes, qui se mirent aussi parfaitement que les deux<lb n="19"/>panneaux opposés se répètent, engendrent une<lb n="20"/>certaine ambiguïté nouvelle et le doute : serais-je<lb n="21"/>prise dans les panneaux de mon propre songe ?<lb n="22"/>Mais ne sont-ils pas le mirage l'un de l'autre, à travers<lb n="23"/>ma réflexion, un reste de doute causé par le prolongement<lb n="24"/>absurde de mon hôte antérieur, qui sembla fuir<lb n="25"/>indéfiniment. Je prends au hazard : l'un est l'autre. 
     En effet je reconnais le même bruit dédoublé, 
 
@@ -3186,7 +4247,7 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
     <lb n="1"/>le même frôlement.)
     </p>
 
-  <p xml:id="p_77" n="77">
+  <p xml:id="p_79" n="79">
     <lb n="2"/>et, avec la notion que j'ai conçue de moi<lb n="3"/>d'après mon apparition, me sachant l'ombre unique,<lb n="4"/>formée en nuit, mais rentrant en ses ténèbres pures, je<lb n="5"/>reconnais tout, et bannis tout reste d'inquiétude.<lb n="6"/>Non, le froissement n'a pas été<lb n="8"/>le doute de quelqu'hôte absurde de moi, dont<lb n="9"/>la lueur heurtait le ventre velu, mais c'est le froissement<lb n="10"/>de la lueur de ma conscience sur le buste<lb n="11"/>revêtu de velours qui veut redevenir<lb n="12"/>obscurité pure d'un hôte supérieur<lb n="13"/>dont j'ai pris la forme
     </p>
 </div>
@@ -3195,16 +4256,16 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
 <head>Fragments d'ébauches</head>
 
   <pb facs="61.jpg" xml:id="el_61" n="61"/>
-    <p xml:id="p_78" n="78">
+    <p xml:id="p_80" n="80">
     <lb n="1"/>L'ombre redevenue l'obscurité, la Nuit resta<lb n="2"/>avec une perception confuse de pendule qui va expirer<lb n="3"/>en la perception de lui ; mais à ce qui luit<lb n="4"/>et va, expirant en soi, s'éteindre, elle se voit encore<lb n="5"/>qui le porte ; et sait que c'est donc d'elle que venait, nul doute, le battement<lb n="6"/>ouï, dont le bruit total à jamais tomba dans le<lb n="7"/>passé.
     </p>
 
-    <p xml:id="p_79" n="79">
+    <p xml:id="p_81" n="81">
     <lb n="8"/>D'un côté, si l'ambiguïté cessait, l'idée de<lb n="9"/>motion dura de l'autre, marquée d'une façon plus pressante par le<lb n="10"/>double heurt impossible du pendule qui n'atteint plus que<lb n="11"/>sa notion ; mais dont un frôlement actuel,<lb n="12"/>tel qu'il doit avoir lieu, remplit confusément<lb n="13"/>la cessation de l'ambiguïté, son intervalle,<lb n="14"/>comme si [le] bruit total qui avait été la
     </p>
 
   <pb facs="62.jpg" xml:id="el_62" n="62"/>
-    <p xml:id="p_80" n="80">
+    <p xml:id="p_82" n="82">
     <lb n="1"/>Seulement que pouvait être ce bruit, dont le<lb n="2"/>scandement était devenu beaucoup plus net, mais plus<lb n="3"/>pressé, de façon que l'intervalle disparu était remplacé<lb n="4"/>par un frottement incertain, comme si toute<lb n="5"/>la certitude de l'intervalle devait se retrouver en une seule fois,<lb n="6"/>et les parois, du reste, dans lesquel[le]s se<lb n="7"/>mirait la lueur avec cette netteté détestable, se resserraient<lb n="8"/>d'une façon qui opprimait. Enfin
     </p>
 
@@ -3213,7 +4274,7 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
      ß Ire et 2e feuilles manquent
      voir Y 3 (verso).</ab>  <!--note di Marchal-->
     
-    <p xml:id="p_81" n="81">
+    <p xml:id="p_83" n="83">
     <lb n="1"/>L'horreur est qu'on n'y pouvait douter, tant tout <lb n="2"/>était luisant et fourbi. La nuit<lb n="3"/>entendit le bruit de son propre cœur dont battaient,<lb n="4"/>maintenant que tout frôlement étranger s'était tû,<lb n="5"/>les pulsations.<lb n="7"/>Elle s'apparut, satisfaite, mais<lb n="8"/>terrifiée de ce bruit qu'elle ne voulait pas entendre, et, songea,<lb n="9"/>que pour oublier ce bruit, et redevenir pure, il lui<lb n="10"/>fallait revenir dans un des puits d'ombre: que ce site,<lb n="11"/>étant sans doute l'attente de tous les intervalles<lb n="12"/>qui avaient été différés, elle différait d'elle-même<lb n="13"/>par quelque chose encore, et qu'il était bon d'oublier<lb n="14"/>le bruit premier par sa continuation, qui<lb n="15"/>annulerait jusqu'aux battements de son cœur.
     </p>
 
@@ -3224,18 +4285,18 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
                     purement
                     négatives
     </fw>
-    <p xml:id="p_82" n="82">
+    <p xml:id="p_84" n="84">
     <lb n="1"/>J'ai toujours vécu mon âme fixée sur l'horloge.<lb n="2"/>Certes, j'ai tout fait pour que le temps qu'elle sonna<lb n="3"/>restât présent dans la chambre, et + devînt pour moi la pâture<lb n="4"/>et la vie - j'ai épaissi les rideaux, et comme<lb n="5"/>j'étais obligé pour ne pas douter de moi de m'asseoir<lb n="6"/>en face de cette glace, j'ai recueilli précieusement<lb n="7"/>les moindres atômes du temps dans des étoffes sans<lb n="8"/>cesse épaissies - L'horloge m'a fait souvent grand bien,<lb n="10"/>(cela avant que son Idée n'ait été complétée ?)<lb n="11"/>(En effet, Igitur a été projeté hors du<lb n="12"/>temps par sa race.)
     </p>
 
   <pb facs="65.jpg" xml:id="el_65" n="65"/>
-    <p xml:id="p_83" n="83">
+    <p xml:id="p_85" n="85">
     <lb n="1"/>Voici en somme Igitur, depuis que son Idée a été<lb n="2"/>complétée : - Le passé compris de sa race qui pèse sur lui en la sensation de fini +, et<lb n="3"/>son attente de l'accomplissement, du futur forment du temps pur, ou de l'ennui,<lb n="4"/>rendu instable par la maladie d'idéalité : cet ennui, ne pouvant être, redevient ses<lb n="5"/>éléments, tantôt tous les meubles fermés, et pleins de<lb n="6"/>leur secret, + l'heure de la pendule précipitant cet ennui en temps lourd, étouffant, et Igitur,<lb n="7"/>comme<lb n="8"/>menacé par le supplice d'être éternel qu'il pressent vaguement, se cherchant<lb n="9"/>dans la glace devenue ennui et se voyant vague et près de disparaître<lb n="10"/>comme s'il allait s'évanouir en le temps, puis s'évoquant : puis lorsque de tout cet ennui, temps,<lb n="11"/>il s'est refait (revu), voyant la glace horriblement nulle, s'y<lb n="12"/>voyant entouré d'une raréfaction, absence d'atmosphère, et<lb n="13"/>les meubles tordre leurs chimères dans le vide, et les<lb n="14"/>rideaux frissonner invisiblement, inquiets ;<lb n="15"/>alors,<lb n="16"/>il ouvre les meubles<lb n="17"/>pour qu'ils versent leur mystère, l'inconnu,<lb n="18"/>leur mémoire, leur silence, facultés et impressions<lb n="19"/>humaines, - et quand il croit être redevenu lui, il fixe<lb n="20"/>de son âme l'horloge, dont l'heure<lb n="21"/>disparaît par la glace, ou va<lb n="22"/>s'enfouir dans les rideaux,<lb n="23"/>en trop plein, ne le laissant même pas à l'ennui qu'il<lb n="24"/>implore et rêve. Impuissant de l'ennui.
     </p>
 
   <pb facs="66.jpg" xml:id="el_66" n="66"/>
     <fw place="top_left" type="head">Ig. raconte sa vie</fw>
-    <p xml:id="p_84" n="84">
+    <p xml:id="p_86" n="86">
     <lb n="1"/>Il se sépare du temps indéfini et il est ! Et<lb n="2"/>ce temps ne va pas comme jadis s'arrêter en un<lb n="3"/>frémissement gris sur les ébènes massifs dont les<lb n="4"/>chimères fermaient les lèvres avec une accablante<lb n="5"/>sensation de fini, et, ne trouvant plus à se mêler aux<lb n="6"/>tentures saturées et alourdies, remplir une glace d'ennui<lb n="7"/>où, suffoquant et étouffé, je suppliais de rester une<lb n="8"/>vague figure qui disparaissait complètement dans<lb n="9"/>la glace confondue ; jusqu'à ce qu'enfin, mes mains<lb n="10"/>ôtées un moment de mes yeux où je les avais mises<lb n="11"/>pour ne pas la voir disparaître, dans une épouvantable<lb n="12"/>sensation d'éternité, en laquelle semblait expirer la<lb n="13"/>chambre, elle m'apparût comme l'horreur de cette éternité.<lb n="14"/>Et quand je rouvrais les yeux au fond du miroir, je<lb n="15"/>voyais le personnage d'horreur, le fantôme de<lb n="16"/>l'horreur absorber peu à peu ce qui restait de<lb n="17"/>sentiment et de douleur dans la glace, nourrir<lb n="18"/>son horreur des suprêmes frissons des chimères<lb n="19"/>et de l'instabilité des tentures, et se former en<lb n="20"/>raréfiant la glace jusqu'à<lb n="21"/>une pureté inouïe, - jusqu'à ce qu'il se détachât,<lb n="22"/>permanent, de la glace absolument pure, comm<lb n="23"/>pris dans son froid, - jusqu'à ce qu'enfin les<lb n="24"/>meubles, leurs monstres ayant succombé avec<lb n="25"/>leurs anneaux convulsifs, fussent morts dans<lb n="26"/>une attitude isolée et sévère, projetant leurs<lb n="27"/>lignes dures dans l'absence d'atmosphère,<lb n="28"/>les monstres figés dans leur effort dernier,<lb n="29"/>et que les rideaux cessant d'être inquiets<lb n="30"/>tombassent avec une attitude qu'ils devaient<lb n="40"/>conserver à jamais.
     </p>
 </div>
@@ -3245,11 +4306,11 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
 
 
   <pb facs="67.jpg" xml:id="el_67" n="67"/>
-    <p xml:id="p_85" n="85">
+    <p xml:id="p_87" n="87">
     <lb n="1"/>Cette fois l'heure ne tombe plus hors de moi, pour<lb n="2"/>alourdir le temps enfoui dans les rideaux, ni,<lb n="3"/>quand je l'implore, fuir par la glace, c'est<lb n="4"/>en moi qu'elle tombe éveillant cette conscience<lb n="5"/>de moi par le souvenir, - elle recrée mon<lb n="6"/>être et me redonne la sensation de ce que<lb n="7"/>je dois faire.
     </p>
 
-    <p xml:id="p_86" n="86">
+    <p xml:id="p_88" n="88">
     <lb n="8"/>Il m'a semblé entendre le son spécial d'un Minuit.<lb n="9"/>L'heure est-[elle ?] Ce que jette l'horloge n'est pas allé,<lb n="10"/>indéfini, remplir des rideaux<lb n="11"/>ou se perdre par la fuite d'une glace,<lb n="12"/>me laissant toujours extérieur [à elle.]<lb n="13"/>Non, au son très certain d'un Minuit, j'ai reconnu<lb n="14"/>d'abord que l'instant était ici, et, comme un seul instant peut être [ ... ],<lb n="15"/>et je me souviens de moi-même. Longtemps, oh longtemps, quand tu<lb n="16"/>sonnais en vain, maintenant une atmosphère d'absence, ton son d'or revenait à toi dans ma rêverie et<lb n="17"/>t'y créait, joyau d'or, et je te savais indiquant sur ta complication<lb n="18"/>stellaire et marine les occurrences externes du jeu des mondes, mais je<lb n="19"/>puis dire, faisant allusion aux souvenirs d'une race que tu évoques, qu<lb n="20"/>jamais sur ces surfaces qui marquent les<lb n="21"/>jeux multiples et combinés de la multiplicité<lb n="22"/>de la pensée universelle, jamais, résumé de l'univers que<lb n="23"/>tu es, joyau des choses, tu n'as fait une minute <lb n="24"/>d'une aussi magnifique concordance et,<lb n="25"/>je doute que cet instant ait<lb n="26"/>dans le présent son pareil parmi l'indicible multiplicité<lb n="27"/>des mondes. Ma pensée est donc recréée, mais moi<lb n="28"/>le suis-je ? Oui, je sens que ce temps versé en moi<lb n="29"/>me rend ce moi, et je me vois<lb n="30"/>semblable à l'onde d'un narcotique tranquille<lb n="31"/>dont les cercles vibratoires<lb n="32"/>venant et s'en allant font une limite infinie qui n'atteint pas le calme du milieu.
     </p>
 
