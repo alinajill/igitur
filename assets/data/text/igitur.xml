@@ -5289,52 +5289,341 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
     </mod>
     </p>
     </metamark>
+   <seg style="transform: rotate(180deg);
+            display: block;
+            text-align: center;
+            margin-top: 2em;">
+            <lb/>β Ière <w>feuille<mod><add>s</add></mod></w> <w>manque<mod><add>nt</add></mod></w> (voir <mod><del rend="strikethrough">b.</del></mod> <lb/>et 2e voir γ 3 (verso).</seg>
 
-    <!--DA QUI-->
   <pb facs="63.jpg" xml:id="el_63" n="63"/>
-    <ab>[À l'envers : ]
-     ß Ire et 2e feuilles manquent
-     voir Y 3 (verso).</ab>  <!--note di Marchal-->
-    
-    <p xml:id="p_83" n="83">
-    <lb n="1"/>L'horreur est qu'on n'y pouvait douter, tant tout <lb n="2"/>était luisant et fourbi. La nuit<lb n="3"/>entendit le bruit de son propre cœur dont battaient,<lb n="4"/>maintenant que tout frôlement étranger s'était tû,<lb n="5"/>les pulsations.<lb n="7"/>Elle s'apparut, satisfaite, mais<lb n="8"/>terrifiée de ce bruit qu'elle ne voulait pas entendre, et, songea,<lb n="9"/>que pour oublier ce bruit, et redevenir pure, il lui<lb n="10"/>fallait revenir dans un des puits d'ombre: que ce site,<lb n="11"/>étant sans doute l'attente de tous les intervalles<lb n="12"/>qui avaient été différés, elle différait d'elle-même<lb n="13"/>par quelque chose encore, et qu'il était bon d'oublier<lb n="14"/>le bruit premier par sa continuation, qui<lb n="15"/>annulerait jusqu'aux battements de son cœur.
+  <metamark function="largeDeletion">
+  <p xml:id="p_83" n="83">
+  <mod>
+  <delSpan spanTo="#p63_1"/>
+    <lb n="1"/>L'horreur est qu'on n'y pouvait douter, tant tout <lb n="2"/>était <mod>
+      <subst>
+        <del rend="overwritten">clair</del>
+        <add place="superscript">luisant</add>
+      </subst></mod> et fourbi <choice><sic>;</sic><corr></corr></choice> <mod instant="true"><del rend="strikethrough">et</del></mod> <choice><sic>et,</sic><corr></corr></choice> . La nuit<lb n="3"/>entendit le bruit de son propre cœur dont battaient,<lb n="4"/>maintenant que tout frôlement étranger s'était tû,<lb n="5"/><w>le<mod><add>s</add></mod></w> <mod instant="true"><del rend="strikethrough">bruit de son propre cœur</del></mod> pulsations. <mod><del rend="strikethrough">Tout<lb n="6"/>était pareil sauf qu'aux pieds<lb n="7"/>L'ombre</del></mod>Elle s'apparut, <mod instant="true"><del rend="strikethrough">mais</del></mod> satisfaite, mais<lb n="8"/><mod>
+        <subst>
+          <del rend="strikethrough">gardant cette craint seule terreur de n'en pas</del>
+          <add place="above">terrifiée de ce bruit qu'elle ne voulait pas entendre, et, songea,</add>
+          </subst>
+      </mod><lb n="9"/><mod>
+        <subst>
+          <del rend="strikethrough">avoir : il lui sembla que pour être parfaite, il</del>
+          <add place="above">que pour oublier ce bruit, et redevenir pure, il lui</add>
+          </subst>
+      </mod><lb n="10"/><mod>
+        <subst>
+          <del rend="strikethrough">restait quelque chose</del>
+          <add place="above">fallait revenir dans un des puits d'ombre</add>
+        </subst>
+      </mod> : <w>qu<mod><subst><del rend="strikethrough">'il</del><add place="superscript">e</add></subst></mod></w> <mod instant="true"><del rend="strikethrough">fallait qu'elle rev</del></mod> ce site,<lb n="11"/>étant sans doute l'attente de tous les intervalles<lb n="12"/>qui avaient été différés, elle différait d'elle-même<lb n="13"/>par quelque chose encore, et qu'il était bon d'<mod><subst><del rend="strikethrough">expier</del><add place="above">oublier</add></subst></mod><lb n="14"/>le bruit premier par sa continuation, qui<lb n="15"/>annulerait jusqu'aux battements de son cœur.
+    <anchor xml:id="p63_1"/>
+    </mod>
     </p>
+    </metamark>
 
   <pb facs="64.jpg" xml:id="el_64" n="64"/>  <!--esempio di foglio scritto a penna con correzioni a matita-->
-    <fw place="top_left" type="head">Vie d'Igitur</fw>
-    <fw place="left">Heures
-                    Vides,
-                    purement
-                    négatives
-    </fw>
+      <ab rend="top_left" type="head"><metamark rend="underline">Vie d'Igitur</metamark></ab> 
+
+      <seg style="
+            display: block;
+            text-align: margin-left;
+            text-orientation: sideways-left; float: left;
+        "><lb/>Heures  
+          <lb/>Vides,  
+          <lb/>purement  
+          <lb/>négatives</seg>
+    
     <p xml:id="p_84" n="84">
-    <lb n="1"/>J'ai toujours vécu mon âme fixée sur l'horloge.<lb n="2"/>Certes, j'ai tout fait pour que le temps qu'elle sonna<lb n="3"/>restât présent dans la chambre, et + devînt pour moi la pâture<lb n="4"/>et la vie - j'ai épaissi les rideaux, et comme<lb n="5"/>j'étais obligé pour ne pas douter de moi de m'asseoir<lb n="6"/>en face de cette glace, j'ai recueilli précieusement<lb n="7"/>les moindres atômes du temps dans des étoffes sans<lb n="8"/>cesse épaissies - L'horloge m'a fait souvent grand bien,<lb n="10"/>(cela avant que son Idée n'ait été complétée ?)<lb n="11"/>(En effet, Igitur a été projeté hors du<lb n="12"/>temps par sa race.)
+    <lb n="1"/>J'ai toujours vécu <mod>
+      <subst>
+        <del rend="strikethrough">les yeux fixés</del>
+        <add place="above">mon âme</add>
+      </subst>
+    </mod> fixée sur <mod>
+      <subst>
+        <del rend="trikethrough">toi, pend</del>
+        <add place="above">l'horloge.</add>
+      </subst>
+    </mod><lb n="2"/>Certes, j'ai tout fait pour que le temps <w>qu<mod><subst><del rend="strikethrough">e tu</del><add place="above">'elle</add></subst></mod></w> <w>sonna<mod><del rend="strikethrough">s</del></mod></w><lb n="3"/><metamark rend="underline">restât</metamark> <mod><add place="above">présent</add></mod> dans la chambre, et + devînt pour moi la pâture<lb n="4"/>et la vie - j'ai épaissi les rideaux, et comme<lb n="5"/>j'étais obligé pour ne pas douter de moi de m'asseoir<lb n="6"/>en face de cette glace, <mod><del rend="strikethrough">bien,</del></mod> j'ai recueilli précieusement<lb n="7"/>les moindres atômes du temps dans des étoffes sans<lb n="8"/>cesse épaissies - <mod><subst>
+      <del rend="strikethrough">tu</del>
+      <add place="above">L'horloge</add>
+    </subst></mod> m'a fait souvent grand bien,<lb n="10"/><mod><subst>
+      <del seq="1" rend="strikethrough">mais jamais ton minuit</del>
+    <add seq="2" place="above">timbre</add>
+  </subst>
+<del seq="3" rend="strikethrough">timbre</del></mod> <mod>
+  <subst>
+    <del seq="1" rend="strikethrough">n'a sonné un minuit<lb n="11"/>aussi complet, et qui <add place="above">me</add> satisfît si parfaitement<lb n="12"/>tempsmon</del>
+    <add place="above">(cela avant que son Idée n'ait été complétée ?)</add>
+  </subst>
+</mod> (<metamark rend="underline">En effet, Igitur a été projeté hors du  par sa race.</metamark>) <mod><del rend="strikethrough">hhorloge d'or marquant les maréees et les astres</del></mod>
     </p>
+  <!--FOGLIO STRAPPATO-->
 
   <pb facs="65.jpg" xml:id="el_65" n="65"/>
     <p xml:id="p_85" n="85">
-    <lb n="1"/>Voici en somme Igitur, depuis que son Idée a été<lb n="2"/>complétée : - Le passé compris de sa race qui pèse sur lui en la sensation de fini +, et<lb n="3"/>son attente de l'accomplissement, du futur forment du temps pur, ou de l'ennui,<lb n="4"/>rendu instable par la maladie d'idéalité : cet ennui, ne pouvant être, redevient ses<lb n="5"/>éléments, tantôt tous les meubles fermés, et pleins de<lb n="6"/>leur secret, + l'heure de la pendule précipitant cet ennui en temps lourd, étouffant, et Igitur,<lb n="7"/>comme<lb n="8"/>menacé par le supplice d'être éternel qu'il pressent vaguement, se cherchant<lb n="9"/>dans la glace devenue ennui et se voyant vague et près de disparaître<lb n="10"/>comme s'il allait s'évanouir en le temps, puis s'évoquant : puis lorsque de tout cet ennui, temps,<lb n="11"/>il s'est refait (revu), voyant la glace horriblement nulle, s'y<lb n="12"/>voyant entouré d'une raréfaction, absence d'atmosphère, et<lb n="13"/>les meubles tordre leurs chimères dans le vide, et les<lb n="14"/>rideaux frissonner invisiblement, inquiets ;<lb n="15"/>alors,<lb n="16"/>il ouvre les meubles<lb n="17"/>pour qu'ils versent leur mystère, l'inconnu,<lb n="18"/>leur mémoire, leur silence, facultés et impressions<lb n="19"/>humaines, - et quand il croit être redevenu lui, il fixe<lb n="20"/>de son âme l'horloge, dont l'heure<lb n="21"/>disparaît par la glace, ou va<lb n="22"/>s'enfouir dans les rideaux,<lb n="23"/>en trop plein, ne le laissant même pas à l'ennui qu'il<lb n="24"/>implore et rêve. Impuissant de l'ennui.
+    <lb n="1"/>Voici en somme Igitur, depuis que son Idée a été<lb n="2"/>complétée : - Le passé <mod><add place="above">compris<metamark place="above" rend="line"/></add></mod> de sa race qui pèse sur lui <mod>
+      <add place="above">en <metamark rend="underline"/>la sensation de fini +</add>
+    </mod>, et<lb n="3"/>son attente <mod><add place="above">de l'accomplissement, du futur</add></mod> forment du temps pur, ou de l'ennui,<lb n="4"/>rendu instable par la maladie <mod>
+      <subst>
+        <del seq="1" rend="strikethrough">tantôt, grâce à son</del>
+        <add seq="2" place="above">d'idealité : et qui le</add>
+      </subst>
+
+      <subst>
+        <del seq="3" rend="strikethrough">et qui le</del>
+        <add seq="4" place="above">cet ennui, ne pouvant être, redevient ses</add>
+      </subst>
+    </mod><lb n="5"/><mod>
+      <subst>
+        <del rend="strikethrough">Idéalité voulant se réfugier en éternité qui se</del>
+        <add place="above">éléments, tantôt tous les meubles fermés, et pleins de</add>
+      </subst>
+    </mod><lb n="6"/><mod>
+      <subst>
+        <del rend="strikethrough">se précipitant</del>
+        <add place="above">leur secret, + l'heure de la pendule précipitant cet ennui</add>
+      </subst>
+    </mod> en temps lourd, étouffant, et Igitur,<lb n="7"/><mod instant="true">
+      <del rend="strikethrough">pour éviter cette éternité le supplice d'être éter</del>
+    </mod>comme<lb n="8"/>menacé par le supplice d'être éternel <mod><add place="above">qu'il pressent vaguement,</add></mod> <mod><del rend="strikethrough">et</del></mod> se cherchant<lb n="9"/>dans la glace devenue ennui et se voyant  <mod>
+      <subst>
+        <del rend="strikethrough">lointain</del>
+        <add place="above">vague et près de disparaître</add>
+      </subst>
+    </mod><lb n="10"/><mod>
+      <subst>
+        <del seq="1" rend="strikethrough">s'évoquant</del>
+        <add seq="2" place="above">comme s'il semblait</add>
+      </subst>
+
+      <subst>
+        <del seq="3" rend="overwritten">semblait</del>
+        <add seq="4" place="superscript">allait s'évanouir dans</add>
+      </subst>
+
+      <subst>
+        <del seq="5" rend="strikethrough">dans</del>
+        <add seq="6" place="above">en le temps, puis s'évoquant :<metamark place="below" rend="line"/></add>
+      </subst>
+    </mod> puis lorsque de tout <w>ce<mod instant="true"><add>t</add></mod></w> <mod instant="true"><subst><del rend="strikethrough">temps</del><add>ennui</add></subst></mod>, temps,<lb n="11"/>il s'est <mod>
+      <subst>
+        <del rend="strikethrough">refait</del>
+        <add place="above">refait (revu),</add>
+      </subst>
+    </mod> voyant la glace horriblement <mod>
+      <subst>
+        <del rend="strikethrough">vide</del>
+        <add place="above">nulle</add>
+      </subst>
+    </mod>, s'y<lb n="12"/>voyant entouré d'une <mod>
+      <subst>
+        <del rend="strikethrough">pureté</del>
+        <add place="above">raréfaction</add>
+      </subst>
+    </mod>, absence d'atmosphère, et<lb n="13"/>les meubles tordre leurs chimères dans le vide, et les<lb n="14"/>rideaux <mod instant="true">
+      <subst>
+        <del rend="strikethrough">frisso</del>
+        <add>frissonner</add>
+      </subst>
+    </mod> invisiblement, inquiets ;<lb n="15"/>alors, <mod instant="true">
+      <del rend="strikethrough">il ouvre les meubles, po devenu lui, idée<lb n="16"/>complète, et son horrible état,</del>
+    </mod> il ouvre les meubles<lb n="17"/>pour <mod>
+      <subst>
+        <del rend="strikethrough">voir le avoir du</del>
+        <add place="above">qu'ils versent leur</add>
+      </subst>
+    </mod> mystère, l'inconnu,<lb n="18"/>leur mémoire, leur silence, facultés et impressions<lb n="19"/>humaines, - et quand il croit être redevenu lui, il fixe<lb n="20"/><mod>
+      <subst>
+        <del rend="strikethrough">écoute</del>
+        <add place="above">de son âme</add>
+      </subst>
+    </mod> l'horloge <mod><del rend="strikethrough">SONNER</del></mod>, dont l'heure <mod instant="true">
+      <del rend="strikethrough">va<lb n="21"/>remplir la glace</del>
+    </mod> disparaît par la glace, ou va<lb n="22"/>s'enfouir <mod>
+      <subst>
+        <del rend="strikethrough">par</del>
+        <add place="above">dans</add>
+      </subst>
+    </mod> les rideaux, <mod>
+      <subst>
+        <del rend="strikethrough">et lui rendre son<lb n="23"/>ennui.</del>
+        <add place="above">en trop plein,</add>
+      </subst>
+    </mod> ne le laissant même pas à l'ennui qu'il<lb n="24"/>implore et <w><mod><subst><del rend="overwritten">R</del><add place="superscript">r</add></subst></mod></w>êve. Impuissant de l'ennui.
     </p>
+    <!--FOGLIO TAGLIATO-->
 
   <pb facs="66.jpg" xml:id="el_66" n="66"/>
-    <fw place="top_left" type="head">Ig. raconte sa vie</fw>
+        <ab rend="top_left" type="head"><metamark rend="underline">Ig. raconte sa vie</metamark> - les <mod><del rend="strikethrough">journées -</del></mod></ab> 
+
     <p xml:id="p_86" n="86">
-    <lb n="1"/>Il se sépare du temps indéfini et il est ! Et<lb n="2"/>ce temps ne va pas comme jadis s'arrêter en un<lb n="3"/>frémissement gris sur les ébènes massifs dont les<lb n="4"/>chimères fermaient les lèvres avec une accablante<lb n="5"/>sensation de fini, et, ne trouvant plus à se mêler aux<lb n="6"/>tentures saturées et alourdies, remplir une glace d'ennui<lb n="7"/>où, suffoquant et étouffé, je suppliais de rester une<lb n="8"/>vague figure qui disparaissait complètement dans<lb n="9"/>la glace confondue ; jusqu'à ce qu'enfin, mes mains<lb n="10"/>ôtées un moment de mes yeux où je les avais mises<lb n="11"/>pour ne pas la voir disparaître, dans une épouvantable<lb n="12"/>sensation d'éternité, en laquelle semblait expirer la<lb n="13"/>chambre, elle m'apparût comme l'horreur de cette éternité.<lb n="14"/>Et quand je rouvrais les yeux au fond du miroir, je<lb n="15"/>voyais le personnage d'horreur, le fantôme de<lb n="16"/>l'horreur absorber peu à peu ce qui restait de<lb n="17"/>sentiment et de douleur dans la glace, nourrir<lb n="18"/>son horreur des suprêmes frissons des chimères<lb n="19"/>et de l'instabilité des tentures, et se former en<lb n="20"/>raréfiant la glace jusqu'à<lb n="21"/>une pureté inouïe, - jusqu'à ce qu'il se détachât,<lb n="22"/>permanent, de la glace absolument pure, comm<lb n="23"/>pris dans son froid, - jusqu'à ce qu'enfin les<lb n="24"/>meubles, leurs monstres ayant succombé avec<lb n="25"/>leurs anneaux convulsifs, fussent morts dans<lb n="26"/>une attitude isolée et sévère, projetant leurs<lb n="27"/>lignes dures dans l'absence d'atmosphère,<lb n="28"/>les monstres figés dans leur effort dernier,<lb n="29"/>et que les rideaux cessant d'être inquiets<lb n="30"/>tombassent avec une attitude qu'ils devaient<lb n="40"/>conserver à jamais.
+    <lb n="1"/>Il se sépare du temps indéfini et il est ! Et<lb n="2"/>ce temps ne va pas comme jadis s'arrêter en un<lb n="3"/>frémissement gris sur les ébènes massifs dont les<lb n="4"/>chimères fermaient les lèvres avec une accablante<lb n="5"/>sensation de fini, et, ne trouvant plus à se mêler aux<lb n="6"/>tentures saturées et alourdies, remplir une glace d'ennui<lb n="7"/>où, suffoquant et étouffé, je suppliais de rester une<lb n="8"/>vague figure qui disparaissait complètement dans<lb n="9"/>la glace confondue ; jusqu'à ce qu'enfin, mes mains<lb n="10"/>ôtées un moment de mes yeux où je les avais mises<lb n="11"/>pour ne pas la voir disparaître, dans une épouvantable<lb n="12"/>sensation d'éternité, en laquelle semblait expirer la<lb n="13"/>chambre, elle m'apparût comme l'horreur de cette éternité.<lb n="14"/>Et quand je rouvrais les yeux au fond du miroir, je<lb n="15"/>voyais le personnage d'horreur, le fantôme de<lb n="16"/>l'horreur absorber peu à peu ce qui restait de<lb n="17"/>sentiment et de douleur dans la glace, nourrir<lb n="18"/>son horreur des suprêmes frissons des chimères<lb n="19"/>et de l'instabilité des tentures, et se former en<lb n="20"/>raréfiant la glace jusqu'à <mod instant="true"><del rend="strikethrough">ce qu'il se détachât</del></mod><lb n="21"/>une pureté inouïe, - jusqu'à ce qu'il se détachât,<lb n="22"/>permanent, de la glace absolument pure, comm<lb n="23"/>pris dans son froid, - jusqu'à ce qu'enfin les<lb n="24"/>meubles, leurs monstres ayant succombé avec<lb n="25"/>leurs anneaux convulsifs, fussent morts dans<lb n="26"/>une attitude isolée et sévère, projetant leurs<lb n="27"/>lignes dures dans l'absence d'atmosphère,<lb n="28"/>les monstres figés dans leur effort dernier,<lb n="29"/>et que les rideaux cessant d'être inquiets<lb n="30"/>tombassent avec une attitude qu'ils devaient<lb n="40"/>conserver à jamais.
     </p>
 </div>
 
 <div n="6" type="drafts" xml:id="drafts_4">
-  <head>Brouillon du <q rend="pre(«) post(»)">Minuit</q></head>
-
-
+  <ab rend="align-center" type="editorial" resp="BM">[Brouillon du <q rend="pre(«) post(»)">Minuit</q>]</ab>
+  
   <pb facs="67.jpg" xml:id="el_67" n="67"/>
-    <p xml:id="p_87" n="87">
-    <lb n="1"/>Cette fois l'heure ne tombe plus hors de moi, pour<lb n="2"/>alourdir le temps enfoui dans les rideaux, ni,<lb n="3"/>quand je l'implore, fuir par la glace, c'est<lb n="4"/>en moi qu'elle tombe éveillant cette conscience<lb n="5"/>de moi par le souvenir, - elle recrée mon<lb n="6"/>être et me redonne la sensation de ce que<lb n="7"/>je dois faire.
+  <metamark function="largeDeletion">
+  <p xml:id="p_87" n="87">
+  <mod>
+  <delSpan spanTo="#p67_1"/>
+    <lb n="1"/>Cette fois l'heure ne tombe plus hors de moi, pour<lb n="2"/>alourdir le temps enfoui dans les rideaux, ni,<lb n="3"/>quand je l'implore, fuir par la glace, c'est<lb n="4"/>en moi qu'elle tombe éveillant <w>ce<mod><add>tte</add></mod></w> <mod instant="true"><del rend="strikethrough">souvenir</del></mod> conscience<lb n="5"/>de moi par le souvenir, <mod><del rend="strikethrough">puis</del></mod> - elle recrée mon<lb n="6"/><mod instant="true"><del rend="strikethrough">corps</del></mod> être et me redonne la sensation de ce que<lb n="7"/>je dois faire.
+    <anchor xml:id="p67_1"/>
+    </mod>
     </p>
+    </metamark>
 
-    <p xml:id="p_88" n="88">
-    <lb n="8"/>Il m'a semblé entendre le son spécial d'un Minuit.<lb n="9"/>L'heure est-[elle ?] Ce que jette l'horloge n'est pas allé,<lb n="10"/>indéfini, remplir des rideaux<lb n="11"/>ou se perdre par la fuite d'une glace,<lb n="12"/>me laissant toujours extérieur [à elle.]<lb n="13"/>Non, au son très certain d'un Minuit, j'ai reconnu<lb n="14"/>d'abord que l'instant était ici, et, comme un seul instant peut être [ ... ],<lb n="15"/>et je me souviens de moi-même. Longtemps, oh longtemps, quand tu<lb n="16"/>sonnais en vain, maintenant une atmosphère d'absence, ton son d'or revenait à toi dans ma rêverie et<lb n="17"/>t'y créait, joyau d'or, et je te savais indiquant sur ta complication<lb n="18"/>stellaire et marine les occurrences externes du jeu des mondes, mais je<lb n="19"/>puis dire, faisant allusion aux souvenirs d'une race que tu évoques, qu<lb n="20"/>jamais sur ces surfaces qui marquent les<lb n="21"/>jeux multiples et combinés de la multiplicité<lb n="22"/>de la pensée universelle, jamais, résumé de l'univers que<lb n="23"/>tu es, joyau des choses, tu n'as fait une minute <lb n="24"/>d'une aussi magnifique concordance et,<lb n="25"/>je doute que cet instant ait<lb n="26"/>dans le présent son pareil parmi l'indicible multiplicité<lb n="27"/>des mondes. Ma pensée est donc recréée, mais moi<lb n="28"/>le suis-je ? Oui, je sens que ce temps versé en moi<lb n="29"/>me rend ce moi, et je me vois<lb n="30"/>semblable à l'onde d'un narcotique tranquille<lb n="31"/>dont les cercles vibratoires<lb n="32"/>venant et s'en allant font une limite infinie qui n'atteint pas le calme du milieu.
+  <metamark function="largeDeletion">
+  <p xml:id="p_88" n="88">
+  <mod>
+  <delSpan spanTo="#p67_2"/>
+    <lb n="8"/>Il m'a semblé entendre le son spécial d'un Minuit.<lb n="9"/>L'heure est<mod><del rend="strikethrough">-elle?</del><choice><sic></sic><corr>-elle?</corr>
+</choice>Ce que jette l'horloge <w>n<mod>
+      <subst><del rend="overwritten">e</del><add place="superscript">'est</add></subst></mod></w>
+    </mod> <mod>
+      <subst>
+        <del seq="1" rend="strikethrough">va-t-il plus</del>
+        <add seq="2" place="above">s'est</add>
+      </subst>
+
+      <subst>
+        <del seq="3" rend="strikethrough">s'est</del>
+        <add seq="4" place="above">pas allé</add>
+      </subst>
+    </mod>,<lb n="10"/><mod>
+      <subst>
+        <del rend="strikethrough">indéfini s'enfouir parmi</del>
+        <add place="above">indéfini <del rend="strikethrough">et perdu</del>, remplir</add>
+      </subst>
+    </mod> des rideaux <mod><del rend="strikethrough">inquiets <gap reason="illegible" extent="13" unit="characters"/></del></mod><lb n="11"/>ou se perdre par <mod instant="true">
+      <subst>
+        <del rend="strikethrough">une glace d' l'horrible pureté</del>
+        <add place="above">la fuite</add>
+      </subst></mod> d'une glace <mod>
+        <del rend="strikethrough">pour<lb n="12"/>combler son vide,</del></mod> <mod>
+          <subst>
+          <del rend="strikethrough">toujours extérieure à moi, qui l'implore ?</del>
+        <add place="above">
+    me laissant toujours extérieur <choice><sic>à elle</sic>
+      <corr>à elle</corr>
+    </choice>
+  </add>
+    </subst>
+        </mod>.<lb n="13"/>Non, au son très certain d'un Minuit, <w>j<mod><subst><del rend="overwritten">e</del><add place="superscript">'ai</add></subst></mod></w> <w>reconn<mod><subst><del rend="overwritten">ais</del><add place="superscript">u</add></subst></mod></w><lb n="14"/><mod><add place="above">d'abord</add></mod> que l'instant était ici, et, comme un seul instant peut être<lb n="15"/><mod><subst>
+          <del rend="strikethrough"><gap reason="illegible" extent="5" unit="characters"/>, je sais, quel il est</del>
+          <add place="above"><choice><sic>lequel</sic><corr></corr></choice></add></subst>
+    </mod> <mod>
+      <del rend="strikethrough"><gap reason="illegible" extent="11" unit="characters"/></del>
+    </mod>, et je me <mod>
+      <subst>
+        <del rend="strikethrough">rappelle</del>
+        <add place="above">souviens de</add>
+      </subst>
+    </mod> moi-même. Longtemps, oh longtemps, quand tu<lb n="16"/>sonnais en vain, <mod>
+      <add seq="1"><metamark place="above" rend="line"/>maintenant une atmosphère d'absence, de temps</add>
+    <del seq="2" rend="strikethrough">, de temps</del></mod>, ton son d'or revenait à toi dans ma rêverie et<lb n="17"/><mod><add>t'y</add></mod> créait <mod>
+      <subst>
+      <del seq="1" rend="strikethrough">à mes yeux</del>
+      <add seq="2" place="above">dans ma pensée</add>
+      </subst>
+      <del seq="3" rend="strikethrough">dans ma pensée</del>
+    </mod>, <mod>
+      <subst>
+        <del rend="overwritten">horloge</del>
+        <add place="superscript">joyau</add>
+      </subst>
+    </mod> d'or, <mod>
+      <subst>
+        <del seq="1" rend="strikethrough">je puis donc te dire que avec<lb n="18"/>les souvenirs d'une race que tu évoques, que</del>
+        <add seq="2" place="above">et je te savais faisant mystérieusement</add>
+      </subst>
+
+      <subst>
+        <del seq="3" rend="strikethrough">faisant mystérieusement</del>
+      <add seq="4" place="above">indiquant sur ta complication stellaire et marine les occurrences externes du jeu des mondes</add>      
+    </subst>
+    </mod> mais je<lb n="19"/>puis dire, faisant allusion aux souvenirs d'une race que tu évoques, que<lb n="20"/>jamais sur ces <mod instant="true">
+      <subst>
+        <del rend="strikethrough">plaques</del>
+        <add>surfaces</add>
+      </subst>
+    </mod> qui marquent les<lb n="21"/>jeux multiples et combinés de <mod>
+      <subst>
+        <del rend="strikethrough">la mer et de l'éparpillement<lb n="22"/>stellaire</del>
+        <add place="above">la multiplicité de la pensée</add>
+      </subst>
+    </mod> <w>universel<mod><add>le</add></mod></w>, jamais, résumé de l'univers que<lb n="23"/>tu es, joyau des choses, tu n'as <mod>
+      <subst>
+        <del seq="1" rend="strikethrough">marqué</del>
+        <add seq="2" place="above">fait créé</add>
+      </subst>
+      <del seq="3" rend="strikethrough">créé</del>
+    </mod> une <mod>
+      <subst>
+        <del rend="strikethrough">heure</del>
+        <add place="above">minute</add>
+      </subst>
+    </mod><lb n="24"/><mod>
+      <subst>
+        <del seq="1" rend="strikethrough">qui fût celle</del>
+        <add seq="2" place="above">juste</add>
+      </subst>
+      <del seq="3" rend="strikethrough">juste</del></mod> d'une aussi magnifique concordance et,<lb n="25"/> <mod>
+        <del rend="strikethrough">telle qu'elle st, ô minute,</del>
+      </mod> je doute <mod>
+        <del rend="strikethrough">crains</del>
+      </mod> <w>qu<mod><subst><del rend="overwritten">'il</del></subst><add place="superscript">e</add></mod></w> <mod>
+        <subst>
+          <del rend="strikethrough">sa pareille soit</del>
+          <add place="above">que cet instant ait</add>
+        </subst>
+      </mod><lb n="26"/><mod>
+        <subst>
+          <del rend="strikethrough">cet instant soit pareil</del>
+          <add place="above">dans le présent son pareil</add>
+        </subst>
+      </mod>dans le présent son pareil parmi l'indicible multiplicité<lb n="27"/>des mondes. <mod>
+        <subst>
+          <del rend="strikethrough">Voici ma</del>
+          <add place="superscript">Ma</add>
+        </subst>
+      </mod> pensée <mod><add place="above">est donc</add></mod> recréée, mais moi<lb n="28"/>le suis-je ? Oui, je sens que ce temps versé en moi<lb n="29"/>me rend <mod>
+        <subst>
+          <del rend="strikethrough">d'une pureté parfaite</del>
+          <add place="above">ce moi</add>
+        </subst>
+      </mod>, et je me vois<lb n="30"/>semblable à <mod>
+        <subst>
+          <del rend="strikethrough">un</del>
+          <add place="above">l'onde d'un</add>
+          </subst>
+      </mod> narcotique tranquille <mod>
+        <subst>
+          <del rend="strikethrough"><gap reason="illegible" extent="5" unit="characters"/></del>
+          <add place="above">dont le frémissement s'est calmé alors qu'on fini de</add>
+        </subst>
+      </mod><lb n="31"/><mod>
+        <subst>
+          <del rend="strikethrough">quel s'éloigne des cercles cercles</del>
+          <add place="above">dont les cerles</add>
+        </subst>
+      </mod>dont les cercles vibratoires<lb n="32"/><mod>
+        <subst>
+          <del rend="strikethrough">qui font<gap reason="illegible" extent="7" unit="characters"/> indéfini illimité</del>
+          <add place="above">venant et s'en allant font une limite infinie qui n'atteint pas le calme du milieu.</add>
+        </subst>
+      </mod>
+    <anchor xml:id="p67_2"/>
+    </mod>
     </p>
+    </metamark>
 
 </div>
 
