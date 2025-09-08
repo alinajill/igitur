@@ -205,16 +205,15 @@
         <del rend="strikethrough">Dès lors</del>
       </mod>Il 
       <mod>
-        <subst>
-        <del rend="strikethrough">lit</del>
-        
+        <del rend="strikethrough">lit</del></mod>
+        </p>
       
 
     <pb facs="05.jpg" xml:id="el_05" n="05"/>
-
+      <p xml:id="p_06" n="6">
       <lb n="1"/>
+      <mod>
         <add place="opposite">récite</add> 
-        </subst>
       </mod>la prédiction et fait<lb n="2"/>le geste. 
       <mod>  
         <subst>                                                 
@@ -238,7 +237,7 @@
 
     <pb facs="06.jpg" xml:id="el_06" n="06"/>
       <fw place="top_right" type="pageNum">2</fw>
-         <p xml:id="p_06" n="6">
+         <p xml:id="p_07" n="7">
       <lb n="1"/>hazard. Elle a eu raison de la<lb n="2"/>nier, - sa vie - pour qu'il<lb n="3"/>ait été l'absolu. Ceci devait<lb n="4"/>avoir lieu dans les <w>combinai<lb break="no" n="5"/>sons</w> de l'Infini vis-à-vis<lb n="6"/>de l'Absolu. Nécessaire - extrait<lb n="7"/>l'Idee. Folie utile. Un des<lb n="8"/>actes de l'univers vient<lb n="9"/>d'être commis là. Plus rien,<lb n="10"/>restait le souffle, 
       <mod instant="true">
       <subst>
@@ -252,7 +251,7 @@
       
   <pb facs="07.jpg" xml:id="el_07" n="07"/>
   <metamark function="largeDeletion">
-  <p xml:id="p_07" n="7">
+  <p xml:id="p_08" n="8">
   <mod>
   <delSpan spanTo="#p07_1"/>
     <lb n="1"/>Titre : La folie d'Elbenon. Igitur a compris cette<lb n="2"/>folie 
@@ -316,7 +315,7 @@
   
   <pb facs="08.jpg" xml:id="el_08" n="08"/>
     <metamark function="largeDeletion">
-    <p xml:id="p_08" n="8">
+    <p xml:id="p_09" n="9">
     <mod>
     <delSpan spanTo="#p08_1"/>
 
@@ -346,7 +345,7 @@
     <ab rend="align-center"><lb n="1"/>Il quitte la chambre</ab>
     <lb n="2"/>
     <lb n="3"/><metamark place="below" rend="line"/>
-    <p xml:id="p_09" n="9">
+    <p xml:id="p_10" n="10">
     <lb n="4"/>L'heure a sonné 
     <mod><add place="above">pour moi</add></mod>de partir,
     <mod instant="true">
@@ -379,7 +378,7 @@
     </metamark>
     <ab><lb n="3"/><mod><del rend="strikethrough">La parole - la Pensée</del></mod></ab>
 
-     <p xml:id="p_10" n="10">
+     <p xml:id="p_11" n="11">
     <lb n="4"/>Bref dans un acte où le hazard est en<lb n="5"/>jeu, c'est toujours le hazard qui<lb n="6"/>accomplit sa propre Idée en s'affirmant<lb n="7"/>ou se niant. Devant 
     <mod><subst><del rend="strikethrough">lui la</del>
     <add place="above">son existence</add></subst></mod>la négation et<lb n="8"/>l'affirmation viennent échouer. Il contient<lb n="9"/>l'Absurde - l'implique, <mod instant="true"><del rend="strikethrough">et l'empê</del><add place="above">mais</add></mod>à l'état<lb n="10"/>latent et l'empêche d'exister : ce qui permet<lb n="11"/>à l'Infini <mod instant="true"><subst><del rend="strikethrough">d'exister</del><add>d'être</add></subst></mod>.
@@ -393,7 +392,7 @@
 
   <pb facs="11.jpg" xml:id="el_11" n="11"/>
     <metamark function="largeDeletion">
-    <p xml:id="p_11" n="11">
+    <p xml:id="p_12" n="12">
     <mod>
     <delSpan spanTo="#p11_1"/>
     <lb n="1"/>Les deux hazards - (dans les deux cas,<lb n="2"/>l'absurde -
@@ -455,7 +454,7 @@
     </metamark>
 
 <pb facs="12.jpg" xml:id="el_12" n="12"/>
-    <p xml:id="p_12" n="12">
+    <p xml:id="p_13" n="13">
     <lb n="1"/>Mais l'acte s'accomplit.<lb n="2"/>Alors son moi se manifeste par ceci<mod>
       <subst>
         <del rend="strikethrough">qu'il</del>
@@ -464,13 +463,13 @@
     </mod> admet l'acte,<lb n="3"/>et, volontairement, reprend l'Idée, en tant<lb n="4"/>qu'Idée : et l'Acte (<sic>quelque</sic> soit la puissance qui<lb n="5"/>l'ait guidé) ayant nié le hazard, il en conclut <lb n="6"/>que l'Idée a été nécessaire. 
     </p>
 
-    <p xml:id="p_13" n="13">
+    <p xml:id="p_14" n="14">
     <lb n="7"/>- Alors il conçoit qu'il y a, certes, folie à<lb n="8"/>l'admettre absolument : mais en même temps il<lb n="9"/>peut dire que,<mod instant="true">
         <del rend="strikethrough">l'acte ay</del>
     </mod> par le fait de cette<lb n="10"/>folie, le hazard étant nié, cette folie était<lb n="11"/>nécessaire. À quoi ? (Nul ne le sait il est isolé de l'humanité)
     </p>
     <metamark place="below" rend="line"/> 
-    <p xml:id="p_14" n="14">
+    <p xml:id="p_15" n="15">
     <lb n="12"/>Tout ce qu'il en est, c'est que sa<mod instant="true">
       <subst>
         <del rend="strikethrough">fami</del>
@@ -492,7 +491,7 @@
     <lb n="3"/>Scène de Th. ancien Igitur.
   <lb n="4"/></fw>
     
-    <p xml:id="p_15" n="15">
+    <p xml:id="p_16" n="16">
     <lb n="5"/><mod instant="true">
       <subst>
         <del rend="strikethrough">Un</del>
@@ -503,7 +502,7 @@
     </mod>de dés qui<lb n="6"/>accomplit une prédiction,<lb n="7"/>d'où a dépendu la vie d'une<lb n="8"/>race. <said rend="pre(«) post(»)">Ne sifflez pas</said> aux<lb n="9"/>vents, aux ombres - si<lb n="10"/>je compte, comédien<lb n="11"/>jouer le tour - les 12 - pas<lb n="12"/>de hazard dans aucun sens. 
     </p>
 
-    <p xml:id="p_16" n="16">
+    <p xml:id="p_17" n="17">
     <fw>
     <lb n="13"/><metamark place="below" rend="line"/>
     <lb n="14"/>Il profère la prédiction, dont<lb n="15"/>il se moque au fond. Il y a eu<lb n="16"/>folie<lb n="17"/><metamark place="below" rend="line"/></fw>
@@ -514,7 +513,7 @@
     <fw place="top_left" type="head">Salle du tombeau
       <lb n="1"/>
     </fw>
-    <p xml:id="p_17" n="17">
+    <p xml:id="p_18" n="18">
     <lb n="2"/>Igitur secoue simplement les dés - mouvement,<lb n="3"/>avant d'aller rejoindre les cendres, atomes de<lb n="4"/>ses ancêtres : <mod instant="true">
       <subst>
         <del rend="strikethrough">il a absous</del>
@@ -522,7 +521,7 @@
       </subst>
     </mod>On comprend ce que signifie son <lb n="6"/>ambiguïté.
   </p>
-    <p xml:id="p_18" n="18">
+    <p xml:id="p_19" n="19">
     <lb n="7"/>? Il<mod instant="true">
       <subst>
         <del rend="strikethrough">laisse</del>
@@ -535,12 +534,12 @@
       <del seq="3" rend="strikethrough">idée du Néant qui reste de soi</del></subst>
     </mod><!--rivedere-->
     </p>
-    <p xml:id="p_19" n="19">
+    <p xml:id="p_20" n="20">
     <lb n="9"/><mod instant="true"><del rend="strikethrough">Et se couche sur les cendres de ses ance</del><lb n="10"/><add place="below">Et, croisant les bras,<lb  n="11"/>se couche sur les cendres de ses ancêtres. </add></mod><lb n="11"/>Croisant les bras - l'Absolu ha disparu,<lb n="12"/>en pureté de sa race, car<mod><add place="above"></add>(il le faut bien, puisque)</mod> le bruit<lb n="13"/>cesse. Et,<mod instant="true"><del rend="strikethrough">l'Inf</del></mod> quant à 
     </p>
 
 <pb facs="15.jpg" xml:id="el_15" n="15"/>
-    <p xml:id="p_20" n="20">
+    <p xml:id="p_21" n="21">
     <lb n="1"/>Race immémoriale, dont le temps<lb n="2"/>qui pesait est tombé, excessif, dans<lb n="3"/>le passé, et qui pleine de hazard, n'a<lb n="4"/>vécu, <mod><add place="above">alors,</add></mod> que de son futur - <w>Ce<mod><del rend="strikethrough">la</del></mod></w><mod>
       <subst>
         <del rend="overwritten">séparé<lb n="5"/>par l'ennui, le jeu, le délice</del>
@@ -565,7 +564,7 @@
     </p>
 
   <pb facs="16.jpg" xml:id="el_16" n="16"/>
-    <p xml:id="p_21" n="21">
+    <p xml:id="p_22" n="22">
     <lb n="1"/>Le personnage qui, croyant à <mod instant="true">
       <subst>
         <del rend="overwritten">en</del>
@@ -586,7 +585,7 @@
     </p>
 
     <metamark function="largeDeletion">
-    <p xml:id="p_22" n="22">
+    <p xml:id="p_23" n="23">
     <mod>
     <delSpan spanTo="#p16_1"/>
     <lb n="9"/>Et quant au rêve de famille, il a<lb n="10"/>transmué son absolu en la pureté<lb n="11"/>de la race, et en l'idée de cette<lb n="12"/>pureté, qui est sa nécessité, par<lb n="13"/>rapport à l'Absolu, que lui*<!--come trattarlo?--> sentit en<lb n="14"/>lui. Maintenant, <mod instant="true">
@@ -603,7 +602,7 @@
 <pb facs="17.jpg" xml:id="el_17" n="17"/>
     <fw place="top_center" type="head"><metamark rend="underline">Il se couche au tombeau</metamark></fw>
 
-    <p xml:id="p_23" n="23">
+    <p xml:id="p_24" n="24">
     <metamark place="margin-left"
 spanTo="#p17_1"/><mod><add place="margin-left">ou les dés - hazard absorbé</add></mod><anchor xml:id="p17_1"/> <!--cambiare-->
     <lb n="1"/>- Sur les cendres des as- Sur les cendres des astres, <mod instant="true">
@@ -613,7 +612,7 @@ spanTo="#p17_1"/><mod><add place="margin-left">ou les dés - hazard absorbé</ad
 
   <pb facs="18.jpg" xml:id="el_18" n="18"/>
   <metamark function="largeDeletion">
-    <p xml:id="p_24" n="24">
+    <p xml:id="p_25" n="25">
     <mod>
     <delSpan spanTo="#p18_1"/>
     <lb n="1"/>négations différentes fait l'infini, toute<lb n="2"/>une <mod instant="true">
@@ -629,7 +628,7 @@ spanTo="#p17_1"/><mod><add place="margin-left">ou les dés - hazard absorbé</ad
 
   <pb facs="19.jpg" xml:id="el_19" n="19"/>
     <fw place="top_left" type="head"><metamark rend="underline">Ig. Déchet</metamark></fw>
-    <p xml:id="p_25" n="25">
+    <p xml:id="p_26" n="26">
     <lb n="1"/>
     <lb n="2"/>Ecoutez, ma race, avant de<lb n="3"/>souffler ma bougie - le compte<lb n="4"/>que j'ai à vous rendre de<lb n="5"/>ma vie - Ici : névrose,<lb n="6"/>ennui, (ou Absolu ?)
     </p>
@@ -641,7 +640,7 @@ spanTo="#p17_1"/><mod><add place="margin-left">ou les dés - hazard absorbé</ad
   <pb facs="20.jpg" xml:id="el_20" n="20"/>
     <ab rend="align-center" type="editorial" resp="BM">[Notes 2]</ab>
     <ab rend="align-center" type="head">Touches</ab><!--nel foglio è in basso a destra-->
-    <p xml:id="p_26" n="26">
+    <p xml:id="p_27" n="27">
     <lb n="1"/>L'heure a sonné - <mod>
       <add place="above">certainement</add>
     </mod> prédite par le livre - <lb n="2"/>ou<sic>,</sic> <w><mod>l<subst><del rend="overwritten">e</del><add place="superscript">a</add></subst></mod></w> <mod>
@@ -708,9 +707,12 @@ spanTo="#p17_1"/><mod><add place="margin-left">ou les dés - hazard absorbé</ad
         <add>voici</add>
       </subst>
     </mod>
+  </p>
     
 
   <pb facs="21.jpg" xml:id="el_21" n="21"/>
+  <p xml:id="p_28" n="28">
+
     <lb n="1"/>que l'obscurité la remplacera - et que les<lb n="2"/>lourds rideaux tombant en temps, en feront<lb n="3"/>les ténèbres - tandis que le livre<mod><subst>
       <del rend="strikethrough"><lb n="4"/>représentera les jours et</del>
       <add place="above">aux pages 
@@ -724,12 +726,12 @@ spanTo="#p17_1"/><mod><add place="margin-left">ou les dés - hazard absorbé</ad
     </mod>
     </p> 
 
-    <p xml:id="p_27" n="27">
+    <p xml:id="p_29" n="29">
     <lb n="10"/>Que le personnage, qui a nui à cette<lb n="11"/>pureté prenne cette fiole qui le prédisait<lb n="12"/>et se l'amalgame, plus tard : mais qu'il<lb n="13"/>la mette simplement dans son sein, en<lb n="14"/>allant se faire absoudre du mouvement
     </p>
 
   <pb facs="22.jpg" xml:id="el_22" n="22"/>
-    <p xml:id="p_28" n="28">
+    <p xml:id="p_30" n="30">
     <lb n="1"/><mod><add>Malgré la défense de sa mère, allant jouer dans les tombeaux</add></mod>
     <lb n="2"/>Il peut avancer, parce qu'il <mod>
       <subst><del rend="strikethrough">entre</del>
@@ -748,7 +750,7 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
     </p>
 
     <ab rend="align-center"><mod><add place="above">Autre gaminerie</add></mod></ab>
-    <p xml:id="p_29" n="29">
+    <p xml:id="p_31" n="31">
     <lb n="12"/>Il dit : je <mod>
       <subst>
         <del rend="strikethrough">suis trop parfait pour</del>
@@ -804,20 +806,15 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
     </p>
 
   <pb facs="23.jpg" xml:id="el_23" n="23"/> <!--ci sono delle scritte in penna blu in verticale sopra il testo-->
-    <p xml:id="p_30" n="30">
+    <p xml:id="p_32" n="32">
     <lb n="1"/>Cela<metamark rend="arrow"/> depuis qu'ils ont abordé ce château dans<lb n="2"/>un naufrage sans doute - second<lb n="3"/>naufrage de <mod instant="true"><del rend="strikethrough">tous</del></mod> quelque haute visée.<lb n="4"/>Ne sifflez pas <mod><add place="above">parque que j'ai dit l'inanité de notre folie !</add></mod> silence, pas de cette démence <mod><add place="below">que vous voulez montrer exprès,</add></mod>.<lb n="5"/>Eh bien !<!--correzione di Marchal--> Il vous est si facile de retourner<lb n="6"/>là-haut<!--correzione di Marchal--> chercher le temps - et de devenir <lb n="7"/><mod instant="true"><del rend="strikethrough">très</del></mod> <mod><add place="above">est-ce que les portes sont fermées ?</add></mod>
    
     </p>
 
-    <p xml:id="p_31" n="31">
-    Moi seul - moi seul - je vais <mod instant="true"><del rend="strikethrough">en</del></mod><lb n="8"/>connaître le néant. Vous, vous revenez<lb n="9"/>à votre amalgame.
-    </p>
-    
-    <p xml:id="p_32" n="32">
-    <lb n="9"/>Je profère la parole, pour la replonger<lb n="10"/>dans son inanité. 
-    </p>
-
     <p xml:id="p_33" n="33">
+    Moi seul - moi seul - je vais <mod instant="true"><del rend="strikethrough">en</del></mod><lb n="8"/>connaître le néant. Vous, vous revenez<lb n="9"/>à votre amalgame.
+    <lb n="9"/>Je profère la parole, pour la replonger<lb n="10"/>dans son inanité. 
+   
     <lb n="11"/>Il jette les dés, le coup s'accomplit,<lb n="12"/>douze, (<mod>
       <subst>
         <del rend="strikethrough">l'heure</del>
