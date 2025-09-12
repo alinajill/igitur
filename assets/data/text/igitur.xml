@@ -32,7 +32,7 @@
         <authority>Bibliothèque Littéraire Jacques Doucet</authority>
       </publicationStmt>
       <sourceDesc>
-        <listWit>    <!--la serie di bozze dell'uscita dalla stanza potrebbero essere vari testimoni?-->
+        <listWit>    
           <witness xml:id="MS_46021">Igitur, Déchet, La Folie d'Elbehnon
 
             <msDesc> <!--aggiustare-->
@@ -98,7 +98,7 @@
 
  <div n="0" type="titlePage" xml:id="titlePage">
     
-    <pb facs="01.jpg" xml:id="el_01" n="01"/> 
+    <pb facs="01.jpg" xml:id="el_01" n="1"/> 
         <lb n="1"/>
         <lb n="2"/>
         <lb n="3"/>
@@ -114,7 +114,7 @@
 
   <div n="1" type="notes" xml:id="notes_1">  
 
-  <pb facs="02.jpg" xml:id="el_02" n="02"/>
+  <pb facs="02.jpg" xml:id="el_02" n="2"/>
     <ab rend="align-center" type="editorial" resp="BM">[Notes 1]</ab>
     <fw place="top_right" type="pageNum"><date><mod><del rend="strikethrough"><lb/>17 Août</del></mod></date></fw>
     <fw place="top_left">
@@ -161,7 +161,7 @@
       </mod>- lune, au dessus<lb n="20"/>du temps : et il soulèvera les     
         </p>
 
-        <pb facs="03.jpg" xml:id="el_03" n="03"/>
+        <pb facs="03.jpg" xml:id="el_03" n="3"/>
 
       <p xml:id="p_04" n="4">
       <lb n="1"/> rideaux, en face.
@@ -169,7 +169,7 @@
       <lb n="3"/>Ig. tour enfant, lit son devoir à ses<lb n="4"/>ancêtres.
         </p>
 
-    <pb facs="04.jpg" xml:id="el_04" n="04"/>
+    <pb facs="04.jpg" xml:id="el_04" n="4"/>
       <fw place="top_right" type="pageNum">I-2</fw>
       <ab>
       <lb n="1"/>
@@ -209,7 +209,7 @@
         </p>
       
 
-    <pb facs="05.jpg" xml:id="el_05" n="05"/>
+    <pb facs="05.jpg" xml:id="el_05" n="5"/>
       <p xml:id="p_06" n="6">
       <lb n="1"/>
       <mod>
@@ -235,7 +235,7 @@
       </mod>expirates - moi <w>pro<lb break="no" n="8"/>jeté</w> absolu. Devais finir en<lb n="9"/>Infini. Simplement parole et<lb n="10"/>geste. Quant à ce que je vous dis,<lb n="11"/>pour expliquer ma vie. Rien ne<lb n="12"/>restera de nous - L'infini enfin<lb n="13"/>échappé à la famille, qui en a<lb n="14"/>souffert, - vieil espace - pas de
     </p>
 
-    <pb facs="06.jpg" xml:id="el_06" n="06"/>
+    <pb facs="06.jpg" xml:id="el_06" n="6"/>
       <fw place="top_right" type="pageNum">2</fw>
          <p xml:id="p_07" n="7">
       <lb n="1"/>hazard. Elle a eu raison de la<lb n="2"/>nier, - sa vie - pour qu'il<lb n="3"/>ait été l'absolu. Ceci devait<lb n="4"/>avoir lieu dans les <w>combinai<lb break="no" n="5"/>sons</w> de l'Infini vis-à-vis<lb n="6"/>de l'Absolu. Nécessaire - extrait<lb n="7"/>l'Idee. Folie utile. Un des<lb n="8"/>actes de l'univers vient<lb n="9"/>d'être commis là. Plus rien,<lb n="10"/>restait le souffle, 
@@ -249,7 +249,7 @@
 
 
       
-  <pb facs="07.jpg" xml:id="el_07" n="07"/>
+  <pb facs="07.jpg" xml:id="el_07" n="7"/>
   <metamark function="largeDeletion">
   <p xml:id="p_08" n="8">
   <mod>
@@ -279,15 +279,16 @@
         <lb n="11"/>Par cela même qu'il a compris <w>ce<mod><add>tte</add></mod></w> <mod instant="true"><subst><del rend="strikethrough">néant de la</del><add><lb n="12"/>folie</add></subst></mod>, il va
         <mod>
           <subst>
-          <del seq="1" rend="strikethrough">l'</del>
-          <add seq="2" rend="superscript">y</add>
+          <del rend="strikethrough">l'</del>
+          <add rend="superscript">y</add>
           </subst>
-
+        </mod>
+        <mod>
           <subst> 
-            <del seq="3" rend="strikethrough">accomplir définitivement</del>
-            <add seq="4" place="above">mettre fin</add>
+            <del rend="strikethrough">accomplir définitivement</del>
+            <add place="above">mettre fin</add>
           </subst>
-        </mod>, <!--rivedere-->
+        </mod>, 
         <mod>
           <subst>
             <add>afin que le néant en</add><lb n="13"/><del rend="strikethrough">qu'il</del>
@@ -297,8 +298,8 @@
         <del rend="strikethrough">s'</del>
         <add>y</add></subst>
         </mod><lb n="14"/>plonger ce <metamark rend="underline">moi</metamark>
-        <mod><!--MODIFICARE-->
-        <add seq="1" place="above">absent</add>
+        <mod>
+        <add seq="1" place="above">absent et divisé</add>
         <del seq="2" rend="strikethrough">et divisé</del>
         </mod> : et quant à sa famille qui,<lb n="15"/>s'étant crue pure,
         <mod><add place="above">sortira de l'inconditionnel pour</add></mod>exister subitement, il<lb n="16"/>
@@ -313,7 +314,7 @@
     </metamark>
     
   
-  <pb facs="08.jpg" xml:id="el_08" n="08"/>
+  <pb facs="08.jpg" xml:id="el_08" n="8"/>
     <metamark function="largeDeletion">
     <p xml:id="p_09" n="9">
     <mod>
@@ -341,7 +342,9 @@
     </p>
     </metamark>
 
-  <pb facs="09.jpg" xml:id="el_09" n="09"/>
+
+  <pb facs="09.jpg" xml:id="el_09" n="9"/> 
+    <milestone n="1" spanTo="#pecetta_1" type="pecetta" unit="section"/>
     <ab rend="align-center"><lb n="1"/>Il quitte la chambre</ab>
     <lb n="2"/>
     <lb n="3"/><metamark place="below" rend="line"/>
@@ -354,8 +357,24 @@
         <add>la<lb n="5"/>pureté de la glace</add>
       </subst>
     </mod>s'établira, sans ce personnage,<lb n="6"/>vision de moi - mais il emportera la lumière !
-    <lb n="7"/><mod><subst><del rend="strikethrough">les tap ombre</del> <add place="above">- la nuit !</add></subst></mod> 
-    <mod>Sur les meubles, vacants, le Rêve</mod> <!--rivedere--><lb n="8"/>a agonisé en cette<lb n="9"/>fiole
+    <lb n="7"/><mod>
+      <subst>
+        <del rend="strikethrough">les tap ombre</del> 
+        <add place="above">- la nuit !</add></subst></mod> 
+    <mod>
+      <subst>
+        <del seq="1" rend="overwritten">Les tap</del>
+        <add seq="2" place="superscript">tentures</add>
+      </subst>
+      
+      <subst>
+        <del seq="3" rend="strikethrough">tentures meubles<gap reason="illegible" extent="6" unit="characters"/></del>
+        <add seq="4" place="superscript">vides vacants</add>
+      </subst>
+      
+      <subst>
+        <del seq="5" rend="strikethrough">vides vacants</del>
+        <add seq="6" place="above">Sur les meubles, vacants, le Rêve</add></subst></mod><lb n="8"/><mod instant="true"><del rend="strikethrough">à l'ombre toujours contenue ont</del></mod> a agonisé en cette<lb n="9"/>fiole
     <mod instant="true">
     <subst>
       <del rend="strikethrough">vi</del>
@@ -364,6 +383,7 @@
     </mod>, pureté, qui renferme la<lb n="10"/>substance du Néant.
     <mod><del rend="strikethrough">Ce rêve existe</del></mod>
     </p>
+     <anchor xml:id="pecetta_1"/>
 
   <pb facs="10.jpg" xml:id="el_10" n="10"/>
     <ab rend="align-center">Le coup de dés</ab>
@@ -404,7 +424,7 @@
     </mod>
     <lb n="5"/><mod>
       <subst>
-        <del rend="strikethrough">Au point de vue absolu ou pur*<!--??-->qu'une<lb n="6"/>prédiction faite</del>
+        <del rend="strikethrough">Au point de vue absolu ou pur qu'une<lb n="6"/>prédiction faite</del>
         <add place="above">Qu'une parole jetée</add>
       </subst>
     </mod> sur 
@@ -423,22 +443,22 @@
         <add place="above">selon la pensée, 11 chances</add>
       </subst>
     </mod> qu'elle ne s'accomplît pas contre une,<lb n="9"/>le hazard s'affirme,<mod>
-      <subst seq="1"><!--rivedere queste sequenze-->
-        <del rend="strikethrough">par <gap reason="illegible" extent="7" unit="characters"/>l'acte</del>
+      <subst>
+        <del rend="strikethrough">par<gap reason="illegible" extent="7" unit="characters"/>l'acte</del>
         <add place="above">quant à la parole</add>
       </subst>
     </mod>, en<lb n="10"/>se niant
     <mod>
-      <subst seq="2">
+      <subst>
         <del rend="strikethrough">par l'idée</del>
         <add place="above">quant à la pensée</add>
       </subst>
     </mod> - Car le hazard<mod><del rend="strikethrough">dans <lb n="11"/>ce cas</del></mod> eût été que la<mod>
     <subst><del rend="strikethrough">chose prédiction</del>
     <add place="above">parole</add></subst>
-    </mod> <lb n="12"/>s'accomplît.<mod><subst><del rend="strikethrough">Si</del><add place="above">Toutefois</add></subst></mod> si elle s'accomplit le<lb n="13"/>hazard se nie<mod><subst seq="3"><del rend="strikethrough">par l'acte</del>
+    </mod> <lb n="12"/>s'accomplît.<mod><subst><del rend="strikethrough">Si</del><add place="above">Toutefois</add></subst></mod> si elle s'accomplit le<lb n="13"/>hazard se nie<mod><subst><del rend="strikethrough">par l'acte</del>
       <add place="above">quant à la parole</add></subst></mod>, en<lb n="14"/>s'affirmant<mod>
-        <subst seq="4">
+        <subst>
           <del rend="strikethrough">par l'idée</del>
           <add place="above">quant à la pensée</add>
         </subst>
@@ -531,8 +551,9 @@
       <subst>
       <del seq="1" rend="strikethrough">il boit le poison</del>
       <add seq="2" place="below">idée du Néant qui reste de soi</add>
-      <del seq="3" rend="strikethrough">idée du Néant qui reste de soi</del></subst>
-    </mod><!--rivedere-->
+      </subst>
+      <del seq="3" rend="strikethrough">idée du Néant qui reste de soi</del>
+    </mod>
     </p>
     <p xml:id="p_20" n="20">
     <lb n="9"/><mod instant="true"><del rend="strikethrough">Et se couche sur les cendres de ses ance</del><lb n="10"/><add place="below">Et, croisant les bras,<lb  n="11"/>se couche sur les cendres de ses ancêtres. </add></mod><lb n="11"/>Croisant les bras - l'Absolu ha disparu,<lb n="12"/>en pureté de sa race, car<mod><add place="above"></add>(il le faut bien, puisque)</mod> le bruit<lb n="13"/>cesse. Et,<mod instant="true"><del rend="strikethrough">l'Inf</del></mod> quant à 
@@ -588,7 +609,7 @@
     <p xml:id="p_23" n="23">
     <mod>
     <delSpan spanTo="#p16_1"/>
-    <lb n="9"/>Et quant au rêve de famille, il a<lb n="10"/>transmué son absolu en la pureté<lb n="11"/>de la race, et en l'idée de cette<lb n="12"/>pureté, qui est sa nécessité, par<lb n="13"/>rapport à l'Absolu, que lui*<!--come trattarlo?--> sentit en<lb n="14"/>lui. Maintenant, <mod instant="true">
+    <lb n="9"/>Et quant au rêve de famille, il a<lb n="10"/>transmué son absolu en la pureté<lb n="11"/>de la race, et en l'idée de cette<lb n="12"/>pureté, qui est sa nécessité, par<lb n="13"/>rapport à l'Absolu, que lui sentit en<lb n="14"/>lui. Maintenant, <mod instant="true">
       <subst>
         <del rend="strikethrough">l'am</del>
         <add>il va</add>
@@ -604,8 +625,8 @@
 
     <p xml:id="p_24" n="24">
     <metamark place="margin-left"
-spanTo="#p17_1"/><mod><add place="margin-left">ou les dés - hazard absorbé</add></mod><anchor xml:id="p17_1"/> <!--cambiare-->
-    <lb n="1"/>- Sur les cendres des as- Sur les cendres des astres, <mod instant="true">
+spanTo="#p17_1"/><mod><add place="margin-left">ou les dés - hazard absorbé</add></mod><anchor xml:id="p17_1"/> 
+    <lb n="1"/>[ - Sur les cendres des as- Sur les cendres des astres, <mod instant="true">
         <del rend="strikethrough">était le pauvre</del>
     </mod><lb n="2"/>celles <mod><add place="above">indivises</add></mod> de la famille, était le tres, celles indivises de la famille, était le pauvre personnage, <lb n="3"/>couché, après avoir bu la goutte de néant<lb n="4"/>qui manque à la mer, (La fiole vuide, folie, <lb n="5"/>tout ce qui reste du château ?) Le Néant parti, reste le château de<lb n="6"/>la pureté. 
     </p>
@@ -639,14 +660,14 @@ spanTo="#p17_1"/><mod><add place="margin-left">ou les dés - hazard absorbé</ad
 
   <pb facs="20.jpg" xml:id="el_20" n="20"/>
     <ab rend="align-center" type="editorial" resp="BM">[Notes 2]</ab>
-    <ab rend="align-center" type="head">Touches</ab><!--nel foglio è in basso a destra-->
+    <ab rend="align-center" type="head">Touches</ab>
     <p xml:id="p_27" n="27">
     <lb n="1"/>L'heure a sonné - <mod>
       <add place="above">certainement</add>
     </mod> prédite par le livre - <lb n="2"/>ou<sic>,</sic> <w><mod>l<subst><del rend="overwritten">e</del><add place="superscript">a</add></subst></mod></w> <mod>
       <add place="above">vision importune du</add>
       personnage</mod> 
-      <mod><del rend="strikethrough">importun de la glace va<lb n="3"/>disparaître</del></mod> <!--rivedere queste due correzioni. la cancellazione è avvenuta in due fasi? una parte in matita e una a penna-->qui nuisait à la pureté<mod>
+      <mod><del rend="strikethrough">importun</del></mod> <mod><del rend="strikethrough">de la glace va<lb n="3"/>disparaître</del></mod> qui nuisait à la pureté<mod>
       <add seq="1" place="above">de la glace</add>
       <add seq="2" place="above">chimérique</add></mod> dans<lb n="4"/>laquelle <mod>
         <subst>
@@ -685,8 +706,8 @@ spanTo="#p17_1"/><mod><add place="margin-left">ou les dés - hazard absorbé</ad
 
         <subst>
         <del seq="3" rend="strikethrough">dorure</del>
-      <add seq="4" place="above">ce que le hazard étaint nié par le grimoire, <del seq="5" rend="strikethrough">ou livre</del></add>
-      </subst></mod><!--rivedere tutto--> <metamark rend="arrow"/>avec lequel <mod>
+      <add seq="4" place="above">ce que le hazard étaint nié par le grimoire, <del rend="strikethrough">ou livre</del></add>
+      </subst></mod><metamark rend="arrow"/>avec lequel <mod>
         <subst>
           <del rend="overwritten">il va</del>
           <add rend="superscript">je vais</add>
@@ -743,10 +764,9 @@ spanTo="#p17_1"/><mod><add place="margin-left">ou les dés - hazard absorbé</ad
     </mod> <mod><add place="above">inverse</add></mod>de la<lb n="5"/><mod><subst><del rend="strikethrough">science</del>
     <add place="above"><metamark rend="underline">notion</metamark> dont il n'a pas connu l'ascension, étant, adolescent, arrivé à l'Absolu</add></subst></mod> : spirale, au haut de laquelle il<lb n="6"/>demeurait en Absolu, incapable de<lb n="7"/>bouger, on éclaire et l'on plonge dans la<lb n="8"/>nuit à mesure. Il croit traverser les<lb n="9"/>destins de cette nuit fameuse : enfin il<lb n="10"/>arrive où il doit arriver, et voit<lb n="11"/>l'acte qui le sépare de la mort. <mod>
       <add seq="1" place="above"><!--si trova sopra la riga 10-->(interdiction de sa mère de descendre ainsi, - sa mère qui lui a dit ce qu'il avait à accomplir)</add>
-      <add seq="2" place="above"><!--sopra la riga 11-->(pour lui, il va aussi dans un souvenir d'enfance, cette nuit recommandée[ ;]<!--come renderlo?--></add>
+      <add seq="2" place="above"><!--sopra la riga 11-->(pour lui, il va aussi dans un souvenir d'enfance, cette nuit recommandée <choice><sic></sic><corr></corr></choice></add></mod>
       <metamark place="margin-left" rend="parentesi_graffa"
-spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait pas, grand, accomplir l'acte</add><anchor xml:id="p22_1"/>
-    </mod><!--rivedere-->
+spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait pas, grand, accomplir l'acte</add></mod><anchor xml:id="p22_1"/>
     </p>
 
     <ab rend="align-center"><mod><add place="above">Autre gaminerie</add></mod></ab>
@@ -760,7 +780,8 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
       <subst>
       <del seq="1" rend="strikethrough">l'illusoire</del>
         <add seq="2" place="above">l'absence du moi, représentée par</add>
-        <add seq="2" place="below">l'existence du Néant en substance<choice><sic/><corr> ;</corr></choice></add></subst> <!--rivedere-->
+      </subst>
+        <add seq="2" place="below">l'existence du Néant en substance<choice><sic/><corr> ;</corr></choice></add> 
     </mod><lb n="17"/>il faut que je meure, et comme cette<lb n="18"/>fiole contient le néant <mod>
       <subst>
         <del rend="strikethrough">de</del>
@@ -775,7 +796,7 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
       <add seq="1" place="above">qu'elle n'a pas pris,
       <del rend="strikethrough">)</del></add>
       <add seq="2" place="below">les ancêtres immémoriaux l'ayant gardé seul du naufrage),</add>
-      </mod><!--rivedere--><lb n="20"/> je ne veux pas <mod>
+      </mod><lb n="20"/> je ne veux pas <mod>
         <subst>
           <del rend="strikethrough"><gap reason="illegible" extent="5" unit="characters"/> <gap reason="illegible" extent="8" unit="characters"/></del>
           <add place="below">connaître</add>
@@ -797,17 +818,17 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
           <add seq="2">l'</add>
         </subst>
         <del seq="3" rend="strikethrough">l'</del>
-      </mod> <!--rivedere--><lb n="24"/><mod>
+      </mod><lb n="24"/><mod>
         <subst>
           <del rend="strikethrough">espoir dans lequel ils se sont mis</del>
           <add place="above">leur <del rend="strikethrough">rêve</del> folie.</add>
-        </subst></mod><!--rivedere--> <mod instant="true"><del rend="strikethrough">Cela<lb n="25"/>me</del></mod> (L'inaccomplissement me suivrait et entache 
+        </subst></mod> <mod instant="true"><del rend="strikethrough">Cela<lb n="25"/>me</del></mod> (L'inaccomplissement me suivrait et entache 
     <lb n="26"/>seul momentanément mon Absolu.)
     </p>
 
   <pb facs="23.jpg" xml:id="el_23" n="23"/> <!--ci sono delle scritte in penna blu in verticale sopra il testo-->
     <p xml:id="p_32" n="32">
-    <lb n="1"/>Cela<metamark rend="arrow"/> depuis qu'ils ont abordé ce château dans<lb n="2"/>un naufrage sans doute - second<lb n="3"/>naufrage de <mod instant="true"><del rend="strikethrough">tous</del></mod> quelque haute visée.<lb n="4"/>Ne sifflez pas <mod><add place="above">parque que j'ai dit l'inanité de notre folie !</add></mod> silence, pas de cette démence <mod><add place="below">que vous voulez montrer exprès,</add></mod>.<lb n="5"/>Eh bien !<!--correzione di Marchal--> Il vous est si facile de retourner<lb n="6"/>là-haut<!--correzione di Marchal--> chercher le temps - et de devenir <lb n="7"/><mod instant="true"><del rend="strikethrough">très</del></mod> <mod><add place="above">est-ce que les portes sont fermées ?</add></mod>
+    <lb n="1"/>Cela<metamark rend="arrow"/> depuis qu'ils ont abordé ce château dans<lb n="2"/>un naufrage sans doute - second<lb n="3"/>naufrage de <mod instant="true"><del rend="strikethrough">tous</del></mod> quelque haute visée.<lb n="4"/>Ne sifflez pas <mod><add place="above">parque que j'ai dit l'inanité de notre folie !</add></mod> silence, pas de cette démence <mod><add place="below">que vous voulez montrer exprès</add></mod><choice><sic>,</sic><corr>.</corr></choice>.<lb n="5"/>Eh <choice><sic>!</sic><corr></corr></choice>bien <choice><sic></sic><corr>!</corr></choice> il vous est si facile de retourner<lb n="6"/><choice><sic>la haut</sic><corr>là-haut</corr></choice> chercher le temps - et de devenir <lb n="7"/><mod instant="true"><del rend="strikethrough">très</del></mod> <mod><add place="above">est-ce que les portes sont fermées ?</add></mod>
    
     </p>
 
@@ -835,8 +856,9 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
         <add>dit</add>
       </subst>
     </mod> à tout ce<lb n="17"/>vacarme : certainement, il y a là<lb n="18"/>un acte <mod>
-      <del seq="2" rend="strikethrough"><add seq="1" place="above">l'ima</add></del>
-    </mod><!--rivedere--> - c'est mon devoir de<lb n="19"/>le proclamer : cette folie existe, 
+      <add seq="1" place="above">l'ima</add>
+      <del seq="2" rend="strikethrough">l'ima</del>
+    </mod> - c'est mon devoir de<lb n="19"/>le proclamer : cette folie existe, 
     <lb n="20"/><mod instant="true"><del rend="strikethrough">cherchons son idée. Ne</del></mod> Vous avez<lb n="21"/>eu raison (bruit de folie) de<lb n="22"/>la manifester ; ne croyez pas que<lb n="23"/>je vais vous replonger dans <mod>
       <subst>
         <del rend="strikethrough">son</del>
@@ -844,7 +866,7 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
       </subst>
     </mod><lb n="24"/>néant<choice><sic/><corr>.</corr></choice>
 
-  = Il boira exprès pour se retrouver. <!--???-->
+  = Il boira exprès pour se retrouver. <!--nota-->
     </p>
   </div>
 
@@ -853,12 +875,11 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
   <pb facs="24.jpg" xml:id="el_24" n="24"/>
 
     <ab rend="align-center" type="editorial" resp="BM">[Ébauches]</ab>
-    <ab rend="align-center" type="head">Le Minuit</ab><!--in verticale-->
-
+    <ab rend="align-center" type="head">Le Minuit</ab>
     
   <pb facs="25.jpg" xml:id="el_25" n="25"/>
     <p xml:id="p_35" n="35">
-    <lb n="1"/>[-]<!--?-->Certainement <mod>
+    <lb n="1"/><choice><sic></sic><corr>-</corr></choice> Certainement <mod>
       <subst>
         <del rend="overwritten">surnage</del>
         <add place="superscript">subsiste</add>
@@ -922,7 +943,7 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
         <del seq="5" rend="strikethrough">du</del>
         <add seq="6" place="above">son</add>
       </subst>
-    </mod><!--rivedere--> <mod>
+    </mod> <mod>
       <del rend="strikethrough">timbre</del></mod> allait <mod>
       <subst>
         <del rend="strikethrough">recréer</del>
@@ -939,8 +960,9 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
         <add place="above">sinon que sur <del rend="strikethrough">la complexité</del></add>
       </subst>
     </mod> la complexité<lb n="8"/><mod>
-      <add seq="1" place="above"><del seq="2" rend="strikethrough">d'une orfèvrerie extérieure</del></add>
-    </mod><!--rivedere-->marine et stellaire <mod><add seq="3" place="above">d'une orfèvrerie se lisaient</add></mod> <mod>
+      <add seq="1" place="above">d'une orfèvrerie extérieure</add>
+      <del seq="2" rend="strikethrough">d'une orfèvrerie extérieure</del>
+    </mod> marine et stellaire <mod><add seq="3" place="above">d'une orfèvrerie se lisaient</add></mod> <mod>
       <subst>
         <del rend="strikethrough">les <lb n="9"/>conjonctions externes</del>
         <add place="above">le hazard <sic>infinis</sic></add>
@@ -974,17 +996,17 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
       <subst>
         <del rend="overwritten">astres</del>
         <add rend="superscript">constellations et la mer, </add>
-      </subst><!--rivedere-->
+      </subst>
     </mod><lb n="14"/><w>demeuré<mod><add>e</add></mod>s</w>, en <mod><subst><del rend="strikethrough">son</del>
     <add rend="above">l'</add></subst></mod>extériorité, de réciproques<lb n="15"/>néants, pour <mod>
-      <subst seq="1">
+      <subst>
       <del rend="strikethrough">qu'ils</del>
       <add place="above">en</add>
     </subst> <w>laisse
-  <subst seq="2">
+  <subst>
     <del rend="overwritten">nt</del>
     <add place="superscript">r</add>
-  </subst></w></mod><!--rivedere--> <mod>
+  </subst></w></mod> <mod>
     <subst>
       <del seq="1" rend="strikethrough">son</del>
       <add seq="2" place="above">son</add>
@@ -1001,10 +1023,13 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
         </subst>
         <subst>
           <del seq="3" rend="strikethrough">melée</del>
-          <add seq="2" place="above">à</add>
+          <add seq="4" place="above">unie</add>
         </subst>
-          <del seq="6" rend="strikethrough"><add seq="5" place="above">unie</add></del><!--rivedere-->
-        
+
+        <subst>
+        <del seq="5" rend="strikethrough">unie</del>
+          <add seq="6">à</add>
+        </subst>
       </mod><lb n="16"/><mod>
         <subst>
           <del rend="strikethrough">en cette heure</del>
@@ -1026,7 +1051,7 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
 
     <p xml:id="p_37" n="37">
     <lb n="18"/>Et du Minuit demeure la présence en 
-    <lb n="19"/>l'apparition <!--come renderlo? Marchal non lo trascrive--><mod><add place="above">la vision</add></mod> d'une chambre du temps <mod>
+    <lb n="19"/><choice><sic>l'apparition</sic><corr></corr></choice> <mod><add place="above">la vision</add></mod> d'une chambre du temps <mod>
       <subst>
         <del rend="strikethrough">dont</del>
         <add place="above">où</add>
@@ -1071,13 +1096,12 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
     </mod>, (dans <mod>
       <subst>
       <del seq="1" rend="strikethrough">leur mouvante</del>
-      <add seq="2" place="above">une</add>
+      <add seq="2" place="above">une mobile</add>
     </subst>
     <subst>
-      <add seq="2" place="above">mobile</add>
+      <subst>
       <del seq="3" rend="strikethrough">mobile</del>
-      </subst>
-      <add seq="4" place="below">mouvante</add>  <!--rivedere tutto-->
+      <add seq="4" place="below">mouvante</add> </subst></subst> 
     </mod> limite,)<lb n="4"/>la place antérieure de la chûte de l'heure<lb n="5"/>en <mod>
       <subst>
         <del seq="1" rend="strikethrough">la tranquillité</del>
@@ -1089,14 +1113,14 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
         <add seq="4" place="below">un calme</add>
       </subst>
     </mod> narcotique <w>d<mod><subst><del rend="strikethrough">'un</del><add place="superscript">e</add></subst></mod></w> <metamark rend="underline">moi</metamark> pour<lb n="6"/>longtemps rêvé ; mais dont le temps <w><mod><del rend="cross">s'</del></mod>est</w><lb n="7"/>résolu en des tentures <mod><del rend="strikethrough">définitives</del></mod> sur lesquelles 
-    <lb n="8"/>s'est <w>arrêté<mod><del rend="strikethrough">e</del></mod></w>, <mod><del rend="strikethrough">pour</del></mod> les <w>complét<mod><subst><del rend="overwritten">er</del><add rend="superscript">ant</add></subst></mod></w> de sa splendeur,<lb n="9"/>le frémissement <mod> <!--rivedere questa serie lunga di sostituzioni-->
+    <lb n="8"/>s'est <w>arrêté<mod><del rend="strikethrough">e</del></mod></w>, <mod><del rend="strikethrough">pour</del></mod> les <w>complét<mod><subst><del rend="overwritten">er</del><add rend="superscript">ant</add></subst></mod></w> de sa splendeur,<lb n="9"/>le frémissement <mod> 
     <subst><del seq="1" rend="strikethrough">, qui, dans la glace</del>
-    <add seq="2" place="above">pureté</add>
+    <add seq="2" place="above">pureté lontaine<lb n="10"/>de l'oubli</add>
     </subst>
 
     <subst>
-    <del seq="3" rend="strikethrough"> pureté lontaine <lb n="10"/>de l'oubli</del>
-    <add seq="4" place="above">amorti dans en l'oublii de la disparition,</add>
+    <del seq="3" rend="strikethrough"> pureté lontaine de l'oubli</del>
+    <add seq="4" place="above">amorti dans en l'oubli de la disparition,</add>
     </subst>
 
     <subst>
@@ -1119,11 +1143,11 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
     <add seq="10" place="above">l'oubli</add>
   </subst>
     </mod>, <mod>
-      <subst> <!--rivedere-->
+      <subst> 
         <del seq="1" rend="strikethrough">s'amortit en</del>
         <add seq="2" place="below">en</add>
-        <add seq="3" place="above">comme une</add>
       </subst>
+        <add seq="3" place="above">comme une</add>
     </mod> chevelure languissante, <lb n="11"/>autour du visage, <mod><subst>
       <del seq="1" rend="strikethrough">éclairé de</del>
       <add seq="2" place="above">éclairé de</add> 
@@ -1168,8 +1192,9 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
       <del rend="strikethrough">d'un</del>
       <add place="above">d'un</add>
     </subst></mod> Minuit, en<lb n="16"/>soi disparu, et dont la clarté reconnue, qui<lb n="17"/>seule demeure au sein de son accomplissement<lb n="18"/>plongé dans l'ombre <mod>
-      <del seq="2" rend="strikethrough"></del><add seq="1" place="above">finie</add>
-    </mod><!--rivedere-->, résume sa stérilité sur<lb n="19"/>la pâleur <mod>
+      <add seq="1" place="above">finie</add>
+      <del seq="2" rend="strikethrough">finie</del>
+    </mod>, résume sa stérilité sur<lb n="19"/>la pâleur <mod>
       <subst>
       <del seq="1" rend="strikethrough">d'un livre</del>
       <add seq="2" place="above">du volume</add>
@@ -1228,16 +1253,21 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
       </mod> telle à <mod>
         <subst>
           <del seq="1" rend="strikethrough">l'évidence de son rêve qui agonisa <lb n="7"/>en la chimère réelle de la lampe</del>
-          <add seq="2" place="above"><choice><sic>là</sic><corr>la</corr></choice> clarté de 
+          <add seq="2" place="above"><choice><sic>là</sic><corr>la</corr></choice> clarté de son rêve en</add>
+        </subst>
           <subst>
-          <del seq="1" rend="strikethrough">son rêve en</del>
-          <add seq="2" place="above">de la</add>
+          <del seq="3" rend="strikethrough">son rêve en</del>
+          <add seq="4" place="above">de la</add>
           </subst> la chimère
           <subst>
           <del seq="1" rend="strikethrough">de la</del>
-          <add seq="2" place="above">en la</add></subst> quelle <del rend="strikethrough">il</del> a agonisé son rêve <del rend="strikethrough">en la réelle</del> <del rend="strikethrough">chimère réelle de sa clarté, et elle</del></add>
+          <add seq="2" place="above">la chimère de la</add></subst>
+          
+          <subst>
+            <del seq="3" rend="strikethrough">de la</del>
+            <add seq="4" place="above">en laquelle <del rend="strikethrough">il</del> a agonisé son rêve <del rend="strikethrough">en la réelle</del> <del rend="strikethrough">chimère réelle de sa clarté, et elle</del></add>
         </subst>
-      </mod><!--rivedere-->  <mod><del rend="strikethrough">, et</del></mod> <sic>et</sic> se reconnaît<lb n="8"/>à l'immémorial geste vacant avec lequel elle<lb n="9"/>s'invite, pour terminer l'antagonisme <mod><del rend="strikethrough">polaire</del></mod>de<lb n="10"/>ce <mod>
+      </mod>  <mod><del rend="strikethrough">, et</del></mod> <sic>et</sic> se reconnaît<lb n="8"/>à l'immémorial geste vacant avec lequel elle<lb n="9"/>s'invite, pour terminer l'antagonisme <mod><del rend="strikethrough">polaire</del></mod>de<lb n="10"/>ce <mod>
         <subst>
           <del rend="overwritten">rêve extrême</del>
           <add place="superscript">songe pôlaire</add>
@@ -1290,7 +1320,7 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
           <subst>
             <del rend="strikethrough">meubles</del>
             <add place="above">l'ameublement</add>
-          </subst></mod> <w>accompli<mod><del rend="strikethrough">s</del></mod></w> qui<!--rivedere--> se<lb n="15"/><w>tasser<mod><subst><del rend="strikethrough">ont</del><add place="superscript">a</add></subst></mod>a</w> en ténèbres comme les tentures, déjà<lb n="16"/><mod>
+          </subst></mod> <w>accompli<mod><del rend="strikethrough">s</del></mod></w> qui se<lb n="15"/><w>tasser<mod><subst><del rend="strikethrough">ont</del><add place="superscript">a</add></subst></mod>a</w> en ténèbres comme les tentures, déjà<lb n="16"/><mod>
             <subst>
               <del rend="strikethrough">enfouies</del>
               <add place="above">alourdies</add>
@@ -1362,12 +1392,13 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
           <del seq="3" place="superscript">accomplie</del>
           <add seq="4" place="above">demeure</add>
         </subst>
-        <del seq="5" rend="strikethrough">demeure</del> <!--rivedere-->
+        <del seq="5" rend="strikethrough">demeure</del> 
       </mod>, <w><mod><subst><del rend="overwritten">t</del><add place="superscript">s</add></subst></mod>e</w> métamorphosera<lb n="4"/>en Éternité.</said>
-      <!--non trovo: Il quitte la chambre <et se perd dans les escaliers,> (au lieu de descendre à cheval sur la rampe)   è un titolo dato da Marchal?-->
+      
       </p>
 
     <pb facs="29.jpg" xml:id="el_29" n="29"/>
+    <!--nota. titolo: "IL QUITTE LA CHAMBRE ET SE PERD DANS LES ESCALIERS, (AU LIEU DE DESCENDRE À CHEVAL SUR LA RAMPE)"-->
       <p xml:id="p_41" n="41">
       <lb n="1"/>L'ombre <mod>
         <subst>
@@ -1417,16 +1448,15 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
 
         <subst>
           <del seq="5" rend="strikethrough">donc c'est</del>
-          <add seq="6" place="above">donc c'est donc encore d'elle !</add>
+          <add seq="6" place="above">donc c'est donc encore </add>
         </subst>
 
         <subst>
           <del seq="7" rend="strikethrough">donc encore</del>
-          <add seq="8" place="above">donc aussi oui encore</add>
-          </subst>
-
-          <del seq="9" rend="strikethrough">donc aussi oui encore</del>
-      </mod><!--rivedere--><lb n="5"/>que <mod>
+          <add seq="8" place="above">d'elle ! donc aussi oui encore</add>
+        </subst>
+        <del seq="9" rend="strikethrough">donc aussi oui encore</del> 
+      </mod><lb n="5"/>que <mod>
         <subst>
           <del seq="1" rend="overwritten">venait</del>
           <add seq="2" place="superscript">fut</add>
@@ -1481,16 +1511,16 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
           <add seq="4" place="below">marquée</add>
         </subst>
       </mod> <choice>
-        <sic><mod><del rend="strikethrough">d'une façon</del></mod></sic>  <!--??-->
+        <sic><mod><del rend="strikethrough">d'une façon</del></mod></sic>  
         <corr>d'une façon</corr>
-      </choice><!--rivedere--> <mod>
+      </choice> <mod>
         <subst>
           <del seq="1" rend="strikethrough">encore</del>
           <add seq="2" place="below">encore</add>
         </subst>
 
       <del seq="3" rend="strikethrough">encore</del>
-      </mod><!--rivedere-->plus <mod>
+      </mod> plus <mod>
         <subst>
           <del seq="1" rend="strikethrough">pressante</del>
           <add seq="2" place="above">nette encore</add>
@@ -1536,7 +1566,7 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
           <del rend="strikethrough">n'atteint plus que<lb n="10"/>sa notion ; mais et </del>
           <add place="above">ne <del rend="strikethrough">S'</del>atteint plus ou - <del rend="strikethrough">ou</del> pas encore <del rend="strikethrough">, et n'atteint que et a sa propre notion</del></add>
         </subst>
-      </mod><!--rivedere--><mod><add place="above">sa notion, et</add></mod> dont <mod><subst>
+      </mod> <mod><add place="above">sa notion, et</add></mod> dont <mod><subst>
         <del rend="strikethrough">le</del>
         <add place="above">un</add>
       </subst></mod> <w>frô<mod><subst><del rend="overwritten">tt</del><add place="superscript">l</add></subst></mod>ement</w> actuel, tel qu'il doit<lb n="11"/>avoir lieu, remplit confusément <mod>
@@ -1547,11 +1577,11 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
 
         <subst>
           <del seq="3" rend="strikethrough">son l'ambiguïté ou l'</del>
-          <add seq="4" place="above">l'équivoque, ou sa cessation, <del seq="5" rend="strikethrough">de l'équ</del></add> <!--rivedere-->
+          <add seq="4" place="above">l'équivoque, ou sa cessation, <del rend="strikethrough">de l'équ</del></add> 
         </subst></mod><lb n="13"/>: comme si <mod>
       <subst>
         <del seq="1" rend="strikethrough">la chûte unique des portes du</del>
-        <add seq="2" place="below">la chûte totale <del seq="3" rend="strikethrough">et étouffé,</del>qui avait été le</add> <!--rivedere-->
+        <add seq="2" place="below">la chûte totale <del rend="strikethrough">et étouffé,</del>qui avait été le</add> 
       </subst></mod><lb n="14"/><mod>
         <subst>
         <del seq="1" rend="strikethrough">bruit</del>
@@ -1703,8 +1733,13 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
 
           <subst>
             <del seq="3" rend="strikethrough">absurde</del>
-          <add seq="4" place="above"><del seq="5" rend="strikethrough">bruyant</del> absurde effrayé de <del rend="strikethrough">la</del> nuit</add>
-        </subst></mod><!--rivedere--> heurté dans <mod>
+          <add seq="4" place="above">bruyant</add>
+          </subst>
+          
+          <subst>
+            <del seq="6" rend="strikethrough">bruyant</del> 
+            <add seq="7" place="above">absurde effrayé de<del rend="strikethrough">la</del> nuit</add>
+        </subst></mod> heurté dans <mod>
           <subst>
             <del seq="1" rend="strikethrough">son</del>
             <add seq="2" place="above">un</add>
@@ -1719,8 +1754,11 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
             <del seq="5" rend="strikethrough">son</del>
             <add seq="6" place="above">un</add>
             </subst>
+            <subst>
             <del seq="7" rend="strikethrough">un</del>
-        </mod><!--rivedere-->son lourd somme<lb n="3"/>par la clarté et prolongeant sa fuite indéfinie. 
+            <add seq="8" place="above">son</add>
+            </subst>
+        </mod> lourd somme<lb n="3"/>par la clarté et prolongeant sa fuite indéfinie. 
       </p>
 
   <pb facs="31.jpg" xml:id="el_31" n="31"/>
@@ -1732,7 +1770,7 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
       </subst></mod> qui avait <mod>
           <add seq="1" place="above">, haletant,</add>
           <del seq="2" rend="strikethrough">, haletant,</del>
-      </mod><!--rivedere--> frôlé cet endroit,<lb n="2"/>ce n'était pas <w>quelqu<mod><subst><del rend="strikethrough">'hôte</del> <add place="superscript">e</add></subst></mod></w> <w>doute<mod><del rend="strikethrough">ux</del></mod></w> <mod>
+      </mod> frôlé cet endroit,<lb n="2"/>ce n'était pas <w>quelqu<mod><subst><del rend="strikethrough">'hôte</del> <add place="superscript">e</add></subst></mod></w> <w>doute<mod><del rend="strikethrough">ux</del></mod></w> <mod>
         <add seq="1" place="above">dernier et haletant de</add>
         <del seq="2" rend="strikethrough">et haletant de</del>
       </mod> de soi, qui remuait<lb n="3"/>ses ailes par hazard en passant, mais le frottement familier<lb n="4"/>et continu d'un âge supérieur, dont maint et maint génie<lb n="5"/>fut soigneux de recueillir toute sa poussière <mod>
@@ -1747,7 +1785,7 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
         </subst>
       </mod><lb n="6"/>sépulcre pour se mirer en <mod>
         <subst>
-          <del seq="1" rend="strikethrough">son propre soi - pour <lb n="7"/>s'apparaître</del>
+          <del seq="1" rend="strikethrough">son propre soi - pour<lb n="7"/>s'apparaître</del>
           <add seq="2" place="above">un soi propre, et de ne pas laisser le moindre soupçon d'animalité,</add>
         </subst>
 
@@ -1755,7 +1793,7 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
           <del seq="3" rend="strikethrough">et de ne pas laisser le moindre soupçon d'animalité,</del>
           <add seq="4" place="above">que nul soupçon (n'en remontât)<add seq="5" place="below">ne le suspendît à son</add> le fil arachnéen pour</add>
           </subst>
-      </mod><!--rivedere--> <w>qu<mod><subst><del rend="strikethrough">'elle</del><add place="superscript">e</add></subst></mod></w> <mod instant="true">
+      </mod> <w>qu<mod><subst><del rend="strikethrough">'elle</del><add place="superscript">e</add></subst></mod></w> <mod instant="true">
         <subst>
           <del seq="1" rend="strikethrough">la N</del>
           <add seq="2">l'Ombre</add>
@@ -1820,9 +1858,9 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
         <subst>
         <del seq="2" rend="overwritten">tenu de</del>
       <add seq="3" place="superscript">dans l'autre;</add>
-    </subst></mod><!--rivedere--> du volume de leurs nuits ;<mod>
+    </subst></mod> du volume de leurs nuits ;<mod>
       <subst>
-        <del seq="1" rend="strikethrough">qu'Elle <lb n="13"/>ferme</del>
+        <del seq="1" rend="strikethrough">qu'Elle<lb n="13"/>ferme</del>
     <add seq="2" place="superscript">fermé</add></subst>
 
     <subst>
@@ -1849,11 +1887,11 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
           <del seq="11" rend="strikethrough">toute apparaissant telles</del>
           <add seq="12" place="above">telles, à présent, se voyant</add>
         </subst>
-  </mod><!--rivedere tutto--> <mod>
+  </mod> <mod>
     <subst>
       <del rend="strikethrough">afin de s'apparaître pures</del>
       <add place="above">pour qu'elle se voie, elle, <del rend="strikethrough">pure</del>pure,</add>
-    </subst><!--rivedere-->
+    </subst>
   </mod> <mod><del rend="strikethrough">afin que</del></mod> l'Ombre, <mod instant="true">
     <subst>
       <del seq="1" rend="strikethrough">pure<lb n="15"/></del>
@@ -1865,7 +1903,7 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
       <add seq="4">se reconnût,</add>
     </subst>
     <del seq="5" rend="strikethrough">se reconnût,</del>
-  </mod><!--rivedere-->ayant <mod instant="true">
+  </mod> ayant <mod instant="true">
     <subst>
       <del seq="1" rend="overwritten">à ses</del>
       <add seq="2" place="superscript">aux pieds</add>
@@ -1877,12 +1915,12 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
       </subst>
 
     <del seq="5" rend="strikethrough">derrière elle</del>
-  </mod><!--rivedere--> <mod>
+  </mod> <mod>
     <subst>
       <del rend="strikethrough">la</del>
       <add place="above">sa</add>
       </subst>
-  </mod> dernière<lb n="16"/><mod><del rend="strikethrough">de ses</del> <w>forme<del rend="strikethrough">s</del></w></mod><!--rivedere--> qu'elle foule, <mod>
+  </mod> dernière<lb n="16"/><mod><del rend="strikethrough">de ses</del></mod> <w>forme<mod><del rend="strikethrough">s</del></mod></w> qu'elle foule, <mod>
     <subst>
       <del seq="1" rend="strikethrough">derrière elle</del>
       <add seq="2" place="above">sous</add>
@@ -2225,7 +2263,7 @@ spanTo="#p22_1"/><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait
     </subst></mod> puisqu'il<lb n="7"/>n'y a plus de futur<mod><del rend="strikethropugh">,</del></mod> <mod>
       <add seq="1" place="above"><sic>représentée<del rend="strikethrough">s</del></sic> encore par l'une d'elles ?</add>
       <del seq="2" rend="strikethrough">encore</del>
-    </mod><!--rivedere--> Ne sont-elles pas toutes<lb n="8"/>deux, à jamais équivalentes<mod><add place="above">, ma réflexion ?</add></mod> Dois-je encore <lb n="9"/>craindre le hazard, cet antique ennemi qui me<lb n="10"/><mod>
+    </mod> Ne sont-elles pas toutes<lb n="8"/>deux, à jamais équivalentes<mod><add place="above">, ma réflexion ?</add></mod> Dois-je encore <lb n="9"/>craindre le hazard, cet antique ennemi qui me<lb n="10"/><mod>
       <subst>
         <del rend="strikethrough">créa les</del>
         <add place="above">divisa en</add>
