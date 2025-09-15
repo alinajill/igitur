@@ -35,7 +35,7 @@
         <listWit>    
           <witness xml:id="MS_46021">Igitur, Déchet, La Folie d'Elbehnon
 
-            <msDesc> <!--aggiustare-->
+            <msDesc> 
               <msIdentifier>
                 <country>France</country>
                 <settlement>Paris</settlement>
@@ -183,7 +183,11 @@
         <del seq="3" rend="overwritten">5</del>
         <add seq="4" place="superscript">4</add>
         </subst>  
-      </mod>
+      </mod><note resp="#BM" type="critical">
+        <cit>
+          <quote>4 overloaded on 5 overloaded on 3</quote>
+          <ref target="#marchal1998"/>
+        </cit></note>
       Morceaux
       <lb n="2"/>
       <lb n="3"/>1 - Le Minuit.
@@ -232,7 +236,11 @@
       <del rend="strikethrough">absolus,</del>
       <add><w>mathé<lb break="no" n="7"/>maticiens</w></add>
       </subst> 
-      </mod>expirates - moi <w>pro<lb break="no" n="8"/>jeté</w> absolu. Devais finir en<lb n="9"/>Infini. Simplement parole et<lb n="10"/>geste. Quant à ce que je vous dis,<lb n="11"/>pour expliquer ma vie. Rien ne<lb n="12"/>restera de nous - L'infini enfin<lb n="13"/>échappé à la famille, qui en a<lb n="14"/>souffert, - vieil espace - pas de
+      </mod>expirates<note resp="#BM" type="critical">
+        <cit>
+          <quote>C. P. Barbier (DSM, VI, p. 445) proposes reading <q rend="pre(«) post(»)">mathématiciens et pirates</q>. If it is true that this reading is graphically plausible (the circumflex accent is not written), it leaves at least perplexed.</quote>
+          <ref target="#marchal1998"/>
+        </cit></note> - moi <w>pro<lb break="no" n="8"/>jeté</w> absolu. Devais finir en<lb n="9"/>Infini. Simplement parole et<lb n="10"/>geste. Quant à ce que je vous dis,<lb n="11"/>pour expliquer ma vie. Rien ne<lb n="12"/>restera de nous - L'infini enfin<lb n="13"/>échappé à la famille, qui en a<lb n="14"/>souffert, - vieil espace - pas de
     </p>
 
     <pb facs="06.jpg" xml:id="el_06" n="6"/>
@@ -345,7 +353,11 @@
 
   <pb facs="09.jpg" xml:id="el_09" n="9"/> 
     <milestone n="1" spanTo="#pecetta_1" type="pecetta" unit="section"/>
-    <ab rend="align-center"><lb n="1"/>Il quitte la chambre</ab>
+    <ab rend="align-center"><lb n="1"/>Il quitte la chambre</ab><note resp="#BM" type="critical">
+      <cit>
+        <quote>The sheet 19 of the manuscript which carries this short note in pencil, was abusively connected by Dr. Bonniot to the last lines of the draft titled <q rend="pre(«) post(»)">Il quitte la chambre...</q></quote>
+        <ref target="#marchal1998"/>
+      </cit></note>
     <lb n="2"/>
     <lb n="3"/><metamark place="below" rend="line"/>
     <p xml:id="p_10" n="10">
@@ -386,7 +398,11 @@
      <anchor xml:id="pecetta_1"/>
 
   <pb facs="10.jpg" xml:id="el_10" n="10"/>
-    <ab rend="align-center">Le coup de dés</ab>
+    <ab rend="align-center">Le coup de dés</ab><note resp="#BM" type="critical">
+      <cit>
+        <quote>This section title appears across the sheet 25 v° of the manuscript</quote>
+        <ref target="#marchal1998"/>
+      </cit></note>
    <metamark function="largeDeletion">
     <ab>
     <mod>
@@ -609,7 +625,11 @@
     <p xml:id="p_23" n="23">
     <mod>
     <delSpan spanTo="#p16_1"/>
-    <lb n="9"/>Et quant au rêve de famille, il a<lb n="10"/>transmué son absolu en la pureté<lb n="11"/>de la race, et en l'idée de cette<lb n="12"/>pureté, qui est sa nécessité, par<lb n="13"/>rapport à l'Absolu, que lui sentit en<lb n="14"/>lui. Maintenant, <mod instant="true">
+    <lb n="9"/>Et quant au rêve de famille, il a<lb n="10"/>transmué son absolu en la pureté<lb n="11"/>de la race, et en l'idée de cette<lb n="12"/>pureté, qui est sa nécessité, par<lb n="13"/>rapport à l'Absolu, que lui sentit<note resp="#BM" type="critical">
+      <cit>
+        <quote>Conjectural reading</quote>
+        <ref target="#marchal1998"/>
+      </cit></note> en<lb n="14"/>lui. Maintenant, <mod instant="true">
       <subst>
         <del rend="strikethrough">l'am</del>
         <add>il va</add>
@@ -660,7 +680,11 @@ spanTo="#p17_1"/><mod><add place="margin-left">ou les dés - hazard absorbé</ad
 
   <pb facs="20.jpg" xml:id="el_20" n="20"/>
     <ab rend="align-center" type="editorial" resp="BM">[Notes 2]</ab>
-    <ab rend="align-center" type="head">Touches</ab>
+    <ab rend="align-center" type="head">Touches</ab><note resp="#BM" type="critical">
+      <cit>
+        <quote>In the manuscript, this sheet 31 is a more developed draft of the note on the sheet 19.</quote>
+        <ref target="#marchal1998"/>
+      </cit></note>
     <p xml:id="p_27" n="27">
     <lb n="1"/>L'heure a sonné - <mod>
       <add place="above">certainement</add>
@@ -753,10 +777,18 @@ spanTo="#p17_1"/><mod><add place="margin-left">ou les dés - hazard absorbé</ad
 
   <pb facs="22.jpg" xml:id="el_22" n="22"/>
     <p xml:id="p_30" n="30">
-    <lb n="1"/><mod><add>Malgré la défense de sa mère, allant jouer dans les tombeaux</add></mod>
+    <lb n="1"/><mod><add>Malgré<note resp="#BM" type="critical">
+      <cit>
+        <quote>This sheet 43 of the manuscript, at least in its second part, is a more developed draft of the note of the sheet 27.</quote>
+        <ref target="#marchal1998"/>
+      </cit></note> la défense de sa mère, allant jouer dans les tombeaux</add></mod>
     <lb n="2"/>Il peut avancer, parce qu'il <mod>
       <subst><del rend="strikethrough">entre</del>
-    <add place="above">va</add></subst></mod><lb n="3"/>dans le mystère (<mod><add place="above">Ne descend-il pas à cheval sur la rampe toute l'obscurité, - tout ce qu'il ignore des siens</add></mod>, corridors oubliés depuis<lb n="4"/>l'enfance)<choice><sic/><corr>.</corr></choice> <choice><sic>Tel</sic> <corr>Telle</corr></choice> est <mod instant="true">
+    <add place="above">va</add></subst></mod><lb n="3"/>dans le mystère (<mod><add place="above">Ne descend-il pas à cheval sur la rampe toute l'obscurité, - tout ce qu'il ignore des siens</add></mod>, corridors oubliés depuis<lb n="4"/>l'enfance)<choice><sic/><corr>.</corr></choice><note resp="#BM" type="critical">
+      <cit>
+        <quote>This parenthesis, which is in most part added, on the manuscript, in the line spacing between the title and the body of the text, might join two different parentheses. We could read: <q rend="pre(«) post(»)">Malgré la défense de sa mère, allant jouer dans les tombeaux / (Ne descend-il pas à cheval sur la rampe toute l'obscurité.) // Il peut avancer, parce qu'il va dans le mystère (-tout ce qu'il ignore des siens, corridors oubliés depuis l'enfance).</q> In any case, the punctuation is incomplete or not very coherent, and Mallarmé opens twice the parentheses.</quote>
+        <ref target="#marchal1998"/>
+      </cit></note><choice><sic>Tel</sic> <corr>Telle</corr></choice> est <mod instant="true">
       <subst>
         <del rend="strikethrough">le pou</del>
         <add>la marche</add>
@@ -766,7 +798,11 @@ spanTo="#p17_1"/><mod><add place="margin-left">ou les dés - hazard absorbé</ad
       <add seq="1" place="above"><!--si trova sopra la riga 10-->(interdiction de sa mère de descendre ainsi, - sa mère qui lui a dit ce qu'il avait à accomplir)</add>
       <add seq="2" place="above"><!--sopra la riga 11-->(pour lui, il va aussi dans un souvenir d'enfance, cette nuit recommandée <choice><sic></sic><corr></corr></choice></add></mod>
       <metamark place="margin-left" rend="parentesi_graffa"
-spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait pas, grand, accomplir l'acte</add></mod><anchor xml:id="p22_1"/>
+spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait pas, grand, accomplir l'acte</add></mod><note resp="#BM" type="critical">
+  <cit>
+    <quote>This paragraph results from two parentheses in the line spacing and from a marginal annotation. The precise insertion of these three elements and their sequence remain uncertain.</quote>
+    <ref target="#marchal1998"/>
+  </cit></note><anchor xml:id="p22_1"/>
     </p>
 
     <ab rend="align-center"><mod><add place="above">Autre gaminerie</add></mod></ab>
@@ -866,7 +902,11 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
       </subst>
     </mod><lb n="24"/>néant<choice><sic/><corr>.</corr></choice>
 
-  = Il boira exprès pour se retrouver. <!--nota-->
+  = Il boira exprès pour se retrouver.<note resp="#BM" type="critical">
+    <cit>
+      <quote>Marginal indication in front of <q rend="pre(«) post(»)">l'existance du Néant en substance</q></quote>
+      <ref target="#marchal1998"/>
+    </cit></note>
     </p>
   </div>
 
@@ -875,7 +915,11 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
   <pb facs="24.jpg" xml:id="el_24" n="24"/>
 
     <ab rend="align-center" type="editorial" resp="BM">[Ébauches]</ab>
-    <ab rend="align-center" type="head">Le Minuit</ab>
+    <ab rend="align-center" type="head">Le Minuit</ab><note resp="#BM" type="critical">
+      <cit>
+        <quote>This section title appears across the sheet 11 v° of the manuscript. The section is composed of four not numbered sheets.</quote>
+        <ref target="#marchal1998"/>
+      </cit></note>
     
   <pb facs="25.jpg" xml:id="el_25" n="25"/>
     <p xml:id="p_35" n="35">
@@ -1207,8 +1251,12 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
 
       <subst>
       <del seq="5" rend="strikethrough">volume</del>
-      <add seq="6" place="above">texte</add>
-    </subst></mod> ouvert que présente la<lb n="20"/>table ; <mod><subst>
+      <add seq="6" place="above"><metamark rend="underline">texte</metamark></add>
+    </subst></mod><note resp="#BM" type="critical">
+      <cit>
+        <quote>Underlined after being crossed-out, it might be the last choice of the poet.</quote>
+        <ref target="#marchal1998"/>
+      </cit></note> ouvert que présente la<lb n="20"/>table ; <mod><subst>
       <del rend="strikethrough">décor</del>
       <add place="above">page et décor</add>
     </subst></mod> <w>ordinaire<mod><add>s</add></mod></w> <w>de<mod><del rend="strikethrough">s</del></mod></w> <mod><add place="above">la</add></mod> <w>Nuit<mod><del rend="strikethrough">s</del></mod></w>, sinon 
@@ -1398,7 +1446,11 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
       </p>
 
     <pb facs="29.jpg" xml:id="el_29" n="29"/>
-    <!--nota. titolo: "IL QUITTE LA CHAMBRE ET SE PERD DANS LES ESCALIERS, (AU LIEU DE DESCENDRE À CHEVAL SUR LA RAMPE)"-->
+    <ab rend="align-center" type="head">IL QUITTE LA CHAMBRE ET SE PERD DANS LES ESCALIERS, (AU LIEU DE DESCENDRE À CHEVAL SUR LA RAMPE)</ab><note resp="#BM" type="critical">
+      <cit>
+        <quote>This section title appears across the sheet 20 v° of the manuscript. The section is composed of eight sheets, of which six are numbered from 1 to 6. One of the two not numbered sheets (f° 20) clearly follows the sheed numbered 6.</quote>
+        <ref target="#marchal1998"/>
+      </cit></note>
       <p xml:id="p_41" n="41">
       <lb n="1"/>L'ombre <mod>
         <subst>
@@ -1763,7 +1815,11 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
 
   <pb facs="31.jpg" xml:id="el_31" n="31"/>
     <p xml:id="p_43" n="43">
-    <lb n="1"/>Car, pour le <mod>
+    <lb n="1"/><note resp="#BM" type="critical">
+      <cit>
+        <quote>The place of this sheet is problematic. Dr. Bonniot had placed it between the sheet numbered 2 (f° 13) and the sheet numbered 3 (f° 15), maybe to respect also the original order of this section. Naturally, it would be tempting to read in continuity the sheets numbered from 1 to 6, and to reject this sheet at the end. But without any evidence in one sense or in the other, we hypothesize that Dr. Bonniot had good reasons to edit the sheets in this order, that we are maintaining, while at the same time warning the reader that another reading is possible: we would pass directly from sheet 2 to sheet 3, and we would read that supernumery sheet after the other seven.</quote>
+        <ref target="#marchal1998"/>
+      </cit></note>Car, pour le <mod>
       <subst>
         <del rend="strikethrough">bruit du plumage</del>
         <add place="above">halètement</add>
@@ -2095,7 +2151,11 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
 
   <pb facs="33.jpg" xml:id="el_33" n="33"/>
     <p xml:id="p_45" n="45">
-    <lb n="1"/><mod>
+    <lb n="1"/><note resp="#BM" type="critical">
+      <cit>
+        <quote>The bottom of the sheet 15 [3] of the manuscript was cut, so that there is a break in continuity with the sheet 16 [4], that follows. In his edition, Dr. Bonniot had written a conjectural <q rend="pre(«) post(»)">Elle</q> before <q rend="pre(«) post(»)">se présente</q> to mask the break in continuity with sheet 15.</quote>
+        <ref target="#marchal1998"/>
+      </cit></note><mod>
       <subst>
         <del rend="strikethrough">m'apparut</del>
         <add place="above">se présente</add>
@@ -2390,10 +2450,18 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
 
   <div n="4" type="drafts" xml:id="drafts_2"> 
     <pb facs="37.jpg" xml:id="el_37" n="37"/>
-    <ab rend="align-center" type="head">Plusieurs ébauches de la sortie de la chambre</ab> 
+    <ab rend="align-center" type="head">Plusieurs ébauches de la sortie de la chambre</ab><note resp="#BM" type="critical">
+      <cit>
+        <quote>This title appears across the sheet 46 v° of the manuscript. Among these drafts, numbered Α, Β, Γ, Δ, Ε (to which it should be added <q rend="pre(«) post(»)">Autre ébauche</q> not numbered) only the last three were published by Dr. Bonniot.</quote>
+        <ref target="#marchal1998"/>
+      </cit></note>
 
   <pb facs="38.jpg" xml:id="el_38" n="38"/>
-    <ab rend="align-center" type="head">Α</ab>
+    <ab rend="align-center" type="head">Α</ab><note resp="#BM" type="critical">
+      <cit>
+        <quote>Of this first draft, incomplete, only remain the firts two sheets, numbered α1 and α2.</quote>
+        <ref target="#marchal1998"/>
+      </cit></note>
     <fw place="top_left" type="head">α I-2</fw>
     <fw place="top_right" type="head">(retrouver l'horloge) épuiser le doute et se retrouver. (Nuit pure)</fw>
     <metamark function="largeDeletion">
@@ -2454,10 +2522,33 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
       </subst>
       <del seq="3" rend="strikethrough">mais qui ne l'était plus</del>
     </mod><lb n="8"/><mod>
-      <subst><del rend="strikethrough">demeurant dans <subst><del rend="strikethrough">le</del><add place="above">son</add></subst> passé oubli, et était sans doute<lb n="9"/>la mesure <subst><del rend="strikethrough">spéciale</del><add place="above">intuitive</add></subst> de ce que restait d'elle</del>
-    <add place="above">un bruit répété et sourd semblable à l'oubli d'un balancier secret qui <subst><del rend="overwritten">s'arrêtera</del>
-    <add place="superscript">va s'arrêter</add></subst><del rend="strikethrough">bientôt</del></add>
-  </subst></mod><!--RIVEDERE TUTTO--> ; <mod>
+      <subst>
+        <del rend="strikethrough">demeurant dans le</del>
+        <add place="above">son</add>
+          </subst></mod> passé oubli, et était sans doute<lb n="9"/>la mesure <mod> 
+            <subst><del seq="1" rend="strikethrough">spéciale</del>
+              <add seq="2" place="above">intuitive de ce que restait d'elle</add></subst>
+              <subst>
+            <del seq="3" rend="strikethrough">de ce que restait d'elle</del>
+            <add seq="4" place="above">un bruit répété et sourd semblable à l'oubli d'un balancier secret qui</add>
+            </subst>
+
+            <subst>
+              <del seq="5" rend="strikethrough">un bruit répété et sourd semblable à l'oubli d'un balancier secret qui</del>
+              <add place="above">un bruit répété et sourd<note resp="#BM" type="critical">
+                <cit>
+                  <quote>We could also read <q rend="pre(«) post(»)">lourd</q></quote>
+                  <ref target="#marchal1998"/>
+                </cit></note> semblable à l'oubli d'un balancier secret qui s'arrêtera</add>
+            </subst>
+
+            <subst>
+              <del seq="6" rend="strikethrough">s'arrêtera</del>
+              <add seq="7" place="superscript">va s'arrêter bientôt</add>
+          </subst>
+
+    <del seq="8" rend="strikethrough">bientôt</del>
+  </mod> ; <mod>
     <subst><del rend="strikethrough">maintenant</del>
     <add place="above">maintenant</add>
     </subst></mod><lb n="10"/>distincte et comme scandant <mod instant="true"><subst>
@@ -2529,7 +2620,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     <del seq="3" rend="strikethrough">manifestée par la</del>
     <add seq="4" place="above">divisée en la tombée d'une</add>
   </subst>
-</mod><!--RIVEDERE--> cendre <mod><del rend="strikethrough">de temps</del></mod> ; <mod instant="true"><subst>
+</mod> cendre <mod><del rend="strikethrough">de temps</del></mod> ; <mod instant="true"><subst>
   <del seq="1" rend="strikethrough">qui</del>
   <add seq="2">mais nul</add>
 </subst>
@@ -2584,7 +2675,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
           <del seq="9" rend="strikethrough">froisser</del>
           <add seq="10" place="above">causer dans l'ombre <del rend="strikethrough">d'autr</del></add>
         </subst>
-    </mod><!--RIVEDERE TUTTO--> non <mod><del rend="strikethrough">sous</del></mod> le ventre velouté<lb n="6"/>de monstruosités nocturnes, mais <mod>
+    </mod> non <mod><del rend="strikethrough">sous</del></mod> le ventre velouté<lb n="6"/>de monstruosités nocturnes, mais <mod>
       <subst>
         <del rend="overwritten">sur le</del>
         <add place="superscript">un velours</add>
@@ -2677,14 +2768,18 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
       <del seq="9" rend="strikethrough">n'avait pas épuissé d'effroi et qu'y y deme qui la séparait de son extériorité</del>
       <add seq="10" place="below">l'horreur pure qu'elle n'avait pas <choice><sic>eu</sic><corr>eue</corr></choice> d'elle</add>
       </subst>
-  </mod><!--RIVEDERE-->
+  </mod>
     <anchor xml:id="p38_1"/>
     </mod>
     </p>
     </metamark>
 
  <pb facs="40.jpg" xml:id="el_40" n="40"/>  
-    <ab rend="align-center" type="head">Β</ab>
+    <ab rend="align-center" type="head">Β</ab><note resp="#BM" type="critical">
+      <cit>
+        <quote>The draft Β includes four sheets, all of them deleted by a diagonal trait. only the first one is missing (as Mallarmé noted on the sheet 51).</quote>
+        <ref target="#marchal1998"/>
+      </cit></note>
     <fw place="top_left" type="head">β 2-5</fw>
     <metamark function="largeDeletion">
     <p xml:id="p_52" n="52">
@@ -2764,7 +2859,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
       <del seq="4" rend="strikethrough">se to</del>
       <add seq="5">devait</add>
       </subst>
-    </mod><!--rivedere--> se présenter, <mod>
+    </mod> se présenter, <mod>
       <subst>
         <del rend="strikethrough">et qu'elle<lb n="2"/>devait continuer</del>
         <add place="above">avait à continuer l'autre moitié</add>
@@ -2777,10 +2872,14 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     </mod> elle se rappela que la lueur<mod instant="true"><del rend="strikethrough">,<lb n="4"/>lorsqu'elle lui</del></mod>lui était apparue, <mod>
       <subst>
         <del rend="strikethrough">d'abord,<lb n="5"/>ascensionelle</del>
-        <add place="above">en faisant halte, comme un evasion</add>
+        <add place="above"><choice><sic>en faisant halte, comme un evasion</sic> <corr></corr></choice></add>
       </subst>
-      <add place="below">comme un feu,</add>
-    </mod><!--Qui Marchal mantiene entrambee le alternative nella trascrizione ma nell'interpretativa tiene solo 'comme un feu'--> et <mod><del rend="strikethrough">la</del></mod>regardant, <mod>
+      <add place="below">comme un feu,</add><note resp="#BM" type="critical">
+        <cit>
+          <quote>In the manuscript, <q rend="pre(«) post(»)">comme un feu</q> replaces <q rend="pre(«) post(»)">comme une évasion</q>, even though this reading (that formed a repetition with <q rend="pre(«) post(»)">son évasion</q> two lines after was not deleted.</quote>
+          <ref target="#marchal1998"/>
+        </cit></note>
+    </mod> et <mod><del rend="strikethrough">la</del></mod>regardant, <mod>
       <subst>
         <del rend="strikethrough">les hauteurs<lb n="6"/>qu'elle éclarait</del>
         <add place="above">à ses pieds la vit enfoncée tenue par son personnage, <add seq="3" place="above">miré en sa sécurité,</add> tandis qqu'en haut il n'y avait rien que son évasion :</add>
@@ -3091,7 +3190,11 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     </metamark>
 
   <pb facs="44.jpg" xml:id="el_44" n="44"/> 
-    <ab rend="align-center" type="head">Γ</ab>
+    <ab rend="align-center" type="head">Γ</ab><note resp="#BM" type="critical">
+      <cit>
+        <quote>The draft Γ, that includes five sheets, is the first complete draft in the manuscript.</quote>
+        <ref target="#marchal1998"/>  
+      </cit></note>
     <fw place="top_left" type="head">γ I-5</fw>
 
     <p xml:id="p_56" n="56">
@@ -3141,9 +3244,9 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
         <add seq="6" place="above">que</add>
       </subst>
     </mod> l'oscillation hésitante<lb n="5"/>et prête à s'arrêter <mod>
-      <add place="above">come celle d'</add>
-      <del rend="strikethrough">come celle</del>
-    </mod><!--rivedere-->un balancier caché qui<lb n="6"/>commence <mod>
+      <add seq="1" place="above">come celle d'</add>
+      <del seq="2" rend="strikethrough">come celle</del>
+    </mod> un balancier caché qui<lb n="6"/>commence <mod>
       <subst>
         <del seq="1" rend="strikethrough">à sentir son poids</del>
         <add seq="2">à se sentir</add>
@@ -3327,15 +3430,23 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
         <del seq="3" rend="overwritten">ses</del>
         <add seq="4" place="superscript">ces</add>
       </subst>
-    </mod><lb n="14"/><mod><!--rivedere-->
+    </mod><lb n="14"/><mod>
       <subst>
         <del seq="1" rend="strikethrough">d'apparaître comme des vraies ombres indefinies</del>
-        <add seq="2" place="above">ombres <del rend="strikethrough">pures, des</del> des deux côtés <del rend="strikethrough">pures</del> multipliées à l'infini apparussent comme des ombres pures</add>
+        <add seq="2" place="above">ombres pures, des</add>
+      </subst>
+      <subst>
+          <del seq="3" rend="strikethrough">pures, des</del>
+        <add seq="4" place="above">des deux côtés pures</add>
+      </subst>
+      <subst>
+      <del seq="5" rend="strikethrough">pures</del> 
+      <add seq="6" place="above">multipliées à l'infini apparussent comme des ombres pures</add>
       </subst>
 
       <subst>
-        <del seq="3" rend="strikethrough">des ombres pures</del>
-        <add seq="4" place="above">de pures ombres</add>
+        <del seq="7" rend="strikethrough">des ombres pures</del>
+        <add seq="8" place="above">de pures ombres</add>
       </subst>
     </mod> <lb n="15"/>portant chacune le <mod>
       <subst>
@@ -3504,7 +3615,11 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     </p>
 
   <pb facs="49.jpg" xml:id="el_49" n="49"/> 
-    <ab rend="align-center" type="head">Δ</ab>
+    <ab rend="align-center" type="head">Δ</ab><note resp="#BM" type="critical">
+      <cit>
+        <quote>The draft Δ, that includes five sheets, is complete like the draft Γ, but the first sheet was deleted with a diagonal trait.</quote>
+        <ref target="#marchal1998"/>
+      </cit></note>
     <fw place="top_left" type="head">σ I-5</fw>
     <metamark function="largeDeletion">
     <p xml:id="p_61" n="61">
@@ -3632,7 +3747,11 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
 
         <subst>
           <del seq="11" rend="strikethrough">encore d'elle</del>
-          <add seq="12" place="above">encore qui s'enfonce en elle</add>
+          <add seq="12" place="above">encore qui<note resp="#BM" type="critical">
+            <cit>
+              <quote>Between <q rend="pre(«) post(»)">encore</q> and <q rend="pre(«) post(»)">qui</q>, Mallarmé added, in the superior line spacing of the manuscript, three letters in small characters that can be read <q rend="pre(«) post(»)">dès</q> or <q rend="pre(«) post(»)">dis</q>. This is what allowed Dr. Bonniot to read <q rend="pre(«) post(»)">de ce qui luit encore dès qu'il s'enfonce en elle</q>, despite Mallarmé did not correct <q rend="pre(«) post(»)">qui</q> with <q rend="pre(«) post(»)">qu'il</q>. These three letters can be also be the beginning of an abandoned word, like <q rend="pre(«) post(»)">distintement</q>.</quote>
+            <ref target="#marchal1998"/>
+            </cit></note> s'enfonce en elle</add>
         </subst>
     </mod> <mod><add place="below">qu'elle rentre en soi,</add></mod><lb n="8"/><mod>
       <subst>
@@ -3984,7 +4103,11 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     </p>
 
   <pb facs="54.jpg" xml:id="el_54" n="54"/> 
-<ab rend="align-center" type="head">Ε</ab>    
+<ab rend="align-center" type="head">Ε</ab><note resp="#BM" type="critical">
+  <cit>
+    <quote>The sheet that Dr. Bonniot published like draft Ε, sheet 42 (r° and v°) of the manuscript, do not carry the epsilon (the Ε written in pencil that can be read on the manuscript was not written by Mallarmé). The only sheets that carry an ε written by Mallarmé are the sheets 12 v° (ε1) and 16 v° (ε2). However, ε2 is not the continuation of ε1, but represent another state of the last line of this fragment. On the contrary, ε2 is evidently connected to the sheet 48 v° (that does not carry any distinctive mark). We could then think that the sheets 48 v° and 16 v° represent a first state of the sheet 12 v° (ε1). We will publish in this order the three sheets.</quote>
+    <ref target="#marchal1998"/>
+  </cit></note>  
 <metamark function="largeDeletion">
     <p xml:id="p_67" n="67">
     <mod>
@@ -4037,7 +4160,11 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
         <del rend="strikethrough">en elle</del>
         <add place="above">une</add>
         </subst>
-    </mod>, et que <mod instant="true"><del rend="strikethrough">c'est</del></mod> d'elle par conséquent<lb n="8"/><mod><del rend="strikethrough">que</del></mod> provenait <mod>
+    </mod>, et vit<note resp="#BM" type="critical">
+      <cit>
+        <quote>Mallarmé added <q rend="pre(«) post(»)">vit</q> in the line spacing of the manuscript, but before the <q rend="pre(«) post(»)">et</q>. We will propose the logic order.</quote>
+        <ref target="#marchal1998"/>
+      </cit></note> que <mod instant="true"><del rend="strikethrough">c'est</del></mod> d'elle par conséquent<lb n="8"/><mod><del rend="strikethrough">que</del></mod> provenait <mod>
       <subst>
         <del rend="strikethrough">ce bruit perçu</del>
         <add place="above">le battement</add>
@@ -4235,7 +4362,11 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
         <del seq="9" rend="strikethrough">retournée à son</del>
         <add seq="10" place="above">disparue en son obscurité</add>
       </subst>
-    </mod>, la Nuit demeura<lb n="2"/>avec une perception oscillatoire de <choice><sic>balancier</sic><corr></corr></choice> <mod><add place="above">pendule</add></mod> qui va expirer,<lb n="3"/><mod>
+    </mod>, la Nuit demeura<lb n="2"/>avec une perception oscillatoire de <choice><sic>balancier</sic><corr></corr></choice> <mod><add place="above">pendule</add></mod><note resp="#BM" type="critical">
+      <cit>
+        <quote>On the manuscript, the indecision is kept between the first word <q rend="pre(«) post(»)">balancier</q>, and the variant <q rend="pre(«) post(»)">pendule</q>.</quote>
+        <ref target="#marchal1998"/>
+      </cit></note> qui va expirer,<lb n="3"/><mod>
       <subst>
         <del rend="strikethrough">alors qu'il a</del>
         <add place="above">ayant</add>
@@ -4360,7 +4491,11 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     </mod> de l'autre, l'idée<lb n="8"/><mod><del rend="strikethrough">l'idée</del></mod> de mouvement persista, régulièrement scandée par<lb n="9"/>le double heurt <mod>
       <subst>
         <del rend="strikethrough">que n'atteignait plus le balancier abandonné</del>
-        <add place="above">impossible du balancier qui ne <del rend="strikethrough">l'</del> s'atteignait plus, <del rend="strikethrough">songé,</del></add>
+        <add place="above">impossible<note resp="#BM" type="critical">
+          <cit>
+            <quote>We could also read <q rend="pre(«) post(»)">impassible</q>.</quote>
+            <ref target="#marchal1998"/>
+          </cit></note> du balancier qui ne <del rend="strikethrough">l'</del> s'atteignait plus, <del rend="strikethrough">songé,</del></add>
       </subst>
     </mod><lb n="10"/><mod>
       <subst>
@@ -4546,7 +4681,11 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     </metamark>
 
   <pb facs="57.jpg" xml:id="el_57" n="57"/> 
-    <ab rend="align-center" type="head">AUTRE ÉBAUCHE</ab>
+    <ab rend="align-center" type="head">AUTRE ÉBAUCHE</ab><note resp="#BM" type="critical">
+      <cit>
+        <quote>This <q rend="pre(«) post(»)">Autre ébauche</q> (the title appears across the sheet 50 of the manuscript) , that presents an intermediary state between between the draft Ε and the version considered as the final one (<q rend="pre(«) post(»)">Il quitte la chambre...</q>) groups the sheets that are not marked by a Greek letter, including the sheet 42 (r° and v°) that was published by Dr. Bonniot as draft Ε, followed by the sheets 18 v° and 50 r°. The sheet 42 v° is numbered 3, while the sheets 18 v° and 50 r° respectively carry the numbers 4 and 5.</quote>
+        <ref target="#marchal1998"/>
+      </cit></note>
     <metamark function="largeDeletion">
     <p xml:id="p_72" n="72">
     <mod>
@@ -5053,7 +5192,11 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
         <del rend="strikethrough">la fuite</del>
         <add place="above">le prolongement</add>
       </subst>
-    </mod><lb n="24"/>absurde de mon hôte antérieur, qui sembla fuir<lb n="25"/>indéfiniment. Je prends au hazard : l'un est l'autre. 
+    </mod><note resp="#BM" type="critical">
+      <cit>
+        <quote>The group of words <q rend="pre(«) post(»)">par le prolongement</q> makes, in the manuscript, an interlinear addition destined to correct the first version <q rend="pre(«) post(»)">par la fuite</q>, to avoid the repetition with <q rend="pre(«) post(»)">fuir</q> in the following line, but <q rend="pre(«) post(»)">par la fuite</q> was not deleted.</quote>
+        <ref target="#marchal1998"/>
+      </cit></note><lb n="24"/>absurde de mon hôte antérieur, qui sembla fuir<lb n="25"/>indéfiniment. Je prends au hazard : l'un est l'autre. 
     En effet je reconnais le même bruit <mod instant="true"><del rend="strikethrough">amig</del></mod> dédoublé, 
     <anchor xml:id="p59_3"/>
     </mod>
@@ -5116,7 +5259,11 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
 
   <pb facs="61.jpg" xml:id="el_61" n="61"/>
   <div n="5" type="drafts" xml:id="drafts_3">
-  <ab rend="align-center" type="head">[Fragments d'ébauches]</ab>
+  <ab rend="align-center" type="head">[Fragments d'ébauches]</ab><note resp="#BM" type="critical">
+    <cit>
+      <quote>We will publish under this title three fragments of the manuscript that are connected to the second part of <q rend="pre(«) post(»)">Igitur</q> (<q rend="pre(«) post(»)">Il quitte la chambre...</q>) and that does not belong to any of the drafts numbered with the Greek letters. The fragment of the sheet 15 v° represent a state of the exit from the room posterior to the one of the last draft (f° 42) and anterior to the definitive state; the fragment of the sheet 51 r°, which substance can be found in γ1 (<q rend="pre(«) post(»)">Le bruit, bientôt se scanda d'une façon plus définitive [...] tourné longuement sur eux-mêmes. Enfin</q>), is anterior to Γ and posterior to Α (the sheet that corresponds to Β is missing); regarding the fragment of the sheet 40 v°, it is without doubt anterior to the draft Β; it could be linked to the draft Α, that remained incomplete.</quote>
+      <ref target="#marchal1998"/>
+    </cit></note>
   <metamark function="largeDeletion">
   <p xml:id="p_80" n="80">
   <mod>
@@ -5168,7 +5315,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
           <del seq="5" rend="strikethrough">c'est donc</del>
           <add seq="6" place="below">sait que c'est donc</add>
         </subst>
-      </mod> d'elle que venait, <mod><add place="above">nul doute,</add></mod> le battement<lb n="6"/><!--linea l 6 e 7-->ouï, dont le bruit total <mod><del rend="strikethrough">tomba</del></mod> à jamais <w><mod><add seq="1" place="above">re</add><del seq="2" rend="strikethrough">re</del></mod>tomba</w> dans le<lb n="7"/>passé.
+      </mod> d'elle que venait, <mod><add place="above">nul doute,</add></mod> le battement<lb n="6"/>ouï, dont le bruit total <mod><del rend="strikethrough">tomba</del></mod> à jamais <w><mod><add seq="1" place="above">re</add><del seq="2" rend="strikethrough">re</del></mod>tomba</w> dans le<lb n="7"/>passé.
     <anchor xml:id="p61_1"/>
     </mod>
     </p>
@@ -5318,7 +5465,6 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
    <p xml:id="p_82" n="82">
   <mod>
   <delSpan spanTo="#p62_1"/>
-  <!--DA QUI-->
     <lb n="1"/>Seulement que pouvait être ce <metamark rend="underline">bruit</metamark>, dont le<lb n="2"/>scandement était devenu beaucoup plus net, mais plus<lb n="3"/>pressé, de façon que l'intervalle disparu était remplacé<lb n="4"/>par un frottement <mod instant="true"><del rend="underline">, comme les</del></mod> incertain, comme si toute<lb n="5"/>la certitude de l'intervalle devait se retrouver en une seule fois,<lb n="6"/>et les parois, du reste, <mod instant="true"><del rend="underline">sur lesquels</del></mod> dans lesquel[le]s se<lb n="7"/><w>mirai<mod><del rend="strikethrough">en</del></mod>t</w> la lueur avec cette netteté détestable, se resserraient<lb n="8"/>d'une façon <mod><del rend="strikethrough">opp</del></mod> qui opprimait. Enfin
     <anchor xml:id="p62_1"/>
     </mod>
@@ -5361,7 +5507,11 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     </metamark>
 
   <pb facs="64.jpg" xml:id="el_64" n="64"/>  <!--esempio di foglio scritto a penna con correzioni a matita-->
-      <ab rend="top_left" type="head"><metamark rend="underline">Vie d'Igitur</metamark></ab> 
+      <ab rend="top_left" type="head"><metamark rend="underline">Vie d'Igitur</metamark></ab><note resp="#BM" type="critical">
+        <cit>
+          <quote>This title section appears across the sheet 24 v° of the manuscript.</quote>
+          <ref target="#marchal1998"/>
+        </cit></note>
 
       <seg style="
             display: block;
@@ -5502,8 +5652,11 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
 </div>
 
 <div n="6" type="drafts" xml:id="drafts_4">
-  <ab rend="align-center" type="editorial" resp="BM">[Brouillon du <q rend="pre(«) post(»)">Minuit</q>]</ab>
-  
+  <ab rend="align-center" type="editorial" resp="BM">[Brouillon du <q rend="pre(«) post(»)">Minuit</q>]</ab><note resp="#BM" type="critical">
+    <cit>
+      <quote>This fragment, written entirely in pencil and deleted through multiple diagonal traits, appears on the back of the sheet 24. Being used as chemise for the section <q rend="pre(«) post(»)">Vie d'Igitur</q>, this title appears across the text. However, this fragment should not be connected with <q rend="pre(«) post(»)">Vie d'Igitur</q>, but to the section titled <q rend="pre(«) post(»)">Le Minuit</q> that offers, under the shape of a very crossed-out draft, a first version.</quote>
+      <ref target="#marchal1998"/>
+    </cit></note>
   <pb facs="67.jpg" xml:id="el_67" n="67"/>
   <metamark function="largeDeletion">
   <p xml:id="p_87" n="87">
@@ -5556,7 +5709,11 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
           <add place="above"><choice><sic>lequel</sic><corr></corr></choice></add></subst>
     </mod> <mod>
       <del rend="strikethrough"><gap reason="illegible" extent="11" unit="characters"/></del>
-    </mod>, et je me <mod>
+    </mod><note resp="#BM" type="critical">
+      <cit>
+        <quote>Incomplete correction in the manuscript, that results in a truncated sentence.</quote>
+        <ref target="#marchal1998"/>
+      </cit></note>, et je me <mod>
       <subst>
         <del rend="strikethrough">rappelle</del>
         <add place="above">souviens de</add>
@@ -5582,7 +5739,11 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
 
       <subst>
         <del seq="3" rend="strikethrough">faisant mystérieusement</del>
-      <add seq="4" place="above">indiquant sur ta complication stellaire et marine les occurrences externes du jeu des mondes</add>      
+      <add seq="4" place="above">indiquant<note resp="#BM" type="critical">
+        <cit>
+          <quote>Conjectural reading in the manuscript.</quote>
+          <ref target="#marchal1998"/>
+        </cit></note> sur ta complication stellaire et marine les occurrences externes du jeu des mondes</add>      
     </subst>
     </mod> mais je<lb n="19"/>puis dire, faisant allusion aux souvenirs d'une race que tu évoques, que<lb n="20"/>jamais sur ces <mod instant="true">
       <subst>
@@ -5662,7 +5823,34 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
 
 </div>
 
-
     </body>
+<back>
+  <listBibl>
+    <biblStruct xml:id="marchal1998">
+      <monogr>
+        <author>
+          <persName>
+            <forename>Stéphane</forename>
+            <surname>Mallarmé</surname>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <forename>Bertrand</forename>
+            <surname>Marchal</surname>
+          </persName>
+        </editor>
+        <title level="m">Œuvres complètes</title>
+        <imprint>
+          <biblScope unit="volume">I</biblScope>
+          <pubPlace>Paris</pubPlace>
+          <publisher>Gallimard</publisher>
+          <date when="1998">1998</date>
+          <biblScope unit="collection">Bibliothèque de la Pléiade</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+  </listBibl>
+</back>
   </text>
 </TEI>
