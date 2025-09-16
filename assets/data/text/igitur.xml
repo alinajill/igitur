@@ -795,8 +795,8 @@ spanTo="#p17_1"/><mod><add place="margin-left">ou les dés - hazard absorbé</ad
       </subst>
     </mod> <mod><add place="above">inverse</add></mod>de la<lb n="5"/><mod><subst><del rend="strikethrough">science</del>
     <add place="above"><metamark rend="underline">notion</metamark> dont il n'a pas connu l'ascension, étant, adolescent, arrivé à l'Absolu</add></subst></mod> : spirale, au haut de laquelle il<lb n="6"/>demeurait en Absolu, incapable de<lb n="7"/>bouger, on éclaire et l'on plonge dans la<lb n="8"/>nuit à mesure. Il croit traverser les<lb n="9"/>destins de cette nuit fameuse : enfin il<lb n="10"/>arrive où il doit arriver, et voit<lb n="11"/>l'acte qui le sépare de la mort. <mod>
-      <add seq="1" place="above"><!--si trova sopra la riga 10-->(interdiction de sa mère de descendre ainsi, - sa mère qui lui a dit ce qu'il avait à accomplir)</add>
-      <add seq="2" place="above"><!--sopra la riga 11-->(pour lui, il va aussi dans un souvenir d'enfance, cette nuit recommandée <choice><sic></sic><corr></corr></choice></add></mod>
+      <add seq="1" place="above">(interdiction de sa mère de descendre ainsi, - sa mère qui lui a dit ce qu'il avait à accomplir)</add>
+      <add seq="2" place="above">(pour lui, il va aussi dans un souvenir d'enfance, cette nuit recommandée <choice><sic></sic><corr></corr></choice></add></mod>
       <metamark place="margin-left" rend="parentesi_graffa"
 spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pourrait pas, grand, accomplir l'acte</add></mod><note resp="#BM" type="critical">
   <cit>
@@ -5466,15 +5466,16 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
   <mod>
   <delSpan spanTo="#p62_1"/>
     <lb n="1"/>Seulement que pouvait être ce <metamark rend="underline">bruit</metamark>, dont le<lb n="2"/>scandement était devenu beaucoup plus net, mais plus<lb n="3"/>pressé, de façon que l'intervalle disparu était remplacé<lb n="4"/>par un frottement <mod instant="true"><del rend="underline">, comme les</del></mod> incertain, comme si toute<lb n="5"/>la certitude de l'intervalle devait se retrouver en une seule fois,<lb n="6"/>et les parois, du reste, <mod instant="true"><del rend="underline">sur lesquels</del></mod> dans lesquel[le]s se<lb n="7"/><w>mirai<mod><del rend="strikethrough">en</del></mod>t</w> la lueur avec cette netteté détestable, se resserraient<lb n="8"/>d'une façon <mod><del rend="strikethrough">opp</del></mod> qui opprimait. Enfin
-    <anchor xml:id="p62_1"/>
-    </mod>
-    </p>
-    </metamark>
+   
    <seg style="transform: rotate(180deg);
             display: block;
             text-align: center;
             margin-top: 2em;">
             <lb/>β Ière <w>feuille<mod><add>s</add></mod></w> <w>manque<mod><add>nt</add></mod></w> (voir <mod><del rend="strikethrough">b.</del></mod> <lb/>et 2e voir γ 3 (verso).</seg>
+             <anchor xml:id="p62_1"/>
+    </mod>
+    </p>
+    </metamark>
 
   <pb facs="63.jpg" xml:id="el_63" n="63"/>
   <metamark function="largeDeletion">
@@ -5507,13 +5508,13 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     </metamark>
 
   <pb facs="64.jpg" xml:id="el_64" n="64"/>  <!--esempio di foglio scritto a penna con correzioni a matita-->
-      <ab rend="top_left" type="head"><metamark rend="underline">Vie d'Igitur</metamark></ab><note resp="#BM" type="critical">
+   <ab rend="top_left" type="head"><metamark rend="underline">Vie d'Igitur</metamark></ab><note resp="#BM" type="critical">
         <cit>
           <quote>This title section appears across the sheet 24 v° of the manuscript.</quote>
           <ref target="#marchal1998"/>
         </cit></note>
 
-      <seg style="
+    <seg style="
             display: block;
             text-align: margin-left;
             text-orientation: sideways-left; float: left;
@@ -5530,7 +5531,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
       </subst>
     </mod> fixée sur <mod>
       <subst>
-        <del rend="trikethrough">toi, pend</del>
+        <del rend="strikethrough">toi, pend</del>
         <add place="above">l'horloge.</add>
       </subst>
     </mod><lb n="2"/>Certes, j'ai tout fait pour que le temps <w>qu<mod><subst><del rend="strikethrough">e tu</del><add place="above">'elle</add></subst></mod></w> <w>sonna<mod><del rend="strikethrough">s</del></mod></w><lb n="3"/><metamark rend="underline">restât</metamark> <mod><add place="above">présent</add></mod> dans la chambre, et + devînt pour moi la pâture<lb n="4"/>et la vie - j'ai épaissi les rideaux, et comme<lb n="5"/>j'étais obligé pour ne pas douter de moi de m'asseoir<lb n="6"/>en face de cette glace, <mod><del rend="strikethrough">bien,</del></mod> j'ai recueilli précieusement<lb n="7"/>les moindres atômes du temps dans des étoffes sans<lb n="8"/>cesse épaissies - <mod><subst>
@@ -5548,8 +5549,8 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
 </mod> (<metamark rend="underline">En effet, Igitur a été projeté hors du  par sa race.</metamark>) <mod><del rend="strikethrough">hhorloge d'or marquant les maréees et les astres</del></mod>
     </p>
   <!--FOGLIO STRAPPATO-->
-
-  <pb facs="65.jpg" xml:id="el_65" n="65"/>
+  
+<pb facs="65.jpg" xml:id="el_65" n="65"/>
     <p xml:id="p_85" n="85">
     <lb n="1"/>Voici en somme Igitur, depuis que son Idée a été<lb n="2"/>complétée : - Le passé <mod><add place="above">compris<metamark place="above" rend="line"/></add></mod> de sa race qui pèse sur lui <mod>
       <add place="above">en <metamark rend="underline"/>la sensation de fini +</add>
@@ -5641,7 +5642,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
       </subst>
     </mod> ne le laissant même pas à l'ennui qu'il<lb n="24"/>implore et <w><mod><subst><del rend="overwritten">R</del><add place="superscript">r</add></subst></mod></w>êve. Impuissant de l'ennui.
     </p>
-    <!--FOGLIO TAGLIATO-->
+   <!--FOGLIO TAGLIATO-->
 
   <pb facs="66.jpg" xml:id="el_66" n="66"/>
         <ab rend="top_left" type="head"><metamark rend="underline">Ig. raconte sa vie</metamark> - les <mod><del rend="strikethrough">journées -</del></mod></ab> 
@@ -5652,16 +5653,18 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
 </div>
 
 <div n="6" type="drafts" xml:id="drafts_4">
-  <ab rend="align-center" type="editorial" resp="BM">[Brouillon du <q rend="pre(«) post(»)">Minuit</q>]</ab><note resp="#BM" type="critical">
+  <pb facs="67.jpg" xml:id="el_67" n="67"/>
+    <ab rend="align-center" type="editorial" resp="BM">[Brouillon du <q rend="pre(«) post(»)">Minuit</q>]</ab><note resp="#BM" type="critical">
     <cit>
       <quote>This fragment, written entirely in pencil and deleted through multiple diagonal traits, appears on the back of the sheet 24. Being used as chemise for the section <q rend="pre(«) post(»)">Vie d'Igitur</q>, this title appears across the text. However, this fragment should not be connected with <q rend="pre(«) post(»)">Vie d'Igitur</q>, but to the section titled <q rend="pre(«) post(»)">Le Minuit</q> that offers, under the shape of a very crossed-out draft, a first version.</quote>
       <ref target="#marchal1998"/>
-    </cit></note>
-  <pb facs="67.jpg" xml:id="el_67" n="67"/>
+    </cit></note>g
   <metamark function="largeDeletion">
   <p xml:id="p_87" n="87">
   <mod>
   <delSpan spanTo="#p67_1"/>
+
+
     <lb n="1"/>Cette fois l'heure ne tombe plus hors de moi, pour<lb n="2"/>alourdir le temps enfoui dans les rideaux, ni,<lb n="3"/>quand je l'implore, fuir par la glace, c'est<lb n="4"/>en moi qu'elle tombe éveillant <w>ce<mod><add>tte</add></mod></w> <mod instant="true"><del rend="strikethrough">souvenir</del></mod> conscience<lb n="5"/>de moi par le souvenir, <mod><del rend="strikethrough">puis</del></mod> - elle recrée mon<lb n="6"/><mod instant="true"><del rend="strikethrough">corps</del></mod> être et me redonne la sensation de ce que<lb n="7"/>je dois faire.
     <anchor xml:id="p67_1"/>
     </mod>
@@ -5672,10 +5675,10 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
   <p xml:id="p_88" n="88">
   <mod>
   <delSpan spanTo="#p67_2"/>
-    <lb n="8"/>Il m'a semblé entendre le son spécial d'un Minuit.<lb n="9"/>L'heure est<mod><del rend="strikethrough">-elle?</del><choice><sic></sic><corr>-elle?</corr>
-</choice>Ce que jette l'horloge <w>n<mod>
+    <lb n="8"/>Il m'a semblé entendre le son spécial d'un Minuit.<lb n="9"/>L'heure est<mod><del rend="strikethrough">-elle?</del><!--<choice><corr>-elle?</corr>
+</choice>--></mod>Ce que jette l'horloge <w>n<mod>
       <subst><del rend="overwritten">e</del><add place="superscript">'est</add></subst></mod></w>
-    </mod> <mod>
+   <mod>
       <subst>
         <del seq="1" rend="strikethrough">va-t-il plus</del>
         <add seq="2" place="above">s'est</add>
@@ -5688,7 +5691,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     </mod>,<lb n="10"/><mod>
       <subst>
         <del rend="strikethrough">indéfini s'enfouir parmi</del>
-        <add place="above">indéfini <del rend="strikethrough">et perdu</del>, remplir</add>
+        <add place="above">indéfini <del rend="strikethrough">et perdu,</del> remplir</add>
       </subst>
     </mod> des rideaux <mod><del rend="strikethrough">inquiets <gap reason="illegible" extent="13" unit="characters"/></del></mod><lb n="11"/>ou se perdre par <mod instant="true">
       <subst>
@@ -5698,10 +5701,9 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
         <del rend="strikethrough">pour<lb n="12"/>combler son vide,</del></mod> <mod>
           <subst>
           <del rend="strikethrough">toujours extérieure à moi, qui l'implore ?</del>
-        <add place="above">
-    me laissant toujours extérieur <choice><sic>à elle</sic>
+        <add place="above">me laissant toujours extérieur <choice><sic>à elle</sic>
       <corr>à elle</corr>
-    </choice>
+        </choice>
   </add>
     </subst>
         </mod>.<lb n="13"/>Non, au son très certain d'un Minuit, <w>j<mod><subst><del rend="overwritten">e</del><add place="superscript">'ai</add></subst></mod></w> <w>reconn<mod><subst><del rend="overwritten">ais</del><add place="superscript">u</add></subst></mod></w><lb n="14"/><mod><add place="above">d'abord</add></mod> que l'instant était ici, et, comme un seul instant peut être<lb n="15"/><mod><subst>
@@ -5718,8 +5720,8 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
         <del rend="strikethrough">rappelle</del>
         <add place="above">souviens de</add>
       </subst>
-    </mod> moi-même. Longtemps, oh longtemps, quand tu<lb n="16"/>sonnais en vain, <mod>
-      <add seq="1"><metamark place="above" rend="line"/>maintenant une atmosphère d'absence, de temps</add>
+    </mod> moi-même. Longtemps, oh longtemps, quand tu<lb n="16"/>sonnais en vain,<metamark place="above" rend="line"/><mod>
+      <add seq="1">maintenant une atmosphère d'absence, de temps</add>
     <del seq="2" rend="strikethrough">, de temps</del></mod>, ton son d'or revenait à toi dans ma rêverie et<lb n="17"/><mod><add>t'y</add></mod> créait <mod>
       <subst>
       <del seq="1" rend="strikethrough">à mes yeux</del>
@@ -5775,7 +5777,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
         <del rend="strikethrough">telle qu'elle st, ô minute,</del>
       </mod> je doute <mod>
         <del rend="strikethrough">crains</del>
-      </mod> <w>qu<mod><subst><del rend="overwritten">'il</del></subst><add place="superscript">e</add></mod></w> <mod>
+      </mod> <w>qu<mod><subst><del rend="overwritten">'il</del><add place="superscript">e</add></subst></mod></w> <mod>
         <subst>
           <del rend="strikethrough">sa pareille soit</del>
           <add place="above">que cet instant ait</add>
@@ -5823,7 +5825,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
 
 </div>
 
-    </body>
+</body>
 <back>
   <listBibl>
     <biblStruct xml:id="marchal1998">
@@ -5852,5 +5854,5 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     </biblStruct>
   </listBibl>
 </back>
-  </text>
+</text>
 </TEI>
