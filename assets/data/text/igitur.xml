@@ -99,6 +99,7 @@
  <div n="0" type="titlePage" xml:id="titlePage">
     
     <pb facs="01.jpg" xml:id="el_01" n="1"/> 
+    <fw place="top_right" type="pageNum">[f° 1 r°]</fw>
         <lb n="1"/>
         <lb n="2"/>
         <lb n="3"/>
@@ -116,7 +117,8 @@
 
   <pb facs="02.jpg" xml:id="el_02" n="2"/>
     <ab rend="align-center" type="editorial" resp="BM">[Notes 1]</ab>
-    <fw place="top_right" type="pageNum"><date><mod><del rend="strikethrough"><lb/>17 Août</del></mod></date></fw>
+    <fw place="top_right" type="pageNum">[f° 3 r° - v°]<date><mod><del rend="strikethrough"><lb/>17 Août</del></mod></date></fw>
+
     <fw place="top_left">
     <lb n="1"/>Ancienne étude
     <lb n="2"/><metamark place="below" rend="line"/>
@@ -162,7 +164,7 @@
         </p>
 
         <pb facs="03.jpg" xml:id="el_03" n="3"/>
-
+        <fw place="top_right" type="pageNum">[v°]</fw>
       <p xml:id="p_04" n="4">
       <lb n="1"/> rideaux, en face.
       <lb n="2"/>       _
@@ -170,6 +172,7 @@
         </p>
 
     <pb facs="04.jpg" xml:id="el_04" n="4"/>
+    <fw place="top_right" type="pageNum">[ff° 4 r° - v°, 5 r°]</fw>
       <fw place="top_right" type="pageNum">I-2</fw>
       <ab>
       <lb n="1"/>
@@ -215,6 +218,7 @@
 
     <pb facs="05.jpg" xml:id="el_05" n="5"/>
       <p xml:id="p_06" n="6">
+      <fw place="top_right" type="pageNum">[v°]</fw>
       <lb n="1"/>
       <mod>
         <add place="opposite">récite</add> 
@@ -244,7 +248,7 @@
     </p>
 
     <pb facs="06.jpg" xml:id="el_06" n="6"/>
-      <fw place="top_right" type="pageNum">2</fw>
+      <fw place="top_right" type="pageNum">[2]</fw>
          <p xml:id="p_07" n="7">
       <lb n="1"/>hazard. Elle a eu raison de la<lb n="2"/>nier, - sa vie - pour qu'il<lb n="3"/>ait été l'absolu. Ceci devait<lb n="4"/>avoir lieu dans les <w>combinai<lb break="no" n="5"/>sons</w> de l'Infini vis-à-vis<lb n="6"/>de l'Absolu. Nécessaire - extrait<lb n="7"/>l'Idee. Folie utile. Un des<lb n="8"/>actes de l'univers vient<lb n="9"/>d'être commis là. Plus rien,<lb n="10"/>restait le souffle, 
       <mod instant="true">
@@ -258,6 +262,7 @@
 
       
   <pb facs="07.jpg" xml:id="el_07" n="7"/>
+  <fw place="top_right" type="pageNum">[f° 26 v°]</fw>
   <metamark function="largeDeletion">
   <p xml:id="p_08" n="8">
   <mod>
@@ -323,6 +328,7 @@
     
   
   <pb facs="08.jpg" xml:id="el_08" n="8"/>
+  <fw place="top_right" type="pageNum">[f° 28 v°]</fw>
     <metamark function="largeDeletion">
     <p xml:id="p_09" n="9">
     <mod>
@@ -352,6 +358,7 @@
 
 
   <pb facs="09.jpg" xml:id="el_09" n="9"/> 
+  <fw place="top_right" type="pageNum">[f° 19 r°]</fw>
     <milestone n="1" spanTo="#pecetta_1" type="pecetta" unit="section"/>
     <ab rend="align-center"><lb n="1"/>Il quitte la chambre</ab><note resp="#BM" type="critical">
       <cit>
@@ -398,6 +405,7 @@
      <anchor xml:id="pecetta_1"/>
 
   <pb facs="10.jpg" xml:id="el_10" n="10"/>
+  <fw place="top_right" type="pageNum">[f° 25 r°]</fw>
     <ab rend="align-center">Le coup de dés</ab><note resp="#BM" type="critical">
       <cit>
         <quote>This section title appears across the sheet 25 v° of the manuscript</quote>
@@ -427,6 +435,7 @@
     
 
   <pb facs="11.jpg" xml:id="el_11" n="11"/>
+  <fw place="top_right" type="pageNum">[f° 25 v°]</fw>
     <metamark function="largeDeletion">
     <p xml:id="p_12" n="12">
     <mod>
@@ -490,6 +499,7 @@
     </metamark>
 
 <pb facs="12.jpg" xml:id="el_12" n="12"/>
+    <fw place="top_right" type="pageNum">[f° 26 r°]</fw>
     <p xml:id="p_13" n="13">
     <lb n="1"/>Mais l'acte s'accomplit.<lb n="2"/>Alors son moi se manifeste par ceci<mod>
       <subst>
@@ -523,6 +533,7 @@
     </p>
 
 <pb facs="13.jpg" xml:id="el_13" n="13"/>
+    <fw place="top_right" type="pageNum">[f° 27 r°]</fw>
     <fw place="top_left" type="head"><lb n="1"/>Th | ou déchet d'Igitur<lb n="2"/><metamark place="below" rend="line"/>
     <lb n="3"/>Scène de Th. ancien Igitur.
   <lb n="4"/></fw>
@@ -546,6 +557,7 @@
 
 
 <pb facs="14.jpg" xml:id="el_14" n="14"/>
+<fw place="top_right" type="pageNum">[f° 28 r°]</fw>
     <fw place="top_left" type="head">Salle du tombeau
       <lb n="1"/>
     </fw>
@@ -576,6 +588,7 @@
     </p>
 
 <pb facs="15.jpg" xml:id="el_15" n="15"/>
+  <fw place="top_right" type="pageNum">[f° 29 r° - v°]</fw>
     <p xml:id="p_21" n="21">
     <lb n="1"/>Race immémoriale, dont le temps<lb n="2"/>qui pesait est tombé, excessif, dans<lb n="3"/>le passé, et qui pleine de hazard, n'a<lb n="4"/>vécu, <mod><add place="above">alors,</add></mod> que de son futur - <w>Ce<mod><del rend="strikethrough">la</del></mod></w><mod>
       <subst>
@@ -601,6 +614,7 @@
     </p>
 
   <pb facs="16.jpg" xml:id="el_16" n="16"/>
+  <fw place="top_right" type="pageNum">[v°]</fw>
     <p xml:id="p_22" n="22">
     <lb n="1"/>Le personnage qui, croyant à <mod instant="true">
       <subst>
@@ -641,6 +655,7 @@
 
 
 <pb facs="17.jpg" xml:id="el_17" n="17"/>
+<fw place="top_right" type="pageNum">[f° 30 r° - v°]</fw>
     <fw place="top_center" type="head"><metamark rend="underline">Il se couche au tombeau</metamark></fw>
 
     <p xml:id="p_24" n="24">
@@ -652,6 +667,7 @@ spanTo="#p17_1"/><mod><add place="margin-left">ou les dés - hazard absorbé</ad
     </p>
 
   <pb facs="18.jpg" xml:id="el_18" n="18"/>
+  <fw place="top_right" type="pageNum">[v°]</fw>
   <metamark function="largeDeletion">
     <p xml:id="p_25" n="25">
     <mod>
@@ -668,6 +684,7 @@ spanTo="#p17_1"/><mod><add place="margin-left">ou les dés - hazard absorbé</ad
     
 
   <pb facs="19.jpg" xml:id="el_19" n="19"/>
+  <fw place="top_right" type="pageNum">[f° 21 r°]</fw>
     <fw place="top_left" type="head"><metamark rend="underline">Ig. Déchet</metamark></fw>
     <p xml:id="p_26" n="26">
     <lb n="1"/>
@@ -680,6 +697,7 @@ spanTo="#p17_1"/><mod><add place="margin-left">ou les dés - hazard absorbé</ad
 
   <pb facs="20.jpg" xml:id="el_20" n="20"/>
     <ab rend="align-center" type="editorial" resp="BM">[Notes 2]</ab>
+    <fw place="top_right" type="pageNum">[f° 31r° - v°]</fw>
     <ab rend="align-center" type="head">Touches</ab><note resp="#BM" type="critical">
       <cit>
         <quote>In the manuscript, this sheet 31 is a more developed draft of the note on the sheet 19.</quote>
@@ -756,6 +774,7 @@ spanTo="#p17_1"/><mod><add place="margin-left">ou les dés - hazard absorbé</ad
     
 
   <pb facs="21.jpg" xml:id="el_21" n="21"/>
+  <fw place="top_right" type="pageNum">[v°]</fw>
   <p xml:id="p_28" n="28">
 
     <lb n="1"/>que l'obscurité la remplacera - et que les<lb n="2"/>lourds rideaux tombant en temps, en feront<lb n="3"/>les ténèbres - tandis que le livre<mod><subst>
@@ -776,6 +795,7 @@ spanTo="#p17_1"/><mod><add place="margin-left">ou les dés - hazard absorbé</ad
     </p>
 
   <pb facs="22.jpg" xml:id="el_22" n="22"/>
+  <fw place="top_right" type="pageNum">[f° 43 r° - v°]</fw>
     <p xml:id="p_30" n="30">
     <lb n="1"/><mod><add>Malgré<note resp="#BM" type="critical">
       <cit>
@@ -863,6 +883,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     </p>
 
   <pb facs="23.jpg" xml:id="el_23" n="23"/> <!--ci sono delle scritte in penna blu in verticale sopra il testo-->
+  <fw place="top_right" type="pageNum">[v°]</fw>
     <p xml:id="p_32" n="32">
     <lb n="1"/>Cela<metamark rend="arrow"/> depuis qu'ils ont abordé ce château dans<lb n="2"/>un naufrage sans doute - second<lb n="3"/>naufrage de <mod instant="true"><del rend="strikethrough">tous</del></mod> quelque haute visée.<lb n="4"/>Ne sifflez pas <mod><add place="above">parque que j'ai dit l'inanité de notre folie !</add></mod> silence, pas de cette démence <mod><add place="below">que vous voulez montrer exprès</add></mod><choice><sic>,</sic><corr>.</corr></choice>.<lb n="5"/>Eh <choice><sic>!</sic><corr></corr></choice>bien <choice><sic></sic><corr>!</corr></choice> il vous est si facile de retourner<lb n="6"/><choice><sic>la haut</sic><corr>là-haut</corr></choice> chercher le temps - et de devenir <lb n="7"/><mod instant="true"><del rend="strikethrough">très</del></mod> <mod><add place="above">est-ce que les portes sont fermées ?</add></mod>
    
@@ -915,6 +936,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
   <pb facs="24.jpg" xml:id="el_24" n="24"/>
 
     <ab rend="align-center" type="editorial" resp="BM">[Ébauches]</ab>
+
     <ab rend="align-center" type="head">Le Minuit</ab><note resp="#BM" type="critical">
       <cit>
         <quote>This section title appears across the sheet 11 v° of the manuscript. The section is composed of four not numbered sheets.</quote>
@@ -922,6 +944,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
       </cit></note>
     
   <pb facs="25.jpg" xml:id="el_25" n="25"/>
+    <fw place="top_right" type="pageNum">[ff° 8 r°, 9 r°, 10 r°, 11 r°]</fw>
     <p xml:id="p_35" n="35">
     <lb n="1"/><choice><sic></sic><corr>-</corr></choice> Certainement <mod>
       <subst>
@@ -1112,6 +1135,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
 
 
   <pb facs="26.jpg" xml:id="el_26" n="26"/>
+      <fw place="top_right" type="pageNum">[-]</fw>
     <lb n="1"/>du retour de ses ondes <mod><del rend="strikethrough">sonores</del></mod> <mod>
       <subst>
         <del seq="1" rend="strikethrough">rencontrant</del>
@@ -1274,6 +1298,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     
 
   <pb facs="27.jpg" xml:id="el_27" n="27"/>
+  <fw place="top_right" type="pageNum">[-]</fw>
       <lb n="1"/>parole proférée <mod><add place="above">par lui</add></mod>, en lequel, revenu, ce<lb n="2"/>Minuit évoque son ombre finie et nulle par<lb n="3"/>ces mots : <w>J<mod>
         <subst>
           <del rend="strikethrough">e suis</del>
@@ -1420,6 +1445,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
 
 
     <pb facs="28.jpg" xml:id="el_28" n="28"/>
+    <fw place="top_right" type="pageNum">[-]</fw>
       <lb n="1"/>de la Nuit : <said rend="pre(«) post(»)">Adieu, <w><mod><subst><del rend="strikethrough">Mi</del><add place="superscript">N</add></subst></mod>uit</w>, que je<lb n="2"/>fus, <mod><add place="above">ton propre</add></mod> <w>sépulc<mod><del rend="strikethrough">h</del></mod>re</w> <mod><del rend="strikethrough">de toi-même</del></mod>, mais qui, <mod>
         <subst>
           <del seq="1" rend="strikethrough">la<lb n="3"/>Nuit qu'il</del>
@@ -1451,6 +1477,8 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
         <quote>This section title appears across the sheet 20 v° of the manuscript. The section is composed of eight sheets, of which six are numbered from 1 to 6. One of the two not numbered sheets (f° 20) clearly follows the sheed numbered 6.</quote>
         <ref target="#marchal1998"/>
       </cit></note>
+      <fw place="top_left">I-6</fw>
+      <fw place="top_right" type="pageNum">[ff° 12 r°, 13 r°, 14 r°, 15 r°, 16 r°, 17 r°, 18 r°, 20 r°]</fw>
       <p xml:id="p_41" n="41">
       <lb n="1"/>L'ombre <mod>
         <subst>
@@ -1758,6 +1786,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
                           </mod>, rien en effet ne fut plus ouï : que le 
 
   <pb facs="30.jpg" xml:id="el_30" n="30"/>
+  <fw place="top_right" type="pageNum">[2]</fw>
       <lb n="1"/><mod>
         <subst>
           <del rend="strikethrough">bruit d'un</del>
@@ -1814,6 +1843,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
       </p>
 
   <pb facs="31.jpg" xml:id="el_31" n="31"/>
+  <fw place="top_right" type="pageNum">[-]</fw>
     <p xml:id="p_43" n="43">
     <lb n="1"/><note resp="#BM" type="critical">
       <cit>
@@ -2028,6 +2058,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     </p>
 
   <pb facs="32.jpg" xml:id="el_32" n="32"/>
+  <fw place="top_right" type="pageNum">[3]</fw>
     <p xml:id="p_44" n="44">
     <lb n="1"/><mod><del rend="strikethrough">(objectif, pas de paroles)</del></mod>+ reprises, enlacement<lb n="2"/>- Cette fois, <mod>
       <add place="above">Oui,</add>
@@ -2150,6 +2181,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     </p>
 
   <pb facs="33.jpg" xml:id="el_33" n="33"/>
+  <fw place="top_right" type="pageNum">[4]</fw>
     <p xml:id="p_45" n="45">
     <lb n="1"/><note resp="#BM" type="critical">
       <cit>
@@ -2312,6 +2344,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
         </mod> et<lb n="22"/>antérieure, <mod><del rend="strikethrough">tour est trop symétrique,</del></mod><lb n="23"/>et dépouiller par la pensée le travestissement<mod><del rend="strikethrough">,</del></mod>
   
   <pb facs="34.jpg" xml:id="el_34" n="34"/>
+  <fw place="top_right" type="pageNum">[5]</fw>
     <lb n="1"/>que m'a imposé la nécessité, d'habiter le cœur<lb n="2"/>de cette race (que j'entends battre ici) seul<lb n="3"/>reste d'ambiguïté. 
     </p>
 
@@ -2368,6 +2401,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     </p>
 
   <pb facs="35.jpg" xml:id="el_35" n="35"/>
+  <fw place="top_right" type="pageNum">[6]</fw>
     <p xml:id="p_49" n="49">
     <lb n="1"/>Ce scandement n'était-il pas le bruit <w>d<mod>
       <subst>
@@ -2439,7 +2473,8 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
       </subst>
     </mod>
     
-  <pb facs="36.jpg" xml:id="el_36" n="36"/>   
+  <pb facs="36.jpg" xml:id="el_36" n="36"/>  
+  <fw place="top_right" type="pageNum">[-]</fw> 
     <lb n="1"/><mod instant="true">
       <subst>
         <del rend="strikethrough">de la porte de mon sépulcre</del>
@@ -2463,6 +2498,8 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
         <ref target="#marchal1998"/>
       </cit></note>
     <fw place="top_left" type="head">α I-2</fw>
+    <fw place="top_right" type="pageNum">[ff° 45 r°, 46 r°]</fw>
+    <fw place="top_right" type="pageNum">[I]</fw>
     <fw place="top_right" type="head">(retrouver l'horloge) épuiser le doute et se retrouver. (Nuit pure)</fw>
     <metamark function="largeDeletion">
     <p xml:id="p_51" n="51">
@@ -2647,6 +2684,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
 
   
   <pb facs="39.jpg" xml:id="el_39" n="39"/>  
+  <fw place="top_right" type="pageNum">[2]</fw>
     <lb n="1"/><mod><subst>
       <del rend="strikethrough">la pierre de la</del>
       <add place="above">de</add>
@@ -2781,6 +2819,8 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
         <ref target="#marchal1998"/>
       </cit></note>
     <fw place="top_left" type="head">β 2-5</fw>
+    <fw place="top_right" type="pageNum">[ff° 34 v°, 47 r°, 48 r°, 49 r°]</fw>
+    <fw place="top_right" type="pageNum">[I]</fw>
     <metamark function="largeDeletion">
     <p xml:id="p_52" n="52">
     <mod>
@@ -2848,6 +2888,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     </mod> et<lb n="22"/><mod instant="true"><del rend="strikethrough">qu'il fallait le continuer</del></mod> qui <mod instant="true"><del rend="strikethrough">devait,</del></mod>
     
    <pb facs="41.jpg" xml:id="el_41" n="41"/>  
+   <fw place="top_right" type="pageNum">[3]</fw>
     <lb n="1"/>conjecturalement <mod instant="true">
       <add seq="1" place="above">se présenter</add>
       <subst>
@@ -2986,6 +3027,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     </metamark>
 
   <pb facs="42.jpg" xml:id="el_42" n="42"/> 
+  <fw place="top_right" type="pageNum">[4]</fw>
   <metamark function="largeDeletion">
     <p xml:id="p_54" n="54">
     <mod>
@@ -3077,6 +3119,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     </metamark>
   
   <pb facs="43.jpg" xml:id="el_43" n="43"/> 
+  <fw place="top_right" type="pageNum">[5]</fw>
   <metamark function="largeDeletion">
     <p xml:id="p_55" n="55">
     <mod>
@@ -3196,6 +3239,8 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
         <ref target="#marchal1998"/>  
       </cit></note>
     <fw place="top_left" type="head">γ I-5</fw>
+    <fw place="top_right" type="pageNum">[ff° 32 r°, 33 r°, 34 r°, 35 r°, 36 r°]</fw>
+    <fw place="top_right" type="pageNum">[I]</fw>
 
     <p xml:id="p_56" n="56">
     <lb n="1"/><mod instant="true">
@@ -3373,6 +3418,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     
 
   <pb facs="45.jpg" xml:id="el_45" n="45"/> 
+  <fw place="top_right" type="pageNum">[2]</fw>
     <lb n="1"/>q'un régulier battement <mod>
       <subst>
         <del rend="strikethrough">: elle se rappela un</del>
@@ -3517,6 +3563,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     </p>
 
   <pb facs="46.jpg" xml:id="el_46" n="46"/> 
+  <fw place="top_right" type="pageNum">[3]</fw>
     <p xml:id="p_57" n="57">
     <lb n="1"/><mod instant="true"><del rend="strikethrough">Ce lieu était pour l'ombre une certitude parfaite à <w>la<lb break="no" n="2"/>quelle,</w></del></mod><lb n="3"/>L'ombre n'entendit dans ce lieu d'autre bruit qu'un<lb n="4"/>battement régulier qu'elle reconnut être celui de<lb n="5"/>son propre cœur : elle le reconnut, et, gênée de<lb n="6"/>la certitude parfaite de soi, elle tenta d'y échapper,<lb n="7"/><mod instant="true"><del rend="strikethrough">mais par</del></mod>et de rentrer en elle, en son opacité : mais<lb n="8"/>par laquelle des deux trouées passer ? dans les deux<lb n="9"/>s'enfonçaient des divisions correspondantes à<lb n="10"/>l'infini des apparitions, bien que différentes : elle<lb n="11"/><mod instant="true">
       <subst><del rend="strikethrough">essaya de</del>
@@ -3540,6 +3587,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
   </p> 
     
   <pb facs="47.jpg" xml:id="el_47" n="47"/>
+  <fw place="top_right" type="pageNum">[4]</fw>
   <p xml:id="p_59" n="59">
   <lb n="1"/><sic>froissement</sic> : <mod instant="true"><del rend="strikethrough">et le froissement quel</del></mod> elle y avait<lb n="2"/>entendu le bruit de son propre cœur, <mod instant="true"><del rend="strikethrough">vesti</del></mod>explication<lb n="3"/>du bruit <mod instant="true">
     <subst>
@@ -3572,6 +3620,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
 </p>
     
   <pb facs="48.jpg" xml:id="el_48" n="48"/> 
+  <fw place="top_right" type="pageNum">[5]</fw>
   <p xml:id="p_60" n="60">
     <lb n="1"/><mod instant="true">
       <subst>
@@ -3621,6 +3670,8 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
         <ref target="#marchal1998"/>
       </cit></note>
     <fw place="top_left" type="head">σ I-5</fw>
+    <fw place="top_right" type="pageNum">[ff° 37 r°, 38 r°, 39 r°, 40 r°, 41 r°]</fw>
+    <fw place="top_right" type="pageNum">[I]</fw>
     <metamark function="largeDeletion">
     <p xml:id="p_61" n="61">
     <mod>
@@ -3916,6 +3967,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     </metamark>
 
   <pb facs="50.jpg" xml:id="el_50" n="50"/> 
+  <fw place="top_right" type="pageNum">[2]</fw>
   <metamark function="largeDeletion">
     <p xml:id="p_62" n="62">
     <mod>
@@ -4015,6 +4067,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     
 
   <pb facs="51.jpg" xml:id="el_51" n="51"/>
+  <fw place="top_right" type="pageNum">[3]</fw>
   <p xml:id="p_64" n="64">
     <lb n="1"/><mod instant="true"><del rend="strikethrough">elles leurs ténèbres lui apparaissaient comme un<lb n="2"/>velours</del></mod>toutes deux semblaient identiquement<lb n="3"/>pareilles, sauf que, de même qu'elles étaient l'opposé<lb n="4"/>des ombres, de même elles devaient s'opposer l'une<lb n="5"/>à l'autre, et, <mod instant="true"><del rend="strikethrough">f</del></mod> les <mod instant="true">
       <subst>
@@ -4064,6 +4117,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
           </p>
 
   <pb facs="52.jpg" xml:id="el_52" n="52"/> 
+  <fw place="top_right" type="pageNum">[4]</fw>
   <p xml:id="p_65" n="65">
     <lb n="1"/><mod instant="true">
       <subst>
@@ -4097,7 +4151,8 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
       </mod> disparaître à<lb n="9"/>jamais, non celui d'un hôte ailé de la nuit,<lb n="10"/><mod instant="true"><del rend="strikethrough">mais</del></mod> dont la lumière avait froissé le ventre<lb n="11"/>velu, mais le propre miroitement du <mod instant="true"><del rend="strikethrough">buste de</del></mod><lb n="12"/>velours sur le buste d'un <mod instant="true"><del rend="strikethrough">per</del></mod> génie supérieur<lb n="13"/>et il n'y avait d'autre toile arachnéenne que<lb n="14"/>la <mod instant="true"><del rend="strikethrough">viei</del></mod> dentelle sur ce buste, et quant au<lb n="15"/>mouvement qui avait produit ce <w>fr<mod><subst><del rend="overwritten">oissement</del><add place="superscript">ôlement</add></subst></mod></w>,<lb n="16"/>c'était non la marche circulaire d'une telle bête,<lb n="17"/>mais la marche régulière debout sur les<lb n="18"/>deux pieds de la race qui était apparue tenant<lb n="19"/>dans deux mains un volume et une lueur.<lb n="20"/>Elle reconnaissait son personnage ancien qui<lb n="21"/>lui apparaissait chaque nuit, mais enfin,<lb n="22"/>maintenant qu'elle <metamark rend="unverline">l'avait réduit à l'état de</metamark><lb n="23"/>ténèbres, l<mod instant="true"><del rend="strikethrough">elle était deb</del></mod> après qu'il lui fut<lb n="24"/>apparu comme des ombres, elle était 
     </p>
 
- <pb facs="53.jpg" xml:id="el_53" n="53"/> 
+ <pb facs="53.jpg" xml:id="el_53" n="53"/>
+ <fw place="top_right" type="pageNum">[5]</fw> 
  <p xml:id="p_66" n="66">
     <lb n="1"/>libre enfin, sûre d'elle-même et débarrassée<lb n="2"/>de <w>tout<mod><del rend="strikethrough">e</del></mod></w> ce qui était étranger à elle. En<lb n="3"/>effet, le <metamark rend="underline">bruit</metamark> cessa, <mod instant="true"><del rend="strikethrough">elle resta avec</del></mod> en la<lb n="4"/>lumière qui demeura seule et pure
     </p>
@@ -4108,6 +4163,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     <quote>The sheet that Dr. Bonniot published like draft Ε, sheet 42 (r° and v°) of the manuscript, do not carry the epsilon (the Ε written in pencil that can be read on the manuscript was not written by Mallarmé). The only sheets that carry an ε written by Mallarmé are the sheets 12 v° (ε1) and 16 v° (ε2). However, ε2 is not the continuation of ε1, but represent another state of the last line of this fragment. On the contrary, ε2 is evidently connected to the sheet 48 v° (that does not carry any distinctive mark). We could then think that the sheets 48 v° and 16 v° represent a first state of the sheet 12 v° (ε1). We will publish in this order the three sheets.</quote>
     <ref target="#marchal1998"/>
   </cit></note>  
+  <fw place="top_right" type="pageNum">[ff° 48 v° 16 v°]</fw>
 <metamark function="largeDeletion">
     <p xml:id="p_67" n="67">
     <mod>
@@ -4281,6 +4337,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     </metamark>
 
   <pb facs="55.jpg" xml:id="el_55" n="55"/> 
+  <fw place="top_right" type="pageNum">[2]</fw>
    <metamark function="largeDeletion">
     <p xml:id="p_69" n="69">
     <mod>
@@ -4333,6 +4390,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
 
   <pb facs="56.jpg" xml:id="el_56" n="56"/> 
     <fw place="top_left" type="head">ε I</fw>
+    <fw place="top_right" type="pageNum">[f° 12 v°]</fw>
     <metamark function="largeDeletion">
     <p xml:id="p_70" n="70">
     <mod>
@@ -4686,6 +4744,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
         <quote>This <q rend="pre(«) post(»)">Autre ébauche</q> (the title appears across the sheet 50 of the manuscript) , that presents an intermediary state between between the draft Ε and the version considered as the final one (<q rend="pre(«) post(»)">Il quitte la chambre...</q>) groups the sheets that are not marked by a Greek letter, including the sheet 42 (r° and v°) that was published by Dr. Bonniot as draft Ε, followed by the sheets 18 v° and 50 r°. The sheet 42 v° is numbered 3, while the sheets 18 v° and 50 r° respectively carry the numbers 4 and 5.</quote>
         <ref target="#marchal1998"/>
       </cit></note>
+      <fw place="top_right" type="pageNum">[ff° 42 r° - v°, 18 v°, 50 r°]</fw>
     <metamark function="largeDeletion">
     <p xml:id="p_72" n="72">
     <mod>
@@ -5033,6 +5092,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     </metamark>
 
   <pb facs="58.jpg" xml:id="el_58" n="58"/> 
+  <fw place="top_right" type="pageNum">[3]</fw>
     <p xml:id="p_73" n="73">
     <lb n="1"/>Cette fois <mod>
       <subst>
@@ -5114,6 +5174,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     </metamark>
 
   <pb facs="59.jpg" xml:id="el_59" n="59"/> 
+  <fw place="top_right" type="pageNum">[4]</fw>
   <metamark function="largeDeletion">
    <p xml:id="p_75" n="75">
   <mod>
@@ -5204,6 +5265,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     </metamark>
 
   <pb facs="60.jpg" xml:id="el_60" n="60"/> 
+  <fw place="top_right" type="pageNum">[5]</fw>
   <p xml:id="p_79" n="79">
     <lb n="1"/>le même frôlement.)<lb n="2"/>et, avec la notion que j'ai conçue de moi <mod instant="true"><del rend="strikethrough">à mo</del></mod><lb n="3"/>d'après mon apparition, me <mod>
       <subst>
@@ -5264,6 +5326,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
       <quote>We will publish under this title three fragments of the manuscript that are connected to the second part of <q rend="pre(«) post(»)">Igitur</q> (<q rend="pre(«) post(»)">Il quitte la chambre...</q>) and that does not belong to any of the drafts numbered with the Greek letters. The fragment of the sheet 15 v° represent a state of the exit from the room posterior to the one of the last draft (f° 42) and anterior to the definitive state; the fragment of the sheet 51 r°, which substance can be found in γ1 (<q rend="pre(«) post(»)">Le bruit, bientôt se scanda d'une façon plus définitive [...] tourné longuement sur eux-mêmes. Enfin</q>), is anterior to Γ and posterior to Α (the sheet that corresponds to Β is missing); regarding the fragment of the sheet 40 v°, it is without doubt anterior to the draft Β; it could be linked to the draft Α, that remained incomplete.</quote>
       <ref target="#marchal1998"/>
     </cit></note>
+    <fw place="top_right" type="pageNum">[f° 15 v°]</fw>
   <metamark function="largeDeletion">
   <p xml:id="p_80" n="80">
   <mod>
@@ -5461,6 +5524,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     </metamark>
 
   <pb facs="62.jpg" xml:id="el_62" n="62"/>
+  <fw place="top_right" type="pageNum">[f° 51 r°]</fw>
   <metamark function="largeDeletion">
    <p xml:id="p_82" n="82">
   <mod>
@@ -5478,6 +5542,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     </metamark>
 
   <pb facs="63.jpg" xml:id="el_63" n="63"/>
+  <fw place="top_right" type="pageNum">[f° 40 v°]</fw>
   <metamark function="largeDeletion">
   <p xml:id="p_83" n="83">
   <mod>
@@ -5513,7 +5578,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
           <quote>This title section appears across the sheet 24 v° of the manuscript.</quote>
           <ref target="#marchal1998"/>
         </cit></note>
-
+<fw place="top_right" type="pageNum">[f° 22 r°]</fw>
     <seg style="
             display: block;
             text-align: margin-left;
@@ -5551,6 +5616,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
   <!--FOGLIO STRAPPATO-->
   
 <pb facs="65.jpg" xml:id="el_65" n="65"/>
+<fw place="top_right" type="pageNum">[f° 23 r°]</fw>
     <p xml:id="p_85" n="85">
     <lb n="1"/>Voici en somme Igitur, depuis que son Idée a été<lb n="2"/>complétée : - Le passé <mod><add place="above">compris<metamark place="above" rend="line"/></add></mod> de sa race qui pèse sur lui <mod>
       <add place="above">en <metamark rend="underline"/>la sensation de fini +</add>
@@ -5645,6 +5711,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
    <!--FOGLIO TAGLIATO-->
 
   <pb facs="66.jpg" xml:id="el_66" n="66"/>
+  <fw place="top_right" type="pageNum">[f° 24 r°]</fw>
         <ab rend="top_left" type="head"><metamark rend="underline">Ig. raconte sa vie</metamark> - les <mod><del rend="strikethrough">journées -</del></mod></ab> 
 
     <p xml:id="p_86" n="86">
@@ -5658,7 +5725,8 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
     <cit>
       <quote>This fragment, written entirely in pencil and deleted through multiple diagonal traits, appears on the back of the sheet 24. Being used as chemise for the section <q rend="pre(«) post(»)">Vie d'Igitur</q>, this title appears across the text. However, this fragment should not be connected with <q rend="pre(«) post(»)">Vie d'Igitur</q>, but to the section titled <q rend="pre(«) post(»)">Le Minuit</q> that offers, under the shape of a very crossed-out draft, a first version.</quote>
       <ref target="#marchal1998"/>
-    </cit></note>g
+    </cit></note>
+    <fw place="top_right" type="pageNum">[f° 24 v°]</fw>
   <metamark function="largeDeletion">
   <p xml:id="p_87" n="87">
   <mod>
