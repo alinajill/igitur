@@ -1,6 +1,6 @@
 {
   "editionTitle": "Igitur",
-  "badge": "alpha",
+  "badge": "beta",
   "editionHome": "",
   "availableEditionLevels": [
     {
@@ -31,25 +31,41 @@
   "downloadableXMLSource": false,
   "namedEntitiesLists": {
     "persons": {
-      "defaultLabel": "Persons",
-      "enable": false
-    },
-    "places": {
-      "defaultLabel": "Places",
-      "enable": false
-    },
-    "organizations": {
-      "defaultLabel": "Organizations",
-      "enable": false
-    },
-    "relations": {
-      "defaultLabel": "Relations",
-      "enable": false
-    },
-    "events": {
-      "defaultLabel": "Events",
-      "enable": false
-    }
+			"defaultLabel": "Persons",
+			"enable": true,
+			"listSelector": "listPerson",
+			"namedEntityType": "person"
+		},
+		"places": {
+			"enable": false,
+			"defaultLabel": "Places",
+			"listSelector": "listPlace",
+			"namedEntityType": "place"
+		},
+		"organizations": {
+			"enable": false,
+			"defaultLabel": "Organizations",
+			"listSelector": "listOrg",
+			"namedEntityType": "org"
+		},
+		"relations": {
+			"enable": false,
+			"defaultLabel": "Relations",
+			"listSelector": "listRelation",
+			"namedEntityType": "relation"
+		},
+		"events": {
+			"enable": false,
+			"defaultLabel": "Events",
+			"listSelector": "listEvent",
+			"namedEntityType": "event"
+		},
+		"entries": {
+			"enable": false,
+			"defaultLabel": "Entries",
+			"listSelector": "div[type='glossary']",
+			"namedEntityType": "entry"
+		}
   },
   "showLists": false,
   "entitiesSelectItems": [
@@ -103,7 +119,7 @@
           "enable": false
         }
       ],
-      "enable": true
+      "enable": false
     }
   ],
   "notSignificantVariants": [
@@ -114,7 +130,7 @@
   "proseVersesToggler": false,
   "defaultTextFlow": "prose",
   "verseNumberPrinter": 5,
-  "readingColorLight": "rgb(208, 220, 255)",
+  "readingColorLight": "rgb(255 241 208)",
   "readingColorDark": "rgb(101, 138, 255)",
   "externalBibliography": {
     "biblAttributeToMatch": "xml:id",
@@ -139,11 +155,6 @@
     "inline": true,
     "commaSeparated": true,
     "showMainElemTextContent": true,
-    "changeSequenceView": {
-      "showVarSeqAttr": true,
-      "showSeqAttr": true,
-      "layerColors": []
-    },
     "defaultImageZoomLevel": 0.8
   },
   "analogueMarkers": [
@@ -163,16 +174,18 @@
     "showVarSeqAttr": true,
     "showSeqAttr": true,
     "layerColors": {
-      "strato-0": "#71e5fa",
-      "strato-1": "#609cf4",
-      "strato-2": "#0d6efd",
-      "strato-3": "#7B66FF",
-      "strato-4": "#3e22f3",
-      "strato-5": "#100077"
+      "strato-0": "#d4a03b",
+      "strato-1": "#d99102",
+      "strato-2": "#ac7301",
+      "strato-3": "#855801",
+      "strato-4": "#5f3f01",
+      "strato-5": "#352400"
     }
   },
-  "defaultImageZoomLevel": 0.7,
-  "maxImageZoomLevel": 3,
+  "defaultImageZoomLevel": 0.8,
+  "maxImageZoomLevel": 2,
   "multiPageEngineForCriticalEdition": false,
-  "syncZonesHighlightButton": false
+  "editionStructureSeparator": "pb,seg",
+  "exponentEnumerateBy": "seg",
+  "transformWitnessId": true
 }

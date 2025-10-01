@@ -32,23 +32,39 @@
 	"namedEntitiesLists": {
 		"persons": {
 			"defaultLabel": "Persons",
-			"enable": true
+			"enable": true,
+			"listSelector": "listPerson",
+			"namedEntityType": "person"
 		},
 		"places": {
+			"enable": true,
 			"defaultLabel": "Places",
-			"enable": true
+			"listSelector": "listPlace",
+			"namedEntityType": "place"
 		},
 		"organizations": {
+			"enable": true,
 			"defaultLabel": "Organizations",
-			"enable": true
+			"listSelector": "listOrg",
+			"namedEntityType": "org"
 		},
 		"relations": {
+			"enable": true,
 			"defaultLabel": "Relations",
-			"enable": true
+			"listSelector": "listRelation",
+			"namedEntityType": "relation"
 		},
 		"events": {
+			"enable": true,
 			"defaultLabel": "Events",
-			"enable": true
+			"listSelector": "listEvent",
+			"namedEntityType": "event"
+		},
+		"entries": {
+			"enable": true,
+			"defaultLabel": "Entries",
+			"listSelector": "div[type='glossary']",
+			"namedEntityType": "entry"
 		}
 	},
 	"showLists": true,
@@ -173,5 +189,6 @@
 	},
 	"defaultImageZoomLevel": 0.8,
 	"maxImageZoomLevel": 2,
-	"multiPageEngineForCriticalEdition": false
+	"multiPageEngineForCriticalEdition": false,
+	"editionStructureSeparator": "pb, div"
 }

@@ -1,7 +1,10 @@
-{   "dataUrls": ["data/text/igitur.xml"],
-
+{	
 	"editionUrls": [
-		"assets/data/text/igitur.xml"
+		{
+			"type": "main",
+			"value": "assets/data/text/igitur.xml",
+			"enable": true
+		}
 	],
 	"editionImagesSource": {
 		"manifest": {

@@ -1,6 +1,6 @@
 {
   "editionTitle": "My Digital Edition",
-  "badge": "alpha",
+  "badge": "beta",
   "editionHome": "evt.labcd.unipi.it/",
   "availableEditionLevels": [
     {
@@ -25,31 +25,47 @@
       "id": "changesView",
       "label": "changes",
       "enable": true,
-      "hidden": true
+      "hidden": false
     }
   ],
   "downloadableXMLSource": true,
   "namedEntitiesLists": {
     "persons": {
-      "defaultLabel": "Persons",
-      "enable": true
-    },
-    "places": {
-      "defaultLabel": "Places",
-      "enable": true
-    },
-    "organizations": {
-      "defaultLabel": "Organizations",
-      "enable": true
-    },
-    "relations": {
-      "defaultLabel": "Relations",
-      "enable": true
-    },
-    "events": {
-      "defaultLabel": "Events",
-      "enable": true
-    }
+			"defaultLabel": "Persons",
+			"enable": true,
+			"listSelector": "listPerson",
+			"namedEntityType": "person"
+		},
+		"places": {
+			"enable": true,
+			"defaultLabel": "Places",
+			"listSelector": "listPlace",
+			"namedEntityType": "place"
+		},
+		"organizations": {
+			"enable": true,
+			"defaultLabel": "Organizations",
+			"listSelector": "listOrg",
+			"namedEntityType": "org"
+		},
+		"relations": {
+			"enable": true,
+			"defaultLabel": "Relations",
+			"listSelector": "listRelation",
+			"namedEntityType": "relation"
+		},
+		"events": {
+			"enable": true,
+			"defaultLabel": "Events",
+			"listSelector": "listEvent",
+			"namedEntityType": "event"
+		},
+		"entries": {
+			"enable": true,
+			"defaultLabel": "Entries",
+			"listSelector": "div[type='glossary']",
+			"namedEntityType": "entry"
+		}
   },
   "showLists": true,
   "entitiesSelectItems": [
@@ -114,7 +130,7 @@
   "proseVersesToggler": true,
   "defaultTextFlow": "prose",
   "verseNumberPrinter": 5,
-  "readingColorLight": "rgb(208, 220, 255)",
+  "readingColorLight": "rgb(255 241 208)",
   "readingColorDark": "rgb(101, 138, 255)",
   "externalBibliography": {
     "biblAttributeToMatch": "xml:id",
@@ -139,11 +155,6 @@
     "inline": true,
     "commaSeparated": true,
     "showMainElemTextContent": true,
-    "changeSequenceView": {
-      "showVarSeqAttr": false,
-      "showSeqAttr": false,
-      "layerColors": []
-    },
     "defaultImageZoomLevel": 0.8
   },
   "analogueMarkers": [
@@ -160,18 +171,21 @@
   "startingFromDefinitiveLayer": true,
   "showChangeLayerMarkerInText": true,
   "changeSequenceView": {
-    "showVarSeqAttr": false,
-    "showSeqAttr": false,
+    "showVarSeqAttr": true,
+    "showSeqAttr": true,
     "layerColors": {
-      "strato-0": "#71e5fa",
-      "strato-1": "#609cf4",
-      "strato-2": "#0d6efd",
-      "strato-3": "#7B66FF",
-      "strato-4": "#3e22f3",
-      "strato-5": "#100077"
+      "strato-0": "#d4a03b",
+      "strato-1": "#d99102",
+      "strato-2": "#ac7301",
+      "strato-3": "#855801",
+      "strato-4": "#5f3f01",
+      "strato-5": "#352400"
     }
   },
   "defaultImageZoomLevel": 0.8,
   "maxImageZoomLevel": 2,
-  "multiPageEngineForCriticalEdition": false
+  "multiPageEngineForCriticalEdition": false,
+  "editionStructureSeparator": "pb,seg",
+  "exponentEnumerateBy": "seg",
+  "transformWitnessId": true
 }

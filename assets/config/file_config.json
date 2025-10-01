@@ -1,10 +1,14 @@
 {
 	"editionUrls": [
-		"assets/data/text/igitur.xml"
+		{
+			"type": "main",
+			"value": "assets/data/text/igitur.xml",
+			"enable": true
+		}
 	],
 	"editionImagesSource": {
 		"manifest": {
-			"value": "https://bljd.sorbonne.fr/ark:/naan/a011429863484uCT5yl",
+			"value": "https://www.e-codices.unifr.ch/metadata/iiif/csg-0730/manifest.json",
 			"enable": false
 		},
 		"graphics": {

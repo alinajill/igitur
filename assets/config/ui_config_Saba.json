@@ -62,7 +62,14 @@
 			"id": "documentalMixed",
 			"label": "Documental",
 			"enable": true
-		}
+		},
+		{
+			"icon": "versions",
+			"iconSet": "evt",
+			"id": "synopticEdition",
+			"label": "Synoptic edition",
+			"enable": false
+	    }
 	],
 	"localization": true,
 	"defaultLocalization": "en",
@@ -76,6 +83,11 @@
 			"code": "it",
 			"label": "languageIt",
 			"enable": true
+		},
+		    {
+			"code": "fr",
+			"label": "languageFr",
+			"enable": true
 		}
 	],
 	"enableNavBar": true,
@@ -84,8 +96,8 @@
 	"viscollButton": false,
 	"mainFontFamily": "Junicode, Times, serif",
 	"mainFontSize": "1.1rem",
-	"secondaryfontFamily": "Arial, sans-serif",
-	"secondaryfontSize": "1.1em",
+	"secondaryFontFamily": "Junicode, Times, serif",
+	"secondaryFontSize": "0.8rem",
 	"theme": "modern",
 	"syncZonesHighlightButton": true,
 	"defaultBibliographicStyle": "chicago",
