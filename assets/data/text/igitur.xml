@@ -5351,9 +5351,9 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> sʼil se tuait, il ne po
     </p>
 </div>
 
+  <div n="5" type="drafts" xml:id="drafts_3">
 
   <pb facs="61.jpg" xml:id="el_61" n="61"/>
-  <div n="5" type="drafts" xml:id="drafts_3">
   <ab rend="align-center" type="head">[Fragments dʼébauches]</ab><note resp="#BM" type="critical">
     <cit>
       <quote>We will publish under this title three fragments of the manuscript that are connected to the second part of <q rend="pre(«) post(»)">Igitur</q> (<q rend="pre(«) post(»)">Il quitte la chambre...</q>) and that does not belong to any of the drafts numbered with the Greek letters. The fragment of the sheet 15 v° represent a state of the exit from the room posterior to the one of the last draft (f° 42) and anterior to the definitive state; the fragment of the sheet 51 r°, which substance can be found in γ1 (<q rend="pre(«) post(»)">Le bruit, bientôt se scanda dʼune façon plus définitive [...] tourné longuement sur eux-mêmes. Enfin</q>), is anterior to Γ and posterior to Α (the sheet that corresponds to Β is missing); regarding the fragment of the sheet 40 v°, it is without doubt anterior to the draft Β; it could be linked to the draft Α, that remained incomplete.</quote>
@@ -5564,12 +5564,13 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> sʼil se tuait, il ne po
   <delSpan spanTo="#p62_1"/>
     <lb n="1"/>Seulement que pouvait être ce <metamark rend="underline">bruit</metamark>, dont le<lb n="2"/>scandement était devenu beaucoup plus net, mais plus<lb n="3"/>pressé, de façon que lʼintervalle disparu était remplacé<lb n="4"/>par un frottement <mod instant="true"><del rend="underline">, comme les</del></mod> incertain, comme si toute<lb n="5"/>la certitude de lʼintervalle devait se retrouver en une seule fois,<lb n="6"/>et les parois, du reste, <mod instant="true"><del rend="underline">sur lesquels</del></mod> dans lesquel[le]s se<lb n="7"/><w>mirai<mod><del rend="strikethrough">en</del></mod>t</w> la lueur avec cette netteté détestable, se resserraient<lb n="8"/>dʼune façon <mod><del rend="strikethrough">opp</del></mod> qui opprimait. Enfin
    
-   <seg style="transform: rotate(180deg);
+  
+   <ab style="transform: rotate(180deg);
             display: block;
             text-align: center;
             margin-top: 2em;">
-            <lb/>β Ière <w>feuille<mod><add>s</add></mod></w> <w>manque<mod><add>nt</add></mod></w> (voir <mod><del rend="strikethrough">b.</del></mod> <lb/>et 2e voir γ 3 (verso).</seg>
-             <anchor xml:id="p62_1"/>
+            <lb/>β Ière <w>feuille<mod><add>s</add></mod></w> <w>manque<mod><add>nt</add></mod></w> (voir <mod><del rend="strikethrough">b.</del></mod> <lb/>et 2e voir γ 3 (verso).</ab>
+    <anchor xml:id="p62_1"/>
     </mod>
     </p>
     </metamark>
@@ -5612,14 +5613,11 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> sʼil se tuait, il ne po
           <ref target="#marchal1998"/>
         </cit></note>
 <fw place="top_right" type="pageNum">[f° 22 r°]</fw>
-    <seg style="
-            display: block;
-            text-align: margin-left;
-            text-orientation: sideways-left; float: left;
-        "><lb/>Heures  
+    <ab style="text-orientation: sideways-left; float: left;
+            text-align: margin-left; margin-right: 1em; margin-left: 0.5em;"><lb/>Heures  
           <lb/>Vides,  
           <lb/>purement  
-          <lb/>négatives</seg>
+          <lb/>négatives</ab>
     
     <p xml:id="p_94" n="94">
     <lb n="1"/>Jʼai toujours vécu <mod>
