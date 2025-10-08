@@ -1,30 +1,30 @@
 {
-	"editionTitle": "Pseudo Edition",
+	"editionTitle": "The Dream of the Rood",
 	"badge": "beta",
-	"editionHome": "",
+	"editionHome": "http://vbd.humnet.unipi.it/beta2/",
 	"availableEditionLevels": [
 		{
 			"id": "diplomatic",
 			"label": "diplomatic",
-			"enable": false,
+			"enable": true,
 			"hidden": false
 		},
 		{
 			"id": "interpretative",
 			"label": "interpretative",
-			"enable": false,
+			"enable": true,
 			"hidden": false
 		},
 		{
 			"id": "critical",
-			"label": "Critical",
+			"label": "critical",
 			"enable": true,
 			"hidden": false
 		},
 		{
 			"id": "changesView",
 			"label": "changes",
-			"enable": false,
+			"enable": true,
 			"hidden": true
 		}
 	],
@@ -125,9 +125,9 @@
 	"notSignificantVariants": [
 		"type=orthographic"
 	],
-	"defaultEdition": "critical",
-	"defaultViewMode": "readingText",
-	"proseVersesToggler": false,
+	"defaultEdition": "diplomatic",
+	"defaultViewMode": "imageText",
+	"proseVersesToggler": true,
 	"defaultTextFlow": "prose",
 	"verseNumberPrinter": 5,
 	"readingColorLight": "rgb(208, 220, 255)",
@@ -159,8 +159,7 @@
 			"showVarSeqAttr": false,
 			"showSeqAttr": false,
 			"layerColors": []
-		},
-		"defaultImageZoomLevel": 0.8
+		}
 	},
 	"analogueMarkers": [
 		"ParallelPassage",
@@ -190,5 +189,5 @@
 	"defaultImageZoomLevel": 0.8,
 	"maxImageZoomLevel": 2,
 	"multiPageEngineForCriticalEdition": false,
-	"editionStructureSeparator": "pb, div"
+	"editionStructureSeparator": "pb, div[type='chapter']"
 }

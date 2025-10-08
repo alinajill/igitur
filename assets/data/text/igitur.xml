@@ -31,10 +31,10 @@
       <publicationStmt>
         <authority>Bibliothèque Littéraire Jacques Doucet</authority>
       </publicationStmt>
+
       <sourceDesc>
         <listWit>    
           <witness xml:id="MS_46021">Igitur, Déchet, La Folie d'Elbehnon
-
             <msDesc> 
               <msIdentifier>
                 <country>France</country>
@@ -70,14 +70,25 @@
       </sourceDesc>
     </fileDesc>
 
+    <profileDesc>
+      <creation corresp="#MS_46021" resp="#AJS">
+        <listChange ordered="true">
+          <desc>They are not corrective campaigns but rather macro-phases of revision, since the different writing supports identified cannot be linked to specific moments of correction.</desc>
+          <change xml:id="strato-0">Base text; immediate variants</change>
+          <change xml:id="strato-1">First macro-phase of variants</change>
+          <change xml:id="strato-2">Second macro-phase of variants</change>
+        </listChange>
+      </creation>
+    </profileDesc>
+
     <encodingDesc>
-      <variantEncoding location="internal" method="parallel-segmentation"/>      
+      <variantEncoding location="internal" method="parallel-segmentation"/>
     </encodingDesc>
   </teiHeader>
 
   <text n="Igitur" xml:id="igitur">
 
-    <front> <!--ho ripetuto nel body perché altrimenti non viene visualizzato. come sistemarlo?-->      
+    <front>   
       <titlePage>
         <lb n="1"/>
         <lb n="2"/>
@@ -117,7 +128,7 @@
 
   <pb facs="02.jpg" xml:id="el_02" n="2"/>
     <ab rend="align-center" type="editorial" resp="BM">[Notes 1]</ab>
-    <fw place="top_right" type="pageNum">[f° 3 r° - v°]<date><mod><del rend="strikethrough"><lb/>17 Août</del></mod></date></fw>
+    <fw place="top_right" type="pageNum">[f° 3 r° - v°]<lb/><mod change="#strato-0"><del rend="strikethrough">17 Août</del></mod></fw>
 
     <fw place="top_left">
     <lb n="1"/>Ancienne étude
@@ -127,7 +138,7 @@
     </fw>
     <p xml:id="p_01" n="1">
       <lb n="5"/>Quand les 
-        <mod instant="true">      
+        <mod change="#strato-0" instant="true">      
           <subst>
           <del rend="strikethrough">ombres</del>
           <add>souffles</add>
@@ -137,13 +148,13 @@
 
         <p xml:id="p_02" n="2">
         <lb n="9"/>Lui-même, à la fin, quand les bruits<lb n="10"/>auront disparu, tirera une preuve<lb n="11"/>de quelque chose de grand (pas d'astres ? le<lb n="12"/>hazard annulé ?) de ce simple fait<lb n="13"/>qu'il peut causer l'ombre en
-        <mod>
+        <mod change="#strato-1">
           <subst>
           <add place="above">soufflant sur</add>
           <del rend="strikethrough">éteignant</del>
           </subst>
         </mod><lb n="14"/>la 
-       <mod instant="true">
+       <mod change="strato-0" instant="true">
           <subst>
           <del rend="strikethrough">bougie</del>
           <add>lumière</add>
@@ -154,7 +165,7 @@
 
         <p xml:id="p_03" n="3">
         <lb n="15"/>Puis - comme il aura parlé selon<lb n="16"/>l'absolu - 
-       <mod instant="true">
+       <mod change="#strato-0" instant="true">
           <subst>
           <del rend="strikethrough">l'absolu existera hors</del>
       <lb n="17"/><add>qui nie l'immortalité, l'absolu
@@ -175,12 +186,11 @@
     <fw place="top_right" type="pageNum">[ff° 4 r° - v°, 5 r°]<lb/>I-2</fw>
       <ab>
       <lb n="1"/>
-      <mod>        
+      <mod change="#strato-1">        
         <subst>              
         <del seq="1" rend="overwritten">3</del>
         <add seq="2" place="superscript">5</add>
         </subst>
-
         <subst>
         <del seq="3" rend="overwritten">5</del>
         <add seq="4" place="superscript">4</add>
@@ -708,7 +718,7 @@ spanTo="#p17_1"/><mod><add place="margin-left">ou les dés - hazard absorbé</ad
     </mod> prédite par le livre - <lb n="2"/>ou<sic>,</sic> <w><mod>l<subst><del rend="overwritten">e</del><add place="superscript">a</add></subst></mod></w> <mod>
       <add place="above">vision importune du</add>
       personnage</mod> 
-      <mod><del rend="strikethrough">importun</del></mod> <mod><del rend="strikethrough">de la glace va<lb n="3"/>disparaître</del></mod> qui nuisait à la pureté<mod>
+      <mod><del rend="strikethrough">importun</del></mod> <mod><del rend="strikethrough">de la glace va<lb n="3"/>disparaître</del></mod> qui nuisait à la pureté<mod change="#strato-1">
       <add seq="1" place="above">de la glace</add>
       <add seq="2" place="above">chimérique</add></mod> dans<lb n="4"/>laquelle <mod>
         <subst>
@@ -1025,7 +1035,7 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
         <del rend="strikethrough">masquant sur une complication</del>
         <add place="above">sinon que sur <del rend="strikethrough">la complexité</del></add>
       </subst>
-    </mod> la complexité<lb n="8"/><mod>
+    </mod> la complexité<lb n="8"/><mod change="#strato-1">
       <add seq="1" place="above">d'une orfèvrerie extérieure</add>
       <del seq="2" rend="strikethrough">d'une orfèvrerie extérieure</del>
     </mod> marine et stellaire <mod><add seq="3" place="above">d'une orfèvrerie se lisaient</add></mod> <mod>
@@ -1235,16 +1245,17 @@ spanTo="#p22_1"/><mod><add seq="3" place="margin-left"> s'il se tuait, il ne pou
       <subst>
         <del rend="strikethrough">préalable, <lb n="12"/>ayant des</del>
         <add place="above">aux</add>
-      </subst></mod> yeux nuls <mod>
-        <subst>
+      </subst></mod> yeux nuls <mod change="#strato-1">
+      <subst>
       <del seq="1" rend="strikethrough">comme un</del>
       <add seq="2" place="above">le</add>
-      </subst>
+     </subst>
 
-      <subst>
+     <subst>
       <del seq="3" rend="strikethrough">le</del>
       <add seq="4" place="above">pareils au</add>
-      </subst></mod> miroir, de<lb n="13"/>l'hôte <mod><del rend="strikethrough">de la chambre</del></mod>, dénué <mod instant="true"><del rend="strikethrough">d'autre sig</del></mod> de<lb n="14"/>toute <mod><del rend="strikethrough">autre</del></mod> signification que <w>d<mod><subst><del rend="strikethrough">'une</del><add place="superscript">e</add></subst></mod></w> présence. 
+      </subst>
+     </mod> miroir, de<lb n="13"/>l'hôte <mod><del rend="strikethrough">de la chambre</del></mod>, dénué <mod instant="true"><del rend="strikethrough">d'autre sig</del></mod> de<lb n="14"/>toute <mod><del rend="strikethrough">autre</del></mod> signification que <w>d<mod><subst><del rend="strikethrough">'une</del><add place="superscript">e</add></subst></mod></w> présence. 
     </p>
 
     <p xml:id="p_39" n="39">    

@@ -25,7 +25,7 @@
       "id": "changesView",
       "label": "changes",
       "enable": true,
-      "hidden": false
+      "hidden": true
     }
   ],
   "downloadableXMLSource": true,
@@ -171,8 +171,8 @@
   "startingFromDefinitiveLayer": true,
   "showChangeLayerMarkerInText": true,
   "changeSequenceView": {
-    "showVarSeqAttr": true,
-    "showSeqAttr": true,
+    "showVarSeqAttr": false,
+    "showSeqAttr": false,
     "layerColors": {
       "strato-0": "#d4a03b",
       "strato-1": "#d99102",

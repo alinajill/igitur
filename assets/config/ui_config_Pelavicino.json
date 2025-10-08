@@ -33,14 +33,14 @@
       "iconSet": "evt",
       "id": "textText",
       "label": "Text Text",
-      "enable": true
+      "enable": false
     },
     {
       "icon": "collation",
       "iconSet": "evt",
       "id": "collation",
       "label": "Collation",
-      "enable": true
+      "enable": false
     },
     {
       "icon": "srcTxt",
@@ -68,7 +68,7 @@
       "iconSet": "evt",
       "id": "synopticEdition",
       "label": "Synoptic edition",
-      "enable": true
+      "enable": false
     }
   ],
   "localization": true,
@@ -97,8 +97,8 @@
   "mainFontFamily": "Junicode, Times, serif",
   "mainFontSize": "1.1rem",
   "secondaryFontFamily": "Arial, sans-serif",
-  "secondaryFontSize": "1.1em",
-  "theme": "modern",
+  "secondaryFontSize": "0.8rem",
+  "theme": "classic",
   "syncZonesHighlightButton": true,
   "defaultBibliographicStyle": "chicago",
   "allowedBibliographicStyles": {

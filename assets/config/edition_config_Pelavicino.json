@@ -1,7 +1,7 @@
 {
-	"editionTitle": "Pseudo Edition",
+	"editionTitle": "Codice Pelavicino Digitale",
 	"badge": "beta",
-	"editionHome": "",
+	"editionHome": "http://pelavicino.labcd.unipi.it/",
 	"availableEditionLevels": [
 		{
 			"id": "diplomatic",
@@ -12,13 +12,13 @@
 		{
 			"id": "interpretative",
 			"label": "interpretative",
-			"enable": false,
+			"enable": true,
 			"hidden": false
 		},
 		{
 			"id": "critical",
-			"label": "Critical",
-			"enable": true,
+			"label": "critical",
+			"enable": false,
 			"hidden": false
 		},
 		{
@@ -97,7 +97,7 @@
 					"enable": true
 				}
 			],
-			"enable": false
+			"enable": true
 		},
 		{
 			"label": "Other",
@@ -119,14 +119,14 @@
 					"enable": true
 				}
 			],
-			"enable": false
+			"enable": true
 		}
 	],
 	"notSignificantVariants": [
 		"type=orthographic"
 	],
-	"defaultEdition": "critical",
-	"defaultViewMode": "readingText",
+	"defaultEdition": "interpretative",
+	"defaultViewMode": "imageText",
 	"proseVersesToggler": false,
 	"defaultTextFlow": "prose",
 	"verseNumberPrinter": 5,
@@ -159,8 +159,7 @@
 			"showVarSeqAttr": false,
 			"showSeqAttr": false,
 			"layerColors": []
-		},
-		"defaultImageZoomLevel": 0.8
+		}
 	},
 	"analogueMarkers": [
 		"ParallelPassage",
@@ -190,5 +189,5 @@
 	"defaultImageZoomLevel": 0.8,
 	"maxImageZoomLevel": 2,
 	"multiPageEngineForCriticalEdition": false,
-	"editionStructureSeparator": "pb, div"
+	"editionStructureSeparator": "pb, div[type='chapter']"
 }

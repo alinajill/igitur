@@ -2,7 +2,7 @@
 	"editionUrls": [
 		{
 			"type": "main",
-			"value": "assets/data/saba.xml",
+			"value": "assets/data/pelavicino.xml",
 			"enable": true
 		}
 	],
@@ -21,8 +21,8 @@
 		"double": "assets/data/images/double/"
 	},
 	"configurationUrls": {
-		"edition": "assets/config/edition_config_Saba.json",
-		"ui": "assets/config/ui_config_Saba.json",
+		"edition": "assets/config/edition_config_Pelavicino.json",
+		"ui": "assets/config/ui_config_Pelavicino.json",
 		"editorialConventions": "assets/config/editorial_conventions_config.json"
 	}
 }
